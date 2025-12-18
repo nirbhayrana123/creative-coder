@@ -21,10 +21,12 @@ a {
   line-height: 1em;
 }
 
+ 
 .container {
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 3%;
 }
 
 .button-row {
@@ -126,6 +128,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -147,19 +150,20 @@ a {
 }
 
 .menu {
-  background-color: #000000;
-  border-radius: 90px;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  flex-direction: column;
-  gap: 7px;
-  position: relative;
-  z-index: 99999;
-  transition: 0.5s;
+    background-color: #000000;
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 7px;
+    position: fixed;
+    z-index: 99999;
+    transition: 0.5s;
+    right: 0;
 }
 
 .menu span {
@@ -489,9 +493,7 @@ a {
 /*============================ RESPONSIVE =====================*/
 
 @media(max-width:992px) {
-  .container {
-    padding: 0 24px;
-  }
+ 
 
   .hero-text h1 {
     font-size: 48px;
