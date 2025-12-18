@@ -216,9 +216,53 @@
   </section>
 
 
+<section class="featured-section">
+  <div class="container">
+  <div class="featured-container">
+
+    <!-- LEFT FIXED CONTENT -->
+    <div class="featured-left">
+      <h2>Featured<br><span>projects</span></h2>
+      <p>
+        Explore a selection of projects blending
+        creativity with practical design
+      </p>
+      <a href="#" class="button">All Works ↗</a>
+    </div>
+
+    <!-- RIGHT SCROLL CONTENT -->
+    <div class="featured-right">
+      <div class="scrolls"><img src="./images/featuchr.webp"></div>
+      <div class="scrolls"><img src="./images/featuchr.webp"></div>
+      <div class="scrolls"><img src="./images/featuchr.webp"></div>
+      <div class="scrolls"><img src="./images/featuchr.webp"></div>
+    </div>
+
+  </div>
+  </div>
+</section>
 
 
-  <script src="js/custom.js"></script>
+
+
+
+
+
+
+  <!-- heder js -->
+
+
+
+
+  <script>
+    const editBtn = document.querySelector('.menu');
+    const model = document.querySelector('.header');
+
+    editBtn.addEventListener('click', function () {
+      model.classList.toggle('active');
+    });
+  </script>
+
 </body>
 
 </html>
