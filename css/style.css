@@ -5,6 +5,9 @@ body {
 
 }
 
+img { width: 100%;}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
 h1,
 h2,
 h3,
@@ -35,16 +38,7 @@ a {
   font-family: Poppins, sans-serif;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-:root {
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
+ 
 .banner-content {
     width: 50%;
 }
@@ -152,26 +146,12 @@ img.logos-people7 {
     left: -150px
 }
 
-
-
-
-
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
+ 
 .video-row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-
-
+} 
 img,
 picture,
 video,
@@ -221,8 +201,7 @@ table {
   gap: 10px;
 }
 
-.header-logo {
-  width: 100%;
+.header-logo { 
   height: 25px;
 }
 
@@ -280,17 +259,9 @@ table {
 .home-banner p {
   color: #ffffff;
 }
-
-
-
-
-
-
-
+ 
 /*=================== home banner ============*/
-
-
-
+ 
 .hero-subtext {
   font-weight: 400;
   font-size: 18px;
@@ -334,8 +305,7 @@ table {
   display: block;
   max-height: 479px;
 }
-
-
+ 
 .project-title {
   font-size: 20px;
   font-weight: 500;
@@ -420,8 +390,7 @@ table {
   display: none;
   margin-top: 10px;
 }
-
-/* Open State */
+ 
 .acc_box.open .acc_body {
   display: block;
 }
@@ -429,8 +398,7 @@ table {
 .acc_box.open .acc_btn {
   content: "-";
 }
-
-/* Explore Link */
+ 
 .explore_link {
   margin: 15px 30px;
   font-weight: 500;
@@ -645,8 +613,7 @@ hr {
   font-size: 14px;
   color: #aaa;
 }
-
-
+ 
 /*******************footer end*****************/
 .services_top_border_rd {
   width: 96%;
@@ -667,8 +634,7 @@ section.glass img {
   margin: 5px 0px;
   width: 20px;
   margin-left: 14px;
-}
-
+} 
 
 .reactive-about-section {
   width: 100%;
@@ -752,42 +718,6 @@ section.glass img {
   transition: transform .2s ease;
 }
 
-@media (max-width:980px) {
-  .reactive-inner {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .reactive-about-heading {
-    border-bottom: none;
-    margin-top: 8px;
-  }
-
-  .reactive-about-copy {
-    max-width: 100%;
-  }
-
-  .reactive-counter .big {
-    font-size: 64px;
-  }
-
-  .reactive-contact-circle {
-    width: 68px;
-    height: 68px;
-    right: 16px;
-    bottom: 16px;
-  }
-}
-
-@media (max-width:560px) {
-  .reactive-counter .big {
-    font-size: 48px;
-  }
-
-  .reactive-about-heading {
-    font-size: 32px;
-  }
-}
 
 
 .reactive-about-copy {
@@ -850,11 +780,9 @@ section.glass img {
 }
 
 
-.main-wrapper {
-
+.main-wrapper { 
   margin: 0 auto;
-  padding: 50px 30px;
-
+  padding: 50px 30px; 
   background-color: #000000;
   color: #ffffff;
   min-height: 100vh;
@@ -1124,8 +1052,7 @@ section.glass img {
   z-index: 9999;
 }
 
-.contact-circle:hover {
-
+.contact-circle:hover { 
   background: #000;
   color: #fff;
   transition: transform 0.3s ease;
@@ -1141,13 +1068,11 @@ button.accordion-btn.xyz {
   font-size: 20px;
 }
 
-.ch_left.zx h2 {
-
+.ch_left.zx h2 { 
   margin: 75px 20px 35px 30px;
 }
 
-.services-section.new {
-
+.services-section.new { 
   padding: 110px 0px;
 
 }
@@ -1594,8 +1519,7 @@ section.deck {
   justify-items: center;
   align-items: center;
 }
-
-/* Each logo */
+ 
 .client {
   display: flex;
   justify-content: center;
@@ -1898,19 +1822,19 @@ div#countersWrap {
 }
 
 
-/* ================= FINAL RESPONSIVE ================= */
-@media (max-width: 767px) {
-  .video-row .project-box {
-    width: 100% !important;
-  }
-}
-
-/* HEADER – HAMBURGER MENU */
+/* ================= FINAL RESPONSIVE ================= */ 
+ 
 @media (max-width: 991px) {
   .header {
     position: relative;
   }
+  .footer-right {
+    align-items: flex-start;
+  }
 
+  .footer-cta {
+    margin-bottom: 20px;
+  }
   .hamburger {
     display: flex;
   }
@@ -1936,11 +1860,7 @@ div#countersWrap {
     margin: 15px 0;
     font-size: 20px;
   }
-}
-
-
-@media (max-width: 991px) {
-  .services_wrapper {
+    .services_wrapper {
     flex-direction: column;
   }
 
@@ -1958,13 +1878,16 @@ div#countersWrap {
   }
 }
 
+  
 @media (max-width: 767px) {
   .hero-title {
     font-size: 42px;
     line-height: 48px;
     margin-top: 80px;
   }
-
+.video-row .project-box {
+    width: 100% !important;
+  }
   .reactive-inner {
     grid-template-columns: 1fr;
   }
@@ -1973,11 +1896,6 @@ div#countersWrap {
     height: auto;
     padding: 40px 0;
   }
-}
-
-
-@media (max-width: 767px) {
-
   .reactive-footer {
     height: auto;
     padding: 40px 20px;
@@ -2009,10 +1927,7 @@ div#countersWrap {
     font-size: 15px;
     line-height: 1.6;
   }
-
-
-
-
+ 
 
   .footer-center ul {
     text-align: left;
@@ -2044,10 +1959,7 @@ div#countersWrap {
     font-size: 12px;
     line-height: 1.6;
   }
-}
-
-@media (max-width: 767px) {
-
+ 
 
   .ch_services_section {
     flex-direction: column;
@@ -2134,7 +2046,13 @@ div#countersWrap {
 }
 
 @media (max-width: 500px) {
+  .reactive-counter .big {
+    font-size: 48px;
+  }
 
+  .reactive-about-heading {
+    font-size: 32px;
+  }
   .content-section {
     flex-direction: column;
   }
@@ -2283,32 +2201,14 @@ div#countersWrap {
     overflow-wrap: break-word;
   }
 }
+ 
+
+ 
+ 
 
 
 
-@media (min-width: 992px) {
-  .footer-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 50px;
-  }
 
-  .footer-cta {
-    padding: 15px 45px;
-    border: 1px solid #f7462c;
-    border-radius: 50px;
-    font-size: 18px;
-    color: #fff;
-  }
-}
+ 
 
-@media (max-width: 991px) {
-  .footer-right {
-    align-items: flex-start;
-  }
-
-  .footer-cta {
-    margin-bottom: 20px;
-  }
-}
+ 
