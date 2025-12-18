@@ -150,21 +150,6 @@ body {
     width: 30px;
 }
 
-.hello-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 11px 45px;
-  border: 2px solid #111;
-  border-radius: 50px;
-  text-decoration: none;
-  color: #111;
-  font-size: 20px;
-  font-weight: 700;
-  overflow: hidden;
-  position: relative;
-  transition: all .3s ease;
-}
 
 .hello-btn .icon {
   display: flex;
@@ -243,10 +228,10 @@ body {
 
 
 
-.stats-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:30px;
+.stats-grid {
+    display: flex;
+    gap: 30px;
+    width: 100%;
 }
 
 /* CARDS */
@@ -258,26 +243,30 @@ body {
 }
 
 /* LEFT */
-.card.purple{
-  background:#a895f4;
-  color:#fff;
+.card.purple {
+    background: #a895f4;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    height: 400px;
 }
 
-.star-img{
-  width:260px;
-  position:absolute;
-  left:-40px;
-  top:80px;
+.star-img {
+    width: 288px;
+    position: absolute;
+    left: -40px;
+    top: 0px;
 }
 
-.card-content h3{
-  font-size:64px;
-  font-weight:700;
+.card-content h3 {
+    font-size: 100px;
+    font-weight: 500;
 }
 
-.card-content p{
-  margin:10px 0 30px;
-  font-size:16px;
+.card-content p {
+    margin: 0px 0 65px;
+    font-size: 18px;
 }
 
 .studio-btn{
@@ -292,27 +281,33 @@ body {
 }
 
 /* RIGHT */
-.card.white{
-  background:#fff;
-  display:flex;
-  justify-content:space-between;
+.card.white {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.phones img{
-  width:160px;
+.phones img {
+    width: 390px;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 15px;
 }
 
 .right-info{
   text-align:right;
 }
 
-.right-info h3{
-  font-size:64px;
-  margin-top:20px;
+.right-info h3 {
+    font-size: 100px;
+    margin-top: 60px;
+    font-weight: 500;
 }
 
-.right-info p{
-  font-size:16px;
+.right-info p {
+    font-size: 18px;
 }
 
 .avatars{
