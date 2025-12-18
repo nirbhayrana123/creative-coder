@@ -2,43 +2,48 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
+img {
+  width: 100%;
+}
+
 
 body {
   background: #faf7f4;
   color: #111;
 }
 
-
-/* HERO */
+ 
 .hero {
   min-height: 100vh;
   padding: 15px 0;
 }
 
-/* CONTAINER (IMPORTANT) */
+.header {
+    padding: 26px 0;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/* NAV */
-.nav {
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.1;
+  width: 140px;
 }
-
- 
-
-.nav-right {
+.header .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header-right {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -46,26 +51,20 @@ body {
   justify-content: end;
 }
 
-
-
-.menu {
-  font-size: 22px;
-}
-
-/* HERO TEXT */
+ 
 .hero-text {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-text h1 {
-    font-size: 100px;
-    font-weight: 600;
-    line-height: 1.05;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 1.05;
 }
 
-/* PILL */
+ 
 
 .pill {
     background: #9b8df2;
@@ -76,28 +75,29 @@ body {
     display: inline-block;
 }
 
-.pill-track{
-  display:flex;
-  width:max-content;
-  animation:scroll 6s linear infinite;
+.pill-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 13s linear infinite;
 }
 
 
 .pill-track span {
-    color: #fff;
-    font-size: 61px;
-    font-weight: 600;
-    padding: 0 20px;
-    white-space: nowrap;
+  color: #fff;
+  font-size: 61px;
+  font-weight: 600;
+  padding: 0 20px;
+  white-space: nowrap;
 }
 
 /* animation */
-@keyframes scroll{
-  from{
-    transform:translateX(0);
+@keyframes scroll {
+  from {
+    transform: translateX(0);
   }
-  to{
-    transform:translateX(-50%);
+
+  to {
+    transform: translateX(-50%);
   }
 }
 
@@ -105,14 +105,10 @@ body {
 .spark {
   font-size: 48px;
 }
-
-/* DIVIDER */
 .divider {
-  margin: 90px 0 40px;
-  border-top: 1px dashed #ccc;
+    margin: 90px 0 40px;
+    border-top: 4px dashed #ccc;
 }
-
-/* BOTTOM */
 .bottom {
   display: flex;
   justify-content: space-between;
@@ -133,6 +129,7 @@ body {
   margin-bottom: 12px;
   font-size: 16px;
 }
+
 .menu {
     background-color: #111111;
     border-radius: 90px;
@@ -143,40 +140,47 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    flex-direction: column;
+    gap: 7px;
 }
 
-.hello-btn{
- display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 15px 32px;
-    border: 2px solid #111;
-    border-radius: 50px;
-    text-decoration: none;
-    color: #111;
-    font-size: 20px;
-    font-weight: 700;
-    overflow: hidden;
-    position: relative;
-    transition: all .3s ease;
+.menu span {
+    background-color: #ffffff;
+    height: 3px;
+    width: 30px;
 }
 
-/* arrow wrapper */
-.hello-btn .icon{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  transition:transform .3s ease;
+.hello-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 45px;
+  border: 2px solid #111;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #111;
+  font-size: 20px;
+  font-weight: 700;
+  overflow: hidden;
+  position: relative;
+  transition: all .3s ease;
 }
 
-/* hover animation */
-.hello-btn:hover{
-  background:#111;
-  color:#fff;
+.hello-btn .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .3s ease;
 }
 
-.hello-btn:hover .icon{
-  transform:translate(4px,-4px);
+
+.hello-btn:hover {
+  background: #111;
+  color: #fff;
+}
+
+.hello-btn:hover .icon {
+  transform: translate(4px, -4px);
 }
 
 .who-we-are{
