@@ -38,7 +38,11 @@ body {
 .logo {
   width: 140px;
 }
-
+.header .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 .header-right {
   display: flex;
   gap: 20px;
@@ -60,7 +64,7 @@ body {
   line-height: 1.05;
 }
 
-/* PILL */
+ 
 
 .pill {
     background: #9b8df2;
