@@ -36,10 +36,7 @@ body {
   line-height: 1.1;
 }
 
-.logo span {
-  font-size: 14px;
-  font-weight: 400;
-}
+ 
 
 .nav-right {
   display: flex;
