@@ -215,30 +215,33 @@
   </div>
 </section>
 
-<section class="featured">
+<section class="featured-section">
   <div class="container">
-  <div class="featured-wrap">
+  <div class="featured-container">
 
-    <!-- LEFT FIXED -->
+    <!-- LEFT FIXED CONTENT -->
     <div class="featured-left">
       <h2>Featured<br><span>projects</span></h2>
-      <p>Explore a selection of projects blending creativity with practical design</p>
-      <a href="#" class="btn">All Works ↗</a>
+      <p>
+        Explore a selection of projects blending
+        creativity with practical design
+      </p>
+      <a href="#" class="button">All Works ↗</a>
     </div>
 
-    <!-- RIGHT SCROLLING -->
+    <!-- RIGHT SCROLL CONTENT -->
     <div class="featured-right">
-      <img src="./images/featuchr.webp" alt="">
-      <img src="./images/featuchr.webp" alt="">
-      <img src="./images/featuchr.webp" alt="">
-      <img src="./images/featuchr.webp" alt="">
-      <img src="./images/featuchr.webp" alt="">
+      <div class="scrolls"><img src="./images/featuchr.webp"></div>
+      <div class="scrolls"><img src="./images/featuchr.webp"></div>
+      <div class="scrolls"><img src="./images/featuchr.webp"></div>
+      <div class="scrolls"><img src="./images/featuchr.webp"></div>
     </div>
-     
 
   </div>
   </div>
 </section>
+
+
 
 
 
@@ -247,19 +250,8 @@
 
 
   <!-- heder js -->
-<script>
-const section = document.querySelector('.featured');
-const right = document.querySelector('.featured-right');
 
-window.addEventListener('scroll', () => {
-  const rect = section.getBoundingClientRect();
-  const total = window.innerHeight + rect.height;
-  const progress = 1 - rect.bottom / total;
 
-  const translateY = Math.max(0, 120 - progress * 120);
-  right.style.transform = `translateY(${translateY}%)`;
-});
-</script>
 
 
   <script>
