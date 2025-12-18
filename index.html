@@ -247,11 +247,51 @@
   </div>
 </section>
 
+<section class="featured">
+  <div class="container">
+  <div class="featured-wrap">
+
+    <!-- LEFT FIXED -->
+    <div class="featured-left">
+      <h2>Featured<br><span>projects</span></h2>
+      <p>Explore a selection of projects blending creativity with practical design</p>
+      <a href="#" class="btn">All Works ↗</a>
+    </div>
+
+    <!-- RIGHT SCROLLING -->
+    <div class="featured-right">
+      <img src="./images/featuchr.webp" alt="">
+      <img src="./images/featuchr.webp" alt="">
+      <img src="./images/featuchr.webp" alt="">
+      <img src="./images/featuchr.webp" alt="">
+      <img src="./images/featuchr.webp" alt="">
+    </div>
+     
+
+  </div>
+  </div>
+</section>
+
+
 
 
 
 
   <!-- heder js -->
+<script>
+const section = document.querySelector('.featured');
+const right = document.querySelector('.featured-right');
+
+window.addEventListener('scroll', () => {
+  const rect = section.getBoundingClientRect();
+  const total = window.innerHeight + rect.height;
+  const progress = 1 - rect.bottom / total;
+
+  const translateY = Math.max(0, 120 - progress * 120);
+  right.style.transform = `translateY(${translateY}%)`;
+});
+</script>
+
 
   <script>
     const editBtn = document.querySelector('.menu');
