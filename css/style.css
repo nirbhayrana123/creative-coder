@@ -58,6 +58,12 @@ a {
 
 .button-row {
     margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.logos-people {
+    margin-top: 15px;
 }
 
 .button {
