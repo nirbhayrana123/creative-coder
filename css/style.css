@@ -21,7 +21,9 @@ h3 {
   font-size: 1.5em;
 }
 
-
+.home-banner h1 {
+    font-size: 50px;
+}
 p,
 a {
   color: #000000;
@@ -77,6 +79,10 @@ a {
   overflow: hidden;
 }
 
+.button:hover { 
+  color: #000000; 
+}
+
 .button::after {
   content: "";
   background-color: #fdd305;
@@ -97,9 +103,48 @@ a {
   width: 100%;
 }
 
+.logos-flex {
+    display: flex;
+}
+.logos-people img:hover {
+    margin-top: -10px
+}
 
+.logos-people img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    object-fit: cover;
+    position: relative;
+    min-width: 60px;
+    min-height: 60px;
+    transition: 1s
+}
 
+img.logos-people2 {
+    left: -25px
+}
 
+img.logos-people3 {
+    left: -50px
+}
+
+img.logos-people4 {
+    left: -75px
+}
+
+img.logos-people5 {
+    left: -100px
+}
+
+img.logos-people6 {
+    left: -125px
+}
+
+img.logos-people7 {
+    left: -150px
+}
 
 
 
