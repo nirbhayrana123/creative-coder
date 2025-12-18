@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter, sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -10,17 +10,17 @@ body {
   color: #111;
 }
 
+
 /* HERO */
 .hero {
   min-height: 100vh;
-  padding: 40px 0;
+  padding: 15px 0;
 }
 
 /* CONTAINER (IMPORTANT) */
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 60px;
 }
 
 /* NAV */
@@ -45,16 +45,11 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
+  width: 100%;
+  justify-content: end;
 }
 
-.hello {
-  border: 1px solid #111;
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-size: 14px;
-  text-decoration: none;
-  color: #111;
-}
+
 
 .menu {
   font-size: 22px;
@@ -62,23 +57,53 @@ body {
 
 /* HERO TEXT */
 .hero-text {
-  margin-top: 140px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-text h1 {
-  font-size: 80px;
-  font-weight: 700;
-  line-height: 1.05;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1.05;
 }
 
 /* PILL */
+
 .pill {
-  background: #9b8df2;
-  color: #fff;
-  padding: 12px 34px;
-  border-radius: 60px;
-  display: inline-block;
+    background: #9b8df2;
+    padding: 26px 34px;
+    border-radius: 60px;
+    width: 400px;
+    overflow: hidden;
+    display: inline-block;
 }
+
+.pill-track{
+  display:flex;
+  width:max-content;
+  animation:scroll 6s linear infinite;
+}
+
+
+.pill-track span {
+    color: #fff;
+    font-size: 61px;
+    font-weight: 600;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+/* animation */
+@keyframes scroll{
+  from{
+    transform:translateX(0);
+  }
+  to{
+    transform:translateX(-50%);
+  }
+}
+
 
 .spark {
   font-size: 48px;
@@ -111,8 +136,51 @@ body {
   margin-bottom: 12px;
   font-size: 16px;
 }
+.menu {
+    background-color: #111111;
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 
+.hello-btn{
+ display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 32px;
+    border: 2px solid #111;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    font-weight: 700;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease;
+}
 
+/* arrow wrapper */
+.hello-btn .icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:transform .3s ease;
+}
+
+/* hover animation */
+.hello-btn:hover{
+  background:#111;
+  color:#fff;
+}
+
+.hello-btn:hover .icon{
+  transform:translate(4px,-4px);
+}
 
 
 
