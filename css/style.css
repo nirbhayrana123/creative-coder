@@ -5,8 +5,15 @@ body {
 
 }
 
-img { width: 100%;}
-* { margin: 0; padding: 0; box-sizing: border-box; }
+img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 h1,
 h2,
@@ -25,8 +32,9 @@ h3 {
 }
 
 .home-banner h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
+
 p,
 a {
   color: #000000;
@@ -38,9 +46,9 @@ a {
   font-family: Poppins, sans-serif;
 }
 
- 
+
 .banner-content {
-    width: 50%;
+  width: 50%;
 }
 
 .container {
@@ -51,19 +59,20 @@ a {
 }
 
 .button-row {
-    margin-top: 20px;
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
+
 .logos-people {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .button {
   z-index: 5;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   text-align: center;
   text-transform: uppercase;
   border-radius: 60px;
@@ -79,13 +88,13 @@ a {
   overflow: hidden;
 }
 
-.button:hover { 
-  color: #000000; 
+.button:hover {
+  color: #ffffff;
 }
 
 .button::after {
   content: "";
-  background-color: #fdd305;
+  background-color: #000000;
   height: 100%;
   width: 0%;
   position: absolute;
@@ -104,54 +113,63 @@ a {
 }
 
 .logos-flex {
-    display: flex;
-}
-.logos-people img:hover {
-    margin-top: -10px
+  display: flex;
 }
 
+.logos-people img:hover {
+  margin-top: -10px
+}
+  .header-menu a:hover {
+    color: #f7462c;
+  }
+
+
+  a.current {
+    color: #f7462c;
+  }
 .logos-people img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100px;
-    border: 2px solid #fff;
-    object-fit: cover;
-    position: relative;
-    min-width: 60px;
-    min-height: 60px;
-    transition: 1s
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  border: 2px solid #fff;
+  object-fit: cover;
+  position: relative;
+  min-width: 60px;
+  min-height: 60px;
+  transition: 1s
 }
 
 img.logos-people2 {
-    left: -25px
+  left: -25px
 }
 
 img.logos-people3 {
-    left: -50px
+  left: -50px
 }
 
 img.logos-people4 {
-    left: -75px
+  left: -75px
 }
 
 img.logos-people5 {
-    left: -100px
+  left: -100px
 }
 
 img.logos-people6 {
-    left: -125px
+  left: -125px
 }
 
 img.logos-people7 {
-    left: -150px
+  left: -150px
 }
 
- 
+
 .video-row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-} 
+}
+
 img,
 picture,
 video,
@@ -195,14 +213,9 @@ table {
   width: 100%;
 }
 
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.header-logo { 
-  height: 25px;
+ 
+ a.logo img {
+    width: 165px;
 }
 
 .header-name {
@@ -259,9 +272,9 @@ table {
 .home-banner p {
   color: #ffffff;
 }
- 
+
 /*=================== home banner ============*/
- 
+
 .hero-subtext {
   font-weight: 400;
   font-size: 18px;
@@ -305,7 +318,7 @@ table {
   display: block;
   max-height: 479px;
 }
- 
+
 .project-title {
   font-size: 20px;
   font-weight: 500;
@@ -390,7 +403,7 @@ table {
   display: none;
   margin-top: 10px;
 }
- 
+
 .acc_box.open .acc_body {
   display: block;
 }
@@ -398,7 +411,7 @@ table {
 .acc_box.open .acc_btn {
   content: "-";
 }
- 
+
 .explore_link {
   margin: 15px 30px;
   font-weight: 500;
@@ -613,7 +626,7 @@ hr {
   font-size: 14px;
   color: #aaa;
 }
- 
+
 /*******************footer end*****************/
 .services_top_border_rd {
   width: 96%;
@@ -634,7 +647,7 @@ section.glass img {
   margin: 5px 0px;
   width: 20px;
   margin-left: 14px;
-} 
+}
 
 .reactive-about-section {
   width: 100%;
@@ -780,9 +793,9 @@ section.glass img {
 }
 
 
-.main-wrapper { 
+.main-wrapper {
   margin: 0 auto;
-  padding: 50px 30px; 
+  padding: 50px 30px;
   background-color: #000000;
   color: #ffffff;
   min-height: 100vh;
@@ -1035,24 +1048,24 @@ section.glass img {
 
 .contact-circle {
   position: fixed;
-  bottom: 50px;
+  bottom: 40px;
   right: 50px;
   background: #f7462c;
   color: #fff;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 18px;
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(255, 79, 90, 0.4);
   transition: transform 0.3s ease;
   z-index: 9999;
 }
 
-.contact-circle:hover { 
+.contact-circle:hover {
   background: #000;
   color: #fff;
   transition: transform 0.3s ease;
@@ -1068,11 +1081,11 @@ button.accordion-btn.xyz {
   font-size: 20px;
 }
 
-.ch_left.zx h2 { 
+.ch_left.zx h2 {
   margin: 75px 20px 35px 30px;
 }
 
-.services-section.new { 
+.services-section.new {
   padding: 110px 0px;
 
 }
@@ -1519,7 +1532,7 @@ section.deck {
   justify-items: center;
   align-items: center;
 }
- 
+
 .client {
   display: flex;
   justify-content: center;
@@ -1822,12 +1835,13 @@ div#countersWrap {
 }
 
 
-/* ================= FINAL RESPONSIVE ================= */ 
- 
+/* ================= FINAL RESPONSIVE ================= */
+
 @media (max-width: 991px) {
   .header {
     position: relative;
   }
+
   .footer-right {
     align-items: flex-start;
   }
@@ -1835,6 +1849,7 @@ div#countersWrap {
   .footer-cta {
     margin-bottom: 20px;
   }
+
   .hamburger {
     display: flex;
   }
@@ -1860,7 +1875,10 @@ div#countersWrap {
     margin: 15px 0;
     font-size: 20px;
   }
-    .services_wrapper {
+
+
+
+  .services_wrapper {
     flex-direction: column;
   }
 
@@ -1878,16 +1896,18 @@ div#countersWrap {
   }
 }
 
-  
+
 @media (max-width: 767px) {
   .hero-title {
     font-size: 42px;
     line-height: 48px;
     margin-top: 80px;
   }
-.video-row .project-box {
+
+  .video-row .project-box {
     width: 100% !important;
   }
+
   .reactive-inner {
     grid-template-columns: 1fr;
   }
@@ -1896,6 +1916,7 @@ div#countersWrap {
     height: auto;
     padding: 40px 0;
   }
+
   .reactive-footer {
     height: auto;
     padding: 40px 20px;
@@ -1927,7 +1948,7 @@ div#countersWrap {
     font-size: 15px;
     line-height: 1.6;
   }
- 
+
 
   .footer-center ul {
     text-align: left;
@@ -1959,7 +1980,7 @@ div#countersWrap {
     font-size: 12px;
     line-height: 1.6;
   }
- 
+
 
   .ch_services_section {
     flex-direction: column;
@@ -2053,6 +2074,7 @@ div#countersWrap {
   .reactive-about-heading {
     font-size: 32px;
   }
+
   .content-section {
     flex-direction: column;
   }
@@ -2201,14 +2223,3 @@ div#countersWrap {
     overflow-wrap: break-word;
   }
 }
- 
-
- 
- 
-
-
-
-
- 
-
- 
