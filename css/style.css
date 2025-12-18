@@ -235,6 +235,98 @@ body {
     margin-bottom: 30px;
 }
 
+
+
+
+
+.exp-grid {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+/* CARDS */
+.exp-card {
+    background: #fff;
+    border-radius: 32px;
+    position: relative;
+    overflow: hidden;
+    padding: 60px;
+    min-height: 466px;
+}
+
+.exp-card.big {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.exp-card.small {
+    padding: 60px 50px;
+    width: 70%;
+}
+
+/* TEXT */
+.exp-text h3 {
+    font-size: 100px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.exp-text p{
+  font-size:18px;
+  line-height:1.5;
+  margin-bottom:40px;
+  color:#333;
+}
+
+/* IMAGES */
+.robot-arm {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 450px;
+}
+
+.helmet{
+  position:absolute;
+  right:-40px;
+  bottom:-20px;
+  width:280px;
+}
+
+/* BUTTON (same as previous) */
+.hello-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:14px 26px;
+  border:2px solid #111;
+  border-radius:40px;
+  text-decoration:none;
+  color:#111;
+  font-size:16px;
+  font-weight:500;
+  transition:.3s ease;
+}
+
+.hello-btn .icon{
+  transition:.3s ease;
+}
+
+.hello-btn:hover{
+  background:#111;
+  color:#fff;
+}
+
+.hello-btn:hover .icon{
+  transform:translate(4px,-4px);
+}
+
+
+
+
 /* CARDS */
 .card{
   border-radius:28px;
