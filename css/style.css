@@ -63,12 +63,21 @@ body {
 /* PILL */
 
 .pill {
+<<<<<<< HEAD
   background: #9b8df2;
   padding: 26px 34px;
   border-radius: 60px;
   width: 400px;
   overflow: hidden;
   display: inline-block;
+=======
+    background: #9b8df2;
+    padding: 30px 0px;
+    border-radius: 68px;
+    width: 400px;
+    overflow: hidden;
+    display: inline-block;
+>>>>>>> 26dc787e06531588a5dcbb787d8677272bcb14c7
 }
 
 .pill-track {
