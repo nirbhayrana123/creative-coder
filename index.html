@@ -5,9 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hero Banner</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hero Banner</title>
@@ -16,12 +14,7 @@
 </head>
 
 <body>
- <!-- header -->
-      <div class="header">
-         <div class="container">  
-        <div class="logo">
-          <img src="./images/Logo.svg">
-        </div>
+  <!-- header -->
 
         <div class="nav-right">
           <a href="#" class="hello-btn">
@@ -37,17 +30,19 @@
           <div class="menu">
             <span></span>
             <span></span>
-          </div> 
-
-      </div>
-      </div>
-      </div>
-
-  <section class="hero">
-   
+          </div>
+        </div>
  
+
+      </div>
+    </div>
+  </div>
+
+  <!-- header END -->
+
+
   <section class="hero">
-    <div class="container"> 
+    <div class="container">
 
       <!-- HERO TEXT -->
       <div class="hero-text">
@@ -84,23 +79,25 @@
 
     </div>
   </section>
+
+
   <section class="who-we-are">
-  <div class="container">
+    <div class="container">
 
-    <div class="who-wrap">
+      <div class="who-wrap">
 
-      <!-- LEFT -->
-      <div class="who-left">
-        <h3 class="tag">
-          ✦ Who we are
-        </h3>
-      </div>
+        <!-- LEFT -->
+        <div class="who-left">
+          <h3 class="tag">
+            ✦ Who we are
+          </h3>
+        </div>
 
-      <!-- RIGHT -->
-      <div class="who-right">
-        <h2>
-          We are a creative digital agency specializing in innovative design and cutting-edge development.
-        </h2>
+        <!-- RIGHT -->
+        <div class="who-right">
+          <h2>
+            We are a creative digital agency specializing in innovative design and cutting-edge development.
+          </h2>
 
         <a href="#" class="hello-btn">
           <span>Say Hello</span>
@@ -215,13 +212,67 @@
 
   </div>
     </div>
+  </section>
 
 
-  </div>
-</section>
+  <section class="stats-section">
+    <div class="container">
 
+      <div class="stats-grid">
 
+        <!-- LEFT CARD -->
+        <div class="card purple">
+          <img src="./images/star.webp" class="star-img" alt="star">
 
-</body>
+          <div class="card-content">
+            <h3>50+</h3>
+            <p>Happy clients who<br>trust my work</p>
 
+            <a href="#" class="studio-btn">
+              Studio
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17L17 7" />
+                <path d="M7 7h10v10" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT CARD -->
+        <div class="card white">
+          <div class="phones">
+            <img src="./images/phone.webp" alt="">
+            <img src="phone2.png" alt="">
+          </div>
+
+          <div class="right-info">
+            <div class="avatars">
+              <img src="./images/user.webp">
+              <img src="./images/user2.webp">
+              <span class="spark">✦</span>
+            </div>
+
+            <h3>80%</h3>
+            <p>Clients come back for<br>a new projects</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  
+
+<!-- heder js -->
+
+  <script>
+    const editBtn = document.querySelector('.menu');
+    const model = document.querySelector('.header');
+
+    editBtn.addEventListener('click', function () {
+      model.classList.toggle('active');
+    });
+  </script>
+ 
+</body> 
 </html>
