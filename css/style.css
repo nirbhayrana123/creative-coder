@@ -51,7 +51,7 @@ h2 {
   font-size: 50px;
   font-weight: 600;
   line-height: 1.2em;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -467,9 +467,6 @@ header.header.activeshow .menu-list-ul {
   font-weight: 500;
 }
 
-.who-right h2 {
-  margin-bottom: 40px;
-}
 
 .stats-grid {
   display: flex;
@@ -524,10 +521,10 @@ header.header.activeshow .menu-list-ul {
 }
 
 .helmet {
-  position: absolute;
-  right: -40px;
-  bottom: -20px;
-  width: 280px;
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
+    width: 370px;
 }
 
 
@@ -685,14 +682,7 @@ header.header.activeshow .menu-list-ul {
   top: 120px;
 }
 
-.featured-left h2 {
-  font-size: 66px;
-  margin-bottom: 30px;
-}
 
-.featured-left span {
-  color: #8b8b8b;
-}
 
 /* RIGHT SCROLL */
 .featured-right {
@@ -735,12 +725,7 @@ header.header.activeshow .menu-list-ul {
   flex: 1;
 }
 
-.testimonial-left h2 {
-  font-size: 66px;
-  line-height: 1.1;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
+
 
 .clutch img {
   width: 160px;
@@ -888,10 +873,7 @@ input input {
 
 
 
-.right h2 {
-  font-size: 40px;
-  margin-bottom: 24px;
-}
+
 
 .social {
   list-style: none;
