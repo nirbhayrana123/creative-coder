@@ -2,7 +2,14 @@ body {
   background: #faf7f4;
   color: #111;
 }
+html.lenis,
+html.lenis body {
+  height: auto;
+}
 
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
 * {
   margin: 0;
   padding: 0;
@@ -124,12 +131,15 @@ a {
   transition: 1s;
 }
 
-.header .container {
+.header .relative{
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
+
+
+
 
 .logo {
   width: 140px;
