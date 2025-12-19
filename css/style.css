@@ -1,13 +1,15 @@
 body {
   background: #faf7f4;
-  color: #111;
+  color: #000000;
+  font-family: 'Poppins';
+  font-size: 20px;
+
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 html.lenis,
@@ -27,19 +29,19 @@ img {
 a {
   text-decoration: none;
   color: #000000;
-  font-size: 16px;
+  font-size: 0.8em;
   line-height: 1em;
 }
 
 p {
-  font-size: 18px;
+  font-size: 0.8em;
   line-height: 1.5;
-  color: #333;
+  color: #000000;
 }
 
 h1 {
-  color: #3d3d3d;
-  font-size: 60px;
+  color: #000000;
+  font-size: 3em;
   font-weight: 800;
   line-height: 1em;
   margin-bottom: 15px;
@@ -47,24 +49,24 @@ h1 {
 
 
 h2 {
-  color: #3d3d3d;
-  font-size: 50px;
+  color: #000000;
+  font-size: 2.5em;
   font-weight: 600;
   line-height: 1.2em;
   margin-bottom: 30px;
 }
 
 h3 {
-  color: #3d3d3d;
-  font-size: 40px;
+  color: #000000;
+  font-size: 2em;
   font-weight: 600;
   line-height: 1.2em;
   margin-bottom: 15px;
 }
 
 h4 {
-  color: #3d3d3d;
-  font-size: 30px;
+  color: #000000;
+  font-size: 2.5em;
   font-weight: 600;
   line-height: 1.2em;
   margin-bottom: 15px;
@@ -90,12 +92,13 @@ h4 {
 
 .button {
   z-index: 5;
-  border: 1px solid #000;
+  border: 1px solid #000000;
   text-align: center;
   border-radius: 60px;
   min-width: 150px;
   padding: 14px 20px;
-  font-size: 18px;
+
+    font-size: 0.9em;
   transition: all 1s;
   position: relative;
   overflow: hidden;
@@ -195,7 +198,6 @@ header.header.bg {
   color: #ffffff;
   font-size: 40px;
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 3px;
 }
 
@@ -378,7 +380,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .hero-text h1 {
-  font-size: 100px;
+  font-size: 5em;
   line-height: 1.2em;
 }
 
@@ -401,7 +403,7 @@ header.header.activeshow .menu-list-ul {
 
 .pill-track span {
   color: #fff;
-  font-size: 60px;
+  font-size: 3em;
   font-weight: 600;
   padding: 0 20px;
   white-space: nowrap;
@@ -419,7 +421,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .spark {
-  font-size: 48px;
+  font-size: 2.6em;
 }
 
 .divider {
@@ -434,9 +436,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .bottom p {
-  max-width: 420px;
-  font-size: 16px;
-  color: #333;
+  max-width: 420px; 
 }
 
 .bottom ul {
@@ -445,7 +445,7 @@ header.header.activeshow .menu-list-ul {
 
 .bottom li {
   margin-bottom: 12px;
-  font-size: 16px;
+  font-size: 0.8em;
 }
 
 
@@ -462,8 +462,8 @@ header.header.activeshow .menu-list-ul {
 }
 
 .tag {
-  font-size: 25px;
-  color: #111;
+  font-size: 2.3em;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -503,16 +503,14 @@ header.header.activeshow .menu-list-ul {
 }
 
 .exp-text h3 {
-  font-size: 100px;
-  font-weight: 500;
+  font-size: 5em; 
   margin-bottom: 20px;
 }
 
 .exp-text p {
   margin-bottom: 40px;
 }
-
-/* IMAGES */
+ 
 .robot-arm {
   position: absolute;
   right: 0px;
@@ -521,10 +519,10 @@ header.header.activeshow .menu-list-ul {
 }
 
 .helmet {
-    position: absolute;
-    right: -40px;
-    bottom: -40px;
-    width: 370px;
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+  width: 370px;
 }
 
 
@@ -552,13 +550,13 @@ header.header.activeshow .menu-list-ul {
 }
 
 .card-content h3 {
-  font-size: 100px;
+  font-size: 5em;
   color: #ffffff;
 }
 
 .card-content p {
   margin: 0px 0 65px;
-  font-size: 18px;
+  font-size: 0.9em;
   color: #ffffff;
 }
 
@@ -584,13 +582,13 @@ header.header.activeshow .menu-list-ul {
 }
 
 .right-info h3 {
-  font-size: 100px;
+  font-size: 5em;
   margin-top: 60px;
   font-weight: 500;
 }
 
 .right-info p {
-  font-size: 18px;
+  font-size: 0.9em;
 }
 
 .avatars {
@@ -606,7 +604,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .spark {
-  font-size: 22px;
+  font-size: 1.1em;
 }
 
 /********************logo-marquee*******************/
@@ -638,7 +636,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .marquee-track i {
-  font-size: 40px;
+  font-size: 2em;
   color: #b9b4b0;
   font-style: normal;
 }
@@ -653,10 +651,7 @@ header.header.activeshow .menu-list-ul {
     transform: translateX(-50%);
   }
 }
-
-
-
-
+ 
 /***********************logo-marquee end***************/
 
 /****************featured start*****************/
@@ -781,12 +776,12 @@ section.stack-wrapper {
 }
 
 .stack-card {
-    position: sticky;
-    top: 170px;
-    height: 500px;
-    background: #000000;
-    border-radius: 50px;
-    padding: 40px;
+  position: sticky;
+  top: 170px;
+  height: 500px;
+  background: #000000;
+  border-radius: 50px;
+  padding: 40px;
 }
 
 .stack-card-row {
@@ -801,13 +796,13 @@ section.stack-wrapper {
 }
 
 .card-2 {
-    z-index: 2;
-    background-color: #9f8be7;
+  z-index: 2;
+  background-color: #9f8be7;
 }
 
 .card-3 {
   z-index: 3;
-      background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .card-4 {
@@ -837,6 +832,7 @@ footer.footer {
   padding: 48px;
   position: relative;
   width: 100%;
+  box-shadow: 0px 1px 5px 0px #0000003b;
 }
 
 ul.footer-menu {
@@ -852,7 +848,7 @@ ul.footer-menu {
 }
 
 .footer-menu a {
-  font-size: 34px;
+  font-size: 2.5em;
   font-weight: 500;
 }
 
@@ -863,7 +859,7 @@ ul.footer-menu {
   right: 48px;
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 0.6em;
   color: #555;
 }
 
@@ -875,10 +871,11 @@ ul.footer-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0px 1px 5px 0px #0000003b;
 }
 
 .subscribe h3 {
-  font-size: 28px;
+  font-size: 1.6em;
   margin-bottom: 60px;
 }
 
@@ -894,7 +891,7 @@ input input {
   border: none;
   outline: none;
   background: transparent;
-  font-size: 24px;
+  font-size: 1.2em;
   width: 100%;
   font-family: Poppins, sans-serif;
 }
@@ -906,13 +903,10 @@ input input {
 .arrow {
   border: none;
   background: transparent;
-  font-size: 18px;
+  font-size: 0.9em;
   cursor: pointer;
   padding-left: 10px;
 }
-
-
-
 
 
 .social {
@@ -922,7 +916,7 @@ input input {
 }
 
 .social li {
-  font-size: 18px;
+  font-size: 0.9em;
   margin-bottom: 14px;
 }
 
@@ -930,7 +924,7 @@ input input {
   position: absolute;
   bottom: 40px;
   left: 48px;
-  font-size: 14px;
+  font-size: 0.3em;
   color: #777;
 }
 
@@ -956,37 +950,30 @@ input input {
   background: #ffffff00;
   gap: 30px;
   padding: 0;
+  box-shadow: none;
 }
 
 .footer-box.mal-middle a {
   background-color: #ffffff;
   padding: 50px 30px;
   border-radius: 25px;
+  box-shadow: 0px 1px 5px 0px #0000003b;
 }
 
 .subscribe input {
-  font-size: 20px;
+  font-size: 1em;
   outline: none;
   border: none;
+
 }
 
-
-
-
-
-
-
-
-
-
 /**************footer******************/
-
 
 @media(max-width:992px) {
 
 
   .hero-text h1 {
-    font-size: 48px;
+    font-size: 2.5em;
   }
 
   .bottom {
