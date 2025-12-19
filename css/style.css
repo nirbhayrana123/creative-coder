@@ -529,9 +529,9 @@ a {
 }
 
 
-.scrolls img{ 
-  border-radius:16px;
-  display:block;
+.scrolls img {
+    border-radius: 50px;
+    display: block;
 }
 
 
@@ -540,7 +540,81 @@ a {
 
 /****************featured end****************/
 
+/******************testmonials***************/
 
+
+.testimonial-section{
+  background:#faf7f4;
+  padding:120px 0;
+}
+
+.testimonial-wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.testimonial-left{
+  flex:1;
+}
+
+.testimonial-left h2 { 
+    font-size: 66px;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.clutch{
+  margin:40px 0;
+}
+
+.nav button{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  border:1px solid #000;
+  background:transparent;
+  cursor:pointer;
+  margin-right:10px;
+}
+
+.testimonial-right{
+  flex:1.3;
+  overflow:hidden;
+}
+
+.slider {
+    display: flex;
+    gap: 30px;
+    transition: .4s ease;
+    margin-bottom: 25px;
+}
+
+.senials-client{
+  min-width:360px;
+  background:#fff;
+  padding:30px;
+  border-radius:24px; 
+  transition:.4s;
+}
+
+.senials-client .active{
+  opacity:1;
+  filter:none;
+}
+
+.senials-client img{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  margin-bottom:20px;
+}
+
+.senials-client h4{
+  margin:20px 0 4px;
+}
+
+/******************testmonials***************/
 
 /*============================ RESPONSIVE =====================*/
 

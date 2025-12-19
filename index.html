@@ -223,7 +223,7 @@
     <div class="featured-left">
       <h2>Featured<br><span>projects</span></h2>
       <p>
-        Explore a selection of projects blending
+        Explore a selection of projects blending<br>
         creativity with practical design
       </p>
       <a href="#" class="button">All Works ↗</a>
@@ -241,6 +241,71 @@
   </div>
 </section>
 
+<section class="testimonial-section">
+  <div class="container">
+  <div class="testimonial-wrap">
+
+    <!-- LEFT CONTENT -->
+    <div class="testimonial-left">
+      <h2>What our <br> clients say</h2>
+      <p>
+        We're more than just executors — we're your creative partners.
+        Don't just take our word for it, see what clients have to say.
+      </p>
+
+      <div class="clutch">
+        <h3>Clutch</h3>
+        <span>4.9/5.0 ★★★★★</span>
+      </div>
+
+      
+    </div>
+
+    <!-- RIGHT SLIDER -->
+    <div class="testimonial-right">
+      <div class="slider" id="slider">
+
+        <div class="senials-client active">
+          <img src="https://i.pravatar.cc/100?img=1">
+          <p>
+            The Rayo team nailed it! They understood our vision
+            and delivered a sleek, intuitive site.
+          </p>
+          <a href="#">Project Page ↗</a>
+          <h4>Lea Tomato</h4>
+          <span>Senior designer in The Way</span>
+        </div>
+
+        <div class="senials-client">
+          <img src="https://i.pravatar.cc/100?img=2">
+          <p>
+            Great communication and execution. Highly recommend!
+          </p>
+          <a href="#">Project Page ↗</a>
+          <h4>Ashley Cherry</h4>
+          <span>CEO at Studio</span>
+        </div>
+
+        <div class="senials-client">
+          <img src="https://i.pravatar.cc/100?img=3">
+          <p>
+            One of the best creative teams we worked with.
+          </p>
+          <a href="#">Project Page ↗</a>
+          <h4>John Smith</h4>
+          <span>Product Lead</span>
+        </div>
+
+      </div>
+      <div class="nav">
+        <button id="prev">←</button>
+        <button id="next">→</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section>
 
 
 
@@ -249,11 +314,36 @@
 
 
 
+  <!-- tesxtmonials js -->
+
+
+<script>
+const slider = document.getElementById('slider');
+const cards = document.querySelectorAll('.card');
+let index = 0;
+
+function update(){
+  slider.style.transform = `translateX(-${index * 390}px)`;
+  cards.forEach(c=>c.classList.remove('active'));
+  cards[index].classList.add('active');
+}
+
+document.getElementById('next').onclick = ()=>{
+  if(index < cards.length-1){
+    index++;
+    update();
+  }
+}
+
+document.getElementById('prev').onclick = ()=>{
+  if(index > 0){
+    index--;
+    update();
+  }
+}
+</script>
+
   <!-- heder js -->
-
-
-
-
   <script>
     const editBtn = document.querySelector('.menu');
     const model = document.querySelector('.header');
