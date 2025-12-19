@@ -789,9 +789,8 @@ header.header.activeshow .menu-list-ul {
 
 /******************testmonials***************/
 section.stack-wrapper {
-  padding-bottom: 50px;
+    padding: 50px 0;
 }
-
 .stack-card {
   position: sticky;
   top: 170px;
