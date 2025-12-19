@@ -80,6 +80,11 @@ document.getElementById('prev').onclick = () => {
     update();
   }
 };
+////////////top-up/////////////
+
+document.querySelector('.to-top').onclick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
 
 
 //////////tawk//////////////////
