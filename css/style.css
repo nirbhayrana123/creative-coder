@@ -150,11 +150,12 @@ header.header.bg {
   padding: 10px 0;
   transition: 1s;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 99999;
 }
 
-.header.active .menubg {
+.header.activeshow .menubg {
   top: 0%;
   transition: top 0.9s ease 0s;
 }
@@ -162,7 +163,7 @@ header.header.bg {
 .menubg {
   background-color: #000;
   position: absolute;
-  top: -900%;
+  top: -100vh;
   width: 100%;
   height: 100vh;
   padding: 40px;
@@ -250,20 +251,19 @@ header.header.bg {
   transition: 1s;
 }
 
-
-.header.active .menu {
+.header.activeshow .menu {
   background-color: #ffffff;
 }
 
-.header.active .menu span {
+.header.activeshow .menu span {
   background-color: #000000;
 }
 
-.header.active .menu span:first-child {
+.header.activeshow .menu span:first-child {
   transform: translateY(5px) rotate(45deg);
 }
 
-.header.active .menu span:last-child {
+.header.activeshow .menu span:last-child {
   transform: translateY(-5px) rotate(-45deg);
 }
 
@@ -285,11 +285,11 @@ header.header.bg {
   left: 50%;
 }
 
-.header.active .medader {
+.header.activeshow .medader {
   height: 100%;
 }
 
-.header.active .tobader {
+.header.activeshow .tobader {
   width: 100%;
 }
 
@@ -307,8 +307,8 @@ header.header.bg {
   transition: all 1s ease 0.5s;
 }
 
-header.header.active .contact-form,
-header.header.active .menu-list-ul {
+header.header.activeshow .contact-form,
+header.header.activeshow .menu-list-ul {
   opacity: 100%;
 }
 
@@ -348,21 +348,23 @@ header.header.active .menu-list-ul {
 
 /*============ header END=============*/
 .mxd-project-item-tags {
-    display: flex;
-    gap: 10px;
-    position: absolute;
-    bottom: 35px;
-    left: 40px;
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 35px;
+  left: 40px;
 }
 
 .scrolls {
-    position: relative;
+  position: relative;
 }
+
 .mxd-project-item-tags a {
-    background-color: #fff;
-    padding: 10px 17px;
-    border-radius: 30px;
+  background-color: #fff;
+  padding: 10px 17px;
+  border-radius: 30px;
 }
+
 .hero {
   min-height: 100vh;
   padding: 15px 0;
@@ -775,7 +777,7 @@ header.header.active .menu-list-ul {
   transition: .4s;
 }
 
-.senials-client .active {
+.senials-client .active{
   opacity: 1;
   filter: none;
 }
@@ -941,9 +943,9 @@ input input {
 }
 
 .subscribe input {
-    font-size: 20px;
-    outline: none;
-    border: none;
+  font-size: 20px;
+  outline: none;
+  border: none;
 }
 
 
