@@ -27,3 +27,36 @@ document.addEventListener("DOMContentLoaded", function () {
   requestAnimationFrame(raf)
 
 })
+
+
+
+
+
+
+
+
+
+
+const slider = document.getElementById('slider');
+const cards = document.querySelectorAll('.card');
+let index = 0;
+
+function update(){
+  slider.style.transform = `translateX(-${index * 390}px)`;
+  cards.forEach(c=>c.classList.remove('active'));
+  cards[index].classList.add('active');
+}
+
+document.getElementById('next').onclick = ()=>{
+  if(index < cards.length-1){
+    index++;
+    update();
+  }
+}
+
+document.getElementById('prev').onclick = ()=>{
+  if(index > 0){
+    index--;
+    update();
+  }
+}
