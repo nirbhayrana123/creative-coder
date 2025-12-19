@@ -10,41 +10,41 @@ editBtn.addEventListener('click', function () {
 
 /*********header scroll bg**********/
 
+document.addEventListener("DOMContentLoaded", () => {
 
-window.addEventListener("scroll", function () {
   const header = document.querySelector(".header");
 
-  if (window.scrollY > 50) {
-    header.classList.add("bg");
-  } else {
-    header.classList.remove("bg");
+  if (!header) {
+    console.error("Header not found");
+    return;
   }
-});
 
+  if (typeof Lenis === "undefined") {
+    console.error("Lenis not loaded");
+    return;
+  }
 
+  const lenis = new Lenis({
+    lerp: 0.08,
+    smoothTouch: false
+  });
 
-if (typeof Lenis !== "undefined") {
-    const lenis = new Lenis({
-      smooth: true,
-      lerp: 0.8,
-      smoothTouch: false
-    })
-
-    /* header bg on scroll */
-    lenis.on('scroll', ({ scroll }) => {
-      if (scroll > 50) {
-        header.classList.add("bg")
-      } else {
-        header.classList.remove("bg")
-      }
-    })
-
-    function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
+  // ✅ HEADER BG ON SCROLL (LENIS WAY)
+  lenis.on("scroll", ({ scroll }) => {
+    if (scroll > 50) {
+      header.classList.add("bg");
+    } else {
+      header.classList.remove("bg");
     }
-    requestAnimationFrame(raf)
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
   }
+
+  requestAnimationFrame(raf);
+});
 
 
 
