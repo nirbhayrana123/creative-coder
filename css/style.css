@@ -102,46 +102,64 @@ a {
 }
 
 /*============ header =============*/
-.menubg {
-    position: relative; 
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-}
-.header.active .menu-list-ul {
-    right: 0%;
-    top: 0%;
-    width: 1360px;
-    height: 610px;
-    padding: 40px;
-}
-
-.menu-list-ul {
-    background-color: #000000;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    padding: 0;
-    z-index: 9999;
-    transition: 1s;
-    overflow: hidden;
-    border-radius: 30px;
-}
-
-.menu-list-ul a {
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: 600;
-}
 .header {
   padding: 25px 0;
   transition: 1s;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+ 
+
+.header.active .menubg {
+  top: 0%;
+  transition: top 0.9s ease 0s;
+}
+
+
+.menubg {
+  background-color: #000;
+  position: absolute;
+  top: -900%;
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  z-index: 9;
+ 
+  transition: top 1s ease 1.5s;
+}
+
+
+
+
+
+
+
+.menu-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: left;
+  width: 100%;
+}
+
+.menu-list-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.menu-list-ul a {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .header .relativee {
@@ -169,13 +187,10 @@ a {
   justify-content: end;
 }
 
-.header .button-row {
-  margin-right: 70px;
-}
-
+ 
 .menu {
   background-color: #000000;
-  border-radius: 90px;
+  border-radius: 100px;
   width: 50px;
   height: 50px;
   display: flex;
@@ -184,10 +199,8 @@ a {
   cursor: pointer;
   flex-direction: column;
   gap: 7px;
-  position: fixed;
-  z-index: 99999;
-  transition: 0.5s;
-  left: auto; 
+  transition: 1s;
+  z-index: 10;
 }
 
 .menu span {
@@ -207,16 +220,48 @@ a {
 }
 
 .header.active .menu span {
-  background-color: #000000; 
+  background-color: #000000;
 }
 
 .header.active .menu span:first-child {
-    transform: translateY(5px) rotate(45deg);
+  transform: translateY(5px) rotate(45deg);
 }
 
 .header.active .menu span:last-child {
-    transform: translateY(-5px) rotate(-45deg);
+  transform: translateY(-5px) rotate(-45deg);
 }
+
+.contact {
+  background: #bb000059;
+}
+
+.tobader {
+  position: absolute;
+  background-color: #fff;
+  width: 0%;
+  height: 1px;
+  top: -50px;
+  transition: all 1s ease 0.5s;
+}
+
+.medader {
+  transition: all 1s ease 0.5s;
+  position: absolute;
+  background-color: #fff;
+  width: 1px;
+  height: 0%;
+  left: 50%;
+}
+
+.header.active .medader {
+  height: 100%;
+}
+
+.header.active .tobader {
+  width: 100%;
+}
+
+
 
 
 /*============ header END=============*/
