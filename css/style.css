@@ -34,42 +34,47 @@ a {
 }
 
 p {
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 1.5;
   color: #000000;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000000;
-  font-size: 3em;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1em;
   margin-bottom: 15px;
 }
 
 
+h1 {
+  font-size: 3em;
+}
+
+
 h2 {
-  color: #000000;
   font-size: 2.5em;
-  font-weight: 600;
-  line-height: 1.2em;
   margin-bottom: 30px;
+    font-weight: 500;
 }
 
 h3 {
-  color: #000000;
   font-size: 2em;
-  font-weight: 600;
-  line-height: 1.2em;
-  margin-bottom: 15px;
+    font-weight: 500;
 }
 
 h4 {
-  color: #000000;
-  font-size: 2.5em;
-  font-weight: 600;
-  line-height: 1.2em;
-  margin-bottom: 15px;
+  font-size: 1.5em;
+   font-weight: 500;
+}
+
+h5 {
+  font-size: 1em;
 }
 
 
@@ -98,7 +103,7 @@ h4 {
   min-width: 150px;
   padding: 14px 20px;
 
-    font-size: 0.9em;
+  font-size: 0.9em;
   transition: all 1s;
   position: relative;
   overflow: hidden;
@@ -196,7 +201,7 @@ header.header.bg {
 
 .menu-list-ul a {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 2em;
   font-weight: 600;
   letter-spacing: 3px;
 }
@@ -362,9 +367,10 @@ header.header.activeshow .menu-list-ul {
 }
 
 .mxd-project-item-tags a {
-  background-color: #fff;
-  padding: 10px 17px;
-  border-radius: 30px;
+    background-color: #fff;
+    padding: 10px 17px;
+    border-radius: 30px;
+    font-size: 0.7em;
 }
 
 .hero {
@@ -403,7 +409,6 @@ header.header.activeshow .menu-list-ul {
 
 .pill-track span {
   color: #fff;
-  font-size: 3em;
   font-weight: 600;
   padding: 0 20px;
   white-space: nowrap;
@@ -436,7 +441,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .bottom p {
-  max-width: 420px; 
+  max-width: 420px;
 }
 
 .bottom ul {
@@ -459,12 +464,6 @@ header.header.activeshow .menu-list-ul {
   grid-template-columns: 1fr 2fr;
   gap: 120px;
   align-items: start;
-}
-
-.tag {
-  font-size: 2.3em;
-  color: #000000;
-  font-weight: 500;
 }
 
 
@@ -503,14 +502,14 @@ header.header.activeshow .menu-list-ul {
 }
 
 .exp-text h3 {
-  font-size: 5em; 
+  font-size: 5em;
   margin-bottom: 20px;
 }
 
 .exp-text p {
   margin-bottom: 40px;
 }
- 
+
 .robot-arm {
   position: absolute;
   right: 0px;
@@ -543,10 +542,10 @@ header.header.activeshow .menu-list-ul {
 }
 
 .star-img {
-    width: 330px;
-    position: absolute;
-    left: -8px;
-    bottom: 0;
+  width: 330px;
+  position: absolute;
+  left: -8px;
+  bottom: 0;
 }
 
 .card-content h3 {
@@ -556,7 +555,6 @@ header.header.activeshow .menu-list-ul {
 
 .card-content p {
   margin: 0px 0 65px;
-  font-size: 0.9em;
   color: #ffffff;
 }
 
@@ -587,9 +585,6 @@ header.header.activeshow .menu-list-ul {
   font-weight: 500;
 }
 
-.right-info p {
-  font-size: 0.9em;
-}
 
 .avatars {
   display: flex;
@@ -627,12 +622,9 @@ header.header.activeshow .menu-list-ul {
   animation: scroll 25s linear infinite;
 }
 
-.marquee-track span {
-  font-family: 'Poppins', sans-serif;
-  font-size: 72px;
-  font-weight: 500;
+.marquee-track h2 {
+  margin-bottom: 0;
   color: #b9b4b0;
-  white-space: nowrap;
 }
 
 .marquee-track i {
@@ -651,7 +643,7 @@ header.header.activeshow .menu-list-ul {
     transform: translateX(-50%);
   }
 }
- 
+
 /***********************logo-marquee end***************/
 
 /****************featured start*****************/
@@ -776,12 +768,16 @@ section.stack-wrapper {
 }
 
 .stack-card {
-  position: sticky;
-  top: 170px;
-  height: 500px;
-  background: #000000;
-  border-radius: 50px;
-  padding: 40px;
+    position: sticky;
+    top: 170px;
+    height: 500px;
+    background: #000000;
+    border-radius: 50px;
+    padding: 40px;
+    background-image: url(../images/card-bg.webp);
+    background-size: 43% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .stack-card-row {
@@ -809,9 +805,16 @@ section.stack-wrapper {
   z-index: 4;
 }
 
+.card-1 h2,.card-1 p,.card-2 h2,.card-2 p,.card-4 h2,.card-4 p  {
+    color: #ffffff;
+}
 
-
-
+.card-3 h2,.card-3 p  {
+    color: #000000;
+}
+.stack-card .card-content {
+    width: 50%;
+}
 
 
 /******************footer**************/
