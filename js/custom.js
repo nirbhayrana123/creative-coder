@@ -7,6 +7,23 @@ editBtn.addEventListener('click', function () {
 });
 
 
+/*********header scroll bg**********/
+
+
+window.addEventListener("scroll", function () {
+  const header = document.querySelector(".header");
+
+  if (window.scrollY > 50) {
+    header.classList.add("bg");
+  } else {
+    header.classList.remove("bg");
+  }
+});
+
+
+
+
+
 
 document.addEventListener("DOMContentLoaded", function () {
 
