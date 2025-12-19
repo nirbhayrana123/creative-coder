@@ -23,28 +23,28 @@ window.addEventListener("scroll", function () {
 
 
 
+if (typeof Lenis !== "undefined") {
+    const lenis = new Lenis({
+      smooth: true,
+      lerp: 0.8,
+      smoothTouch: false
+    })
 
+    /* header bg on scroll */
+    lenis.on('scroll', ({ scroll }) => {
+      if (scroll > 50) {
+        header.classList.add("bg")
+      } else {
+        header.classList.remove("bg")
+      }
+    })
 
-
-document.addEventListener("DOMContentLoaded", function () {
-
-  const lenis = new Lenis({
-    smooth: true,
-    lerp: 0.08,
-    smoothTouch: false
-  })
-
-  lenis.on('scroll', (e) => {
-    // console.log(e)
-  })
-
-  function raf(time) {
-    lenis.raf(time)
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
     requestAnimationFrame(raf)
   }
-  requestAnimationFrame(raf)
-
-})
 
 
 
