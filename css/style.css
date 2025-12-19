@@ -126,16 +126,10 @@ a {
   padding: 40px;
   display: flex;
   align-items: center;
-  z-index: 9;
- 
+  z-index: 9; 
   transition: top 1s ease 1.5s;
 }
-
-
-
-
-
-
+ 
 
 .menu-wrapper {
   position: relative;
@@ -231,9 +225,7 @@ a {
   transform: translateY(-5px) rotate(-45deg);
 }
 
-.contact {
-  background: #bb000059;
-}
+ 
 
 .tobader {
   position: absolute;
@@ -267,8 +259,9 @@ a {
 /*============ header END=============*/
 
 .hero {
-  min-height: 100vh;
-  padding: 15px 0;
+    min-height: 100vh;
+    padding: 15px 0;
+    padding-top: 95px;
 }
 
 .hero-text {
