@@ -33,10 +33,9 @@
       </div>
     </div>
 
-
     <!-- header menu -->
     <div class="menubg">
-      <div class="menu-wrapper"> 
+      <div class="menu-wrapper">
         <div class="tobader"></div>
         <div class="menu-list-ul">
           <a href="#">Home</a>
@@ -47,9 +46,18 @@
           <a href="#">Contact</a>
         </div>
         <div class="medader"></div>
-        <div class="contact">
 
-        </div>
+        <form class="contact-form" id="contactForm">
+          <h3>CONTACT US</h3>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+
+          <button type="submit">Send Message</button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+
+
       </div>
 
     </div>
@@ -94,7 +102,6 @@
 
     </div>
   </section>
-
 
   <section class="who-we-are">
     <div class="container">
@@ -232,7 +239,6 @@
     </div>
   </section>
 
-
   <section class="featured-section">
     <div class="container">
       <div class="featured-container">
@@ -249,10 +255,42 @@
 
         <!-- RIGHT SCROLL CONTENT -->
         <div class="featured-right">
-          <div class="scrolls"><img src="./images/featuchr.webp"></div>
-          <div class="scrolls"><img src="./images/featuchr.webp"></div>
-          <div class="scrolls"><img src="./images/featuchr.webp"></div>
-          <div class="scrolls"><img src="./images/featuchr.webp"></div>
+          <div class="scrolls">
+            <img src="./images/featuchr.webp">
+              <div class="mxd-project-item-tags">
+                 <a href="#">UI/UX</a>
+                 <a href="#">Web design</a>
+                 <a href="#">Illustrations</a> 
+          </div>
+          </div>
+
+          <div class="scrolls">
+            <img src="./images/featuchr.webp">
+              <div class="mxd-project-item-tags">
+                 <a href="#">UI/UX</a>
+                 <a href="#">Web design</a>
+                 <a href="#">Illustrations</a> 
+          </div>
+          </div>
+
+          <div class="scrolls">
+            <img src="./images/featuchr.webp">
+              <div class="mxd-project-item-tags">
+                 <a href="#">UI/UX</a>
+                 <a href="#">Web design</a>
+                 <a href="#">Illustrations</a> 
+          </div>
+          </div>
+
+          <div class="scrolls">
+            <img src="./images/featuchr.webp">
+
+            <div class="mxd-project-item-tags">
+                 <a href="#">UI/UX</a>
+                 <a href="#">Web design</a>
+                 <a href="#">Illustrations</a> 
+          </div>
+
         </div>
 
       </div>
@@ -326,55 +364,53 @@
 
   <footer class="footer">
     <div class="container">
-    <div class="footer-grid">
+      <div class="footer-grid">
 
-      <!-- LEFT -->
-      <div class="footer-box left">
-        <ul class="footer-menu">
-          <li><a href="">Home</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="">Works</a></li>
-          <li><a href="">Services</a> </li>
-          <li><a href="">Insights</a> </li>
-          <li><a href="">Contact</a> </li>
-        </ul>
+        <div class="footer-box">
+          <ul class="footer-menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Works</a></li>
+            <li><a href="">Services</a> </li>
+            <li><a href="">Insights</a> </li>
+            <li><a href="">Contact</a> </li>
+          </ul>
 
-        <div class="bottom-links">
-          <span>Privacy Policy →</span>
-          <span>Terms & conditions →</span>
+          <div class="bottom-links">
+            <span>Privacy Policy →</span>
+            <span>Terms & conditions →</span>
+          </div>
         </div>
-      </div>
 
-      <!-- MIDDLE -->
-      <div class="footer-box middle">
-        <div class="pill">✦ hello@rayostudio.com</div>
-        <div class="pill">✦ +1 212-708-9400</div>
+        <div class="footer-box mal-middle">
+          <a href="#">✦ hello@rayostudio.com</a>
+          <a href="#">✦ +1 212-708-9400</a>
 
-        <div class="subscribe">
-          <h3>Subscribe to our insights:</h3>
-          <div class="input">
-  <input type="email" placeholder="Your Email" required>
-  <button type="submit" class="arrow">↗</button>
-</div>
+          <div class="subscribe">
+            <h3>Subscribe to our insights:</h3>
+            <div class="input">
+              <input type="email" placeholder="Your Email" required>
+              <button type="submit" class="arrow">↗</button>
+            </div>
+          </div>
         </div>
+
+        <!-- RIGHT -->
+        <div class="footer-box right">
+          <h2>Ecosystem</h2>
+          <ul class="social">
+            <li>Dribbble</li>
+            <li>Behance</li>
+            <li>Instagram</li>
+            <li>Github</li>
+            <li>Codepen</li>
+            <li>Figma Community</li>
+          </ul>
+
+          <p class="copy">ib themes © 2025</p>
+        </div>
+
       </div>
-
-      <!-- RIGHT -->
-      <div class="footer-box right">
-        <h2>Ecosystem</h2>
-        <ul class="social">
-          <li>Dribbble</li>
-          <li>Behance</li>
-          <li>Instagram</li>
-          <li>Github</li>
-          <li>Codepen</li>
-          <li>Figma Community</li>
-        </ul>
-
-        <p class="copy">ib themes © 2025</p>
-      </div>
-
-    </div>
     </div>
 
     <div class="to-top">↑</div>
@@ -382,11 +418,8 @@
 
 
 
-
-
   <script src="js/custom.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
-
 </body>
 
 </html>
