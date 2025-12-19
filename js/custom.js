@@ -51,33 +51,38 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
+/////////tesimonials/////////////////////
 
 
 
 const slider = document.getElementById('slider');
-const cards = document.querySelectorAll('.card');
+const cards = document.querySelectorAll('.senials-client');
 let index = 0;
+const cardWidth = cards[0].offsetWidth + 30; // margin gap included
 
-function update(){
-  slider.style.transform = `translateX(-${index * 390}px)`;
-  cards.forEach(c=>c.classList.remove('active'));
+function update() {
+  slider.style.transform = `translateX(-${index * cardWidth}px)`;
+
+  cards.forEach(c => c.classList.remove('active'));
   cards[index].classList.add('active');
 }
 
-document.getElementById('next').onclick = ()=>{
-  if(index < cards.length-1){
+document.getElementById('next').onclick = () => {
+  if (index < cards.length - 1) {
     index++;
     update();
   }
-}
+};
 
-document.getElementById('prev').onclick = ()=>{
-  if(index > 0){
+document.getElementById('prev').onclick = () => {
+  if (index > 0) {
     index--;
     update();
   }
-}
+};
+
+
+//////////tawk//////////////////
 
 var Tawk_API = Tawk_API || {};
 var Tawk_LoadStart = new Date();
