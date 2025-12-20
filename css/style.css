@@ -29,7 +29,7 @@ img {
 a {
   text-decoration: none;
   color: #000000;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 1em;
 }
 
@@ -1204,10 +1204,22 @@ input input {
   }
 
   /********************amit ************************/
-  .featured-container {
-    flex-wrap: wrap;
-  }
-
+ .featured-container {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .logo-marquee { 
+    padding: 40px 0; 
+}
+.featured-section { 
+    padding: 0px 0;
+}
+.who-right h2 {
+        font-size: 1.4em;
+    }
+    .button {
+    font-size: 1em;
+}
   .featured-left {
     flex: 100%;
     position: relative;
@@ -1232,7 +1244,25 @@ input input {
   }
   .slider { 
     gap: 15px; 
-
-
 }
+
+.copy {
+    position: static;
+}
+.bottom-links {
+    position: static;
+    gap: 15px;
+}
+.footer-box.mal-middle a { 
+    gap: 15px;
+    font-size: 1.2em;
+}
+.social li {
+    font-size: 1.2em; 
+}
+.footer-box.mal-middle a { 
+    padding: 25px 30px; 
+}
+
+
 }
