@@ -311,8 +311,7 @@ header.header.bg {
 .parallax-box {
   position: relative;
   overflow: hidden;
-  border-radius: 50px;
-  background-color: #72a8d7;
+  border-radius: 50px; 
   height: 530px;
 }
 
