@@ -1033,18 +1033,28 @@ input input {
 }
 
 /**************mobile media******************/
+/*****************amit****************/
+@media (max-width: 1200px) {
+
+  body {
+    font-size: 16px;
+}
+
+}
+/*****************amit****************/
+
+
+
 
 @media(max-width:1024px) {
   body {
-    font-size: 17px;
+    font-size: 15px;
   }
 
 }
 
 @media(max-width:991px) {
-  body {
-    font-size: 16px;
-  }
+  
 
   .stats-grid,
   .exp-grid {
@@ -1107,7 +1117,33 @@ input input {
 
   .stack-card .card-content {
     width: 100%;
-  }
+}
+/********************amit ************************/
+    .featured-container {
+        flex-wrap: wrap;
+    }
+.featured-left {
+    flex: 100%;
+    position: relative;
+    top: 0;
+    text-align: center;
+}
+
+.featured-left h2 br {
+    display: none;
+}
+
+.testimonial-wrap { 
+    flex-wrap: wrap;
+}
+.testimonial-left {
+    width: 100%;
+}
+
+.testimonial-right { 
+    width: 100%;
+}
+
 
 }
 
