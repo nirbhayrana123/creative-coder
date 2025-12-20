@@ -45,16 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   requestAnimationFrame(raf);
 });
-
-
-
-
-
+ 
 
 /////////tesimonials/////////////////////
-
-
-
+ 
 const slider = document.getElementById('slider');
 const cards = document.querySelectorAll('.senials-client');
 let index = 0;
@@ -104,3 +98,21 @@ var Tawk_LoadStart = new Date();
   s0.parentNode.insertBefore(s1, s0);
 })();
 
+
+//////////parallax-img"//////////////////
+
+window.addEventListener("scroll", () => {
+  document.querySelectorAll(".parallax-img").forEach(img => {
+
+    const speed = 0.08; // 🔥 slow & premium
+    const parent = img.closest(".parallax-box");
+    const rect = parent.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    if (rect.bottom > 0 && rect.top < windowHeight) {
+      const offset = (rect.top - windowHeight / 2) * speed;
+      img.style.transform = `translateY(${offset}px)`;
+    }
+
+  });
+});
