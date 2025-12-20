@@ -311,7 +311,7 @@ header.header.bg {
 .parallax-box {
   position: relative;
   overflow: hidden;
-  border-radius: 50px; 
+  border-radius: 50px;
   height: 530px;
 }
 
@@ -841,10 +841,12 @@ section.stack-wrapper {
   z-index: 3;
   background-color: #ffffff;
 }
+
 .card-3 .mxd-project-item-tags a {
-    background-color: #000000;
-    color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
+
 .card-4 {
   z-index: 4;
 }
@@ -911,7 +913,7 @@ ul.footer-menu {
   left: 48px;
   right: 48px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .subscribe {
@@ -1036,9 +1038,9 @@ input input {
 
 
 /************************bubbal banner*********************/
- 
 
- 
+
+
 
 /********************bubbal end**************************/
 
@@ -1048,9 +1050,10 @@ input input {
 
   body {
     font-size: 16px;
-}
+  }
 
 }
+
 /*****************amit****************/
 
 
@@ -1064,7 +1067,7 @@ input input {
 }
 
 @media(max-width:991px) {
-  
+
 
   .stats-grid,
   .exp-grid {
@@ -1101,6 +1104,77 @@ input input {
     font-size: 14px;
   }
 
+  .mxd-project-item-tags {
+    flex-wrap: wrap;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5em;
+    line-height: 1.6em;
+    text-align: center;
+  }
+
+  .pill {
+    width: 300px;
+    top: 10px;
+  }
+
+  .bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .who-left h5 {
+    font-size: 2em;
+  }
+
+  .who-wrap {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .who-we-are {
+    padding: 30px 0;
+  }
+
+  .bottom p {
+    font-size: 1em;
+  }
+  .senials-client {
+        min-width: 312px;
+    }
+    .testimonial-section {
+        padding: 0px 0px;
+        padding-bottom: 50px;
+    }
+.testimonial-wrap { 
+    gap: 0px; 
+}
+ .nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+  .bottom li {
+    font-size: 1.2em;
+  }
+
+  .button-row a.button {
+    display: none;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .hero {
+    padding-top: 35px;
+  }
+
+  .divider {
+    margin: 0px 0 40px;
+  }
+
   .footer-box {
     padding: 24px;
   }
@@ -1127,41 +1201,38 @@ input input {
 
   .stack-card .card-content {
     width: 100%;
-}
-/********************amit ************************/
-    .featured-container {
-        flex-wrap: wrap;
-    }
-.featured-left {
+  }
+
+  /********************amit ************************/
+  .featured-container {
+    flex-wrap: wrap;
+  }
+
+  .featured-left {
     flex: 100%;
     position: relative;
     top: 0;
     text-align: center;
-}
-
-.featured-left h2 br {
-    display: none;
-}
-
-.testimonial-wrap { 
-    flex-wrap: wrap;
-}
-.testimonial-left {
-    width: 100%;
-}
-
-.testimonial-right { 
-    width: 100%;
-}
-
-
-}
-
-@media(max-width:500px) {
-  .hero-text h1 {
-    font-size: 3em;
-    line-height: 1.2em;
   }
 
+  .featured-left h2 br {
+    display: none;
+  }
 
+  .testimonial-wrap {
+    flex-wrap: wrap;
+  }
+
+  .testimonial-left {
+    width: 100%;
+  }
+
+  .testimonial-right {
+    width: 100%;
+  }
+  .slider { 
+    gap: 15px; 
+
+
+}
 }
