@@ -183,8 +183,8 @@ header.header.bg {
   padding: 40px;
   display: flex;
   align-items: center;
-  z-index: 9;
-  transition: top 1s ease 1.5s;
+  z-index: 9; 
+  transition: top 1s ease 1.2s;
 }
 
 .menu-wrapper {
