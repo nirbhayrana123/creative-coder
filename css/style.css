@@ -841,7 +841,10 @@ section.stack-wrapper {
   z-index: 3;
   background-color: #ffffff;
 }
-
+.card-3 .mxd-project-item-tags a {
+    background-color: #000000;
+    color: #ffffff;
+}
 .card-4 {
   z-index: 4;
 }
