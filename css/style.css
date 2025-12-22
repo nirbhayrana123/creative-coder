@@ -29,7 +29,7 @@ img {
 a {
   text-decoration: none;
   color: #000000;
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1em;
 }
 
@@ -756,13 +756,19 @@ header.header.activeshow .menu-list-ul {
 }
 
 .nav button {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  background: transparent;
-  cursor: pointer;
-  margin-right: 10px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    display: flex;
 }
 
 .testimonial-right {
@@ -1103,6 +1109,16 @@ input input {
   body {
     font-size: 14px;
   }
+  .phones img {
+    width: 190px;
+    top: 35px;
+}
+.right-info h3 {
+    font-size: 3em;
+}
+.card {
+    padding: 15px;
+}
 
   .mxd-project-item-tags {
     flex-wrap: wrap;
