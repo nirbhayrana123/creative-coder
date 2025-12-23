@@ -1041,6 +1041,19 @@ input input {
   border: none;
 
 }
+  .socail i {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+     transition: all 0.3s ease;
+}
+
+
+.socail i:hover {
+    color: #0d83fd;
+    cursor: pointer;
+    transform: translateY(-8px);
+}
 
 
 
@@ -1132,6 +1145,9 @@ input input {
 }
 .exp-text h3 {
     font-size: 4em; 
+}
+.bottom-links a {
+    font-size: 13px;
 }
 
   .parallax-img {
@@ -1321,9 +1337,11 @@ input input {
     gap: 15px;
   }
 
-  .copy {
-    position: static;
-  }
+ .copy {
+        position: static;
+        font-size: 14px;
+    }
+  
 
   .bottom-links {
     position: static;
