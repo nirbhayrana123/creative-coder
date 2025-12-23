@@ -83,20 +83,20 @@ document.querySelector('.to-top').onclick = () => {
 
 //////////tawk//////////////////
 
-var Tawk_API = Tawk_API || {};
-var Tawk_LoadStart = new Date();
+// var Tawk_API = Tawk_API || {};
+// var Tawk_LoadStart = new Date();
 
-(function () {
-  var s1 = document.createElement("script");
-  var s0 = document.getElementsByTagName("script")[0];
+// (function () {
+//   var s1 = document.createElement("script");
+//   var s0 = document.getElementsByTagName("script")[0];
 
-  s1.async = true;
-  s1.src = "https://embed.tawk.to/675ffc63af5bfec1dbdcaad8/1if7f3q10";
-  s1.charset = "UTF-8";
-  s1.setAttribute("crossorigin", "*");
+//   s1.async = true;
+//   s1.src = "https://embed.tawk.to/675ffc63af5bfec1dbdcaad8/1if7f3q10";
+//   s1.charset = "UTF-8";
+//   s1.setAttribute("crossorigin", "*");
 
-  s0.parentNode.insertBefore(s1, s0);
-})();
+//   s0.parentNode.insertBefore(s1, s0);
+// })();
 
 
 //////////parallax-img"//////////////////
