@@ -1127,6 +1127,12 @@ input input {
     bottom: -15px;
     width: 210px;
 }
+.exp-text p {
+    margin-bottom: 30px;
+}
+.exp-text h3 {
+    font-size: 4em; 
+}
 
   .parallax-img {
     top: 20px;
