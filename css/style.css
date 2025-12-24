@@ -760,7 +760,7 @@ section.services-section {
     border-radius: 0px 50px 0px 0px;
     padding: 21px;
 }
-.fa-solid, .fas {
+.services-col i {
     font-weight: 900;
     width: 70px;
     height: 70px;
