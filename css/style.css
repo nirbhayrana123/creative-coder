@@ -910,10 +910,10 @@ section.stack-wrapper {
     top: 110px;
 }
 .bg-imgs img {
-    width: 200px;
+    width: 135px;
     position: absolute;
     left: 0;
-    top: 200px;
+    top: 170px;
     animation: floatY 3s ease-in-out infinite;
 }
 .bg-right img { 
