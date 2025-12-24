@@ -876,6 +876,33 @@ section.stack-wrapper {
   width: 50%;
 }
 
+ 
+.bg-right img {
+    position: absolute;
+    width: 280px;
+    right: 0;
+    top: 110px;
+}
+.bg-imgs img {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    animation: floatY 3s ease-in-out infinite;
+}
+
+@keyframes floatY {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+@keyframes floatX {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+
+
 
 /******************footer**************/
 
@@ -887,6 +914,8 @@ footer.footer {
     transition: all 0.3s ease;
    
 }
+
+
 .footer-menu a:hover {
    color: #0d83fd;
  }
