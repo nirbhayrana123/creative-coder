@@ -7,7 +7,11 @@ editBtn.addEventListener('click', function () {
   model.classList.toggle('activeshow');
 });
 
-
+document.querySelectorAll('.header a').forEach(link => {
+  link.addEventListener('click', () => {
+    model.classList.remove('activeshow');
+  });
+});
 /*********header scroll bg**********/
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -52,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const slider = document.getElementById('slider');
 const cards = document.querySelectorAll('.senials-client');
 let index = 0;
-const cardWidth = cards[0].offsetWidth + 30; // margin gap included
+const cardWidth = cards[0].offsetWidth +  
 
 function update() {
   slider.style.transform = `translateX(-${index * cardWidth}px)`;
