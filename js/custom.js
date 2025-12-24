@@ -55,8 +55,11 @@ document.addEventListener("DOMContentLoaded", () => {
  
 const slider = document.getElementById('slider');
 const cards = document.querySelectorAll('.senials-client');
+
 let index = 0;
-const cardWidth = cards[0].offsetWidth +  
+
+// card width + gap (agar gap 20px hai)
+const cardWidth = cards[0].offsetWidth + 20;
 
 function update() {
   slider.style.transform = `translateX(-${index * cardWidth}px)`;
@@ -78,6 +81,7 @@ document.getElementById('prev').onclick = () => {
     update();
   }
 };
+
 ////////////top-up/////////////
 
 document.querySelector('.to-top').onclick = () => {

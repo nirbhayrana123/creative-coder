@@ -428,7 +428,7 @@ header.header.activeshow .menu-list-ul {
 .pill-track {
   display: flex;
   width: max-content;
-  animation: scroll 13s linear infinite;
+  animation: scroll 35s linear infinite;
 }
 
 .pill-track span {
@@ -1166,30 +1166,8 @@ section.hero1-section-area {
     justify-content: space-between;
 }
 
-.fbox-1 {
-    margin-bottom: 30px;
-    padding: 15px 15px 25px;
-    border: 1.5px solid #dfdfdf;
-    border-radius: 16px;
-    background-color: #fff;
-    transition: 0.6s;
-}
-.fbox-1:hover {
-    margin-top: -9px; 
-}
-
-.fbox-1-img {
-    overflow: hidden;
-    text-align: center;
-    margin: 0 0 30px;
-    border-radius: 16px;
-    background-color: #f7f7f9;
-}
-.allproject {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
+ 
+ 
 .heading1 h5 {
     border-radius: 8px;
     transition: all 0.4s;
@@ -1257,12 +1235,7 @@ section.hero1-section-area {
     width: auto;
     max-width: 100%;
 }
-.fbox-1:hover img {
-    transform: scale(1.1);
-}
-.fbox-1 img {
-    transition: 0.5s;
-}
+ 
 
 /**************projectpage ******************/
 
