@@ -756,19 +756,20 @@ header.header.activeshow .menu-list-ul {
 }
 
 .nav button {
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    border: 1px solid #000;
-    background: transparent;
-    cursor: pointer;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .nav {
-    display: flex;
+  display: flex;
 }
 
 .testimonial-right {
@@ -875,12 +876,50 @@ section.stack-wrapper {
   width: 50%;
 }
 
+ 
+.bg-right img {
+    position: absolute;
+    width: 280px;
+    right: 0;
+    top: 110px;
+}
+.bg-imgs img {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    animation: floatY 3s ease-in-out infinite;
+}
+
+@keyframes floatY {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+@keyframes floatX {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+
+
 
 /******************footer**************/
 
 footer.footer {
   padding-bottom: 40px;
 }
+.footer-menu li:hover { 
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+   
+}
+
+
+.footer-menu a:hover {
+   color: #0d83fd;
+ }
+
 
 .footer-grid {
   display: grid;
@@ -906,6 +945,7 @@ ul.footer-menu {
 
 .footer-menu li {
   list-style: none;
+  transition: all 0.3s ease;
 }
 
 .footer-menu a {
@@ -1040,15 +1080,22 @@ input input {
   border: none;
 
 }
+  .socail i {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+     transition: all 0.3s ease;
+}
+
+
+.socail i:hover {
+    color: #0d83fd;
+    cursor: pointer;
+    transform: translateY(-8px);
+}
 
 
 
-/************************bubbal banner*********************/
-
-
-
-
-/********************bubbal end**************************/
 
 /**************mobile media******************/
 /*****************amit****************/
@@ -1083,6 +1130,7 @@ input input {
   .card.purple,
   .exp-card.small {
     width: 100%;
+    height: 240px;
   }
 
   .footer-grid {
@@ -1109,16 +1157,54 @@ input input {
   body {
     font-size: 14px;
   }
+  .robot-arm {
+    top: 95px;
+    width: 174px;
+}
+.exp-card {
+    padding: 15px;
+    min-height: 240px;
+}
+.exp-card.small {
+    padding: 15px 15px; 
+}
+.helmet { 
+    right: -23px;
+    bottom: -15px;
+    width: 210px;
+}
+.exp-text p {
+    margin-bottom: 30px;
+}
+.exp-text h3 {
+    font-size: 4em; 
+}
+.bottom-links a {
+    font-size: 13px;
+}
+
+  .parallax-img {
+    top: 20px;
+    height: 100%;
+    border-radius: 40px;
+  }
+
+  .parallax-box {
+    height: 260px;
+  }
+
   .phones img {
     width: 190px;
     top: 35px;
-}
-.right-info h3 {
+  }
+
+  .right-info h3 {
     font-size: 3em;
-}
-.card {
+  }
+
+  .card {
     padding: 15px;
-}
+  }
 
   .mxd-project-item-tags {
     flex-wrap: wrap;
@@ -1156,21 +1242,26 @@ input input {
   .bottom p {
     font-size: 1em;
   }
+
   .senials-client {
-        min-width: 312px;
-    }
-    .testimonial-section {
-        padding: 0px 0px;
-        padding-bottom: 50px;
-    }
-.testimonial-wrap { 
-    gap: 0px; 
-}
- .nav {
+    min-width: 312px;
+  }
+
+  .testimonial-section {
+    padding: 0px 0px;
+    padding-bottom: 50px;
+  }
+
+  .testimonial-wrap {
+    gap: 0px;
+  }
+
+  .nav {
     display: flex;
     justify-content: center;
     gap: 10px;
-}
+  }
+
   .bottom li {
     font-size: 1.2em;
   }
@@ -1220,22 +1311,38 @@ input input {
   }
 
   /********************amit ************************/
- .featured-container {
-        flex-wrap: wrap;
-        gap: 40px;
-    }
-    .logo-marquee { 
-    padding: 40px 0; 
-}
-.featured-section { 
+  .featured-container {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .logo-marquee {
+    padding: 40px 0;
+  }
+
+  .featured-section {
     padding: 0px 0;
+  }
+
+  .who-right h2 {
+    font-size: 1.4em;
+  }
+  .card-content p {
+    margin: 0px 0 40px; 
 }
-.who-right h2 {
-        font-size: 1.4em;
-    }
-    .button {
-    font-size: 1em;
+.card-content h3 {
+    font-size: 4em; 
 }
+.star-img {
+    width: 186px; 
+    left: 0px; 
+}
+  .button {
+    font-size: 1.1em;
+    min-width: 140px;
+    padding: 14px 22px;
+  }
+
   .featured-left {
     flex: 100%;
     position: relative;
@@ -1258,27 +1365,34 @@ input input {
   .testimonial-right {
     width: 100%;
   }
-  .slider { 
-    gap: 15px; 
-}
 
-.copy {
-    position: static;
-}
-.bottom-links {
+  .slider {
+    gap: 15px;
+  }
+
+ .copy {
+        position: static;
+        font-size: 14px;
+    }
+  
+
+  .bottom-links {
     position: static;
     gap: 15px;
-}
-.footer-box.mal-middle a { 
+  }
+
+  .footer-box.mal-middle a {
     gap: 15px;
     font-size: 1.2em;
-}
-.social li {
-    font-size: 1.2em; 
-}
-.footer-box.mal-middle a { 
-    padding: 25px 30px; 
-}
+  }
+
+  .social li {
+    font-size: 1.2em;
+  }
+
+  .footer-box.mal-middle a {
+    padding: 25px 30px;
+  }
 
 
 }
