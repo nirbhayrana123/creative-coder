@@ -625,6 +625,32 @@ header.header.activeshow .menu-list-ul {
 .spark {
   font-size: 1.1em;
 }
+a.up-solid:hover i {
+    margin-left: 1px;
+    margin-top: -15px;
+}
+a.up-solid i {
+        transition: 1s;
+}
+a.up-solid {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transform: rotate(45deg);
+}
+
+a.up-solid.black {
+    background-color: #000000;
+    color: #ffffff;
+}
 
 /********************logo-marquee*******************/
 .logo-marquee {
@@ -654,7 +680,7 @@ header.header.activeshow .menu-list-ul {
 
 .marquee-track i {
   font-size: 2em;
-  color: #b9b4b0;
+  color: #00000066;
   font-style: normal;
 }
 
@@ -1097,7 +1123,148 @@ input input {
     transform: translateY(-8px);
 }
 
+/**************projectpage ******************/
 
+section.hero1-section-area {
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 0;
+}
+@keyframes animation-1 {
+    0% {
+
+      transform:translateY(0) ;
+    }
+
+    100% {
+
+      transform: translateY(30px);
+    }
+  }
+
+.aniamtion-key-1 {
+    position: relative;
+    animation-name: animation-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.hero1-section-area .elements1 {
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+}
+.hero1-section-area  img.elements1.aniamtion-key-1 {
+    max-width: 100%;
+    width: auto;
+}
+.mainprojeectbanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fbox-1 {
+    margin-bottom: 30px;
+    padding: 15px 15px 25px;
+    border: 1.5px solid #dfdfdf;
+    border-radius: 16px;
+    background-color: #fff;
+    transition: 0.6s;
+}
+.fbox-1:hover {
+    margin-top: -9px; 
+}
+
+.fbox-1-img {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 0 30px;
+    border-radius: 16px;
+    background-color: #f7f7f9;
+}
+.allproject {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.heading1 h5 {
+    border-radius: 8px;
+    transition: all 0.4s;
+    padding: 6px 10px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.heading1 h5::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.4s;
+    background: #9b8df2;
+    opacity: 10%;
+    border-radius: 8px;
+}
+.heading1 h1 {
+    line-height: 1.3;
+}
+.btn-area {
+    margin-top: 30px;
+}
+.hero1-section-area .header-images-area {
+    position: relative;
+}
+.hero1-section-area .header-images-area .main-images-area {
+    position: relative; 
+}
+.hero1-section-area .header-images-area .main-images-area .img1 {
+    position: relative; 
+    z-index: 1;
+}
+.hero1-section-area .header-images-area .main-images-area .img1 img {
+    height: 672.01px;
+    width: 486.95px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.hero1-section-area .header-images-area .main-images-area .img2 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+}
+.hero1-section-area .header-images-area .main-images-area .img2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.hero1-section-area .header-images-area .main-images-area .icons-area .sound-icons1 {
+    position: absolute;
+    top: 0;
+}
+.hero1-section-area .header-images-area .main-images-area .icons-area .lite-icons1 {
+    position: absolute;
+    top: 40%;
+    right: -20px;
+}
+.icons-area img.aniamtion-key-1 {
+    width: auto;
+    max-width: 100%;
+}
+.fbox-1:hover img {
+    transform: scale(1.1);
+}
+.fbox-1 img {
+    transition: 0.5s;
+}
+
+/**************projectpage ******************/
 
 
 /**************mobile media******************/
