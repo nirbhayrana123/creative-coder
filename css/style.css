@@ -747,11 +747,29 @@ a.up-solid.black {
 }
 
 section.services-section {
-    padding: 60px 0;
-    background-color: #a50b1b;
-    margin-top: 45px;
+    border-radius: 50px;
+    padding: 40px;
+    background-image: url(../images/next-leval.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 60px;
 }
 
+section.services-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a50b1ade; 
+}
+
+section.services-section .container {
+    z-index: 2;
+    position: relative;
+}
 .services-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -760,16 +778,22 @@ section.services-section {
 }
 
 .content-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.services-col a {
+  color: #ffffff;
+  margin-top: 30px;
+  display: block;
 }
 
 .services-col {
-    min-height: 380px;
-    position: relative;
-    border: 2px solid #fff;
-    border-radius: 6px 50px 0px 0px;
-    padding: 20px;
+  min-height: 380px;
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 6px 50px 0px 0px;
+  padding: 20px;
 }
 
 .services-col i {
