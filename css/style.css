@@ -1267,6 +1267,30 @@ section.hero1-section-area {
 /**************projectpage ******************/
 
 
+
+
+
+
+/**************contact page ******************/
+section.main-contact {
+    position: relative;
+    z-index: 1;
+    padding: 160px 0px 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/**************contact page ******************/
+
+
+
+
+
+
+
+
+
+
 /**************mobile media******************/
 /*****************amit****************/
 @media (max-width: 1200px) {
