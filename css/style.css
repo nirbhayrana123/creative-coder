@@ -625,6 +625,13 @@ header.header.activeshow .menu-list-ul {
 .spark {
   font-size: 1.1em;
 }
+a.up-solid:hover i {
+    margin-left: 1px;
+    margin-top: -15px;
+}
+a.up-solid i {
+        transition: 1s;
+}
 a.up-solid {
     background-color: #ffffff;
     width: 70px;
@@ -639,6 +646,12 @@ a.up-solid {
     top: 30px;
     transform: rotate(45deg);
 }
+
+a.up-solid.black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 /********************logo-marquee*******************/
 .logo-marquee {
   background: #faf7f4;
