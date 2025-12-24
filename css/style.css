@@ -418,7 +418,7 @@ header.header.activeshow .menu-list-ul {
   background: #9b8df2;
   padding: 24px 0px;
   border-radius: 100px;
-  width: 400px;
+  width: 600px;
   overflow: hidden;
   display: inline-block;
   position: relative;
@@ -762,7 +762,15 @@ a.up-solid.black {
   display: flex;
   padding-bottom: 10px;
 }
-
+a.client-video-review {
+    background-color: #e52421;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 15px;
+}
 .testimonial-wrap {
   display: flex;
   gap: 40px;
@@ -1127,9 +1135,7 @@ input input {
 
 section.hero1-section-area {
     position: relative;
-    z-index: 1;
-    background-repeat: no-repeat;
-    background-size: cover;
+    z-index: 1; 
     padding: 100px 0 0;
 }
 @keyframes animation-1 {
@@ -1238,6 +1244,30 @@ section.hero1-section-area {
  
 
 /**************projectpage ******************/
+
+
+
+
+
+
+/**************contact page ******************/
+section.main-contact {
+    position: relative;
+    z-index: 1;
+    padding: 160px 0px 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/**************contact page ******************/
+
+
+
+
+
+
+
+
 
 
 /**************mobile media******************/
