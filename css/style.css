@@ -1251,13 +1251,90 @@ section.hero1-section-area {
 
 
 /**************contact page ******************/
-section.main-contact {
+section.contact-main-inner-area.sp1 {
+
+    padding: 100px 0px 80px;
+}
+
+.space32 {
+    height: 32px;
+}
+.number-address-area {  
+    position: relative;
+    transition: all 0.4s;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+    margin: 0 0px 40px 0px;
+}
+.contact-main-inner-area .contact-header .number-address-area .phone-number .img1 {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    transition: all 0.4s;
+    background: #EFE9F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-main-inner-area .contact-header .number-address-area .phone-number .content {
+    margin-left: 16px;
+}
+  .phone-number .content {
+    margin-left: 16px;
+}
+.contact-main-inner-area .contact-header .number-address-area .phone-number img {
+    width: auto;
+    max-width: 100%;
+}
+ .contact-form-area {
+    border-radius: 7px;
+    background-color: #fff;
     position: relative;
     z-index: 1;
-    padding: 160px 0px 80px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    box-shadow: 0px 4px 48px 0px rgba(0, 0, 0, 0.09);
+    padding: 32px;
+}
+.input-area input {
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background-color: #FFF;
+    width: 100%;
+    padding: 16px;
+    height: 48px;
+    margin-top: 24px;
+    font-size: 0.8em;
+}
+.input-area textarea {
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background-color: #FFF;
+    width: 100%;
+    padding: 16px;
+    height: 120px;
+    margin-top: 24px;
+    font-size: 0.8em;
+    font-family: 'poppins';
+}
+
+.innermain-contact
+ {
+    display: grid;
+    grid-template-columns: 720px 1fr;
+    gap: 20px;
+}
+.inner-contect-right
+ {
+    padding-left: 45px;
+}
+.input-area input::placeholder {
+  color: #000000;   
+}
+.input-area textarea::placeholder {
+  color: #000000;   
 }
 /**************contact page ******************/
 
