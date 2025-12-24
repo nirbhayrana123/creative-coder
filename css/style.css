@@ -625,7 +625,20 @@ header.header.activeshow .menu-list-ul {
 .spark {
   font-size: 1.1em;
 }
-
+a.up-solid {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transform: rotate(45deg);
+}
 /********************logo-marquee*******************/
 .logo-marquee {
   background: #faf7f4;
@@ -654,7 +667,7 @@ header.header.activeshow .menu-list-ul {
 
 .marquee-track i {
   font-size: 2em;
-  color: #b9b4b0;
+  color: #0d83fd;
   font-style: normal;
 }
 
