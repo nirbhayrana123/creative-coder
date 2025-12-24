@@ -903,6 +903,9 @@ section.stack-wrapper {
     top: 200px;
     animation: floatY 3s ease-in-out infinite;
 }
+.bg-right img { 
+    animation: floatY 3s ease-in-out infinite;
+}
 
 @keyframes floatY {
     0%   { transform: translateY(0); }
