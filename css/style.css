@@ -625,6 +625,32 @@ header.header.activeshow .menu-list-ul {
 .spark {
   font-size: 1.1em;
 }
+a.up-solid:hover i {
+    margin-left: 1px;
+    margin-top: -15px;
+}
+a.up-solid i {
+        transition: 1s;
+}
+a.up-solid {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transform: rotate(45deg);
+}
+
+a.up-solid.black {
+    background-color: #000000;
+    color: #ffffff;
+}
 
 /********************logo-marquee*******************/
 .logo-marquee {
@@ -654,7 +680,7 @@ header.header.activeshow .menu-list-ul {
 
 .marquee-track i {
   font-size: 2em;
-  color: #b9b4b0;
+  color: #00000066;
   font-style: normal;
 }
 
@@ -888,6 +914,9 @@ section.stack-wrapper {
     position: absolute;
     left: 0;
     top: 200px;
+    animation: floatY 3s ease-in-out infinite;
+}
+.bg-right img { 
     animation: floatY 3s ease-in-out infinite;
 }
 
