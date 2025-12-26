@@ -1630,7 +1630,50 @@ section.contact-main-inner-area.sp1 {
 
 
 
+.video-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
 
+.video-modal.active {
+  display: flex;
+}
+
+.video-box {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-box video {
+  width: 100%;
+  display: block;
+}
+
+.close-video {
+   position: absolute;
+    top: 5px;
+    right: 8px;
+    color: #050505;
+    font-size: 35px; 
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
 
 
 

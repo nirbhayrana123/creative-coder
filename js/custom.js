@@ -1,6 +1,26 @@
+document.addEventListener("DOMContentLoaded", function () {
 
-/*=========header scroll header=============*/
+  const modal = document.getElementById("videoModal");
+  const video = document.getElementById("reviewVideo");
 
+  document.querySelectorAll(".client-video-review").forEach(btn => {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      modal.classList.add("active");
+      video.play();
+    });
+  });
+
+  document.querySelectorAll(".close-video, .video-overlay").forEach(el => {
+    el.addEventListener("click", function () {
+      modal.classList.remove("active");
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+
+});
+/*********header scroll header**********/
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
 
@@ -122,6 +142,23 @@ window.addEventListener("scroll", () => {
 
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  AOS.init(
