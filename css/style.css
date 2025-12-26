@@ -1064,20 +1064,14 @@ section.stack-wrapper {
   border-radius: 50px;
   padding: 30px;
   display: grid;
-  grid-template-columns: 1fr 40%;
+  grid-template-columns: 1fr 1fr;
   gap: 45px;
 }
-
-.stack-card.left {
-  grid-template-columns: 40% 1fr;
+.stack-card h2 {
+    font-size: 2em;
+    margin-bottom: 13px;
 }
-
-.stack-card.twocol {
-  grid-template-columns: 1fr 1fr;
-}
-
-
-
+  
 .stack-card-row {
   list-style: none;
   display: grid;
