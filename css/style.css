@@ -1627,6 +1627,78 @@ section.contact-main-inner-area.sp1 {
 }
 
 /**************contact page ******************/
+/**************about page ******************/
+
+
+
+
+.page-banner11 {
+   position: relative;
+    background-image: url(../images/page1-11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 217px 0 235px;
+    margin: 90px 0px 0;
+    border-radius: 28px;
+}
+
+
+.shape::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 117px;
+    height: 85px;
+    background-image: url(../images/shape1-4.png);
+    z-index: 99;
+    border-radius: 20px 0 0 0;
+}
+.shape3::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 292px;
+    background-image: url(../images/shape1-6.png);
+    z-index: 99;
+}
+
+
+.staff-text {
+    position: absolute;
+    right: 142px;
+    bottom: 29px;
+    text-transform: none;
+    letter-spacing: -0.03em;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 0.75em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    white-space: nowrap;
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg) translateX(100%);
+    -ms-transform: rotate(-90deg) translateX(100%);
+    transform: rotate(-90deg) translateX(100%);
+}
+
+
+
+
+
+
+/**************about page ******************/
+
+
+
+
+
 
 
 
