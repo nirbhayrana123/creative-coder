@@ -1,69 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-
-  const modal = document.getElementById("videoModal");
-  const video = document.getElementById("reviewVideo");
-
-  document.querySelectorAll(".client-video-review").forEach(btn => {
-    btn.addEventListener("click", function (e) {
-      e.preventDefault();
-      modal.classList.add("active");
-      video.play();
-    });
-  });
-
-  document.querySelectorAll(".close-video, .video-overlay").forEach(el => {
-    el.addEventListener("click", function () {
-      modal.classList.remove("active");
-      video.pause();
-      video.currentTime = 0;
-    });
-  });
- 
-});
-
-
-
-
-
-jQuery(function ($) { 
-  $('.slider').owlCarousel({
-    loop: true,
-    margin: 30,
-    nav: true,
-     navText: [
-      '<i class="fa-solid fa-chevron-left"></i>',
-      '<i class="fa-solid fa-chevron-right"></i>'
-    ],
-    responsive: {
-      0: { items: 1 },
-      600: { items: 1.5 },
-      1000: { items:2.5 }
-    }
-  });
-
-});
-
-
-
 /*********header scroll header**********/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
@@ -187,6 +122,54 @@ window.addEventListener("scroll", () => {
   });
 });
 
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const modal = document.getElementById("videoModal");
+  const video = document.getElementById("reviewVideo");
+
+  document.querySelectorAll(".client-video-review").forEach(btn => {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      modal.classList.add("active");
+      video.play();
+    });
+  });
+
+  document.querySelectorAll(".close-video, .video-overlay").forEach(el => {
+    el.addEventListener("click", function () {
+      modal.classList.remove("active");
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+ 
+});
+
+
+
+
+
+jQuery(function ($) { 
+  $('.slider').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+     navText: [
+      '<i class="fa-solid fa-chevron-left"></i>',
+      '<i class="fa-solid fa-chevron-right"></i>'
+    ],
+    responsive: {
+      0: { items: 1 },
+      600: { items: 1.5 },
+      1000: { items:2.5 }
+    }
+  });
+
+});
 
 
 
