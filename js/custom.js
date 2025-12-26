@@ -151,9 +151,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /*============= top-up =============*/  
 
-document.querySelector('.to-top').onclick = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+// document.querySelector('.to-top').onclick = () => {
+//   window.scrollTo({ top: 0, behavior: 'smooth' });
+// };
 
 
 /*============= tawk =============*/   
