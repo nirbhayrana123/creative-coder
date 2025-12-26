@@ -1000,7 +1000,13 @@ a.client-video-review {
   align-items: center;
   justify-content: center;
 }
-
+.nav button:hover{
+  background-color: #0d83fd;
+  border-color: #0d83fd;
+}
+.nav button:hover i.fa-solid {
+    color: #fff;
+}
 .nav {
   display: flex;
 }
@@ -1073,6 +1079,8 @@ section.stack-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 45px;
+  min-height: 550px;
+  align-items: center;
 }
 
 .stack-card h2 {
