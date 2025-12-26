@@ -484,9 +484,11 @@ header.header.activeshow .menu-list-ul {
 }
 
 .grid2.onecol .iconcol {
-  border-radius: 12px;
-  padding: 20px;
-  align-items: flex-start;
+    border-radius: 12px;
+    padding: 20px;
+    align-items: flex-start;
+    position: relative;
+    padding-right: 65px;
 }
 
 .grid2.onecol p {
@@ -500,7 +502,7 @@ header.header.activeshow .menu-list-ul {
   border: none;
   padding: 0;
   border-radius: 0;
-  color: #fd4a19;
+  color: #1b1b1b;
 }
 
 .who-we-are {
@@ -562,9 +564,21 @@ header.header.activeshow .menu-list-ul {
   color: #ffffff;
 }
 
+.grid2.onecol {
+    counter-reset: step;
+        gap: 10px;
+}
 
-
-
+.grid2.onecol .iconcol::after {
+    counter-increment: step;
+    content: "0" counter(step);
+    color: #8d8d8d75;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
 
 
 
