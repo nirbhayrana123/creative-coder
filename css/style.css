@@ -243,7 +243,10 @@ a.current {
 }
 
 .logo {
-  width: 140px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0d83fd;
 }
 
 .header .nav-right {
