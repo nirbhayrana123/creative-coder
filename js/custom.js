@@ -119,3 +119,10 @@ window.addEventListener("scroll", () => {
 
   });
 });
+
+
+ AOS.init(
+  {
+  duration: 1200,
+}
+ );
