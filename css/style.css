@@ -221,7 +221,7 @@ header.header.bg {
 }
 
 a.current {
-  color: #0d83fd;
+  color: #0d83fd!important;
 }
 
 .menu-list-ul a:hover {
