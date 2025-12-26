@@ -834,9 +834,8 @@ a.up-solid.black {
 }
 
 section.services-section {
-  border-radius: 50px;
   padding: 40px;
-  background-image: url(../images/next-leval.jpg);
+  background-image: url(../images/laptop-wooden-table.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -850,9 +849,24 @@ section.services-section::after {
   inset: 0;
   width: 100%;
   height: 100%;
-  background-color: #a50b1ade;
+  background-color: #00000087;
 }
-
+.services-col::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 0;
+    opacity: 0.5;
+    left: 0;
+    z-index: -1;
+    bottom: 0;
+    border-radius: 6px 50px 0px 0px;
+    transition: 1s;
+}
+.services-col:hover::after{
+  height: 100%;
+}
 section.services-section .container {
   z-index: 2;
   position: relative;
