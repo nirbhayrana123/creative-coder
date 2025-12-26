@@ -1,654 +1,793 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <title>Creative Coder</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Creative Coder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-  <body>
-    <!-- header -->
-    <header class="header">
-      <div class="container">
-        <div class="relativee">
-          <a class="logo" href="index.html"><img src="images/logo.svg"></a>
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <div class="relativee">
+        <a class="logo" href="index.html"><img src="images/logo.svg"></a>
 
-          <div class="button-row">
-            <a href="#" class="button"> Say Hello
-              <i class="fa-solid fa-location-arrow"></i> </a>
+        <div class="button-row">
+          <a href="#" class="button"> Say Hello
+            <i class="fa-solid fa-location-arrow"></i> </a>
 
-            <div class="menu">
-              <span></span>
-              <span></span>
+          <div class="menu">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- header menu -->
+    <div class="menubg">
+      <div class="menu-wrapper">
+        <div class="tobader"></div>
+        <div class="menu-list-ul">
+          <a class="current" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="project.html">Projects</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="medader"></div>
+
+        <form class="contact-form" id="contactForm">
+          <h3>Contact Us</h3>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+
+          <button type="submit">Send Message <i class="fa-solid fa-location-arrow"></i></button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+
+      </div>
+
+    </div>
+  </header>
+  <!-- header END -->
+
+  <section class="hero">
+    <div class="bg-imgs">
+      <img src="./images/OBJECTS.svg">
+    </div>
+    <div class="bg-right">
+      <img src="./images/dots.svg">
+    </div>
+    <div class="container">
+      <!-- HERO TEXT -->
+      <div class="hero-text">
+        <h1>
+          Design,
+          <span class="pill">
+            <span class="pill-track">
+              <span>HTML5 | CSS3 | SASS | Tailwind CSS | Bootstrap | ShadCN
+                JavaScript | jQuery | React.js </span>
+              <span> | AngularJS | Shopify |
+                WordPress | Webflow | Ecommerce UI Design | Animations </span>
+            </span>
+          </span>
+          <br>
+          <span class="spark">✦</span> Development Expert
+        </h1>
+      </div>
+
+      <!-- LINE -->
+      <div class="divider"></div>
+
+      <!-- BOTTOM -->
+      <div class="bottom" data-aos="fade-up">
+        <p>
+          We are a creative digital agency specializing<br>
+          in innovative design and cutting-edge<br>
+          development.
+        </p>
+
+        <ul data-aos="fade-up">
+          <li>✦ Freelancer</li>
+          <li>✦ Upwork</li>
+          <li>✦ Fiverr</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="services-section">
+    <div class="container">
+      <div class="content-row">
+        <div>
+          <h6 data-aos="fade-up">OUR SERVICES</h6>
+          <h2 data-aos="fade-up">All Your IT Needs in One Place!</h2>
+        </div>
+
+        <p data-aos="fade-up">Our success as a Software Development Company stems from our unique method, engaging a
+          dedicated team of
+          experts who work tirelessly to achieve your objectives with maximum efficiency.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="services-col" data-aos="fade-up">
+          <i class="fa-solid fa-code"></i>
+          <h4>UX-UI</h3>
+            <p>Our success as a Software Development Company stems from our unique method, engaging a dedicated team of
+              experts who work tirelessly to achieve your objectives with maximum efficiency.</p>
+            <a href="#" class="">Read More ❯</a>
+        </div>
+
+        <div class="services-col" data-aos="fade-up">
+          <i class="fa-solid fa-code"></i>
+          <h4>UX-UI</h3>
+            <p>Our success as a Software Development Company stems from our unique method, engaging a dedicated team of
+              experts who work tirelessly to achieve your objectives with maximum efficiency.</p>
+            <a href="#" class="">Read More ❯</a>
+        </div>
+
+        <div class="services-col" data-aos="fade-up">
+          <i class="fa-solid fa-code"></i>
+          <h4>UX-UI</h3>
+            <p>Our success as a Software Development Company stems from our unique method, engaging a dedicated team of
+              experts who work tirelessly to achieve your objectives with maximum efficiency.</p>
+            <a href="#" class="">Read More ❯</a>
+        </div>
+
+
+        <div class="services-col" data-aos="fade-up">
+          <i class="fa-solid fa-code"></i>
+          <h4>UX-UI</h3>
+            <p>Our success as a Software Development Company stems from our unique method, engaging a dedicated team of
+              experts who work tirelessly to achieve your objectives with maximum efficiency.</p>
+            <a href="#" class="">Read More ❯</a>
+        </div>
+
+
+      </div>
+
+      <div class="button-row mt-3" data-aos="fade-up">
+        <a href="#" class="button whitebt">View All Services<i class="fa-solid fa-location-arrow"></i> </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="who-we-are">
+    <div class="container">
+
+      <div class="who-wrap">
+
+        <!-- LEFT -->
+        <div class="who-left" data-aos="fade-right">
+          <h5>✦ Who we are</h5>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="who-right" data-aos="fade-left">
+          <h2>
+            We are a creative digital agency specializing in innovative design
+            and cutting-edge development.
+          </h2>
+
+          <a href="#" class="button"> Say Hello
+            <i class="fa-solid fa-location-arrow"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="stats-section">
+    <div class="container">
+
+      <div class="stats-grid">
+        <!-- LEFT CARD -->
+        <div class="card purple" data-aos="fade-right">
+          <img src="./images/happy.png" class="star-img" alt="star">
+
+          <div class="card-content">
+            <h3>150+</h3>
+            <p>Happy clients who<br>trust my work</p>
+            <a href="#" class="button whitebt">Studio<i class="fa-solid fa-location-arrow"></i></a>
+          </div>
+        </div>
+        <!-- RIGHT CARD -->
+        <div class="card white" data-aos="fade-left">
+          <div class="phones">
+            <img src="./images/clients.jpg" alt>
+          </div>
+
+          <div class="right-info">
+            <div class="avatars">
+              <img src="./images/user.webp">
+              <img src="./images/user2.webp">
+              <span class="spark">✦</span>
+            </div>
+
+            <h3>99%</h3>
+            <p>Clients come back for<br>a new projects</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-grid" data-aos="fade-up">
+
+        <!-- LEFT BIG CARD -->
+        <div class="exp-card big" data-aos="fade-right">
+          <div class="exp-text">
+            <h3>11+</h3>
+            <p>
+              Years of professional<br>
+              experience in designing<br>
+              digital products
+            </p>
+
+            <a href="#" class="button"> Say Hello <i class="fa-solid fa-location-arrow"></i></a>
+
+          </div>
+
+          <img src="./images/expriyasnsh.svg" class="robot-arm" alt>
+        </div>
+
+        <!-- RIGHT CARD -->
+        <div class="exp-card small" data-aos="fade-left">
+          <div class="exp-text">
+            <h3>500+</h3>
+            <p>
+              Successfully<br>
+              completed projects
+            </p>
+
+            <a href="#" class="button"> Say Hello <i class="fa-solid fa-location-arrow"></i></a>
+
+          </div>
+
+          <img src="./images/complet-project.svg " class="helmet" alt>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="logo-marquee" data-aos="fade-up">
+    <div class="marquee">
+      <div class="marquee-track">
+        <h2>Branding</h2>
+        <i>✦</i>
+        <h2>eCommerce</h2>
+        <i>✦</i>
+        <h2>Mobile App</h2>
+        <i>✦</i>
+        <h2>Web Design</h2>
+        <i>✦</i>
+        <h2>Development</h2>
+        <i>✦</i>
+
+        <!-- DUPLICATE FOR LOOP -->
+        <h2>Branding</h2>
+        <i>✦</i>
+        <h2>eCommerce</h2>
+        <i>✦</i>
+        <h2>Mobile App</h2>
+        <i>✦</i>
+        <h2>Web Design</h2>
+        <i>✦</i>
+        <h2>Development</h2>
+        <i>✦</i>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-section">
+    <div class="container">
+      <div class="featured-container">
+
+        <!-- LEFT FIXED CONTENT -->
+        <div id="projects" class="featured-left">
+          <h2>Featured <br>projects</h2>
+          <p>
+            Our featured projects highlight our expertise in creative design and modern web development. Each project is
+            thoughtfully crafted to deliver high performance, clean visuals, and seamless user experiences.
+
+          </p>
+          <a href="#" class="button">All Works <i class="fa-solid fa-location-arrow"></i></a>
+        </div>
+
+        <!-- RIGHT SCROLL CONTENT -->
+        <div class="featured-right">
+          <div class="parallax-box">
+            <img src="./images/next-leval.jpg" class="parallax-img">
+            <div class="mxd-project-item-tags">
+              <a href="#">UI/UX</a>
+              <a href="#">Web design</a>
+              <a href="#">Illustrations</a>
             </div>
           </div>
 
-        </div>
-      </div>
-
-      <!-- header menu -->
-      <div class="menubg">
-        <div class="menu-wrapper">
-          <div class="tobader"></div>
-          <div class="menu-list-ul">
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="project.html">Projects</a>
-            <a href="#">Blog</a>
-            <a href="contact.html">Contact</a>
+          <div class="parallax-box">
+            <img src="./images/project-3.jpg" class="parallax-img">
+            <div class="mxd-project-item-tags">
+              <a href="#">UI/UX</a>
+              <a href="#">Web design</a>
+              <a href="#">Illustrations</a>
+            </div>
           </div>
-          <div class="medader"></div>
 
-          <form class="contact-form" id="contactForm">
-            <h3>Contact Us</h3>
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message"
-              required></textarea>
+          <div class="parallax-box">
+            <img src="./images/hbf-futher.jpg" class="parallax-img">
+            <div class="mxd-project-item-tags">
+              <a href="#">UI/UX</a>
+              <a href="#">Web design</a>
+              <a href="#">Illustrations</a>
+            </div>
+          </div>
 
-            <button type="submit">Send Message <i
-                class="fa-solid fa-location-arrow"></i></button>
-            <p class="form-msg" id="formMsg"></p>
-          </form>
+          <div class="parallax-box">
+            <img src="./images/kenny-wish.jpg" class="parallax-img">
+
+            <div class="mxd-project-item-tags">
+              <a href="#">UI/UX</a>
+              <a href="#">Web design</a>
+              <a href="#">Illustrations</a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <section class="stack-wrapper">
+    <div class="container">
+      <div class="stack-card-row">
+        <div class="stack-card card-1">
+          <div class="card-content">
+            <h2>A Goal-Focused Software Development Company Delivering Real Results</h2>
+            <p>We are a dedicated team of five creative professionals passionate about delivering high-quality digital
+              solutions. Our team includes designers, developers, and creative thinkers who work collaboratively to turn
+              ideas into impactful digital experiences. We focus on understanding our clients’ needs and providing
+              tailored solutions that align with their business goals. </p>
+            <a href="#" class="up-solid"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
+
+          <div class="card-imgg">
+            <img src="images/hbf-futher.jpg">
+          </div>
+
+        </div>
+
+        <div class="stack-card  card-2">
+          <div class="card-imgg">
+            <img src="images/next-leval.jpg">
+          </div>
+          <div class="card-content">
+            <h2>A Goal-Focused Software Development Company Delivering Real Results</h2>
+            <p>We are a dedicated team of five creative professionals passionate about delivering high-quality digital
+              solutions. Our team includes designers, developers, and creative thinkers who work collaboratively to turn
+              ideas into impactful digital experiences. We focus on understanding our clients’ needs and providing
+              tailored solutions that align with their business goals. </p>
+            <a href="#" class="button whitebt">All Works <i class="fa-solid fa-location-arrow"></i></a>
+            <a href="#" class="up-solid"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
+        </div>
+
+        <div class="stack-card twocol card-3">
+          <div class="card-content">
+            <h2>Card Three</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's</p>
+            <div class="grid2">
+              <div class="iconcol">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h5>Card Three</h5>
+              </div>
+
+              <div class="iconcol">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h5>Card Three</h5>
+              </div>
+
+              <div class="iconcol">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h5>Card Three</h5>
+              </div>
+
+              <div class="iconcol">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h5>Card Three</h5>
+              </div>
+
+              <div class="iconcol">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h5>Card Three</h5>
+              </div>
+
+              <div class="iconcol">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h5>Card Three</h5>
+              </div>
+            </div>
+            <a href="#" class="up-solid black"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
+
+          <div class="card-imgg">
+            <img src="images/fasion.jpg">
+          </div>
+        </div>
+
+        <div class="stack-card twocol card-4">
+          <div class="card-content">
+            <h2>Card Four</h2>
+            <div class="grid2 onecol">
+
+              <div class="iconcol">
+                <i class="fa-solid fa-ice-cream"></i>
+                <div>
+                  <h5>Card Three</h5>
+                  <p>We are a dedicated team of five creative professionals passionate about delivering high-quality
+                    digital solutions. Our team includes designers, developers,</p>
+                </div>
+              </div>
+
+              <div class="iconcol">
+                <i class="fa-solid fa-ice-cream"></i>
+                <div>
+                  <h5>Card Three</h5>
+                  <p>We are a dedicated team of five creative professionals passionate about delivering high-quality
+                    digital solutions. Our team includes designers, developers,</p>
+                </div>
+              </div>
+
+              <div class="iconcol">
+                <i class="fa-solid fa-ice-cream"></i>
+                <div>
+                  <h5>Card Three</h5>
+                  <p>We are a dedicated team of five creative professionals passionate about delivering high-quality
+                    digital solutions. Our team includes designers, developers,</p>
+                </div>
+              </div>
+
+              <div class="iconcol">
+                <i class="fa-solid fa-ice-cream"></i>
+                <div>
+                  <h5>Card Three</h5>
+                  <p>We are a dedicated team of five creative professionals passionate about delivering high-quality
+                    digital solutions. Our team includes designers, developers,</p>
+                </div>
+              </div>
+
+
+            </div>
+
+            <a href="#" class="up-solid"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
+          <div class="card-imgg">
+            <img src="images/kenny-wish.jpg">
+          </div>
 
         </div>
 
       </div>
-    </header>
-    <!-- header END -->
+    </div>
+  </section>
 
-    <section class="hero">
-      <div class="bg-imgs">
-        <img src="./images/OBJECTS.svg">
-      </div>
-      <div class="bg-right">
-        <img src="./images/dots.svg">
-      </div>
-      <div class="container">
-        <!-- HERO TEXT -->
-        <div class="hero-text">
-          <h1>
-            Design,
-            <span class="pill">
-              <span class="pill-track">
-                <span>HTML5 | CSS3 | SASS | Tailwind CSS | Bootstrap | ShadCN
-                  JavaScript | jQuery | React.js </span>
-                <span> | AngularJS | Shopify |
-                  WordPress | Webflow | Ecommerce UI Design | Animations </span>
-              </span>
-            </span>
-            <br>
-            <span class="spark">✦</span> Development Expert
-          </h1>
-        </div>
+  <section class="testimonial-section">
+    <div class="container">
+      <div class="testimonial-wrap">
 
-        <!-- LINE -->
-        <div class="divider"></div>
-
-        <!-- BOTTOM -->
-        <div class="bottom">
+        <!-- LEFT CONTENT -->
+        <div class="testimonial-left" data-aos="fade-up">
+          <h2>What our clients say</h2>
           <p>
-            We are a creative digital agency specializing<br>
-            in innovative design and cutting-edge<br>
-            development.
+            We're more than just executors — we're your creative partners.
+            Don't just take our word for it, see what clients have to say.
           </p>
 
-          <ul>
-            <li>✦ Freelancer</li>
-            <li>✦ Upwork</li>
-            <li>✦ Fiverr</li>
+          <div class="clutch">
+            <img src="./images/cluth.svg">
+          </div>
+
+        </div>
+
+        <!-- RIGHT SLIDER -->
+        <div class="testimonial-right">
+          <div class="slider  owl-carousel owl-theme ">
+            <div class="senials-client item">
+              <div class="main-user">
+                <div class="rewis">
+                  <img src="https://i.pravatar.cc/100?img=1">
+                </div>
+                <div class="rewis">
+                  <h5>Asrar memon</h5>
+                  <h6>jan 12, 2020</h6>
+                </div>
+              </div>
+              <div class="rating">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
+              
+            </div>
+            <div class="senials-client item">
+              <div class="main-user">
+                <div class="rewis">
+                  <img src="https://i.pravatar.cc/100?img=1">
+                </div>
+                <div class="rewis">
+                  <h5>Asrar memon</h5>
+                  <h6>jan 12, 2020</h6>
+                </div>
+              </div>
+              <div class="rating">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
+            
+            </div>
+            <div class="senials-client item">
+              <div class="main-user">
+                <div class="rewis">
+                  <img src="https://i.pravatar.cc/100?img=1">
+                </div>
+                <div class="rewis">
+                  <h5>Asrar memon</h5>
+                  <h6>jan 12, 2020</h6>
+                </div>
+              </div>
+              <div class="rating">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
+            </div>
+            <div class="senials-client item">
+              <div class="main-user">
+                <div class="rewis">
+                  <img src="https://i.pravatar.cc/100?img=1">
+                </div>
+                <div class="rewis">
+                  <h5>Asrar memon</h5>
+                  <h6>jan 12, 2020</h6>
+                </div>
+              </div>
+              <div class="rating">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
+            </div>
+            <div class="senials-client item">
+              <div class="main-user">
+                <div class="rewis">
+                  <img src="https://i.pravatar.cc/100?img=1">
+                </div>
+                <div class="rewis">
+                  <h5>Asrar memon</h5>
+                  <h6>jan 12, 2020</h6>
+                </div>
+              </div>
+              <div class="rating">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
+            </div>
+            <div class="senials-client item">
+              <div class="main-user">
+                <div class="rewis">
+                  <img src="https://i.pravatar.cc/100?img=1">
+                </div>
+                <div class="rewis">
+                  <h5>Asrar memon</h5>
+                  <h6>jan 12, 2020</h6>
+                </div>
+              </div>
+              <div class="rating">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
+            </div>
+            <div class="senials-client item">
+              <div class="main-user">
+                <div class="rewis">
+                  <img src="https://i.pravatar.cc/100?img=1">
+                </div>
+                <div class="rewis">
+                  <h5>Asrar memon</h5>
+                  <h6>jan 12, 2020</h6>
+                </div>
+              </div>
+              <div class="rating">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
+            </div>
+
+          </div> 
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-box">
+         <ul class="footer-menu">
+            <li><a class="current"href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="project.html">Projects</a> </li>
+            <li><a href="blog.html">Blog</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
           </ul>
+
+          <div class="bottom-links">
+            <a href="#">Privacy Policy →</a>
+            <a href="#">Terms & conditions →</a>
+          </div>
+        </div>
+
+        <div class="footer-box mal-middle">
+          <a href="mailto:creativecoder@gmail.com">
+            <i class="fa-solid fa-envelope"></i> creativecoder@gmail.com
+          </a>
+
+          <a href="tel:+911234567890">
+            <i class="fa-solid fa-phone"></i> 1234567890
+          </a>
+
+          <div class="subscribe">
+            <h3>Subscribe to our insights</h3>
+            <div class="input">
+              <input type="email" placeholder="Your Email" required>
+              <button type="submit" class="arrow"><i class="fa-solid fa-circle-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="footer-box right">
+          <h2>Ecosystem</h2>
+          <ul class="social">
+            <li>Dribbble</li>
+            <li>Behance</li>
+            <li>Instagram</li>
+            <li>Github</li>
+            <li>Codepen</li>
+            <li>Figma Community</li>
+          </ul>
+
+          <div class="socail">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+
+          <p class="copy"> 2026 Creativecoder. All rights reserved.</p>
         </div>
 
       </div>
-    </section>
+    </div>
 
-    <section class="who-we-are">
-      <div class="container">
+    <div class="to-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
 
-        <div class="who-wrap">
+  </footer>
 
-          <!-- LEFT -->
-          <div class="who-left">
-            <h5>✦ Who we are</h5>
-          </div>
 
-          <!-- RIGHT -->
-          <div class="who-right">
-            <h2>
-              We are a creative digital agency specializing in innovative design
-              and cutting-edge development.
-            </h2>
 
-            <a href="#" class="button"> Say Hello
-              <i class="fa-solid fa-location-arrow"></i>
-            </a>
+<div class="video-modal" id="videoModal">
+                <div class="video-overlay"></div>
+                
+                <div class="main-videoper">
+                  <span class="close-video">&times;</span>
+                <div class="video-box">
 
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <section class="stats-section">
-      <div class="container">
-
-        <div class="stats-grid">
-          <!-- LEFT CARD -->
-          <div class="card purple">
-            <img src="./images/happy.png" class="star-img" alt="star">
-
-            <div class="card-content">
-              <h3>150+</h3>
-              <p>Happy clients who<br>trust my work</p>
-              <a href="#" class="button whitebt">Studio<i
-                  class="fa-solid fa-location-arrow"></i></a>
-            </div>
-          </div>
-          <!-- RIGHT CARD -->
-          <div class="card white">
-            <div class="phones">
-              <img src="./images/clients.jpg" alt>
-            </div>
-
-            <div class="right-info">
-              <div class="avatars">
-                <img src="./images/user.webp">
-                <img src="./images/user2.webp">
-                <span class="spark">✦</span>
-              </div>
-
-              <h3>99%</h3>
-              <p>Clients come back for<br>a new projects</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="exp-grid">
-
-          <!-- LEFT BIG CARD -->
-          <div class="exp-card big">
-            <div class="exp-text">
-              <h3>11+</h3>
-              <p>
-                Years of professional<br>
-                experience in designing<br>
-                digital products
-              </p>
-
-              <a href="#" class="button"> Say Hello <i
-                  class="fa-solid fa-location-arrow"></i></a>
-
-            </div>
-
-            <img src="./images/expriyasnsh.svg" class="robot-arm" alt>
-          </div>
-
-          <!-- RIGHT CARD -->
-          <div class="exp-card small">
-            <div class="exp-text">
-              <h3>500+</h3>
-              <p>
-                Successfully<br>
-                completed projects
-              </p>
-
-              <a href="#" class="button"> Say Hello <i
-                  class="fa-solid fa-location-arrow"></i></a>
-
-            </div>
-
-            <img src="./images/complet-project.svg " class="helmet" alt>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <section class="logo-marquee">
-      <div class="marquee">
-        <div class="marquee-track">
-          <h2>Branding</h2>
-          <i>✦</i>
-          <h2>eCommerce</h2>
-          <i>✦</i>
-          <h2>Mobile App</h2>
-          <i>✦</i>
-          <h2>Web Design</h2>
-          <i>✦</i>
-          <h2>Development</h2>
-          <i>✦</i>
-
-          <!-- DUPLICATE FOR LOOP -->
-          <h2>Branding</h2>
-          <i>✦</i>
-          <h2>eCommerce</h2>
-          <i>✦</i>
-          <h2>Mobile App</h2>
-          <i>✦</i>
-          <h2>Web Design</h2>
-          <i>✦</i>
-          <h2>Development</h2>
-          <i>✦</i>
-        </div>
-      </div>
-    </section>
-
-    <section class="featured-section">
-      <div class="container">
-        <div class="featured-container">
-
-          <!-- LEFT FIXED CONTENT -->
-          <div id="projects" class="featured-left">
-            <h2>Featured <br>projects</h2>
-            <p>
-              Our featured projects highlight our expertise in creative design and modern web development. Each project is thoughtfully crafted to deliver high performance, clean visuals, and seamless user experiences.
-
-            </p>
-            <a href="#" class="button">All Works <i
-                class="fa-solid fa-location-arrow"></i></a>
-          </div>
-
-          <!-- RIGHT SCROLL CONTENT -->
-          <div class="featured-right">
-            <div class="parallax-box">
-              <img src="./images/next-leval.jpg" class="parallax-img">
-              <div class="mxd-project-item-tags">
-                <a href="#">UI/UX</a>
-                <a href="#">Web design</a>
-                <a href="#">Illustrations</a>
-              </div>
-            </div>
-
-            <div class="parallax-box">
-              <img src="./images/project-3.jpg" class="parallax-img">
-              <div class="mxd-project-item-tags">
-                <a href="#">UI/UX</a>
-                <a href="#">Web design</a>
-                <a href="#">Illustrations</a>
-              </div>
-            </div>
-
-            <div class="parallax-box">
-              <img src="./images/hbf-futher.jpg" class="parallax-img">
-              <div class="mxd-project-item-tags">
-                <a href="#">UI/UX</a>
-                <a href="#">Web design</a>
-                <a href="#">Illustrations</a>
-              </div>
-            </div>
-
-            <div class="parallax-box">
-              <img src="./images/kenny-wish.jpg" class="parallax-img">
-
-              <div class="mxd-project-item-tags">
-                <a href="#">UI/UX</a>
-                <a href="#">Web design</a>
-                <a href="#">Illustrations</a>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="stack-wrapper">
-        <div class="container">
-
-          <div class="stack-card-row">
-            <div class="stack-card card-1">
-              <div class="card-content">
-                <h2>Website Design</h2>
-
-                <p>We create modern, responsive, and visually engaging website designs that reflect your brand and deliver a seamless user experience across all devices.<br><br>
-                ideas into impactful digital experiences. We focus on understanding our clients’ needs and providing tailored solutions that align with their business goals.<br><br>
-                With a strong commitment to quality, on-time delivery, and customer satisfaction, we ensure every project is handled with care and precision. Our small but skilled team allows us to stay flexible, communicative, and fully focused on delivering results that help brands grow and succeed online.</p>
-
-              </div>
-            </div>
-
-            <div class="stack-card card-2">
-              <div class="card-content">
-                <h2>Card Two</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s, when an
-                  unknown printer took a galley of type and
-                  scrambled it to make a type specimen book. It has survived not
-                  only five centuries, but also the leap
-                  into electronic typesetting, remaining essentially</p>
-
-              </div>
-            </div>
-
-            <div class="stack-card card-3">
-              <div class="card-content">
-                <h2>Card Three</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s, when an
-                  unknown printer took a galley of type and
-                  scrambled it to make a type specimen book. It has survived not
-                  only five centuries, but also the leap
-                  into electronic typesetting, remaining essentially</p>
-              </div>
-
-            </div>
-
-            <div class="stack-card card-4">
-              <div class="card-content">
-                <h2>Card Four</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s, when an
-                  unknown printer took a galley of type and
-                  scrambled it to make a type specimen book. It has survived not
-                  only five centuries, but also the leap
-                  into electronic typesetting, remaining essentially</p>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonial-section">
-        <div class="container">
-          <div class="testimonial-wrap">
-
-            <!-- LEFT CONTENT -->
-            <div class="testimonial-left">
-              <h2>What our clients say</h2>
-              <p>
-                We're more than just executors — we're your creative partners.
-                Don't just take our word for it, see what clients have to say.
-              </p>
-
-              <div class="clutch">
-                <img src="./images/cluth.svg">
-              </div>
-
-            </div>
-
-            <!-- RIGHT SLIDER -->
-            <div class="testimonial-right">
-              <div class="slider" id="slider">
-                <div class="senials-client active">
-                  <div class="main-user">
-                    <div class="rewis">
-                      <img src="https://i.pravatar.cc/100?img=1">
-                    </div>
-                    <div class="rewis">
-                      <h5>Asrar memon</h5>
-                      <h6>jan 12, 2020</h6>
-                    </div>
+                  <video id="reviewVideo" controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                  </video>
                   </div>
-                  <div class="rating">
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore culpa quibusdam delectus omnis ipsam
-                    nulla veritatis in neque modi cumque, consectetur at dicta
-                    perferendis nam quam ab autem hic odio?
-                  </p>
-
-                </div>
-                <div class="senials-client">
-                  <div class="main-user">
-                    <div class="rewis">
-                      <img src="https://i.pravatar.cc/100?img=1">
-                    </div>
-                    <div class="rewis">
-                      <h5>Asrar memon</h5>
-                      <h6>jan 12, 2020</h6>
-                    </div>
-                  </div>
-                  <div class="rating">
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore culpa quibusdam delectus omnis ipsam
-                    nulla veritatis in neque modi cumque, consectetur at dicta
-                    perferendis nam quam ab autem hic odio?
-                  </p>
-                </div>
-                <div class="senials-client">
-                  <div class="main-user">
-                    <div class="rewis">
-                      <img src="https://i.pravatar.cc/100?img=1">
-                    </div>
-                    <div class="rewis">
-                      <h5>Asrar memon</h5>
-                      <h6>jan 12, 2020</h6>
-                    </div>
-                  </div>
-                  <div class="rating">
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore culpa quibusdam delectus omnis ipsam
-                    nulla veritatis in neque modi cumque, consectetur at dicta
-                    perferendis nam quam ab autem hic odio?
-                  </p>
-                </div>
-                <div class="senials-client">
-                  <div class="main-user">
-                    <div class="rewis">
-                      <img src="https://i.pravatar.cc/100?img=1">
-                    </div>
-                    <div class="rewis">
-                      <h5>Asrar memon</h5>
-                      <h6>jan 12, 2020</h6>
-                    </div>
-                  </div>
-                  <div class="rating">
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore culpa quibusdam delectus omnis ipsam
-                    nulla veritatis in neque modi cumque, consectetur at dicta
-                    perferendis nam quam ab autem hic odio?
-                  </p>
-                </div>
-                <div class="senials-client">
-                  <div class="main-user">
-                    <div class="rewis">
-                      <img src="https://i.pravatar.cc/100?img=1">
-                    </div>
-                    <div class="rewis">
-                      <h5>Asrar memon</h5>
-                      <h6>jan 12, 2020</h6>
-                    </div>
-                  </div>
-                  <div class="rating">
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore culpa quibusdam delectus omnis ipsam
-                    nulla veritatis in neque modi cumque, consectetur at dicta
-                    perferendis nam quam ab autem hic odio?
-                  </p>
-                </div>
-                <div class="senials-client">
-                  <div class="main-user">
-                    <div class="rewis">
-                      <img src="https://i.pravatar.cc/100?img=1">
-                    </div>
-                    <div class="rewis">
-                      <h5>Asrar memon</h5>
-                      <h6>jan 12, 2020</h6>
-                    </div>
-                  </div>
-                  <div class="rating">
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore culpa quibusdam delectus omnis ipsam
-                    nulla veritatis in neque modi cumque, consectetur at dicta
-                    perferendis nam quam ab autem hic odio?
-                  </p>
-                </div>
-                <div class="senials-client">
-                  <div class="main-user">
-                    <div class="rewis">
-                      <img src="https://i.pravatar.cc/100?img=1">
-                    </div>
-                    <div class="rewis">
-                      <h5>Asrar memon</h5>
-                      <h6>jan 12, 2020</h6>
-                    </div>
-                  </div>
-                  <div class="rating">
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore culpa quibusdam delectus omnis ipsam
-                    nulla veritatis in neque modi cumque, consectetur at dicta
-                    perferendis nam quam ab autem hic odio?
-                  </p>
-                </div>
-
-              </div>
-              <div class="nav">
-                <button id="prev"><i class="fa-solid fa-chevron-left"></i>
-
-                </button>
-                <button id="next"><i class="fa-solid fa-chevron-right"></i>
-                </button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <div class="container">
-          <div class="footer-grid">
-
-            <div class="footer-box">
-              <ul class="footer-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href>About</a></li>
-                <li><a href>Services</a></li>
-                <li><a href="project.html">Projects</a> </li>
-                <li><a href>Blog</a> </li>
-                <li><a href>Contact</a> </li>
-              </ul>
-
-              <div class="bottom-links">
-                <a href="#">Privacy Policy →</a>
-                <a href="#">Terms & conditions →</a>
-              </div>
-            </div>
-
-            <div class="footer-box mal-middle">
-              <a href="mailto:creativecoder@gmail.com">
-                <i class="fa-solid fa-envelope"></i> creativecoder@gmail.com
-              </a>
-
-              <a href="tel:+911234567890">
-                <i class="fa-solid fa-phone"></i> 1234567890
-              </a>
-
-              <div class="subscribe">
-                <h3>Subscribe to our insights</h3>
-                <div class="input">
-                  <input type="email" placeholder="Your Email" required>
-                  <button type="submit" class="arrow"><i
-                      class="fa-solid fa-circle-arrow-right"></i></button>
                 </div>
               </div>
-            </div>
 
-            <!-- RIGHT -->
-            <div class="footer-box right">
-              <h2>Ecosystem</h2>
-              <ul class="social">
-                <li>Dribbble</li>
-                <li>Behance</li>
-                <li>Instagram</li>
-                <li>Github</li>
-                <li>Codepen</li>
-                <li>Figma Community</li>
-              </ul>
 
-              <div class="socail">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-              </div>
 
-              <p class="copy"> 2025 Creativecoder. All rights reserved.</p>
-            </div>
 
-          </div>
-        </div>
 
-        <div class="to-top">
-          <i class="fa-solid fa-arrow-up"></i>
-        </div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/custom.js"></script>
+</body>
 
-      </footer>
-
-      <script
-        src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
-      <script src="js/custom.js"></script>
-    </body>
-
-  </html>
+</html>

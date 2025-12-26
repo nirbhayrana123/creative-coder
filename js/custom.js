@@ -1,5 +1,5 @@
-
 /*********header scroll header**********/
+
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
 
@@ -12,7 +12,9 @@ document.querySelectorAll('.header a').forEach(link => {
     model.classList.remove('activeshow');
   });
 });
-/*********header scroll bg**********/
+
+
+/*=============header scroll bg =============*/
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -33,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     smoothTouch: false
   });
 
-  // ✅ HEADER BG ON SCROLL (LENIS WAY)
+  
   lenis.on("scroll", ({ scroll }) => {
     if (scroll > 50) {
       header.classList.add("bg");
@@ -50,46 +52,46 @@ document.addEventListener("DOMContentLoaded", () => {
   requestAnimationFrame(raf);
 });
  
-
-/////////tesimonials/////////////////////
+/*=============tesimonials =============*/ 
  
-const slider = document.getElementById('slider');
-const cards = document.querySelectorAll('.senials-client');
+// const slider = document.getElementById('slider');
+// const cards = document.querySelectorAll('.senials-client');
 
-let index = 0;
+// let index = 0;
 
 // card width + gap (agar gap 20px hai)
-const cardWidth = cards[0].offsetWidth + 20;
+// const cardWidth = cards[0].offsetWidth + 20;
 
-function update() {
-  slider.style.transform = `translateX(-${index * cardWidth}px)`;
+// function update() {
+//   slider.style.transform = `translateX(-${index * cardWidth}px)`;
 
-  cards.forEach(c => c.classList.remove('active'));
-  cards[index].classList.add('active');
-}
+//   cards.forEach(c => c.classList.remove('active'));
+//   cards[index].classList.add('active');
+// }
 
-document.getElementById('next').onclick = () => {
-  if (index < cards.length - 1) {
-    index++;
-    update();
-  }
-};
+// document.getElementById('next').onclick = () => {
+//   if (index < cards.length - 1) {
+//     index++;
+//     update();
+//   }
+// };
 
-document.getElementById('prev').onclick = () => {
-  if (index > 0) {
-    index--;
-    update();
-  }
-};
+// document.getElementById('prev').onclick = () => {
+//   if (index > 0) {
+//     index--;
+//     update();
+//   }
+// };
 
-////////////top-up/////////////
+
+/*============= top-up =============*/  
 
 document.querySelector('.to-top').onclick = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
 
-//////////tawk//////////////////
+/*============= tawk =============*/   
 
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -102,7 +104,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 
 
-//////////parallax-img"//////////////////
+/*============= parallax-img =============*/    
 
 window.addEventListener("scroll", () => {
   document.querySelectorAll(".parallax-img").forEach(img => {
@@ -119,3 +121,75 @@ window.addEventListener("scroll", () => {
 
   });
 });
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const modal = document.getElementById("videoModal");
+  const video = document.getElementById("reviewVideo");
+
+  document.querySelectorAll(".client-video-review").forEach(btn => {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      modal.classList.add("active");
+      video.play();
+    });
+  });
+
+  document.querySelectorAll(".close-video, .video-overlay").forEach(el => {
+    el.addEventListener("click", function () {
+      modal.classList.remove("active");
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+ 
+});
+
+
+
+
+
+jQuery(function ($) { 
+  $('.slider').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+     navText: [
+      '<i class="fa-solid fa-chevron-left"></i>',
+      '<i class="fa-solid fa-chevron-right"></i>'
+    ],
+    responsive: {
+      0: { items: 1 },
+      600: { items: 1.5 },
+      1000: { items:2.5 }
+    }
+  });
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ AOS.init(
+  {
+  duration: 1200,
+}
+ );
