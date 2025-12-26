@@ -1638,7 +1638,7 @@ section.contact-main-inner-area.sp1 {
 
 .video-box {
   position: relative;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   background: #000;
   border-radius: 10px;
@@ -1652,10 +1652,10 @@ section.contact-main-inner-area.sp1 {
 
 .close-video {
       position: absolute;
-    top: 77px;
-    right: 265px;
+    top: 0;
+    right: 0;
     color: #050505;
-    font-size: 35px;
+    font-size: 25px;
     background-color: #fff;
     width: 30px;
     height: 30px;
@@ -1668,7 +1668,11 @@ section.contact-main-inner-area.sp1 {
 
 }
 
-
+.main-videoper {
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+}
 
 
 
