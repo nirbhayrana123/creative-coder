@@ -481,59 +481,63 @@ header.header.activeshow .menu-list-ul {
   margin-bottom: 12px;
   font-size: 0.8em;
 }
+
 .grid2.onecol .iconcol {
-    border-radius: 13px;
-    padding: 20px;
+  border-radius: 13px;
+  padding: 20px;
 }
 
 .grid2.onecol p {
-    color: #353535;
-    margin-bottom: 0px;
-    margin-top: 5px;
-    font-size: 13px;
+  color: #353535;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 13px;
 }
-.grid2.onecol i {
-    border: none;
-    padding: 0;
-    border-radius: 0;
+
+.grid2.onecol .iconcol i {
+  border: none;
+  padding: 0;
+  border-radius: 0;
 }
 
 .who-we-are {
   padding: 120px 0;
   background: #faf7f4;
 }
-.grid2.onecol { 
-    grid-template-columns: 1fr; 
+
+.grid2.onecol {
+  grid-template-columns: 1fr;
 }
 
 .grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    align-items: start; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  align-items: start;
 }
 
 .grid2 .iconcol {
-    background-color: #ffffff;
-    box-shadow: 0px 0px 4px 0px #00000024;
-    padding: 10px;
-    display: flex;
-    gap: 16px;
-    border-top-right-radius: 30px;
-    align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px 0px #00000024;
+  padding: 10px;
+  display: flex;
+  gap: 16px;
+  border-top-right-radius: 30px;
+  align-items: center;
 }
 
-.grid2 .iconcol h5 { 
+.grid2 .iconcol h5 {
   margin-bottom: 0;
 }
 
 .grid2 .iconcol i {
-    font-size: 35px;
-    color: #9f8be7;
-    border: 3px dotted #9f8be7;
-    padding: 8px;
-    border-radius: 1000px;
+  font-size: 35px;
+  color: #9f8be7;
+  border: 3px dotted #9f8be7;
+  padding: 8px;
+  border-radius: 1000px;
 }
+
 .who-wrap {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -629,8 +633,8 @@ header.header.activeshow .menu-list-ul {
 }
 
 .card-content p {
-    margin-bottom: 25px;
-    color: #ffffff;
+  margin-bottom: 25px;
+  color: #ffffff;
 }
 
 .card.white {
@@ -686,19 +690,19 @@ a.up-solid i {
 }
 
 a.up-solid {
-    background-color: #ffffff;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    border-radius: 40px;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    transform: rotate(45deg);
-    z-index: 9;
+  background-color: #ffffff;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  transform: rotate(45deg);
+  z-index: 9;
 }
 
 a.up-solid.black {
@@ -983,46 +987,45 @@ a.client-video-review {
 
 /******************testmonials***************/
 .card-imgg {
-    height: 100%;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 20px;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .card-imgg img {
-    position: absolute;
-    inset: 0;
-    height: 107%;
-    width: 100%;
-    object-fit: cover;
+  position: absolute;
+  inset: 0;
+  height: 107%;
+  width: 100%;
+  object-fit: cover;
 }
-
-
+ 
 section.stack-wrapper {
   padding: 50px 0;
 }
 
 .stack-card {
-    position: sticky;
-    top: 170px;
-    height: 500px;
-    background: #000000;
-    border-radius: 50px;
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 1fr 40%;
-    gap: 45px;
+  position: sticky;
+  top: 170px;
+  background: #000000;
+  border-radius: 50px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  gap: 45px;
 }
 
-.stack-card.left { 
-    grid-template-columns: 40% 1fr ; 
+.stack-card.left {
+  grid-template-columns: 40% 1fr;
 }
-.stack-card.twocol { 
-    grid-template-columns: 1fr 1fr ; 
+
+.stack-card.twocol {
+  grid-template-columns: 1fr 1fr;
 }
- 
- 
+
+
 
 .stack-card-row {
   list-style: none;
@@ -1068,7 +1071,7 @@ section.stack-wrapper {
   color: #000000;
 }
 
-  
+
 .bg-right img {
   position: absolute;
   width: 280px;
