@@ -484,8 +484,9 @@ header.header.activeshow .menu-list-ul {
 }
 
 .grid2.onecol .iconcol {
-  border-radius: 13px;
+  border-radius: 12px;
   padding: 20px;
+  align-items: flex-start;
 }
 
 .grid2.onecol p {
@@ -499,6 +500,7 @@ header.header.activeshow .menu-list-ul {
   border: none;
   padding: 0;
   border-radius: 0;
+  color: #fd4a19;
 }
 
 .who-we-are {
@@ -525,6 +527,7 @@ header.header.activeshow .menu-list-ul {
   gap: 16px;
   border-top-right-radius: 30px;
   align-items: center;
+  transition: 0.5s;
 }
 
 .grid2 .iconcol h5 {
@@ -545,6 +548,25 @@ header.header.activeshow .menu-list-ul {
   gap: 120px;
   align-items: start;
 }
+
+
+.grid2.onecol .iconcol:hover {
+    background-color: #fd4a19;
+}
+
+.grid2.onecol .iconcol h5,.grid2.onecol .iconcol p,.grid2.onecol .iconcol i {
+    transition: 0.5s;
+}
+
+.grid2.onecol .iconcol:hover h5,.grid2.onecol .iconcol:hover p,.grid2.onecol .iconcol:hover i {
+  color: #ffffff;
+}
+
+
+
+
+
+
 
 
 .stats-grid {
@@ -1002,7 +1024,7 @@ a.client-video-review {
   width: 100%;
   object-fit: cover;
 }
- 
+
 section.stack-wrapper {
   padding: 50px 0;
 }
