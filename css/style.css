@@ -243,10 +243,10 @@ a.current {
 }
 
 .logo {
-  text-transform: capitalize;
-  font-size: 30px;
-  font-weight: 600;
-  color: #0d83fd;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    color: #9b8df2;
 }
 
 .header .nav-right {
@@ -559,8 +559,8 @@ header.header.activeshow .menu-list-ul {
 
 .grid2 .iconcol i {
   font-size: 35px;
-  color: #0d83fd;
-  border: 3px dotted #0d83fd;
+  color: #9f8be7;
+  border: 3px dotted #9f8be7;
   padding: 8px;
   border-radius: 1000px;
 }
@@ -916,6 +916,11 @@ section.services-section .container {
   padding: 20px;
   transition: 0.5s;
   border: solid 1px rgb(255 255 255 / .4);
+  transition: 0.9s;
+}
+
+.services-col:hover {
+background-color: #4e4f4f8a;
 }
 
 
@@ -2096,9 +2101,7 @@ section.contact-main-inner-area.sp1 {
     display: none;
   }
 
-  .logo {
-    width: 120px;
-  }
+ 
 
   .hero {
     padding-top: 35px;
