@@ -1,70 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
 
-  const modal = document.getElementById("videoModal");
-  const video = document.getElementById("reviewVideo");
-
-  document.querySelectorAll(".client-video-review").forEach(btn => {
-    btn.addEventListener("click", function (e) {
-      e.preventDefault();
-      modal.classList.add("active");
-      video.play();
-    });
-  });
-
-  document.querySelectorAll(".close-video, .video-overlay").forEach(el => {
-    el.addEventListener("click", function () {
-      modal.classList.remove("active");
-      video.pause();
-      video.currentTime = 0;
-    });
-  });
- 
-});
-
-
-
-
-
-jQuery(function ($) { 
-  $('.slider').owlCarousel({
-    loop: true,
-    margin: 30,
-    nav: true,
-     navText: [
-      '<i class="fa-solid fa-chevron-left"></i>',
-      '<i class="fa-solid fa-chevron-right"></i>'
-    ],
-    responsive: {
-      0: { items: 1 },
-      600: { items: 1.5 },
-      1000: { items:2.5 }
-    }
-  });
-
-});
 
 
 
 /*********header scroll header**********/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
 
@@ -117,44 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
   requestAnimationFrame(raf);
 });
  
-/*=============tesimonials =============*/ 
  
-// const slider = document.getElementById('slider');
-// const cards = document.querySelectorAll('.senials-client');
-
-// let index = 0;
-
-// card width + gap (agar gap 20px hai)
-// const cardWidth = cards[0].offsetWidth + 20;
-
-// function update() {
-//   slider.style.transform = `translateX(-${index * cardWidth}px)`;
-
-//   cards.forEach(c => c.classList.remove('active'));
-//   cards[index].classList.add('active');
-// }
-
-// document.getElementById('next').onclick = () => {
-//   if (index < cards.length - 1) {
-//     index++;
-//     update();
-//   }
-// };
-
-// document.getElementById('prev').onclick = () => {
-//   if (index > 0) {
-//     index--;
-//     update();
-//   }
-// };
-
-
-/*============= top-up =============*/  
-
-// document.querySelector('.to-top').onclick = () => {
-//   window.scrollTo({ top: 0, behavior: 'smooth' });
-// };
-
 
 /*============= tawk =============*/   
 
@@ -194,7 +96,50 @@ window.addEventListener("scroll", () => {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
 
+  const modal = document.getElementById("videoModal");
+  const video = document.getElementById("reviewVideo");
+
+  document.querySelectorAll(".client-video-review").forEach(btn => {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      modal.classList.add("active");
+      video.play();
+    });
+  });
+
+  document.querySelectorAll(".close-video, .video-overlay").forEach(el => {
+    el.addEventListener("click", function () {
+      modal.classList.remove("active");
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+ 
+});
+
+
+
+
+
+jQuery(function ($) { 
+  $('.slider').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+     navText: [
+      '<i class="fa-solid fa-chevron-left"></i>',
+      '<i class="fa-solid fa-chevron-right"></i>'
+    ],
+    responsive: {
+      0: { items: 1 },
+      600: { items: 1.5 },
+      1000: { items:2.5 }
+    }
+  });
+
+});
 
 
 
