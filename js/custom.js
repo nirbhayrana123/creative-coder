@@ -33,7 +33,9 @@ document.querySelectorAll('.header a').forEach(link => {
     model.classList.remove('activeshow');
   });
 });
-/*********header scroll bg**********/
+
+
+/*=============header scroll bg =============*/
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -54,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     smoothTouch: false
   });
 
-  // ✅ HEADER BG ON SCROLL (LENIS WAY)
+  
   lenis.on("scroll", ({ scroll }) => {
     if (scroll > 50) {
       header.classList.add("bg");
@@ -71,8 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
   requestAnimationFrame(raf);
 });
  
-
-/////////tesimonials/////////////////////
+/*=============tesimonials =============*/ 
  
 const slider = document.getElementById('slider');
 const cards = document.querySelectorAll('.senials-client');
@@ -103,14 +104,15 @@ document.getElementById('prev').onclick = () => {
   }
 };
 
-////////////top-up/////////////
+
+/*============= top-up =============*/  
 
 document.querySelector('.to-top').onclick = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
 
-//////////tawk//////////////////
+/*============= tawk =============*/   
 
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -123,7 +125,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 
 
-//////////parallax-img"//////////////////
+/*============= parallax-img =============*/    
 
 window.addEventListener("scroll", () => {
   document.querySelectorAll(".parallax-img").forEach(img => {
