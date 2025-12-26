@@ -18,9 +18,53 @@ document.addEventListener("DOMContentLoaded", function () {
       video.currentTime = 0;
     });
   });
+ 
+});
+
+
+
+
+
+jQuery(function ($) { 
+  $('.slider').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+     navText: [
+      '<i class="fa-solid fa-chevron-left"></i>',
+      '<i class="fa-solid fa-chevron-right"></i>'
+    ],
+    responsive: {
+      0: { items: 1 },
+      600: { items: 1.5 },
+      1000: { items:2.5 }
+    }
+  });
 
 });
+
+
+
 /*********header scroll header**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
 
@@ -75,34 +119,34 @@ document.addEventListener("DOMContentLoaded", () => {
  
 /*=============tesimonials =============*/ 
  
-const slider = document.getElementById('slider');
-const cards = document.querySelectorAll('.senials-client');
+// const slider = document.getElementById('slider');
+// const cards = document.querySelectorAll('.senials-client');
 
-let index = 0;
+// let index = 0;
 
 // card width + gap (agar gap 20px hai)
-const cardWidth = cards[0].offsetWidth + 20;
+// const cardWidth = cards[0].offsetWidth + 20;
 
-function update() {
-  slider.style.transform = `translateX(-${index * cardWidth}px)`;
+// function update() {
+//   slider.style.transform = `translateX(-${index * cardWidth}px)`;
 
-  cards.forEach(c => c.classList.remove('active'));
-  cards[index].classList.add('active');
-}
+//   cards.forEach(c => c.classList.remove('active'));
+//   cards[index].classList.add('active');
+// }
 
-document.getElementById('next').onclick = () => {
-  if (index < cards.length - 1) {
-    index++;
-    update();
-  }
-};
+// document.getElementById('next').onclick = () => {
+//   if (index < cards.length - 1) {
+//     index++;
+//     update();
+//   }
+// };
 
-document.getElementById('prev').onclick = () => {
-  if (index > 0) {
-    index--;
-    update();
-  }
-};
+// document.getElementById('prev').onclick = () => {
+//   if (index > 0) {
+//     index--;
+//     update();
+//   }
+// };
 
 
 /*============= top-up =============*/  

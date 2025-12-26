@@ -995,32 +995,31 @@ a.client-video-review {
   margin: 40px 0px;
 }
 
-.nav button {
+.slider.owl-carousel .owl-nav .owl-prev,.slider.owl-carousel .owl-nav .owl-next {
   width: 42px;
   height: 42px;
   border-radius: 50%;
   border: 1px solid #000;
   background: transparent;
   cursor: pointer;
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-right: 10px; 
 }
 
-.nav button:hover {
+.slider.owl-carousel .owl-nav button:hover {
   background-color: #0d83fd;
   border-color: #0d83fd;
 }
 
-.nav button:hover i.fa-solid {
+.slider.owl-carousel .owl-nav button:hover i.fa-solid {
   color: #fff;
 }
-
-.nav {
-  display: flex;
+.slider.owl-carousel .owl-nav {
+    margin-top: 40px;
 }
-
+.slider.owl-carousel .owl-stage-outer { 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 .testimonial-right {
   overflow: hidden;
   width: 70%;
@@ -1034,8 +1033,7 @@ a.client-video-review {
   padding: 8px 8px;
 }
 
-.senials-client {
-  min-width: 430px;
+.senials-client { 
   background: #fff;
   padding: 25px;
   border-radius: 24px;
@@ -1659,11 +1657,11 @@ section.contact-main-inner-area.sp1 {
 }
 
 .close-video {
-   position: absolute;
-    top: 5px;
-    right: 8px;
+      position: absolute;
+    top: 77px;
+    right: 265px;
     color: #050505;
-    font-size: 35px; 
+    font-size: 35px;
     background-color: #fff;
     width: 30px;
     height: 30px;
@@ -1672,6 +1670,7 @@ section.contact-main-inner-area.sp1 {
     justify-content: center;
     cursor: pointer;
     border-radius: 50px;
+    z-index: 9;
 
 }
 
@@ -1833,9 +1832,7 @@ section.contact-main-inner-area.sp1 {
     font-size: 1em;
   }
 
-  .senials-client {
-    min-width: 312px;
-  }
+ 
 
   .testimonial-section {
     padding: 0px 0px;
