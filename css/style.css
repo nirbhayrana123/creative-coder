@@ -574,7 +574,7 @@ header.header.activeshow .menu-list-ul {
 
 
 .grid2.onecol .iconcol:hover {
-  background-color: #0d83fd;
+  background-color: #9f8be7;
 }
 
 .grid2.onecol .iconcol h5,
@@ -588,7 +588,9 @@ header.header.activeshow .menu-list-ul {
 .grid2.onecol .iconcol:hover i {
   color: #ffffff;
 }
-
+.grid2.onecol .iconcol:hover::after { 
+  color: #d6d6d6; 
+}
 .grid2.onecol {
   counter-reset: step;
   gap: 10px;
