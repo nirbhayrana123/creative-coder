@@ -1536,13 +1536,18 @@ section.hero1-section-area {
 /**************contact page ******************/
 section.contact-main-inner-area.sp1 {
 
-  padding: 100px 0px 80px;
+  padding: 50px 0px 50px;
 }
-
+section.maincontects {
+    padding: 125px 0px 70px;
+    text-align: center;
+}
 .space32 {
   height: 32px;
 }
-
+.maintitle h1 {
+    font-size: 8em;
+}
 .number-address-area {
   position: relative;
   transition: all 0.4s;
@@ -1611,10 +1616,14 @@ section.contact-main-inner-area.sp1 {
   font-size: 0.8em;
   font-family: 'poppins';
 }
-
+.gridcontectfield {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 20px;
+}
 .innermain-contact {
   display: grid;
-  grid-template-columns: 720px 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
