@@ -893,9 +893,6 @@ section.services-section .container {
 }
 
 .services-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 15px;
   margin-top: 40px;
 }
 
@@ -919,7 +916,7 @@ section.services-section .container {
     font-weight: 700;
 }
 .services-col {
-  min-height: 380px;
+  min-height: 500px;
   border-radius: 0px 50px 0px 0px;
   padding: 20px;
   transition: 0.5s;
