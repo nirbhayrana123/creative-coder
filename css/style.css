@@ -45,7 +45,7 @@ a {
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1.5;
   color: #000000;
 }
@@ -58,7 +58,7 @@ h5,
 h6 {
   color: #000000;
   font-weight: 700;
-  line-height: 1em;
+  line-height: 1.1em;
   margin-bottom: 15px;
 }
 
@@ -859,7 +859,10 @@ a.up-solid.black {
   line-height: 1.4em;
   font-size: 2.2em;
 }
-
+section.services-section h6 {
+    border-bottom: 2px solid #9b8df2;
+    display: inline;
+}
 section.services-section {
   padding: 40px;
   background-image: url(../images/laptop-wooden-table.jpg);
@@ -911,7 +914,10 @@ section.services-section .container {
   display: block;
   transition: 0.6s;
 }
-
+.services-col h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
 .services-col {
   min-height: 380px;
   border-radius: 0px 50px 0px 0px;
