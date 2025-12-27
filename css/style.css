@@ -1487,7 +1487,9 @@ section.hero1-section-area {
 .heading1 h1 {
   line-height: 1.3;
 }
-
+span.pill-track span {
+    font-size: 0.6em;
+}
 
 
 .hero1-section-area .header-images-area {
