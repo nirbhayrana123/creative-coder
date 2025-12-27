@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <title>Creative Coder - Project</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/owl.carousel.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -15,7 +17,7 @@
   <header class="header">
     <div class="container">
       <div class="relativee">
-        <a class="logo" href="index.html"><img src="images/logo.svg"></a>
+        <a class="logo" href="index.html">belovesoft</a>
 
 
         <div class="button-row">
@@ -40,7 +42,7 @@
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
           <a href="services.html">Services</a>
-          <a href="project.html">Projects</a>  
+          <a href="project.html">Projects</a>
           <a href="blog.html">Blog</a>
           <a class="current" href="contact.html">Contact</a>
         </div>
@@ -61,70 +63,75 @@
 
     </div>
   </header>
-  <!-- header END --> 
-
-<section class="contact-main-inner-area sp1">
+  <!-- header END -->
+<section class="maincontects">
   <div class="container">
-    <div class="innermain-contact">
-      <div class="inner-contect-left">
-<div class="heading2 contact-header">
-                   <h2>Whether you need a new website, redesign, or a complete digital solution</h2>
-                   <p>Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.</p>
-                   <div class="space32"></div>
-                   <div class="number-address-area">
-                    <div class="phone-number">
-                        <div class="img1">
-                            <img src="images/phone3.svg" alt="">
-                        </div>
-                        <div class="content">
-                            <p>Phone Number</p>
-                            <a href="tel:123-456-7890">123-456-7890</a>
-                        </div>
-                    </div>
-
-                    <div class="phone-number m-0">
-                        <div class="img1">
-                            <img src="images/email3.svg" alt="">
-                        </div>
-                        <div class="content">
-                            <p>Email Address</p>
-                            <a href="mailto:test.com">test@gmail.com</a>
-                        </div>
-                    </div>
-                   </div> 
-                  
-                </div>
-      </div>
-      <div class="inner-contect-right">
-<div class="contact-form-area">
-                    <h5>Get In Touch</h5>
-                    <div class="contact-box"> 
-                            <div class="input-area">
-                                <input type="text" placeholder="First Name">
-                            </div> 
- 
-                            <div class="input-area">
-                                <input type="text" placeholder="Last Name">
-                            </div> 
- 
-                            <div class="input-area">
-                                <input type="email" placeholder="Email Address">
-                            </div>  
-                            <div class="input-area">
-                                <input type="number" placeholder="Phone Number">
-                            </div>  
-                            <div class="input-area">
-                              <textarea placeholder="Your Message"></textarea>
-                            </div>  
-                            <div class="input-area">
-                             <button type="submit" class="button">Get In Touch <span><i class="fa-solid fa-arrow-right"></i></span></button>
-                            </div> 
-                    </div>
-                </div>
-      </div>
+    <div class="maintitle">
+      <h1>Get In Touch</h1>
     </div>
   </div>
 </section>
+  <section class="contact-main-inner-area sp1">
+    <div class="container">
+      <div class="innermain-contact">
+        <div class="inner-contect-left">
+          <div class="heading2 contact-header">
+            <p>Our dedicated team is committed to providing prompt and effective support to ensure your needs are met.
+              We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live
+              chat, or visit our office during business hours.</p>
+            <div class="space32"></div>
+            <div class="number-address-area">
+              <div class="phone-number">
+                <div class="img1">
+                  <img src="images/phone3.svg" alt="">
+                </div>
+                <div class="content">
+                  <p>Phone Number</p>
+                  <a href="tel:123-456-7890">123-456-7890</a>
+                </div>
+              </div>
+
+              <div class="phone-number m-0">
+                <div class="img1">
+                  <img src="images/email3.svg" alt="">
+                </div>
+                <div class="content">
+                  <p>Email Address</p>
+                  <a href="mailto:test.com">test@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="inner-contect-right">
+          <div class="contact-form-area"> 
+            <div class="contact-box">
+              <div class="gridcontectfield">
+                <div class="input-area">
+                  <input type="text" placeholder=" Name">
+                </div>
+                <div class="input-area">
+                  <input type="email" placeholder="Email">
+                </div>
+              </div>
+
+              <div class="input-area">
+                <input type="text" placeholder="Subject">
+              </div>
+              <div class="input-area">
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <div class="input-area">
+                <button type="submit" class="button">Get In Touch <span><i
+                      class="fa-solid fa-arrow-right"></i></span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -133,7 +140,7 @@
       <div class="testimonial-wrap">
 
         <!-- LEFT CONTENT -->
-        <div class="testimonial-left">
+        <div class="testimonial-left" data-aos="fade-up">
           <h2>What our clients say</h2>
           <p>
             We're more than just executors — we're your creative partners.
@@ -144,13 +151,12 @@
             <img src="./images/cluth.svg">
           </div>
 
-
         </div>
 
         <!-- RIGHT SLIDER -->
         <div class="testimonial-right">
-          <div class="slider" id="slider">
-            <div class="senials-client active">
+          <div class="slider  owl-carousel owl-theme ">
+            <div class="senials-client item">
               <div class="main-user">
                 <div class="rewis">
                   <img src="https://i.pravatar.cc/100?img=1">
@@ -169,12 +175,14 @@
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quibusdam delectus omnis ipsam
-                nulla veritatis in neque modi cumque, consectetur at dicta perferendis nam quam ab autem hic odio?
-              </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
 
             </div>
-            <div class="senials-client">
+            <div class="senials-client item">
               <div class="main-user">
                 <div class="rewis">
                   <img src="https://i.pravatar.cc/100?img=1">
@@ -193,11 +201,14 @@
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quibusdam delectus omnis ipsam
-                nulla veritatis in neque modi cumque, consectetur at dicta perferendis nam quam ab autem hic odio?
-              </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
+
             </div>
-            <div class="senials-client">
+            <div class="senials-client item">
               <div class="main-user">
                 <div class="rewis">
                   <img src="https://i.pravatar.cc/100?img=1">
@@ -216,11 +227,13 @@
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quibusdam delectus omnis ipsam
-                nulla veritatis in neque modi cumque, consectetur at dicta perferendis nam quam ab autem hic odio?
-              </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
             </div>
-            <div class="senials-client">
+            <div class="senials-client item">
               <div class="main-user">
                 <div class="rewis">
                   <img src="https://i.pravatar.cc/100?img=1">
@@ -239,11 +252,13 @@
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quibusdam delectus omnis ipsam
-                nulla veritatis in neque modi cumque, consectetur at dicta perferendis nam quam ab autem hic odio?
-              </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
             </div>
-            <div class="senials-client">
+            <div class="senials-client item">
               <div class="main-user">
                 <div class="rewis">
                   <img src="https://i.pravatar.cc/100?img=1">
@@ -262,11 +277,13 @@
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quibusdam delectus omnis ipsam
-                nulla veritatis in neque modi cumque, consectetur at dicta perferendis nam quam ab autem hic odio?
-              </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
             </div>
-            <div class="senials-client">
+            <div class="senials-client item">
               <div class="main-user">
                 <div class="rewis">
                   <img src="https://i.pravatar.cc/100?img=1">
@@ -285,11 +302,13 @@
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quibusdam delectus omnis ipsam
-                nulla veritatis in neque modi cumque, consectetur at dicta perferendis nam quam ab autem hic odio?
-              </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
             </div>
-            <div class="senials-client">
+            <div class="senials-client item">
               <div class="main-user">
                 <div class="rewis">
                   <img src="https://i.pravatar.cc/100?img=1">
@@ -308,18 +327,13 @@
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quibusdam delectus omnis ipsam
-                nulla veritatis in neque modi cumque, consectetur at dicta perferendis nam quam ab autem hic odio?
-              </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore culpa quibusdam delectus omnis ipsam
+                nulla veritatis in neque modi cumque, consectetur at dicta
+                perferendis nam quam ab autem hic odio?</p>
+              <a class="client-video-review" href="#"><i class="fa-regular fa-circle-play"></i> Watch the review</a>
             </div>
 
-          </div>
-          <div class="nav">
-            <button id="prev"><i class="fa-solid fa-chevron-left"></i>
-
-            </button>
-            <button id="next"><i class="fa-solid fa-chevron-right"></i>
-            </button>
           </div>
         </div>
 
@@ -394,15 +408,25 @@
       </div>
     </div>
 
-    <div class="to-top">
-      <i class="fa-solid fa-arrow-up"></i>
-    </div>
+
 
   </footer>
 
- 
+  <div class="video-modal" id="videoModal">
+    <div class="video-overlay"></div>
+    <span class="close-video">&times;</span>
+    <div class="video-box">
 
+      <video id="reviewVideo" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/owl.carousel.js"></script>
   <script src="js/custom.js"></script>
 </body>
 
