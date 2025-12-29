@@ -649,17 +649,30 @@ header.header.activeshow .menu-list-ul {
 }
 
 .robot-arm {
-  position: absolute;
-  right: 0px;
-  top: 20px;
-  width: 450px;
+    position: absolute;
+    right: 29px;
+    top: 37px;
+    width: 390px;
+    border-radius: 100px 0px 100px 0px;
+}
+.exp-card  { 
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+}
+.card.white{
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+}
+.purple{
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+}
+.exp-grid {
+    margin-bottom: 30px;
 }
 
 .helmet {
-  position: absolute;
-  right: -40px;
-  bottom: -40px;
-  width: 370px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 370px;
 }
 
 
