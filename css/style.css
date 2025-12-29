@@ -1088,7 +1088,9 @@ a.client-video-review {
   margin: 20px 0 4px;
 }
 
-
+.grid2.aboutbox div {
+    width: 80%;
+}
 .grid2.aboutbox {
   margin-top: 65px;
   margin-bottom: 30px;
