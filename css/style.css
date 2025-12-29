@@ -1119,16 +1119,13 @@ a.client-video-review {
     box-shadow: 5px 0px 1px 5px #e5b8ae;
 }
 
-.websitelogo-section {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    margin-bottom: 70px;
-    overflow: hidden;
-}
+
 
 .websitelogo-section img {
     max-height: 35px;
+        max-height: 48px;
+    margin: 0 auto;
+    width: auto !important
 }
 img.filterblack {
     filter: invert(1);

@@ -179,6 +179,37 @@ jQuery(function ($) {
 
 
 
+jQuery(function ($) {
+
+  var owl = $('.websitelogo-section');
+
+  owl.owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+
+    autoplay: true,
+    autoplayTimeout: 1500,
+    autoplaySpeed: 1500,
+    smartSpeed: 1500,
+
+    responsive: {
+      0: { items: 2 },
+      600: { items: 4 },
+      1000: { items: 8 }
+    }
+  });
+
+  // 🧠 Manual hover control
+  owl.on('mouseenter', function () {
+    owl.trigger('stop.owl.autoplay');
+  });
+
+  owl.on('mouseleave', function () {
+    owl.trigger('play.owl.autoplay', [1500]);
+  });
+
+});
 
 
 
