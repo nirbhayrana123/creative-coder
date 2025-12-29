@@ -1838,7 +1838,12 @@ section.maincontects {
   margin-bottom: 0;
 }
 
-
+section.section-about.aboutpage {
+    padding-top: 60px;
+}
+section.section-about.aboutpage .teemcontent {
+    padding-left: 40px;
+}
 .ser-counter22 {
   position: absolute;
   top: 78px;
