@@ -581,9 +581,11 @@ header.header.activeshow .menu-list-ul {
 .grid2.onecol .iconcol:hover i {
   color: #ffffff;
 }
-.grid2.onecol .iconcol:hover::after { 
-  color: #d6d6d6; 
+
+.grid2.onecol .iconcol:hover::after {
+  color: #d6d6d6;
 }
+
 .grid2.onecol {
   counter-reset: step;
   gap: 10px;
@@ -841,11 +843,13 @@ a.up-solid.black {
   flex-direction: column;
   gap: 20px;
 }
+
 .project-page .featured-right {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
+
 .featured-left p {
   margin-bottom: 30px;
 }
@@ -856,10 +860,12 @@ a.up-solid.black {
   line-height: 1.4em;
   font-size: 2.2em;
 }
+
 section.services-section h6 {
-    border-bottom: 2px solid #9b8df2;
-    display: inline;
+  border-bottom: 2px solid #9b8df2;
+  display: inline;
 }
+
 section.services-section {
   padding: 40px;
   background-image: url(../images/laptop-wooden-table.jpg);
@@ -877,7 +883,7 @@ section.services-section::after {
   inset: 0;
   width: 100%;
   height: 100%;
-  background: rgb(0 0 0 / 49%);
+  background: rgb(0 0 0 / 71%);
   box-shadow: 0 4px 9.3px rgb(0 0 0 / .05);
   backdrop-filter: blur(8.25px);
 }
@@ -908,16 +914,18 @@ section.services-section .container {
   display: block;
   transition: 0.6s;
 }
+
 .services-col h4 {
-    font-size: 1.2em;
-    font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 700;
 }
+
 .services-col {
-    min-height: 430px;
-    border-radius: 0px 50px 0px 0px;
-    padding: 20px; 
-    border: solid 1px #d9d9d9c4;
-    transition: 0.9s;
+  min-height: 430px;
+  border-radius: 0px 50px 0px 0px;
+  padding: 20px;
+  border: solid 1px #d9d9d9c4;
+  transition: 0.9s;
 }
 
 .services-col:hover {
@@ -925,17 +933,17 @@ section.services-section .container {
 }
 
 .services-col i {
-    font-weight: 900;
-    width: 70px;
-    height: 70px;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ff5245;
-    font-size: 32px;
-    margin-bottom: 20px;
-    background-color: #ffffff;
+  font-weight: 900;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff5245;
+  font-size: 32px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
 }
 
 .services-section h2,
@@ -943,14 +951,14 @@ section.services-section .container {
 .services-section h6,
 .services-section p {
   color: #ffffff;
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 .services-col:hover h2,
 .services-col:hover h4,
 .services-col:hover h6,
 .services-col:hover p,
-.services-col:hover  a {
+.services-col:hover a {
   color: #171717;
 }
 
@@ -1478,8 +1486,9 @@ section.hero1-section-area {
 .heading1 h1 {
   line-height: 1.3;
 }
+
 span.pill-track span {
-    font-size: 0.6em;
+  font-size: 0.6em;
 }
 
 
@@ -2052,94 +2061,17 @@ section.maincontects {
 }
 
 .team-content {
-  position: relative;
-  padding: 69px 38px 48px;
-  border: 1px solid #E0E0E0;
-  border-radius: 0 0 25px 25px;
-  border-top: 0;
-  margin-top: -19px;
-}
-
-.share-box {
-  position: absolute;
-  left: 53px;
-  bottom: calc(100% - 35px);
-  z-index: 999;
-  text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  min-height: 155px;
-  overflow: hidden;
-  border-radius: 20px;
-}
-
-.share-icon {
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  text-align: center;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #000;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-  border-radius: 20px;
-  z-index: 999;
-}
-
-.social-links {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-bottom: 0;
-  display: inline-block;
-  z-index: 999;
-  -webkit-transition: all 400ms ease;
-  transition: all 400ms ease;
-  background-color: #000;
-  border-radius: 20px;
-  padding: 16px 17px 21px;
-  -webkit-transform: translateY(155px);
-  -ms-transform: translateY(155px);
-  transform: translateY(155px);
-}
-
-.social-links li {
-  margin: 0;
-}
-
-.social-links li:first-child a {
-  margin-top: 0;
-}
-
-.social-links li a {
-  position: relative;
-  font-size: 14px;
-  color: white;
-  margin-top: 11px;
-  border-radius: 10px;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-  display: inline-block;
+    position: relative;
+    padding: 30px 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 0 0 25px 25px;
+    border-top: 0;
 }
 
 .team-content .name {
-  font-size: 20px;
-  line-height: 35px;
-  margin-bottom: 8px;
-  color: #000;
-  font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 8px;
+    font-weight: 700;
 }
 
 .team-content .designation {
