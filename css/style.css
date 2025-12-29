@@ -921,7 +921,7 @@ section.services-section .container {
 }
 
 .services-col {
-  min-height: 430px;
+  min-height: 500px;
   border-radius: 0px 50px 0px 0px;
   padding: 20px;
   border: solid 1px #d9d9d9c4;
@@ -1669,12 +1669,13 @@ section.maincontects {
 
 .page-banner11 {
   position: relative;
-  background-image: url(../images/page1-11.png);
+  background-image:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/IMG_20231111_185902.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 217px 0 235px;
   margin: 90px 0px 0;
   border-radius: 28px;
+   background-position: center top;
 }
 
 
@@ -2184,6 +2185,135 @@ section.team-section.v2.ibt-section-gapBottom {
   z-index: 9;
 
 }
+
+
+/**************Services page******************/
+
+.shapepservicesbanner {
+    direction: ltr;
+    left: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.shapepservicesbanner svg {
+    display: block;
+    left: 50%;
+    fill: #faf7f4;
+    height: 4em;
+    position: relative;
+    transform: translateX(-50%);
+    width: calc(100% + 1.3px);
+}
+section.bannerservices {
+    background-image: url(../images/servicesmain.jpg);
+    padding: 160px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+.maincontent {
+    text-align: center;
+}
+
+.maincontent h5, .maincontent h1, .maincontent p  {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-card{
+  max-width:100%;
+  margin:50px auto;
+  background:#fff;
+  border-radius:22px;
+  display:flex;
+  overflow:hidden;
+  box-shadow:0 15px 40px rgba(0,0,0,0.08);
+}
+
+/* IMAGE */
+.service-image{
+  width:50%;
+  position:relative;
+}
+
+.service-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+ border-top-right-radius:120px;
+}
+
+/* CONTENT */
+.service-content{
+  width:50%;
+  padding:50px;
+}
+
+.service-content h2{
+  font-size:32px;
+  margin-bottom:15px;
+}
+
+.service-content p{
+  color:#555;
+  line-height:1.7;
+  margin-bottom:25px;
+}
+
+.service-content h4{
+  margin-bottom:15px;
+}
+
+/* LIST */
+.service-content ul{
+  list-style:none;
+  padding:0;
+  margin-bottom:30px;
+}
+
+.service-content ul li{
+  padding-left:30px; 
+  position:relative;
+  color:#333;
+}
+.service-content ul li p{
+  margin-bottom: 10px;
+}
+
+.service-content ul li:before{
+  content:"✔";
+  position:absolute;
+  left:0;
+  top:0;
+  color:#4CAF50;
+  font-weight:bold;
+}
+
+/**************Services page******************/
+
+
 
 
 
