@@ -144,22 +144,34 @@ jQuery(function ($) {
 
 
 
-jQuery(function ($) { 
-  $('.services-grid').owlCarousel({
+jQuery(function ($) {
+
+  var owl = $('.services-grid');
+
+  owl.owlCarousel({
     loop: true,
     margin: 20,
-    nav: false, 
-     autoplay: true, 
-     autoplayTimeout: 3000,
-    autoplaySpeed: 6000,   
-    smartSpeed: 6000,
-    slideTransition: 'linear',
-    autoplayHoverPause: true, 
+    nav: false,
+
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplaySpeed: 3000,
+    smartSpeed: 3000,
+
     responsive: {
       0: { items: 1 },
       600: { items: 2 },
-      1000: { items:4 }
+      1000: { items: 4 }
     }
+  });
+
+  // 🧠 Manual hover control
+  owl.on('mouseenter', function () {
+    owl.trigger('stop.owl.autoplay');
+  });
+
+  owl.on('mouseleave', function () {
+    owl.trigger('play.owl.autoplay', [3000]);
   });
 
 });
