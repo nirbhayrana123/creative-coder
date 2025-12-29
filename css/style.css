@@ -1116,13 +1116,23 @@ a.client-video-review {
 
 .section-about img {
     border-radius: 8px 161px 8px 8px;
-    border: 3px solid #6f6f6f;
+    box-shadow: 5px 0px 1px 5px #e5b8ae;
 }
 
+.websitelogo-section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
 
-
-
-
+.websitelogo-section img {
+    max-height: 35px;
+}
+img.filterblack {
+    filter: invert(1);
+}
 
 /******************testmonials***************/
 .card-imgg {
