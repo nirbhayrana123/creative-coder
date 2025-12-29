@@ -1720,7 +1720,7 @@ section.maincontects {
 
 .page-banner11 {
   position: relative;
-  background-image:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/IMG_20231111_185902.jpg');
+  background-image:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/teem5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 217px 0 235px;
@@ -2260,7 +2260,7 @@ section.team-section.v2.ibt-section-gapBottom {
     width: calc(100% + 1.3px);
 }
 section.bannerservices {
-    background-image: url(../images/servicesmain.jpg);
+    background-image: url(../images/breadcrumb-1.png);
     padding: 160px 0px;
     background-repeat: no-repeat;
     background-size: cover;
