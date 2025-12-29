@@ -1120,7 +1120,9 @@ a.client-video-review {
     border-radius: 8px 161px 8px 8px;
     box-shadow: 5px 0px 1px 5px #e5b8ae;
 }
-
+section.logo-slider {
+    margin-bottom: 60px;
+}
 
 
 .websitelogo-section img {
