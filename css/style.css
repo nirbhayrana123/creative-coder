@@ -841,7 +841,11 @@ a.up-solid.black {
   flex-direction: column;
   gap: 20px;
 }
-
+.project-page .featured-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
 .featured-left p {
   margin-bottom: 30px;
 }
@@ -909,12 +913,11 @@ section.services-section .container {
     font-weight: 700;
 }
 .services-col {
-  min-height: 500px;
-  border-radius: 0px 50px 0px 0px;
-  padding: 20px;
-  transition: 0.5s;
-  border: solid 1px #d9d9d9c4;
-  transition: 0.9s;
+    min-height: 430px;
+    border-radius: 0px 50px 0px 0px;
+    padding: 20px; 
+    border: solid 1px #d9d9d9c4;
+    transition: 0.9s;
 }
 
 .services-col:hover {
