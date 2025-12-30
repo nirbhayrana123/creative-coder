@@ -7,9 +7,6 @@ body {
 
 }
 
-
-
-
 #belove-loader {
   position: fixed;
   inset: 0;
@@ -35,15 +32,6 @@ body {
   animation: brandGlow 2.5s ease-in-out infinite;
 }
 
-
-/* .brand::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:linear-gradient(120deg,transparent,#00f2ff,transparent);
-  animation:shine 2s infinite;
-} */
-
 @keyframes brandGlow {
 
   0%,
@@ -57,18 +45,6 @@ body {
     opacity: 1;
   }
 }
-
-/* @keyframes shine{
-  0%{left:-30%;}
-  100%{left:100%;}
-} */
-
-
-
-
-
-
-
 
 .loader-line {
   margin-top: 15px;
@@ -101,17 +77,11 @@ body {
   }
 }
 
-
-
-
-
-
 h1.pagename {
   margin-top: 100px;
   text-align: center;
   margin-bottom: 110px;
 }
-
 
 * {
   margin: 0;
@@ -161,11 +131,9 @@ h6 {
   margin-bottom: 15px;
 }
 
-
 h1 {
   font-size: 3em;
 }
-
 
 h2 {
   font-size: 2.5em;
@@ -258,22 +226,17 @@ a.logo {
 .button:hover::after {
   width: 100%;
 }
-
-
 .button.whitebt::after {
   content: "";
   background-color: #ffffff;
 }
-
 .button.whitebt {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
-
 .button.whitebt:hover {
   color: #000000;
 }
-
 /*============ header =============*/
 header.header.bg {
   background-color: #faf7f4;
@@ -2346,12 +2309,12 @@ section.team-section.v2.ibt-section-gapBottom {
 
 section.bannerservices {
   background-image: linear-gradient(rgb(250 247 244 / 32%), rgb(255 255 255 / 84%)), url(../images/servicesmainpage.jpg);
-  padding: 250px 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  height: 100vh;
+  padding-top: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .maincontent {
