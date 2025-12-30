@@ -211,13 +211,37 @@ jQuery(function ($) {
 
 });
 
-
-
-
-
-
  AOS.init(
   {
   duration: 1200,
-}
- );
+} );
+
+// window.addEventListener("load",function(){
+//   document.getElementById("belove-loader").style.opacity="0";
+//   document.getElementById("belove-loader").style.pointerEvents="none";
+//   setTimeout(()=>{
+//     document.getElementById("belove-loader").style.display="none";
+//   },1000);
+// });
+
+const minTime = 2000; // 10 seconds
+const start = Date.now();
+
+window.addEventListener("load", function () {
+  const elapsed = Date.now() - start;
+  const remaining = minTime - elapsed;
+
+  setTimeout(() => {
+    const loader = document.getElementById("belove-loader");
+    loader.style.transition = "0.2s ease";
+    loader.style.opacity = "0";
+    loader.style.pointerEvents = "none";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 200);
+  }, remaining > 0 ? remaining : 0);
+});
+
+
+
