@@ -36,12 +36,12 @@ body {
 
   0%,
   100% {
-    text-shadow: 0 0 5px #00f2ff, 0 0 15px rgba(0, 242, 255, .4);
+    text-shadow: 0 0 5px #d7173e, 0 0 15px rgb(215 23 62 / 26%);
     opacity: 0.6;
   }
 
   50% {
-    text-shadow: 0 0 15px #0aff9d, 0 0 30px rgba(10, 255, 157, .8);
+    text-shadow: 0 0 15px #d7173e, 0 0 30px rgb(215 23 62 / 26%);
     opacity: 1;
   }
 }
@@ -63,7 +63,7 @@ body {
   position: absolute;
   width: 40%;
   height: 100%;
-  background: linear-gradient(90deg, #00f2ff, #0aff9d);
+  background: linear-gradient(90deg, #d7173e, #a00424);
   animation: loading 1.4s infinite;
 }
 
@@ -560,8 +560,14 @@ header.header.activeshow .menu-list-ul {
 .freelancer-section li {
   margin-bottom: 12px;
   font-size: 0.8em;
+      display: flex;
+    align-items: center;
 }
-
+.freelancer-section li img {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+}
 .grid2.onecol .iconcol {
   border-radius: 12px;
   padding: 20px;
