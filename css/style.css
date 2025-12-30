@@ -2061,7 +2061,7 @@ section.section-about.aboutpage .teemcontent {
 .counter-box8 .counter-text {
   position: relative;
   background-color: transparent;
-  color: #033f03;
+  color: #d31a3e;
   font-size: 100px;
   line-height: 90px;
   -webkit-text-stroke-width: 2px;
@@ -2129,22 +2129,7 @@ section.section-about.aboutpage .teemcontent {
   opacity: 70%;
 }
 
-.team-img .sub-title {
-  position: absolute;
-  bottom: 15px;
-  right: -5px;
-  font-weight: 600;
-  font-size: 80px;
-  line-height: 70px;
-  letter-spacing: -0.05em;
-  color: #ffffffc8;
-  -webkit-transform-origin: right bottom;
-  -ms-transform-origin: right bottom;
-  transform-origin: right bottom;
-  -webkit-transform: rotate(-90deg) translateX(100%);
-  -ms-transform: rotate(-90deg) translateX(100%);
-  transform: rotate(-90deg) translateX(100%);
-}
+
 
 .team-shap::before {
   content: "";
@@ -2318,7 +2303,7 @@ section.bannerservices {
   padding-top: 120px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     position: relative;
     padding-bottom: 100px;
 }
