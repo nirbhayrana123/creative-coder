@@ -95,7 +95,9 @@ h6 {
   font-size: 0.8em;
 }
 
-
+a.logo {
+    max-width: 190px;
+}
 .container {
   width: 100%;
   max-width: 100rem;
