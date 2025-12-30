@@ -2543,7 +2543,11 @@ section.bannerservices {
 
 @media(max-width:991px) {
 
-
+ .grid-3,
+  .blog-grid,
+  .blog-layout{
+    grid-template-columns:1fr;
+  }
   .stats-grid,
   .exp-grid {
     flex-wrap: wrap;
