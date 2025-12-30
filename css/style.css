@@ -36,14 +36,6 @@ body {
 }
 
 
-/* .brand::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:linear-gradient(120deg,transparent,#00f2ff,transparent);
-  animation:shine 2s infinite;
-} */
-
 @keyframes brandGlow{
   0%,100%{
     text-shadow:0 0 5px #00f2ff,0 0 15px rgba(0,242,255,.4);
@@ -55,10 +47,6 @@ body {
   }
 }
 
-/* @keyframes shine{
-  0%{left:-30%;}
-  100%{left:100%;}
-} */
 
 
 
