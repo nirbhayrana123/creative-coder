@@ -504,6 +504,42 @@ header.header.activeshow .menu-list-ul {
   font-size: 5em;
   line-height: 1.2em;
 }
+.Development-technologie-logo img {
+    max-width: 100px;
+    max-height: 60px;
+    z-index: 99;
+}
+.development-technologie-all-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.Development-technologie-logo {
+    border: 1px solid #eee;
+    min-height: 70px;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #fff;
+}
+.Development-technologie-logo:after, .Development-technologie-logo:before {
+    content: "";
+    transition: all .3s;
+    background: #ef6c8e;
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0;
+}
+.Development-technologie-logo:hover:after {
+    width: 100%;
+}
 
 .pill {
   background: #9b8df2;
