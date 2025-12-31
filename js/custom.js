@@ -245,3 +245,29 @@ window.addEventListener("load", function () {
 
 
 
+
+
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    var form = this;
+    var formData = new FormData(form);
+
+    fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+    }).then(function(response){
+        if(response.ok){
+            document.getElementById("formMsg").style.display = "block";
+            form.reset();
+        } else {
+            alert("Something went wrong. Please try again.");
+        }
+    });
+});
+
+
+
+
