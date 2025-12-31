@@ -226,17 +226,21 @@ a.logo {
 .button:hover::after {
   width: 100%;
 }
+
 .button.whitebt::after {
   content: "";
   background-color: #ffffff;
 }
+
 .button.whitebt {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
+
 .button.whitebt:hover {
   color: #000000;
 }
+
 /*============ header =============*/
 header.header.bg {
   background-color: #faf7f4;
@@ -560,14 +564,16 @@ header.header.activeshow .menu-list-ul {
 .freelancer-section li {
   margin-bottom: 12px;
   font-size: 0.8em;
-      display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 .freelancer-section li img {
-    height: 25px;
-    width: 25px;
-    margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
 }
+
 .grid2.onecol .iconcol {
   border-radius: 12px;
   padding: 20px;
@@ -898,7 +904,7 @@ a.up-solid.black {
 
 .marquee-track h2 {
   margin-bottom: 0;
-  color: #033f03;
+  color: #ae9eef;
   text-transform: capitalize;
 }
 
@@ -1043,7 +1049,7 @@ section.services-section .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff5245;
+  color: #ec7f84;
   font-size: 32px;
   margin-bottom: 20px;
   background-color: #ffffff;
@@ -1141,9 +1147,7 @@ a.client-video-review {
 .owl-carousel .owl-stage {
   display: flex;
   align-items: center;
-}
-
-
+} 
 
 .slider.owl-carousel .owl-stage-outer {
   padding-bottom: 10px;
@@ -1207,18 +1211,18 @@ a.client-video-review {
 }
 
 .section-about h6 {
-  color: #b00a1f;
+    color: #ec7f84;
 }
 
 .grid2.aboutbox i {
   font-size: 50px;
-  color: #b00a1f;
+  color: #ec7f84;
   margin-bottom: 20px;
 }
 
 .section-about img {
   border-radius: 8px 161px 8px 8px;
-  box-shadow: 5px 0px 0px 5px #b00a1f;
+  box-shadow: 5px 0px 0px 5px #ec7f84;
 }
 
 section.logo-slider {
@@ -1480,7 +1484,7 @@ input input {
 
 .social li {
   font-size: 0.9em;
-  margin-bottom: 14px;
+  margin-bottom: 23px;
 }
 
 .copy {
@@ -1703,10 +1707,10 @@ section.maincontects {
 }
 
 .number-address-area {
-    position: relative;
-    transition: all 0.4s;
-    display: flex;
-    gap: 70px;
+  position: relative;
+  transition: all 0.4s;
+  display: flex;
+  gap: 70px;
 }
 
 .phone-number {
@@ -1722,7 +1726,7 @@ section.maincontects {
   line-height: 60px;
   border-radius: 50%;
   transition: all 0.4s;
-background-color: #e1e1e169;
+  background-color: #e1e1e169;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1737,18 +1741,20 @@ background-color: #e1e1e169;
 }
 
 .phone-number i {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .contact-form-area {
   position: relative;
   z-index: 1;
 }
+
 .contact-box {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
+
 .input-area input {
   border-radius: 8px;
   border: 1px solid #E6E6E6;
@@ -2200,7 +2206,10 @@ section.section-about.aboutpage .teemcontent {
   -ms-transform: translateY(0);
   transform: translateY(0);
 }
-
+ul.social li a {
+    font-size: 1.2em;
+    font-weight: 600;
+}
 .maingridteam {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2234,13 +2243,8 @@ section.service-sec22 {
 
 section.team-section.v2.ibt-section-gapBottom {
   padding-bottom: 100px;
+  display: none;
 }
-
-
-
-
-
-
 
 
 /**************about page ******************/
@@ -2290,10 +2294,7 @@ section.team-section.v2.ibt-section-gapBottom {
   z-index: 9;
 
 }
-
-
 /**************Services page******************/
-
 .shapepservicesbanner {
   direction: ltr;
   left: 0;
@@ -2317,36 +2318,21 @@ section.team-section.v2.ibt-section-gapBottom {
 section.bannerservices {
   background-image: linear-gradient(rgb(250 247 244 / 32%), rgb(255 255 255 / 84%)), url(../images/servicesmainpage.jpg);
   padding-top: 120px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    position: relative;
-    padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 .maincontent {
   text-align: center;
 }
 
-.maincontent h5,
 .maincontent h1,
 .maincontent p {
   color: #0c0c0c;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .service-card {
   max-width: 100%;
@@ -2456,14 +2442,116 @@ section.bannerservices {
 }
 
 /**************Services page******************/
+/************blog page************/
+.blog-hero {
+  background:linear-gradient(to right, rgba(235,235,235,0.7), rgba(255,255,255,0.7)), url('../images/freelanceblog.jpg');
+  color: #fff;
+  padding: 0px 0;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.featured {
+    padding-top: 60px;
+}
+.rightblogimg {
+    padding-top: 70px;
+}
+.blog-hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
 
+.blog-hero p {
+  opacity: .9;
+}
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
+.featured-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
 
+.featured-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
 
+.featured-card h3 {
+  padding: 20px;
+}
+.minebloges {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
 
+/* BLOG */
+.blog-area {
+  padding: 80px 0;
+}
 
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
 
+.blog-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.category {
+  display: inline-block;
+  margin: 10px 0;
+  color: #3f51b5;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.blog-card h3 {
+  font-size: 18px;
+}
+
+.blog-card p {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.blog-card a {
+  text-decoration: none;
+  color: #3f51b5;
+  font-weight: 600;
+}
+
+.blog-bottom-card {
+  padding: 10px;
+}
+
+.blog-bottom-card h4 {
+  font-size: 1em;
+}
+
+/************blog page************/
 /**************mobile media******************/
 /*****************amit****************/
 @media (max-width: 1200px) {
@@ -2472,11 +2560,51 @@ section.bannerservices {
     font-size: 16px;
   }
 
+  .herobanner {
+    position: relative;
+    height: 85vh;
+  }
+
+  .bg-imgs img {
+    width: 120px;
+    top: 165px;
+  }
+
+  .bg-right img {
+    width: 200px;
+  }
+
+  .herobanner-text h1 {
+    font-size: 4em;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .servicesgride {
+    grid-template-columns: 1fr;
+  }
+
+  .ser-content22 {
+    height: auto;
+  }
+
+  .ser-card22.v2 {
+    height: auto;
+  }
+
+  .shape::before {
+    top: -1px;
+  }
+
+  .staff-text {
+    font-size: 45px;
+  }
+
 }
 
 /*****************amit****************/
-
-
 
 
 @media(max-width:1024px) {
@@ -2484,10 +2612,25 @@ section.bannerservices {
     font-size: 15px;
   }
 
+
+
+
+
+
+
+
+
+
+
 }
 
 @media(max-width:991px) {
 
+  .grid-3,
+  .blog-grid,
+  .blog-layout {
+    grid-template-columns: 1fr;
+  }
 
   .stats-grid,
   .exp-grid {
@@ -2497,7 +2640,7 @@ section.bannerservices {
   .card.purple,
   .exp-card.small {
     width: 100%;
-    height: 240px;
+    height: 260px;
   }
 
   .footer-grid {
@@ -2507,15 +2650,75 @@ section.bannerservices {
 
   .footer-grid> :last-child {
     grid-column: 1 / -1;
+  } 
+   .featured-container {
+    flex-wrap: wrap;
+    gap: 40px;
   }
-
-  .featured-container {
-    gap: 10px;
+  .services-col {
+    min-height: 335px;
   }
-
   .stack-card {
     height: 450px;
   }
+  .featured-left {
+    flex: 100%;
+    position: relative;
+    top: 0;
+    text-align: center;
+  }
+  .featured-left h2 br {
+    display: none;
+  }
+  .maingridteam {
+    grid-template-columns: 1fr;
+  }
+  .gridmembers.gaping .gridmemberleftside:nth-child(even) {
+    margin-top: 0px;
+  }
+  .team-card.v1 {
+    margin-top: 54px;
+  }
+  .team-info {
+    padding-right: 0;
+  }
+  .service-card {
+    flex-wrap: wrap;
+  }
+  .service-content {
+    width: 100%;
+    order: 2;
+  }
+  .service-image {
+    width: 100%;
+    order: 1;
+  }
+  .mainservidesr .service-card:nth-child(odd) .service-image img {
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+  }
+  .mainservidesr .service-card:nth-child(even) .service-image img {
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+  }
+  .mainservidesr .service-card:first-child {
+    margin-top: 0;
+  }
+  .maintitle h1 {
+    font-size: 5em;
+  }
+  section.maincontects {
+    padding: 125px 0px 0px;
+  }
+
+  .innermain-contact {
+    grid-template-columns: 1fr;
+  }
+
+  .inner-contect-right {
+    padding-left: 0;
+  }
+
 
 }
 
@@ -2524,167 +2727,198 @@ section.bannerservices {
   body {
     font-size: 14px;
   }
-
+  section.section-about.aboutpage .teemcontent {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .mainprojeectbanner {
+    flex-wrap: wrap;
+  }
+  .rightproject {
+    width: 100%;
+    order: 1;
+  }
+  .leftcontern {
+    order: 2;
+  }
+  .herobanner1-section-area .header-images-area .main-images-area .img1 img {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .herobanner1-section-area .header-images-area .main-images-area .img1 {
+    text-align: center;
+    width: 100%;
+  }
   .robot-arm {
     top: 95px;
     width: 174px;
   }
-
+  .project-page .featured-right {
+    grid-template-columns: 1fr;
+  }
+  .clutch img {
+    width: auto;
+    margin: 15px 0px;
+  }
+  section.featured-section.project-page {
+    padding-bottom: 50px;
+  }
   .exp-card {
     padding: 15px;
     min-height: 240px;
   }
-
+  .slider.owl-carousel .owl-nav {
+    margin-top: 20px;
+    text-align: center;
+  }
   .exp-card.small {
     padding: 15px 15px;
   }
-
   .helmet {
     right: -23px;
     bottom: -15px;
     width: 210px;
   }
-
   .exp-text p {
     margin-bottom: 30px;
   }
-
   .exp-text h3 {
     font-size: 4em;
   }
-
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+  .teemcontent .grid2 {
+    grid-template-columns: 1fr 1fr;
+  }
   .bottom-links a {
     font-size: 13px;
   }
-
   .parallax-img {
     top: 20px;
     height: 100%;
     border-radius: 40px;
   }
-
   .parallax-box {
-    height: 260px;
+    height: auto;
   }
-
+  .content-row {
+    grid-template-columns: 1fr;
+  }
   .phones img {
     width: 190px;
     top: 35px;
   }
-
   .right-info h3 {
     font-size: 3em;
   }
-
+  .parallax-img {
+    position: relative;
+    height: auto;
+  }
   .card {
     padding: 15px;
   }
-
+  .stack-card.card-2 .card-imgg {
+    order: 2;
+  }
+  .stack-card-row {
+    gap: 40px;
+  }
   .mxd-project-item-tags {
     flex-wrap: wrap;
   }
-
+  .stack-card {
+    position: relative;
+    top: 0;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    height: auto;
+  }
   .herobanner-text h1 {
     font-size: 2.5em;
     line-height: 1.6em;
     text-align: center;
   }
-
   .pill {
     width: 300px;
     top: 10px;
   }
-
   .bottom {
     flex-wrap: wrap;
     gap: 20px;
   }
-
   .who-left h5 {
     font-size: 2em;
   }
-
   .who-wrap {
     grid-template-columns: 1fr;
     gap: 10px;
   }
-
   .who-we-are {
     padding: 30px 0;
   }
-
   .bottom p {
     font-size: 1em;
   }
-
-
-
   .testimonial-section {
     padding: 0px 0px;
     padding-bottom: 50px;
   }
-
   .testimonial-wrap {
     gap: 0px;
   }
-
   .nav {
     display: flex;
     justify-content: center;
     gap: 10px;
   }
-
   .bottom li {
     font-size: 1.2em;
   }
-
   .button-row a.button {
     display: none;
   }
-
-
-
   .herobanner {
     padding-top: 35px;
   }
-
   .divider {
     margin: 0px 0 40px;
   }
-
   .footer-box {
     padding: 24px;
   }
-
   .pill {
     padding: 10px 0px;
   }
-
   .who-right h2 {
     font-size: 2em;
   }
-
   .footer-grid {
     grid-template-columns: 100%;
   }
-
   .footer-box.mal-middle {
     gap: 15px;
   }
-
   .footer-menu a {
     font-size: 2em;
   }
-
   .stack-card .card-content {
     width: 100%;
   }
+  .card-imgg {
+    height: auto;
+  }
+  .card-imgg img {
+    position: relative;
+    height: auto;
+  }
 
   /********************amit ************************/
-  .featured-container {
-    flex-wrap: wrap;
-    gap: 40px;
-  }
+
 
   .logo-marquee {
     padding: 40px 0;
@@ -2717,16 +2951,7 @@ section.bannerservices {
     padding: 14px 22px;
   }
 
-  .featured-left {
-    flex: 100%;
-    position: relative;
-    top: 0;
-    text-align: center;
-  }
 
-  .featured-left h2 br {
-    display: none;
-  }
 
   .testimonial-wrap {
     flex-wrap: wrap;
@@ -2767,6 +2992,108 @@ section.bannerservices {
   .footer-box.mal-middle a {
     padding: 25px 30px;
   }
+
+  .bg-right img {
+    z-index: -1;
+  }
+
+  .bg-imgs img {
+    z-index: -1;
+  }
+
+  section.services-section {
+    padding: 40px 0px;
+  }
+}
+
+
+@media(max-width:500px) {
+  .gridmembers.gaping {
+    grid-template-columns: 1fr;
+  }
+  .team-info .gridmembers {
+    grid-template-columns: 1fr;
+  }
+  .heading1 h1 {
+    font-size: 2em;
+  }
+  .herobanner {
+    padding-top: 35px;
+    height: auto;
+  }
+  .teemcontent .grid2 {
+    grid-template-columns: 1fr
+  }
+  .grid2.aboutbox div {
+    width: 100%;
+  }
+  .grid2.aboutbox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  .mxd-project-item-tags {
+    left: 15px;
+  }
+  .grid2.onecol .iconcol {
+    flex-wrap: wrap;
+  }
+  .owl-dots {
+    display: none;
+  }
+  .counter-box22 .counter-number,
+  .counter-box22 .counter-text {
+    font-size: 40px;
+  }
+  .ser-card22 .profection {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  section.service-sec22 {
+    padding-bottom: 50px;
+  }
+  .staff-text {
+    position: absolute;
+    right: 65px;
+    top: -5px;
+    font-size: 35px;
+  }
+  .shape3::before {
+    width: 96px;
+    height: 96px;
+  }
+  .ser-card22>img {
+    height: 422px;
+  }
+
+  .ser-content22 {
+    padding: 20px 20px 20px;
+  }
+
+  .service-content {
+    padding: 30px 15px;
+  } 
+  .maincontent h1 {
+    font-size: 2em;
+  }
+
+  .number-address-area {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .phone-number {
+    margin: 0 0px 0px 0px;
+  }
+
+  .maintitle h1 {
+    font-size: 4em;
+  }
+
 
 
 }
