@@ -856,6 +856,25 @@ a.up-solid.black {
   background-color: #000000;
   color: #ffffff;
 }
+.portal {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.frelans {
+    display: flex;
+    align-items: center;
+    padding-right: 18px;
+}
+.clutch img {
+    width: 75px; 
+}
+.frelans p {
+    padding-left: 10px;
+}
+.frelans img  {
+    width: 35px;
+}
 
 /********************logo-marquee*******************/
 .logo-marquee {
@@ -1093,10 +1112,7 @@ a.client-video-review {
   width: 30%;
 }
 
-.clutch img {
-  width: 160px;
-  margin: 40px 0px;
-}
+ 
 
 .slider.owl-carousel .owl-nav .owl-prev,
 .slider.owl-carousel .owl-nav .owl-next {
