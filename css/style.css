@@ -2426,12 +2426,19 @@ section.bannerservices {
 /**************Services page******************/
 /************blog page************/
 .blog-hero {
-  background: linear-gradient(to right, #ebebeb, #ffffff);
+  background:linear-gradient(to right, rgba(235,235,235,0.7), rgba(255,255,255,0.7)), url('../images/freelanceblog.jpg');
   color: #fff;
-  padding: 80px 0;
-  text-align: center;
+  padding: 0px 0;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
+section.featured {
+    padding-top: 60px;
+}
+.rightblogimg {
+    padding-top: 70px;
+}
 .blog-hero h1 {
   font-size: 48px;
   margin-bottom: 10px;
@@ -2439,11 +2446,6 @@ section.bannerservices {
 
 .blog-hero p {
   opacity: .9;
-}
-
-/* FEATURED */
-.featured {
-  margin-top: -60px;
 }
 
 .grid-3 {
@@ -2468,9 +2470,10 @@ section.bannerservices {
 .featured-card h3 {
   padding: 20px;
 }
-
-.mb-5 {
-  margin-bottom: 25px;
+.minebloges {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* BLOG */
