@@ -51,6 +51,8 @@
 
         <form class="contact-form" id="contactForm">
           <h3>Contact Us</h3>
+          <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="thankyou.html">
           <input type="text" id="name" placeholder="Your Name" required>
           <input type="email" id="email" placeholder="Your Email" required>
           <textarea id="message" placeholder="Your Message" required></textarea>
@@ -91,6 +93,9 @@
       </div>
 
       <div class="portal">
+        <div class="clutch">
+          <img src="./images/cluth.svg">
+        </div>
         <div class="frelans">
           <img src="images/Upwork-logo.svg.png">
           <p> Upwork</p>
@@ -103,10 +108,7 @@
         <div class="frelans">
           <img src="images/fiverr.png">
           <p> Fiverr</p>
-        </div>
-        <div class="clutch">
-          <img src="./images/cluth.svg">
-        </div>
+        </div> 
       </div>
 
     </div>
@@ -829,13 +831,15 @@
           <div class="subscribe">
             <h3>Subscribe to our insights</h3>
             <form id="subscribeForm">
-              <div class="input">
-                <input type="email" placeholder="Your Email" required>
-                <button type="submit" class="arrow"><i class="fa-solid fa-circle-arrow-right"></i></button>
-              </div>
-              <p id="subscribeMsg" style="display:none;color:green;font-weight:600;">
-                ✅ Thanks for subscribing!
-              </p>
+            <div class="input">
+              <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="thankyou.html">
+              <input type="email" placeholder="Your Email" required>
+              <button type="submit" class="arrow"><i class="fa-solid fa-circle-arrow-right"></i></button>
+            </div>
+             <p id="subscribeMsg" style="display:none;color:green;font-weight:600;">
+      ✅ Thanks for subscribing!
+    </p>
             </form>
           </div>
         </div>
