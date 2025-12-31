@@ -529,7 +529,7 @@ header.header.activeshow .menu-list-ul {
 .Development-technologie-logo:after, .Development-technologie-logo:before {
     content: "";
     transition: all .3s;
-    background: #ef6c8e;
+    background: #9585f8;
     position: absolute;
     z-index: 0;
     height: 100%;
