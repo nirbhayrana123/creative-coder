@@ -1,7 +1,3 @@
-
-
-
-
 /*********header scroll header**********/
  
 const editBtn = document.querySelector('.menu');
@@ -16,8 +12,6 @@ document.querySelectorAll('.header a').forEach(link => {
     model.classList.remove('activeshow');
   });
 });
-
-
 /*=============header scroll bg =============*/
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -56,8 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
   requestAnimationFrame(raf);
 });
  
- 
-
 /*============= tawk =============*/   
 
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -90,12 +82,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
 
   const modal = document.getElementById("videoModal");
@@ -119,10 +105,6 @@ document.addEventListener("DOMContentLoaded", function () {
  
 });
 
-
-
-
-
 jQuery(function ($) { 
   $('.slider').owlCarousel({
     loop: true,
@@ -140,9 +122,6 @@ jQuery(function ($) {
   });
 
 });
-
-
-
 
 jQuery(function ($) {
 
@@ -165,7 +144,6 @@ jQuery(function ($) {
     }
   });
 
-  // 🧠 Manual hover control
   owl.on('mouseenter', function () {
     owl.trigger('stop.owl.autoplay');
   });
@@ -176,11 +154,7 @@ jQuery(function ($) {
 
 });
 
-
-
-
 jQuery(function ($) {
-
   var owl = $('.websitelogo-section');
 
   owl.owlCarousel({
@@ -215,38 +189,6 @@ jQuery(function ($) {
   {
   duration: 1200,
 } );
-
-// window.addEventListener("load",function(){
-//   document.getElementById("belove-loader").style.opacity="0";
-//   document.getElementById("belove-loader").style.pointerEvents="none";
-//   setTimeout(()=>{
-//     document.getElementById("belove-loader").style.display="none";
-//   },1000);
-// });
-
-const minTime = 2000; // 10 seconds
-const start = Date.now();
-
-window.addEventListener("load", function () {
-  const elapsed = Date.now() - start;
-  const remaining = minTime - elapsed;
-
-  setTimeout(() => {
-    const loader = document.getElementById("belove-loader");
-    loader.style.transition = "0.2s ease";
-    loader.style.opacity = "0";
-    loader.style.pointerEvents = "none";
-
-    setTimeout(() => {
-      loader.style.display = "none";
-    }, 200);
-  }, remaining > 0 ? remaining : 0);
-});
-
-
-
-
-
 
 document.getElementById("contactFormpage").addEventListener("submit", function(e) {
     e.preventDefault();
