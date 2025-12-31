@@ -226,17 +226,21 @@ a.logo {
 .button:hover::after {
   width: 100%;
 }
+
 .button.whitebt::after {
   content: "";
   background-color: #ffffff;
 }
+
 .button.whitebt {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
+
 .button.whitebt:hover {
   color: #000000;
 }
+
 /*============ header =============*/
 header.header.bg {
   background-color: #faf7f4;
@@ -873,7 +877,7 @@ a.up-solid.black {
 
 .marquee-track h2 {
   margin-bottom: 0;
-  color: #033f03;
+  color: #ae9eef;
   text-transform: capitalize;
 }
 
@@ -1018,7 +1022,7 @@ section.services-section .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff5245;
+  color: #ec7f84;
   font-size: 32px;
   margin-bottom: 20px;
   background-color: #ffffff;
@@ -1119,9 +1123,7 @@ a.client-video-review {
 .owl-carousel .owl-stage {
   display: flex;
   align-items: center;
-}
-
-
+} 
 
 .slider.owl-carousel .owl-stage-outer {
   padding-bottom: 10px;
@@ -1185,18 +1187,18 @@ a.client-video-review {
 }
 
 .section-about h6 {
-  color: #b00a1f;
+    color: #ec7f84;
 }
 
 .grid2.aboutbox i {
   font-size: 50px;
-  color: #b00a1f;
+  color: #ec7f84;
   margin-bottom: 20px;
 }
 
 .section-about img {
   border-radius: 8px 161px 8px 8px;
-  box-shadow: 5px 0px 0px 5px #b00a1f;
+  box-shadow: 5px 0px 0px 5px #ec7f84;
 }
 
 section.logo-slider {
@@ -1681,10 +1683,10 @@ section.maincontects {
 }
 
 .number-address-area {
-    position: relative;
-    transition: all 0.4s;
-    display: flex;
-    gap: 70px;
+  position: relative;
+  transition: all 0.4s;
+  display: flex;
+  gap: 70px;
 }
 
 .phone-number {
@@ -1700,7 +1702,7 @@ section.maincontects {
   line-height: 60px;
   border-radius: 50%;
   transition: all 0.4s;
-background-color: #e1e1e169;
+  background-color: #e1e1e169;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1715,18 +1717,20 @@ background-color: #e1e1e169;
 }
 
 .phone-number i {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .contact-form-area {
   position: relative;
   z-index: 1;
 }
+
 .contact-box {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
+
 .input-area input {
   border-radius: 8px;
   border: 1px solid #E6E6E6;
@@ -2310,11 +2314,11 @@ section.team-section.v2.ibt-section-gapBottom {
 section.bannerservices {
   background-image: linear-gradient(rgb(250 247 244 / 32%), rgb(255 255 255 / 84%)), url(../images/servicesmainpage.jpg);
   padding-top: 120px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 .maincontent {
