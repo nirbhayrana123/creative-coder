@@ -89,12 +89,7 @@ window.addEventListener("scroll", () => {
   });
 });
 
-
-
-
-
-
-
+ 
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -224,7 +219,7 @@ jQuery(function ($) {
 //   },1000);
 // });
 
-const minTime = 2000; // 10 seconds
+const minTime = 700; // 10 seconds
 const start = Date.now();
 
 window.addEventListener("load", function () {
@@ -233,13 +228,13 @@ window.addEventListener("load", function () {
 
   setTimeout(() => {
     const loader = document.getElementById("belove-loader");
-    loader.style.transition = "0.2s ease";
+    loader.style.transition = "0.0.7s ease";
     loader.style.opacity = "0";
     loader.style.pointerEvents = "none";
 
     setTimeout(() => {
       loader.style.display = "none";
-    }, 200);
+    }, 100);
   }, remaining > 0 ? remaining : 0);
 });
 

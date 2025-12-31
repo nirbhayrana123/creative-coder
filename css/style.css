@@ -504,7 +504,7 @@ header.header.activeshow .menu-list-ul {
   font-size: 5em;
   line-height: 1.2em;
 }
-.Development-technologie-logo img {
+.development-technologie-logo img {
     max-width: 100px;
     max-height: 60px;
     z-index: 99;
@@ -513,20 +513,20 @@ header.header.activeshow .menu-list-ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
+    background: rgb(255 255 255 / 41%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
 }
-.Development-technologie-logo {
-    border: 1px solid #eee;
+.development-technologie-logo {
+    border: 1px solid #ffffff8f;
     min-height: 70px;
-    width: 16%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
     position: relative;
-    background-color: #fff;
 }
-.Development-technologie-logo:after, .Development-technologie-logo:before {
+.development-technologie-logo:after, .development-technologie-logo:before {
     content: "";
     transition: all .3s;
     background: #9585f8;
@@ -537,7 +537,7 @@ header.header.activeshow .menu-list-ul {
     top: 0;
     width: 0;
 }
-.Development-technologie-logo:hover:after {
+.development-technologie-logo:hover:after {
     width: 100%;
 }
 
