@@ -1068,13 +1068,13 @@ section.services-section .container {
 }
 
 a.client-video-review {
-  background-color: #0d83fd;
-  padding: 8px 15px;
-  border-radius: 20px;
-  color: #ffffff;
-  margin-top: 15px;
-  display: inline-block;
-  font-size: 15px;
+    background-color: #ae9eef;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 15px;
 }
 
 .testimonial-wrap {
@@ -1365,13 +1365,18 @@ footer.footer {
 }
 
 .footer-box {
-  background: #fff;
-  border-radius: 28px;
-  padding: 30px;
-  position: relative;
-  width: 100%;
-  box-shadow: 0px 1px 5px 0px #0000003b;
+    background: #fff;
+    border-radius: 28px;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 1px 5px 0px #0000003b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
 
 ul.footer-menu {
   display: flex;
@@ -1524,8 +1529,7 @@ input input {
 .socail {
   display: flex;
   gap: 8px;
-  align-items: center;
-  margin-top: 35px;
+  align-items: center; 
 }
 
 .socail i {
