@@ -248,7 +248,7 @@ window.addEventListener("load", function () {
 
 
 
-document.getElementById("contactForm").addEventListener("submit", function(e) {
+document.getElementById("contactFormpage").addEventListener("submit", function(e) {
     e.preventDefault();
 
     var form = this;
