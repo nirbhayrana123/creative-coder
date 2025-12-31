@@ -846,6 +846,11 @@ a.up-solid.black {
 }
 .clutch img {
     width: 75px; 
+        padding-right: 18px;
+}
+.clutch{
+  display: flex;
+    align-items: center;
 }
 .frelans p {
     padding-left: 10px;
