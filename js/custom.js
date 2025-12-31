@@ -190,25 +190,36 @@ jQuery(function ($) {
   duration: 1200,
 } );
 
-document.getElementById("contactFormpage").addEventListener("submit", function(e) {
+function handleForm(formId, msgId) {
+  var form = document.getElementById(formId);
+  if (!form) return;
+
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    var form = this;
     var formData = new FormData(form);
 
     fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-        method: "POST",
-        body: formData,
-        headers: { 'Accept': 'application/json' }
-    }).then(function(response){
-        if(response.ok){
-            document.getElementById("formMsg").style.display = "block";
-            form.reset();
-        } else {
-            alert("Something went wrong. Please try again.");
-        }
+      method: "POST",
+      body: formData,
+      headers: { Accept: "application/json" },
+    }).then(function (response) {
+      if (response.ok) {
+        var msg = document.getElementById(msgId);
+        msg.style.display = "block";
+        msg.innerHTML = "✅ Message sent successfully!";
+        msg.style.color = "green";
+        form.reset();
+      } else {
+        alert("Something went wrong. Please try again.");
+      }
     });
-});
+  });
+}
+
+handleForm("contactForm", "headerMsg");       // Header form
+handleForm("contactFormpage", "pageMsg");  
+handleForm("subscribeForm", "subscribeMsg");  
 
 
 
