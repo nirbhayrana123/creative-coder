@@ -4,8 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
   <title>Belovesoft</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="css/owl.carousel.css" rel="stylesheet">
@@ -14,18 +18,11 @@
 
 <body>
 
-  <div id="belove-loader">
-    <div class="loader-box">
-      <span class="brand">Belovesoft</span>
-      <div class="loader-line"></div>
-    </div>
-  </div>
-
   <!-- header -->
   <header class="header">
     <div class="container">
       <div class="relativee">
-        <a class="logo" href="index.html"> <img src="./images/main-logo.svg" </a>
+        <a class="logo" href="index.html"> <img src="./images/logo.svg" </a>
           <div class="button-row">
             <a href="tel:+91 63987 09470" class="button">Book a Call<i class="fa-solid fa-phone"></i></a>
 
@@ -59,7 +56,7 @@
           <textarea id="message" placeholder="Your Message" required></textarea>
 
           <button type="submit">Send Message <i class="fa-solid fa-location-arrow"></i></button>
-          <p class="form-msg" id="formMsg"></p>
+          <p class="form-msg" id="headerMsg"></p>
         </form>
 
       </div>
@@ -166,27 +163,7 @@
       </div>
     </div>
   </section>
-  <!-- <div class="container">
-    <div class="freelancer-section" data-aos="fade-up">
-      <p>
-        We are a creative digital agency specializing<br>
-        in innovative design and cutting-edge<br>
-        development.
-      </p>
-
-      <ul data-aos="fade-up">
-        <li><img src="images/favicon.ico">
-          <p>✦ Freelancer</p>
-        </li>
-        <li><img src="images/faviconupwork.ico">
-          <p>✦ Upwork</p>
-        </li>
-        <li><img src="images/fiverr.png">
-          <p>✦ Fiverr</p>
-        </li>
-      </ul>
-    </div>
-  </div> -->
+ 
   <section class="services-section">
     <div class="container">
       <div class="content-row">
@@ -266,31 +243,31 @@
       </div>
 
       <div  class="development-technologie-all-logo">
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img  src="images/js-logo.webp" alt="js logo">
         </div>
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img  src="images/angular-logo.webp" alt="angular logo">
         </div>
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img  src="images/vue-logo.webp" alt="vue logo">
         </div>
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img  src="images/react-logo.webp" alt="react logo">
         </div>
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img   src="images/node-logo.webp" alt="node logo">
         </div>
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img src="images/aws-logo.webp" alt="aws logo">
         </div>
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img src="images/cloud-logo.webp" alt="cloud logo">
         </div>
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img src="images/firebase-logo.webp" alt="firebase logo">
         </div>
-        <div  class="Development-technologie-logo">
+        <div  class="development-technologie-logo">
           <img src="images/mongoDB-logo.webp" alt="mongoDB logo">
         </div>
 
@@ -856,16 +833,22 @@
 
           <div class="subscribe">
             <h3>Subscribe to our insights</h3>
+            <form id="subscribeForm">
             <div class="input">
               <input type="email" placeholder="Your Email" required>
               <button type="submit" class="arrow"><i class="fa-solid fa-circle-arrow-right"></i></button>
             </div>
+             <p id="subscribeMsg" style="display:none;color:green;font-weight:600;">
+      ✅ Thanks for subscribing!
+    </p>
+            </form>
           </div>
         </div>
 
         <!-- RIGHT -->
-        <div class="footer-box right">
+        <div class="footer-box right"> 
           <ul class="social">
+            <h3>Connect With Me</h3>
             <li><a href="#" target="_blank">Dribbble</a></li>
             <li><a href="#" target="_blank">Behance</a></li>
             <li><a href="#" target="_blank">Instagram</a></li>
@@ -879,9 +862,6 @@
             <i class="fa-brands fa-linkedin-in"></i>
             <i class="fa-brands fa-x-twitter"></i>
           </div>
-
-          <p class="copy"> 2026 Belovesoft. All rights reserved.</p>
-        </div>
 
       </div>
     </div>

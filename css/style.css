@@ -7,75 +7,7 @@ body {
 
 }
 
-#belove-loader {
-  position: fixed;
-  inset: 0;
-  background: #0b0f1a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999999;
-}
 
-.loader-box {
-  text-align: center;
-}
-
-.brand {
-  font-size: 38px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  color: #fff;
-  text-transform: uppercase;
-  position: relative;
-  display: inline-block;
-  animation: brandGlow 2.5s ease-in-out infinite;
-}
-
-@keyframes brandGlow {
-
-  0%,
-  100% {
-    text-shadow: 0 0 5px #d7173e, 0 0 15px rgb(215 23 62 / 26%);
-    opacity: 0.6;
-  }
-
-  50% {
-    text-shadow: 0 0 15px #d7173e, 0 0 30px rgb(215 23 62 / 26%);
-    opacity: 1;
-  }
-}
-
-.loader-line {
-  margin-top: 15px;
-  width: 120px;
-  height: 3px;
-  background: rgba(255, 255, 255, 0.2);
-  overflow: hidden;
-  border-radius: 10px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.loader-line::before {
-  content: "";
-  position: absolute;
-  width: 40%;
-  height: 100%;
-  background: linear-gradient(90deg, #d7173e, #a00424);
-  animation: loading 1.4s infinite;
-}
-
-@keyframes loading {
-  0% {
-    left: -40%
-  }
-
-  100% {
-    left: 100%
-  }
-}
 
 h1.pagename {
   margin-top: 100px;
@@ -200,6 +132,7 @@ a.logo {
   position: relative;
   overflow: hidden;
   font-weight: 600;
+  cursor: pointer;
   display: inline-block;
   background-color: transparent;
 }
@@ -504,7 +437,7 @@ header.header.activeshow .menu-list-ul {
   font-size: 5em;
   line-height: 1.2em;
 }
-.Development-technologie-logo img {
+.development-technologie-logo img {
     max-width: 100px;
     max-height: 60px;
     z-index: 99;
@@ -513,20 +446,20 @@ header.header.activeshow .menu-list-ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
+    background: rgb(255 255 255 / 41%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
 }
-.Development-technologie-logo {
-    border: 1px solid #eee;
+.development-technologie-logo {
+    border: 1px solid #ffffff8f;
     min-height: 70px;
-    width: 16%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
     position: relative;
-    background-color: #fff;
 }
-.Development-technologie-logo:after, .Development-technologie-logo:before {
+.development-technologie-logo:after, .development-technologie-logo:before {
     content: "";
     transition: all .3s;
     background: #9585f8;
@@ -537,7 +470,7 @@ header.header.activeshow .menu-list-ul {
     top: 0;
     width: 0;
 }
-.Development-technologie-logo:hover:after {
+.development-technologie-logo:hover:after {
     width: 100%;
 }
 
@@ -1135,13 +1068,13 @@ section.services-section .container {
 }
 
 a.client-video-review {
-  background-color: #0d83fd;
-  padding: 8px 15px;
-  border-radius: 20px;
-  color: #ffffff;
-  margin-top: 15px;
-  display: inline-block;
-  font-size: 15px;
+    background-color: #ae9eef;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 15px;
 }
 
 .testimonial-wrap {
@@ -1432,13 +1365,18 @@ footer.footer {
 }
 
 .footer-box {
-  background: #fff;
-  border-radius: 28px;
-  padding: 30px;
-  position: relative;
-  width: 100%;
-  box-shadow: 0px 1px 5px 0px #0000003b;
+    background: #fff;
+    border-radius: 28px;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 1px 5px 0px #0000003b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
 
 ul.footer-menu {
   display: flex;
@@ -1548,7 +1486,10 @@ input input {
   font-size: 18px;
   z-index: 999;
 }
-
+.footer-box.right h3 {
+    font-size: 1.7em;
+    margin-bottom: 25px;
+}
 
 .footer-box.mal-middle {
   display: flex;
@@ -1588,8 +1529,7 @@ input input {
 .socail {
   display: flex;
   gap: 8px;
-  align-items: center;
-  margin-top: 35px;
+  align-items: center; 
 }
 
 .socail i {
@@ -1598,7 +1538,7 @@ input input {
   align-items: center;
   justify-content: center;
   transition: 0.5s;
-  background-color: #54a5fb;
+  background-color: #9b8df2;
   padding: 5px;
   width: 46px;
   height: 46px;
@@ -2352,7 +2292,7 @@ section.team-section.v2.ibt-section-gapBottom {
 }
 
 section.bannerservices {
-  background-image: linear-gradient(rgb(250 247 244 / 32%), rgb(255 255 255 / 84%)), url(../images/servicesmainpage.jpg);
+  background-image: linear-gradient(rgb(250 247 244 / 32%), rgb(174 158 239 / 55%)), url(../images/servicesmainpage.jpg);
   padding-top: 120px;
   background-repeat: no-repeat;
   background-size: cover;
