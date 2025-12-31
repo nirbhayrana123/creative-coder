@@ -1165,8 +1165,8 @@ a.client-video-review {
 }
 
 .grid2.aboutbox {
-  margin-top: 65px;
-  margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .grid2.aboutbox h4 {
