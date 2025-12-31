@@ -140,7 +140,10 @@ a.logo {
 .button:hover {
   color: #ffffff;
 }
-
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #fff;         
+}
 .button::after {
   content: "";
   background-color: #000000;
@@ -378,7 +381,7 @@ header.header.activeshow .menu-list-ul {
   height: 60px;
   border-bottom: 1px solid #ffffff;
   background-color: #00000000;
-  color: #000000;
+  color: #ffffff;
   outline: none;
   font-size: 1em;
 }
