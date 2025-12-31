@@ -1480,7 +1480,10 @@ input input {
   font-size: 18px;
   z-index: 999;
 }
-
+.footer-box.right h3 {
+    font-size: 1.7em;
+    margin-bottom: 25px;
+}
 
 .footer-box.mal-middle {
   display: flex;
