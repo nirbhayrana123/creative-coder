@@ -2190,7 +2190,10 @@ section.section-about.aboutpage .teemcontent {
   -ms-transform: translateY(0);
   transform: translateY(0);
 }
-
+ul.social li a {
+    font-size: 1.2em;
+    font-weight: 600;
+}
 .maingridteam {
   display: grid;
   grid-template-columns: 1fr 1fr;
