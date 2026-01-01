@@ -131,7 +131,6 @@ jQuery(function ($) {
     loop: true,
     margin: 20,
     nav: false,
-
     autoplay: true,
     autoplayTimeout: 3000,
     autoplaySpeed: 3000,
@@ -184,6 +183,40 @@ jQuery(function ($) {
   });
 
 });
+
+
+
+$('.collaboration-slider-tems').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
  AOS.init(
   {
