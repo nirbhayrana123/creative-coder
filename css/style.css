@@ -859,7 +859,10 @@ a.up-solid.black {
   width: 75px;
   padding-right: 18px;
 }
-
+.testimonial-wrap .clutch img {
+    width: 115px;
+    margin-top: 30px;
+}
 .clutch {
   display: flex;
   align-items: center;
@@ -1755,7 +1758,7 @@ section.maincontects {
 
 .input-area input {
   border-radius: 8px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #9a9a9a;
   background-color: #FFF;
   width: 100%;
   padding: 16px;
@@ -1766,7 +1769,7 @@ section.maincontects {
 
 .input-area textarea {
   border-radius: 8px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #9a9a9a;
   background-color: #FFF;
   width: 100%;
   padding: 16px;
