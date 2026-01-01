@@ -310,7 +310,7 @@
   </section> -->
 
   </main>
-  <footer class="footer">
+ <footer class="footer">
     <div class="container">
       <div class="footer-grid">
 
@@ -335,19 +335,23 @@
             <i class="fa-solid fa-envelope"></i> nirbhydesign@gmail.com
           </a>
 
-
           <a href="tel:+91 63987 09470">
             <i class="fa-solid fa-phone"></i> +91 63987 09470
           </a>
 
-
-
           <div class="subscribe">
             <h3>Subscribe to our insights</h3>
+            <form id="subscribeForm">
             <div class="input">
+              <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="thankyou.html">
               <input type="email" placeholder="Your Email" required>
               <button type="submit" class="arrow"><i class="fa-solid fa-circle-arrow-right"></i></button>
             </div>
+             <p id="subscribeMsg" style="display:none;color:green;font-weight:600;">
+      ✅ Thanks for subscribing!
+    </p>
+            </form>
           </div>
         </div>
 
@@ -369,11 +373,8 @@
             <i class="fa-brands fa-x-twitter"></i>
           </div>
 
-          <p class="copy"> 2026 Belovesoft. All rights reserved.</p>
         </div>
-
       </div>
-    </div>
 
 
 
