@@ -1092,7 +1092,7 @@ section.services-section .container {
 }
 
 a.client-video-review {
-  background-color: #ae9eef;
+  background-color: #b2324c;
   padding: 8px 15px;
   border-radius: 20px;
   color: #ffffff;
@@ -2503,7 +2503,7 @@ section.featured {
 
 .blog-card img {
   width: 100%;
-  height: 180px;
+  height: 250px;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -2548,16 +2548,21 @@ section.featured {
   width: 40%;
 }
 
-.collaboration-slider-tems .item {
-  border: 1px solid #9f8be7;
-  padding: 3px;
-  border-radius: 10px;
+.collaboration-slider-tems .item{
+    border: 1px solid #9f8be7;
+    padding: 3px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 340px;           
 }
 
-.collaboration-slider-tems .item img {
-  border-radius: 10px;
+.collaboration-slider-tems .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      
+    border-radius: 10px;
+    display: block;
 }
-
 .client-collaboration-slider {
   padding-bottom: 60px;
 }
