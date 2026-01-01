@@ -2879,6 +2879,20 @@ section.featured {
     height: auto;
   }
 
+form#contactForm,.tobader,.medader {
+    display: none;
+}
+
+.menu-wrapper { 
+    grid-template-columns: 1fr; 
+}
+
+
+
+
+
+
+
   /********************amit ************************/
 
 
