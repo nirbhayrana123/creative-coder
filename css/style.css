@@ -449,12 +449,12 @@ header.header.activeshow .menu-list-ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(255 255 255 / 41%);
+    background: rgb(255 255 255);
     backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
 }
 .development-technologie-logo {
-    border: 1px solid #ffffff8f;
+    border:1px solid #b41f3d75;
     min-height: 70px;
     width: 15%;
     display: flex;
@@ -465,7 +465,7 @@ header.header.activeshow .menu-list-ul {
 .development-technologie-logo:after, .development-technologie-logo:before {
     content: "";
     transition: all .3s;
-    background: #9585f8;
+    background: #b41f3d1c;
     position: absolute;
     z-index: 0;
     height: 100%;
@@ -968,7 +968,7 @@ section.services-section::after {
   inset: 0;
   width: 100%;
   height: 100%;
-  background: rgb(76 175 80 / 62%);
+  background:rgb(175 4 39 / 87%);
   box-shadow: 0 4px 9.3px rgb(0 0 0 / .05);
   backdrop-filter: blur(8.25px);
 }
@@ -1006,7 +1006,7 @@ section.services-section .container {
 }
 
 .services-col {
-  min-height: 440px;
+  min-height: 500px;
   border-radius: 0px 50px 0px 0px;
   padding: 20px;
   border: solid 1px #d9d9d9c4;
@@ -1014,9 +1014,8 @@ section.services-section .container {
 }
 
 .services-col:hover {
-  background-color: #d9d9d9c4;
+    background-color: #ffffff;
 }
-
 .services-col i {
   font-weight: 900;
   width: 70px;
@@ -1066,7 +1065,7 @@ section.services-section .container {
 
 .testimonial-section {
   background: #faf7f4;
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .rating {
@@ -2511,7 +2510,32 @@ section.featured {
   font-weight: 600;
 }
  
- 
+ .main-client-collaboration {
+    display: flex;
+    align-items: start;
+    padding-bottom: 40px;
+}
+.left-collaboration-content {
+    padding-right: 40px;
+    width: 60%;
+}
+.right-collaboration-content {
+    padding-left: 20px;
+    width: 40%;
+}
+
+.collaboration-slider-tems .item img{
+  border-radius: 12px;
+}
+.client-collaboration-slider{
+  padding-bottom: 60px;
+}
+
+
+
+
+
+
 
 /************blog page************/
 /**************mobile media******************/
@@ -2722,7 +2746,6 @@ section.featured {
     grid-template-columns: 1fr;
   }
   .clutch img {
-    width: auto;
     margin: 15px 0px;
   }
   section.featured-section.project-page {
@@ -2980,6 +3003,29 @@ form#contactForm,.tobader,.medader {
   section.services-section {
     padding: 40px 0px;
   }
+.development-technologie-all-logo { 
+   background-color: transparent;
+   border: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    backdrop-filter:none;
+}
+.development-technologie-logo { 
+    width: 22%; 
+}
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -3069,6 +3115,44 @@ form#contactForm,.tobader,.medader {
   .maintitle h1 {
     font-size: 4em;
   }
+.portal {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.portal .clutch {
+    width: 50%;
+    justify-content: center;
+}
+.frelans { 
+    padding-right: 0;
+    width: 50%;
+    justify-content: center;
+}
+.main-client-collaboration { 
+    flex-wrap: wrap;
+}
+.left-collaboration-content {
+    padding-right: 0;
+    width: 100%;
+}
+.right-collaboration-content{
+  padding-left: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
