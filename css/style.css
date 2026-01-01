@@ -1485,10 +1485,7 @@ input input {
   margin-bottom: 23px;
 }
 
-.copy {
-  position: absolute;
-  bottom: 40px;
-  left: 48px;
+.copy { 
   font-size: 0.8em;
   color: #777;
 }
