@@ -1023,7 +1023,7 @@ section.services-section .container {
 }
 
 .services-col {
-  min-height: 500px;
+  min-height: 445px;
   border-radius: 0px 50px 0px 0px;
   padding: 20px;
   border: solid 1px #d9d9d9c4;
@@ -1247,6 +1247,10 @@ section.logo-slider {
 
 img.filterblack {
   filter: invert(1);
+}
+img.haight-auto {
+    max-height: none;
+    max-width: 86px;
 }
 
 /******************testmonials***************/
@@ -2567,7 +2571,8 @@ section.featured {
     padding: 3px;
     border-radius: 10px;
     overflow: hidden;
-    height: 340px;           
+    height: 340px;   
+    width: 100%;        
 }
 
 .collaboration-slider-tems .item img{
