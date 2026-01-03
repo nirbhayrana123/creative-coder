@@ -1597,6 +1597,7 @@ section.herobanner1-section-area {
   position: relative;
   z-index: 1;
   padding: 100px 0 0;
+  background-color: #f2f2f2;
 }
 
 @keyframes animation-1 {
@@ -1619,16 +1620,7 @@ section.herobanner1-section-area {
   animation-direction: alternate;
 }
 
-.herobanner1-section-area .elements1 {
-  position: absolute;
-  z-index: -1;
-  top: 20%;
-}
 
-.herobanner1-section-area img.elements1.aniamtion-key-1 {
-  max-width: 100%;
-  width: auto;
-}
 
 .mainprojeectbanner {
   display: flex;
@@ -1652,6 +1644,7 @@ span.pill-track span {
 
 .herobanner1-section-area .header-images-area .main-images-area {
   position: relative;
+  top: 8px;
 }
 
 .herobanner1-section-area .header-images-area .main-images-area .img1 {
