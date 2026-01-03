@@ -2500,11 +2500,11 @@ section.featured {
 }
 
 .category {
-  display: inline-block;
-  margin: 10px 0;
-  color: #3f51b5;
-  font-size: 12px;
-  font-weight: 600;
+    display: inline-block;
+    margin: 10px 0;
+    color: #b2324c;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .blog-card h3 {
@@ -2519,7 +2519,7 @@ section.featured {
 
 .blog-card a {
   text-decoration: none;
-  color: #3f51b5;
+  color: #5f4dce;
   font-weight: 600;
 }
 
