@@ -1619,16 +1619,7 @@ section.herobanner1-section-area {
   animation-direction: alternate;
 }
 
-.herobanner1-section-area .elements1 {
-  position: absolute;
-  z-index: -1;
-  top: 20%;
-}
 
-.herobanner1-section-area img.elements1.aniamtion-key-1 {
-  max-width: 100%;
-  width: auto;
-}
 
 .mainprojeectbanner {
   display: flex;
