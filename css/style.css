@@ -1637,15 +1637,21 @@ span.pill-track span {
 }
 
 .herobanner1-section-area .header-images-area .main-images-area .img1 {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
+    left: -138px;
 }
 
+
 .herobanner1-section-area .header-images-area .main-images-area .img1 img {
-  height: 672.01px;
-  width: 486.95px;
-  -o-object-fit: cover;
-  object-fit: cover;
+    height: auto;
+    width: 644px;
+}
+.rightproject {
+    width: 30%;
+}
+.leftcontern {
+    width: 60%;
 }
 
 .herobanner1-section-area .header-images-area .main-images-area .img2 {
@@ -1664,6 +1670,7 @@ span.pill-track span {
 .herobanner1-section-area .header-images-area .main-images-area .icons-area .sound-icons1 {
   position: absolute;
   top: 0;
+      left: -115px;
 }
 
 .herobanner1-section-area .header-images-area .main-images-area .icons-area .lite-icons1 {
