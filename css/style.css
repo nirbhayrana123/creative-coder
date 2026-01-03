@@ -1831,44 +1831,17 @@ section.maincontects {
 /**************contact page ******************/
 /**************about page ******************/
 
-
-
-
 .page-banner11 {
-  position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/teem5.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 217px 0 235px;
-  margin: 90px 0px 0;
-  border-radius: 28px;
-  background-position: center top;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/teem5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 217px 0 235px;
+    margin: 90px 0px 0;
+    border-bottom-left-radius: 80px;
+    background-position: center top;
 }
-
-
-.shape::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 117px;
-  height: 85px;
-  background-image: url(../images/shape1-4.png);
-  z-index: 99;
-  border-radius: 20px 0 0 0;
-}
-
-.shape3::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 120px;
-  height: 292px;
-  background-image: url(../images/shape1-6.png);
-  z-index: 99;
-}
-
+ 
 
 .staff-text {
   position: absolute;
@@ -2342,13 +2315,13 @@ section.team-section.v2.ibt-section-gapBottom {
 }
 
 section.bannerservices {
-  background-image: linear-gradient(rgb(250 247 244 / 32%), rgb(174 158 239 / 55%)), url(../images/servicesmainpage.jpg);
-  padding-top: 120px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  position: relative;
-  padding-bottom: 100px;
+    background-image: linear-gradient(rgb(193 185 177 / 32%), rgb(0 0 0 / 55%)), url(../images/servicesmainpage.jpg);
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .maincontent {
