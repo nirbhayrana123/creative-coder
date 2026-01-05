@@ -189,54 +189,64 @@ document.getElementById("contactForm")?.addEventListener("submit", function (e) 
   e.preventDefault();
 
   var form = this;
+  var msg = document.getElementById("headerMsg");
   var formData = new FormData(form);
 
   fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
     method: "POST",
     body: formData,
-    headers: { Accept: "application/json" }
-  }).then(function (response) {
+    headers: { "Accept": "application/json" }
+  })
+  .then(function (response) {
     if (response.ok) {
-      document.getElementById("headerMsg").innerHTML = "✅ Message sent successfully!";
-      document.getElementById("headerMsg").style.color = "green";
+      msg.innerHTML = "✅ Message sent successfully!";
+      msg.style.color = "green";
       form.reset();
+    } else {
+      msg.innerHTML = "❌ Email failed";
+      msg.style.color = "red";
     }
+  })
+  .catch(() => {
+    msg.innerHTML = "❌ Network error";
+    msg.style.color = "red";
   });
 });
+
 
 
 // FOOTER SUBSCRIBE (REAL FIX)
-document.addEventListener("DOMContentLoaded", function () {
+document.getElementById("footerSubscribeForm")?.addEventListener("submit", function (e) {
+  e.preventDefault();
 
-  var footerForm = document.getElementById("footerSubscribeForm");
-  if (!footerForm) return;
+  var form = this;
+  var email = form.email.value;
+  var msg = document.getElementById("footerSubscribeMsg");
 
-  footerForm.addEventListener("submit", function (e) {
-    e.preventDefault();
+  var formData = new FormData(form);
+  formData.set("subject", "New Newsletter Subscriber");
+  formData.set("message", "Subscriber email: " + email);
 
-    var formData = new FormData(footerForm);
-    var email = footerForm.querySelector("input[name='email']").value;
-
-    formData.set("subject", "New Newsletter Subscriber");
-    formData.set("message", "Subscriber email: " + email);
-
-    fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-      method: "POST",
-      body: formData,
-      headers: { 'Accept': 'application/json' }
-    })
-    .then(res => res.json())
-
-.then(function (response) {
+  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+    method: "POST",
+    body: formData,
+    headers: { "Accept": "application/json" }
+  })
+  .then(function (response) {
     if (response.ok) {
-      document.getElementById("footerSubscribeMsg").innerHTML = "✅ Message sent successfully!";
-      document.getElementById("footerSubscribeMsg").style.color = "green";
+      msg.innerHTML = "✅ Thanks for subscribing!";
+      msg.style.color = "green";
       form.reset();
+    } else {
+      msg.innerHTML = "❌ Subscription failed";
+      msg.style.color = "red";
     }
+  })
+  .catch(() => {
+    msg.innerHTML = "❌ Network error";
+    msg.style.color = "red";
   });
-
-  });
-
 });
+
 
 
