@@ -1,46 +1,46 @@
 
-document.getElementById("contactFormpage").addEventListener("submit", function (e) {
-  e.preventDefault();
+// document.getElementById("contactFormpage").addEventListener("submit", function (e) {
+//   e.preventDefault();
 
-  var form = this;
-  var formData = new FormData(form);
+//   var form = this;
+//   var formData = new FormData(form);
 
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { 'Accept': 'application/json' }
-  }).then(function (response) {
-    if (response.ok) {
-      document.getElementById("formMsg").style.display = "block";
-      form.reset();
-    } else {
-      alert("Something went wrong. Please try again.");
-    }
-  });
-});
+//   fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+//     method: "POST",
+//     body: formData,
+//     headers: { 'Accept': 'application/json' }
+//   }).then(function (response) {
+//     if (response.ok) {
+//       document.getElementById("formMsg").style.display = "block";
+//       form.reset();
+//     } else {
+//       alert("Something went wrong. Please try again.");
+//     }
+//   });
+// });
 
 
-document.getElementById("contactForm").addEventListener("submit", function (e) {
-  e.preventDefault();
+// document.getElementById("contactForm").addEventListener("submit", function (e) {
+//   e.preventDefault();
 
-  var form = this;
-  var formData = new FormData(form);
+//   var form = this;
+//   var formData = new FormData(form);
 
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { Accept: "application/json" }
-  })
-    .then(function (response) {
-      if (response.ok) {
-        document.getElementById("headerMsg").innerHTML = "✅ Message sent successfully!";
-        document.getElementById("headerMsg").style.color = "green";
-        form.reset();
-      } else {
-        alert("Something went wrong. Please try again.");
-      }
-    });
-});
+//   fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+//     method: "POST",
+//     body: formData,
+//     headers: { Accept: "application/json" }
+//   })
+//     .then(function (response) {
+//       if (response.ok) {
+//         document.getElementById("headerMsg").innerHTML = "✅ Message sent successfully!";
+//         document.getElementById("headerMsg").style.color = "green";
+//         form.reset();
+//       } else {
+//         alert("Something went wrong. Please try again.");
+//       }
+//     });
+// });
 
 
 
@@ -72,27 +72,83 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 // });
 
-document.getElementById("footerSubscribeForm").addEventListener("submit", function(e){
+
+
+
+
+
+
+// CONTACT FORM (already working)
+document.getElementById("contactFormpage")?.addEventListener("submit", function (e) {
   e.preventDefault();
 
   var form = this;
   var formData = new FormData(form);
 
-  // custom subject so you know it's newsletter
-  formData.append("subject", "New Newsletter Subscriber");
-
   fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
     method: "POST",
     body: formData,
     headers: { 'Accept': 'application/json' }
-  })
-  .then(function(response){
-    if(response.ok){
-      document.getElementById("footerSubscribeMsg").style.display = "block";
+  }).then(function (response) {
+    if (response.ok) {
+      document.getElementById("formMsg").style.display = "block";
       form.reset();
     } else {
-      alert("Subscription failed. Try again.");
+      alert("Something went wrong.");
     }
   });
 });
+
+
+// HEADER FORM
+document.getElementById("contactForm")?.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  var form = this;
+  var formData = new FormData(form);
+
+  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+    method: "POST",
+    body: formData,
+    headers: { Accept: "application/json" }
+  }).then(function (response) {
+    if (response.ok) {
+      document.getElementById("headerMsg").innerHTML = "✅ Message sent successfully!";
+      document.getElementById("headerMsg").style.color = "green";
+      form.reset();
+    }
+  });
+});
+
+
+// FOOTER SUBSCRIBE (REAL FIX)
+document.addEventListener("DOMContentLoaded", function () {
+
+  var footerForm = document.getElementById("footerSubscribeForm");
+  if (!footerForm) return;
+
+  footerForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    var formData = new FormData(footerForm);
+    var email = footerForm.querySelector("input[name='email']").value;
+
+    formData.set("subject", "New Newsletter Subscriber");
+    formData.set("message", "Subscriber email: " + email);
+
+    fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+      method: "POST",
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("footerSubscribeMsg").style.display = "block";
+      footerForm.reset();
+    })
+    .catch(() => alert("Network error"));
+  });
+
+});
+
 
