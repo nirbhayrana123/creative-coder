@@ -2766,8 +2766,13 @@ section.featured {
   .inner-contect-right {
     padding-left: 0;
   }
-
-
+.blog-hero { 
+    padding: 70px 0; 
+}
+.blog-hero h1 {
+    font-size: 38px; 
+    line-height: 1.4;
+}
 }
 
 
@@ -2789,7 +2794,12 @@ section.featured {
     width: 100%;
     order: 1;
   }
-
+h2{
+  font-size: 2em;
+}
+    .blog-hero h1 {
+        font-size: 28px; 
+    }
   .leftcontern {
     order: 2;
     width: 100%;
@@ -3130,8 +3140,9 @@ section.featured {
   }
 
   .development-technologie-logo {
-    width: 22%;
-    border-color: #ffffff70;
+           width: 22%; 
+        background-color: #fff;
+        padding: 8px;
   }
 
 
@@ -3151,11 +3162,19 @@ section.featured {
   .gridmembers.gaping {
     grid-template-columns: 1fr;
   }
-
+.minebloges { 
+    grid-template-columns: 1fr;
+}
   .team-info .gridmembers {
     grid-template-columns: 1fr;
   }
-
+.rightblogimg {
+    padding-top: 0;
+}
+    .blog-hero {
+        padding: 90px 0;
+        padding-bottom: 0;
+    }
   .heading1 h1 {
     font-size: 2em;
   }
@@ -3248,7 +3267,7 @@ section.featured {
   }
 
   .maintitle h1 {
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .portal {
@@ -3282,7 +3301,10 @@ section.featured {
     padding-top: 20px;
   }
 
-
+    .robot-arm {
+        top: 45px;
+        right: 0;
+    }
 
 
 
