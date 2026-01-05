@@ -100,77 +100,60 @@
 // });
 
 
-document.getElementById("contactFormpage").addEventListener("submit", function (e) {
+document.getElementById("contactFormpage")?.addEventListener("submit", function (e) {
   e.preventDefault();
 
   var form = this;
-  var msg = document.getElementById("formMsg");
+  var name = form.querySelector("input[name='name']").value.trim();
+  var email = form.querySelector("input[name='email']").value.trim();
+  var subject = form.querySelector("input[name='subject']").value.trim();
+  var message = form.querySelector("textarea[name='message']").value.trim();
+  var msgBox = document.getElementById("formMsg");
 
-  var name = form.name;
-  var email = form.email;
-  var subject = form.subject;
-  var message = form.message;
-
-  // reset old styles
-  [name, email, subject, message].forEach(i => {
-    i.classList.remove("input-error");
-    i.classList.remove("input-success");
-  });
-
+  // Email validation regex
   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  var valid = true;
 
-  if (name.value.trim() === "") {
-    name.classList.add("input-error");
-    valid = false;
-  }
-
-  if (!emailPattern.test(email.value.trim())) {
-    email.classList.add("input-error");
-    valid = false;
-  }
-
-  if (subject.value.trim() === "") {
-    subject.classList.add("input-error");
-    valid = false;
-  }
-
-  if (message.value.trim() === "") {
-    message.classList.add("input-error");
-    valid = false;
-  }
-
-  if (!valid) {
-    msg.innerHTML = "❌ Please fix highlighted fields";
-    msg.style.color = "red";
+  // ❌ Validation
+  if (name.length < 3) {
+    msgBox.innerHTML = "❌ Name must be at least 3 characters";
+    msgBox.style.color = "red";
     return;
   }
 
-  // success styling
-  [name, email, subject, message].forEach(i => {
-    i.classList.add("input-success");
-  });
+  if (!emailPattern.test(email)) {
+    msgBox.innerHTML = "❌ Enter a valid email address";
+    msgBox.style.color = "red";
+    return;
+  }
 
+  if (subject.length < 3) {
+    msgBox.innerHTML = "❌ Subject is too short";
+    msgBox.style.color = "red";
+    return;
+  }
+
+  if (message.length < 10) {
+    msgBox.innerHTML = "❌ Message must be at least 10 characters";
+    msgBox.style.color = "red";
+    return;
+  }
+
+  // ✔️ All good – now send email
   var formData = new FormData(form);
 
   fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
     method: "POST",
     body: formData,
     headers: { "Accept": "application/json" }
-  }).then(function (response) {
+  })
+  .then(function (response) {
     if (response.ok) {
-      msg.innerHTML = "✅ Message sent successfully!";
-      msg.style.color = "green";
+      msgBox.innerHTML = "✅ Message sent successfully!";
+      msgBox.style.color = "green";
       form.reset();
-
-      setTimeout(() => {
-        [name, email, subject, message].forEach(i => {
-          i.classList.remove("input-success");
-        });
-      }, 2000);
     } else {
-      msg.innerHTML = "❌ Something went wrong";
-      msg.style.color = "red";
+      msgBox.innerHTML = "❌ Something went wrong. Try again.";
+      msgBox.style.color = "red";
     }
   });
 });
@@ -189,64 +172,54 @@ document.getElementById("contactForm")?.addEventListener("submit", function (e) 
   e.preventDefault();
 
   var form = this;
-  var msg = document.getElementById("headerMsg");
   var formData = new FormData(form);
 
   fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
     method: "POST",
     body: formData,
-    headers: { "Accept": "application/json" }
-  })
-  .then(function (response) {
+    headers: { Accept: "application/json" }
+  }).then(function (response) {
     if (response.ok) {
-      msg.innerHTML = "✅ Message sent successfully!";
-      msg.style.color = "green";
+      document.getElementById("headerMsg").innerHTML = "✅ Message sent successfully!";
+      document.getElementById("headerMsg").style.color = "green";
       form.reset();
-    } else {
-      msg.innerHTML = "❌ Email failed";
-      msg.style.color = "red";
     }
-  })
-  .catch(() => {
-    msg.innerHTML = "❌ Network error";
-    msg.style.color = "red";
   });
 });
-
 
 
 // FOOTER SUBSCRIBE (REAL FIX)
-document.getElementById("footerSubscribeForm")?.addEventListener("submit", function (e) {
-  e.preventDefault();
+document.addEventListener("DOMContentLoaded", function () {
 
-  var form = this;
-  var email = form.email.value;
-  var msg = document.getElementById("footerSubscribeMsg");
+  var footerForm = document.getElementById("footerSubscribeForm");
+  if (!footerForm) return;
 
-  var formData = new FormData(form);
-  formData.set("subject", "New Newsletter Subscriber");
-  formData.set("message", "Subscriber email: " + email);
+  footerForm.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { "Accept": "application/json" }
-  })
-  .then(function (response) {
+    var formData = new FormData(footerForm);
+    var email = footerForm.querySelector("input[name='email']").value;
+
+    formData.set("subject", "New Newsletter Subscriber");
+    formData.set("message", "Subscriber email: " + email);
+
+    fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+      method: "POST",
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(res => res.json())
+
+.then(function (response) {
     if (response.ok) {
-      msg.innerHTML = "✅ Thanks for subscribing!";
-      msg.style.color = "green";
+      document.getElementById("footerSubscribeMsg").innerHTML = "✅ Message sent successfully!";
+      document.getElementById("footerSubscribeMsg").style.color = "green";
       form.reset();
-    } else {
-      msg.innerHTML = "❌ Subscription failed";
-      msg.style.color = "red";
     }
-  })
-  .catch(() => {
-    msg.innerHTML = "❌ Network error";
-    msg.style.color = "red";
   });
-});
 
+  });
+
+});
 
 
