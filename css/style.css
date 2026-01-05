@@ -1175,6 +1175,7 @@ a.client-video-review {
   border-radius: 24px;
   transition: .4s;
   box-shadow: 0px 1px 5px 0px #0000003b;
+  min-height: 350px;
 }
 
 .senials-client .active {
@@ -2032,7 +2033,7 @@ section.section-about.aboutpage .teemcontent {
   color: #FFF;
 }
 
-.ser-content22 .title { 
+.ser-content22 .title {
   color: #FFF;
   max-width: 450px;
   margin-bottom: 21px;
@@ -2250,11 +2251,11 @@ section.team-section.v2.ibt-section-gapBottom {
 
 /**************about page ******************/
 .video-wrapper {
-    position: relative;
-    width: 40%;
-    margin: 0 auto;
-    justify-content: center;
-    display: flex;
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
 }
 
 .video-modal {
@@ -2273,7 +2274,7 @@ section.team-section.v2.ibt-section-gapBottom {
 
 .video-box {
   position: relative;
-  width: 100%; 
+  width: 100%;
   background: #000;
   border-radius: 10px;
   overflow: hidden;
@@ -2660,9 +2661,9 @@ section.featured {
     width: 48%;
   }
 
-.video-wrapper { 
-    width: 90%; 
-} 
+  .video-wrapper {
+    width: 90%;
+  }
 
 }
 
