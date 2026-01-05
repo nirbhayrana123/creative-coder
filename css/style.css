@@ -2252,11 +2252,11 @@ section.team-section.v2.ibt-section-gapBottom {
 
 /**************about page ******************/
 .video-wrapper {
-  position: relative;
-  width: 75%;
-  margin: 0 auto;
-  justify-content: center;
-  display: flex;
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
 }
 
 .video-modal {
