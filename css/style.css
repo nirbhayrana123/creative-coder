@@ -467,22 +467,7 @@ header.header.activeshow .menu-list-ul {
   position: relative;
 }
 
-.development-technologie-logo:after,
-.development-technologie-logo:before {
-  content: "";
-  transition: all .3s;
-  background: #b41f3d1c;
-  position: absolute;
-  z-index: 0;
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
 
-.development-technologie-logo:hover:after {
-  width: 100%;
-}
 
 .pill {
   background: #9b8df2;
@@ -556,7 +541,7 @@ header.header.activeshow .menu-list-ul {
 .grid2.onecol .iconcol {
   border-radius: 12px;
   padding: 20px;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
   padding-right: 65px;
 }
@@ -565,7 +550,7 @@ header.header.activeshow .menu-list-ul {
   color: #353535;
   margin-bottom: 0px;
   margin-top: 5px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .grid2.onecol .iconcol i {
@@ -593,13 +578,13 @@ header.header.activeshow .menu-list-ul {
 
 .grid2 .iconcol {
   background-color: #ffffff;
-  box-shadow: 0px 0px 4px 0px #00000024;
-  padding: 10px;
+  border: 1px solid #9f8be7c2;
+  padding: 14px;
   display: flex;
   gap: 16px;
-  border-top-right-radius: 30px;
   align-items: center;
   transition: 0.5s;
+  border-radius: 4px 0px 19px 0px;
 }
 
 .grid2 .iconcol h5 {
@@ -607,10 +592,8 @@ header.header.activeshow .menu-list-ul {
 }
 
 .grid2 .iconcol i {
-  font-size: 35px;
+  font-size: 30px;
   color: #9f8be7;
-  border: 3px dotted #9f8be7;
-  padding: 8px;
   border-radius: 1000px;
 }
 
@@ -1174,23 +1157,25 @@ a.client-video-review {
   padding: 25px;
   border-radius: 24px;
   transition: .4s;
-  box-shadow: 0px 1px 5px 0px #0000003b; 
+  box-shadow: 0px 1px 5px 0px #0000003b;
 }
 
 .senials-client p {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    min-height: 125px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 125px;
 }
-.senials-client h5 { 
-    margin-bottom: 5px;
+
+.senials-client h5 {
+  margin-bottom: 5px;
 }
+
 .senials-client h6 {
-    font-weight: 300;
-    color: #494848;
-    font-size: .7em;
+  font-weight: 300;
+  color: #494848;
+  font-size: .7em;
 }
 
 .senials-client .active {
@@ -1310,7 +1295,6 @@ section.stack-wrapper {
   grid-template-columns: 1fr 1fr;
   gap: 45px;
   min-height: 550px;
-  align-items: center;
 }
 
 .stack-card h2 {
@@ -2608,6 +2592,9 @@ section.featured {
 
 
 /************blog page************/
+/************privacy************/
+
+
 /**************mobile media******************/
 /*****************amit****************/
 @media (max-width: 1200px) {
