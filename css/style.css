@@ -571,7 +571,7 @@ header.header.activeshow .menu-list-ul {
 .grid2.onecol .iconcol {
   border-radius: 12px;
   padding: 20px;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
   padding-right: 65px;
 }
@@ -580,7 +580,19 @@ header.header.activeshow .menu-list-ul {
   color: #353535;
   margin-bottom: 0px;
   margin-top: 5px;
-  font-size: 13px;
+  font-size: 15px;
+}
+
+
+
+.grid2.onecol .iconcol::before {
+    content: "";
+    background-color: #9f8be7;
+    width: 78px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 0;
 }
 
 .grid2.onecol .iconcol i {
@@ -609,7 +621,7 @@ header.header.activeshow .menu-list-ul {
 .grid2 .iconcol {
     background-color: #ffffff;
     border: 1px solid #9f8be7c2;
-    padding: 10px;
+    padding: 14px;
     display: flex;
     gap: 16px;
     align-items: center;
@@ -623,9 +635,7 @@ header.header.activeshow .menu-list-ul {
 
 .grid2 .iconcol i {
   font-size: 35px;
-  color: #9f8be7;
-  border: 3px dotted #9f8be7;
-  padding: 8px;
+  color: #9f8be7;  
   border-radius: 1000px;
 }
 
