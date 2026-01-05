@@ -2639,12 +2639,13 @@ section.featured {
     font-size: 15px;
   }
 
-.rightproject {
+  .rightproject {
     width: 45%;
-}
-.leftcontern {
+  }
+
+  .leftcontern {
     width: 48%;
-}
+  }
 
 
 
@@ -2768,13 +2769,15 @@ section.featured {
   .inner-contect-right {
     padding-left: 0;
   }
-.blog-hero { 
-    padding: 70px 0; 
-}
-.blog-hero h1 {
-    font-size: 38px; 
+
+  .blog-hero {
+    padding: 70px 0;
+  }
+
+  .blog-hero h1 {
+    font-size: 38px;
     line-height: 1.4;
-}
+  }
 }
 
 
@@ -2783,15 +2786,15 @@ section.featured {
     font-size: 14px;
   }
 
-  .menu { 
+  .menu {
     width: 40px;
-    height: 40px; 
-}
+    height: 40px;
+  }
 
 
-.menu span{
-    height: 2px; 
-}
+  .menu span {
+    height: 2px;
+  }
 
   section.section-about.aboutpage .teemcontent {
     padding-left: 0;
@@ -2806,12 +2809,15 @@ section.featured {
     width: 100%;
     order: 1;
   }
-h2{
-  font-size: 2em;
-}
-    .blog-hero h1 {
-        font-size: 28px; 
-    }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .blog-hero h1 {
+    font-size: 28px;
+  }
+
   .leftcontern {
     order: 2;
     width: 100%;
@@ -2926,6 +2932,9 @@ h2{
 
   .mxd-project-item-tags {
     flex-wrap: wrap;
+    gap: 7px;
+    bottom: 18px;
+    left: 15px;
   }
 
   .stack-card {
@@ -2934,6 +2943,8 @@ h2{
     grid-template-columns: 1fr;
     gap: 30px;
     height: auto;
+    border-radius: 25px;
+    padding: 20px;
   }
 
   .herobanner-text h1 {
@@ -3048,14 +3059,6 @@ h2{
   }
 
 
-
-
-
-
-
-  /********************amit ************************/
-
-
   .logo-marquee {
     padding: 40px 0;
   }
@@ -3086,8 +3089,6 @@ h2{
     min-width: 140px;
     padding: 14px 22px;
   }
-
-
 
   .testimonial-wrap {
     flex-wrap: wrap;
@@ -3152,11 +3153,10 @@ h2{
   }
 
   .development-technologie-logo {
-           width: 22%; 
-        background-color: #fff;
-        padding: 8px;
+    width: 22%;
+    background-color: #fff;
+    padding: 8px;
   }
-
 
 
 
@@ -3175,19 +3175,24 @@ h2{
   .gridmembers.gaping {
     grid-template-columns: 1fr;
   }
-.minebloges { 
+
+  .minebloges {
     grid-template-columns: 1fr;
-}
+  }
+
   .team-info .gridmembers {
     grid-template-columns: 1fr;
   }
-.rightblogimg {
+
+  .rightblogimg {
     padding-top: 0;
-}
-    .blog-hero {
-        padding: 90px 0;
-        padding-bottom: 0;
-    }
+  }
+
+  .blog-hero {
+    padding: 90px 0;
+    padding-bottom: 0;
+  }
+
   .heading1 h1 {
     font-size: 2em;
   }
@@ -3314,10 +3319,10 @@ h2{
     padding-top: 20px;
   }
 
-    .robot-arm {
-        top: 45px;
-        right: 0;
-    }
+  .robot-arm {
+    top: 45px;
+    right: 0;
+  }
 
 
 
