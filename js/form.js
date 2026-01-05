@@ -91,12 +91,12 @@ document.getElementById("contactFormpage")?.addEventListener("submit", function 
     headers: { 'Accept': 'application/json' }
   }).then(function (response) {
     if (response.ok) {
-      document.getElementById("formMsg").style.display = "block";
+      document.getElementById("formMsg").innerHTML = "✅ Message sent successfully!";
+      document.getElementById("formMsg").style.color = "green";
       form.reset();
-    } else {
-      alert("Something went wrong.");
     }
   });
+
 });
 
 
@@ -142,11 +142,15 @@ document.addEventListener("DOMContentLoaded", function () {
       headers: { 'Accept': 'application/json' }
     })
     .then(res => res.json())
-    .then(data => {
-      document.getElementById("footerSubscribeMsg").style.display = "block";
-      footerForm.reset();
-    })
-    .catch(() => alert("Network error"));
+
+.then(function (response) {
+    if (response.ok) {
+      document.getElementById("footerSubscribeMsg").innerHTML = "✅ Message sent successfully!";
+      document.getElementById("footerSubscribeMsg").style.color = "green";
+      form.reset();
+    }
+  });
+
   });
 
 });
