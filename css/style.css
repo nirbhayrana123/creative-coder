@@ -774,10 +774,10 @@ header.header.activeshow .menu-list-ul {
 }
 
 .card.white {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 
@@ -2251,6 +2251,13 @@ section.team-section.v2.ibt-section-gapBottom {
 
 
 /**************about page ******************/
+.video-wrapper {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
 
 .video-modal {
   position: fixed;
@@ -2268,8 +2275,7 @@ section.team-section.v2.ibt-section-gapBottom {
 
 .video-box {
   position: relative;
-  width: 80%;
-  max-width: 800px;
+  width: 100%; 
   background: #000;
   border-radius: 10px;
   overflow: hidden;
@@ -2282,8 +2288,8 @@ section.team-section.v2.ibt-section-gapBottom {
 
 .close-video {
   position: absolute;
-  top: 77px;
-  right: 265px;
+  top: 0;
+  right: 0;
   color: #050505;
   font-size: 35px;
   background-color: #fff;
@@ -2339,24 +2345,24 @@ section.bannerservices {
 }
 
 .service-card {
-    max-width: 100%;
-    margin: 50px auto;
-    background: #fff;
-    border-radius: 22px;
-    overflow: hidden;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08); 
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    display: grid;
+  max-width: 100%;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  display: grid;
 }
 
 .service-image {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-    max-height: none;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  max-height: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .service-card.aos-animate img {
@@ -2405,13 +2411,14 @@ section.bannerservices {
 }
 
 .service-content {
-    width: 100%;
-       padding: 50px;
-    align-items: baseline;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 100%;
+  padding: 50px;
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .service-content h2 {
   font-size: 32px;
   margin-bottom: 15px;
