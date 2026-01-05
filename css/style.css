@@ -346,7 +346,6 @@ a.current {
 
 .parallax-img {
   width: 100%;
-  height: 121%;
   display: block;
   transform: translateY(0);
   transition: transform 0.1s linear;
@@ -2553,7 +2552,7 @@ section.featured {
 }
 
 .collaboration-slider-tems .item {
-  border: 1px solid #9f8be7;
+  background-color: #9f8be7;
   padding: 3px;
   border-radius: 10px;
   overflow: hidden;
@@ -2868,14 +2867,9 @@ section.featured {
     font-size: 13px;
   }
 
-  .parallax-img {
-    top: 20px;
-    height: 100%;
-    border-radius: 40px;
-  }
-
   .parallax-box {
-    height: auto;
+    height: 330px;
+    border-radius: 20px;
   }
 
   .content-row {
@@ -2893,7 +2887,7 @@ section.featured {
 
   .parallax-img {
     position: relative;
-    height: auto;
+    height: 135%;
   }
 
   .card {
