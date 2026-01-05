@@ -253,30 +253,36 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+// document.addEventListener("DOMContentLoaded", function () {
 
-  const form = document.getElementById("subscribeForm");
+//   const form = document.getElementById("subscribeForm");
 
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // 🚫 Page reload stop
+//   form.addEventListener("submit", function (e) {
+//     e.preventDefault(); // 🚫 Page reload stop
 
-    const formData = new FormData(form);
+//     const formData = new FormData(form);
 
-    fetch("https://formsubmit.co/ajax/amit.creativecoder@gmail.com", {
-      method: "POST",
-      body: formData
-    })
-    .then(res => res.json())
-    .then(data => {
-      if (data.success === "true") {
-        document.getElementById("subscribeMsg").style.display = "block";
-        form.reset();
-      } else {
-        alert("Email not sent. Try again.");
-      }
-    })
-    .catch(() => alert("Network error"));
-  });
+//     fetch("https://formsubmit.co/ajax/amit.creativecoder@gmail.com", {
+//       method: "POST",
+//       body: formData
+//     })
+//     .then(res => res.json())
+//     .then(data => {
+//       if (data.success === "true") {
+//         document.getElementById("subscribeMsg").style.display = "block";
+//         form.reset();
+//       } else {
+//         alert("Email not sent. Try again.");
+//       }
+//     })
+//     .catch(() => alert("Network error"));
+//   });
 
+// });
+
+document.getElementById("subscribeForm").addEventListener("submit", function(){
+  setTimeout(function(){
+    document.getElementById("subscribeMsg").style.display = "block";
+    document.getElementById("subscribeForm").reset();
+  }, 800); // thoda delay taaki email send ho jaye
 });
-
