@@ -72,10 +72,27 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 // });
 
-document.getElementById("footerSubscribeForm").addEventListener("submit", function () {
-  setTimeout(function () {
-    document.getElementById("footerSubscribeMsg").style.display = "block";
-    document.getElementById("footerSubscribeForm").reset();
-  }, 1200);
+document.getElementById("footerSubscribeForm").addEventListener("submit", function(e){
+  e.preventDefault();
+
+  var form = this;
+  var formData = new FormData(form);
+
+  // custom subject so you know it's newsletter
+  formData.append("subject", "New Newsletter Subscriber");
+
+  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+    method: "POST",
+    body: formData,
+    headers: { 'Accept': 'application/json' }
+  })
+  .then(function(response){
+    if(response.ok){
+      document.getElementById("footerSubscribeMsg").style.display = "block";
+      form.reset();
+    } else {
+      alert("Subscription failed. Try again.");
+    }
+  });
 });
 
