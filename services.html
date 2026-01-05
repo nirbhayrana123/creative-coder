@@ -49,14 +49,16 @@
         </div>
         <div class="medader"></div>
 
-        <form class="contact-form" id="contactForm">
+       <form class="contact-form" id="contactForm">
           <h3>Contact Us</h3>
-          <input type="text" id="name" placeholder="Your Name" required>
-          <input type="email" id="email" placeholder="your@email.com" required>
-          <textarea id="message" placeholder="Your Message" required></textarea>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="thankyou.html">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="your@email.com" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
 
           <button type="submit">Send Message <i class="fa-solid fa-location-arrow"></i></button>
-          <p class="form-msg" id="formMsg"></p>
+          <p class="form-msg" id="headerMsg"></p>
         </form>
 
 
@@ -572,16 +574,20 @@
 
           <div class="subscribe">
             <h3>Join Our Newsletter</h3>
-            <form id="subscribeForm">
+            <form id="footerSubscribeForm">
+
+              <input type="hidden" name="_captcha" value="false">
+
               <div class="input">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="thankyou.html">
-                <input type="email" placeholder="your@email.com" required>
-                <button type="submit" class="arrow"><i class="fa-solid fa-circle-arrow-right"></i></button>
+                <input type="email" name="email" placeholder="your@email.com" required>
+                <button type="submit" class="arrow">
+                  <i class="fa-solid fa-circle-arrow-right"></i>
+                </button>
               </div>
-              <p id="subscribeMsg" style="display:none;color:green;font-weight:600;">
-                ✅ Thanks for subscribing!
+
+              <p class="form-msg" id="footerSubscribeMsg">
               </p>
+
             </form>
           </div>
         </div>
