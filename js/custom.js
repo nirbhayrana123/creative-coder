@@ -254,10 +254,11 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 
 document.addEventListener("DOMContentLoaded", function () {
+
   const form = document.getElementById("subscribeForm");
 
   form.addEventListener("submit", function (e) {
-    e.preventDefault();
+    e.preventDefault(); // 🚫 Page reload stop
 
     const formData = new FormData(form);
 
@@ -271,9 +272,11 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("subscribeMsg").style.display = "block";
         form.reset();
       } else {
-        alert("Email sending failed");
+        alert("Email not sent. Try again.");
       }
     })
     .catch(() => alert("Network error"));
   });
+
 });
+
