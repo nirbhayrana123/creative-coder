@@ -2553,7 +2553,7 @@ section.featured {
 }
 
 .collaboration-slider-tems .item {
-  border: 1px solid #9f8be7;
+  background-color: #9f8be7;
   padding: 3px;
   border-radius: 10px;
   overflow: hidden;
