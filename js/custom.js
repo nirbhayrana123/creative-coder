@@ -1,5 +1,5 @@
 /*********header scroll header**********/
- 
+
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
 
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     smoothTouch: false
   });
 
-  
+
   lenis.on("scroll", ({ scroll }) => {
     if (scroll > 50) {
       header.classList.add("bg");
@@ -49,21 +49,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   requestAnimationFrame(raf);
 });
- 
-/*============= tawk =============*/   
 
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/675ffc63af5bfec1dbdcaad8/1if7f3q10';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
+/*============= tawk =============*/
+
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function () {
+  var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+  s1.async = true;
+  s1.src = 'https://embed.tawk.to/675ffc63af5bfec1dbdcaad8/1if7f3q10';
+  s1.charset = 'UTF-8';
+  s1.setAttribute('crossorigin', '*');
+  s0.parentNode.insertBefore(s1, s0);
 })();
 
 
-/*============= parallax-img =============*/    
+/*============= parallax-img =============*/
 
 window.addEventListener("scroll", () => {
   document.querySelectorAll(".parallax-img").forEach(img => {
@@ -102,22 +102,22 @@ document.addEventListener("DOMContentLoaded", function () {
       video.currentTime = 0;
     });
   });
- 
+
 });
 
-jQuery(function ($) { 
+jQuery(function ($) {
   $('.slider').owlCarousel({
     loop: true,
     margin: 30,
     nav: true,
-     navText: [
+    navText: [
       '<i class="fa-solid fa-chevron-left"></i>',
       '<i class="fa-solid fa-chevron-right"></i>'
     ],
     responsive: {
       0: { items: 1 },
       600: { items: 1.5 },
-      1000: { items:2.5 }
+      1000: { items: 2.5 }
     }
   });
 
@@ -183,136 +183,28 @@ jQuery(function ($) {
   });
 
 });
-
-
-
 $('.collaboration-slider-tems').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    autoplay:true,
-    autoplayTimeout:1000,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
+  loop: true,
+  margin: 10,
+  nav: false,
+  autoplay: true,
+  autoplayTimeout: 1000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 2
+    },
+    1000: {
+      items: 3
     }
+  }
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
- AOS.init(
+AOS.init(
   {
-  duration: 1200,
-} );
-
-document.getElementById("contactFormpage").addEventListener("submit", function(e) {
-    e.preventDefault();
-
-    var form = this;
-    var formData = new FormData(form);
-
-    fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-        method: "POST",
-        body: formData,
-        headers: { 'Accept': 'application/json' }
-    }).then(function(response){
-        if(response.ok){
-            document.getElementById("formMsg").style.display = "block";
-            form.reset();
-        } else {
-            alert("Something went wrong. Please try again.");
-        }
-    });
-});
-
-
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-
-  var form = this;
-  var formData = new FormData(form);
-
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { Accept: "application/json" }
-  })
-  .then(function(response){
-    if(response.ok){
-      document.getElementById("formMsg").innerHTML = "✅ Message sent successfully!";
-      document.getElementById("formMsg").style.color = "green";
-      form.reset();
-    } else {
-      alert("Something went wrong. Please try again.");
-    }
+    duration: 1200,
   });
-});
 
-
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-
-  var form = this;
-  var formData = new FormData(form);
-
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { Accept: "application/json" }
-  })
-  .then(function(response){
-    if(response.ok){
-      document.getElementById("formMsg").innerHTML = "✅ Message sent successfully!";
-      document.getElementById("formMsg").style.color = "green";
-      form.reset();
-    } else {
-      alert("Something went wrong. Please try again.");
-    }
-  });
-});
-
-
-document.getElementById("subscribeForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-
-  var form = this;
-  var formData = new FormData(form);
-
-  // Custom subject & message for subscribe
-  var email = form.querySelector("input[name='email']").value;
-  formData.append("subject", "New Newsletter Subscription");
-  formData.append("message", "New subscriber email: " + email);
-
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { Accept: "application/json" }
-  })
-  .then(function(response){
-    if(response.ok){
-      document.getElementById("subscribeMsg").style.display = "block";
-      form.reset();
-    } else {
-      alert("Subscription failed. Try again.");
-    }
-  });
-});
 
