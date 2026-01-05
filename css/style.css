@@ -2307,7 +2307,7 @@ section.team-section.v2.ibt-section-gapBottom {
   overflow: hidden;
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: -1px;
 }
 
 .shapepservicesbanner svg {
@@ -2336,7 +2336,7 @@ section.bannerservices {
 
 .maincontent h1,
 .maincontent p {
-  color: #0c0c0c;
+  color: #fff;
 }
 
 .service-card {
@@ -3130,6 +3130,7 @@ section.featured {
 
   .development-technologie-logo {
     width: 22%;
+    border-color: #ffffff70;
   }
 
 
