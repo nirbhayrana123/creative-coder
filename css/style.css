@@ -2666,6 +2666,8 @@ section.featured {
   .stats-grid,
   .exp-grid {
     flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
   }
 
   .card.purple,
@@ -2781,6 +2783,16 @@ section.featured {
     font-size: 14px;
   }
 
+  .menu { 
+    width: 40px;
+    height: 40px; 
+}
+
+}
+.menu span{
+    height: 2px; 
+}
+
   section.section-about.aboutpage .teemcontent {
     padding-left: 0;
     padding-top: 20px;
@@ -2878,7 +2890,7 @@ h2{
   }
 
   .parallax-box {
-    height: 330px;
+    height: 270px;
     border-radius: 20px;
   }
 
@@ -2897,7 +2909,7 @@ h2{
 
   .parallax-img {
     position: relative;
-    height: 135%;
+    height: 130%;
   }
 
   .card {
