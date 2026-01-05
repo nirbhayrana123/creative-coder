@@ -7,22 +7,7 @@ body {
 
 }
 
-.input-error {
-  border: 2px solid #ff3b3b !important;
-  background: #fff5f5;
-}
 
-/* Success state */
-.input-success {
-  border: 2px solid #28a745 !important;
-  background: #f4fff6;
-}
-
-/* Error message text */
-.form-msg {
-  margin-top: 10px;
-  font-weight: 600;
-}
 
 h1.pagename {
   margin-top: 100px;
@@ -583,18 +568,6 @@ header.header.activeshow .menu-list-ul {
   font-size: 15px;
 }
 
-
-
-.grid2.onecol .iconcol::before {
-    content: "";
-    background-color: #9f8be7;
-    width: 78px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    z-index: 0;
-}
-
 .grid2.onecol .iconcol i {
   border: none;
   padding: 0;
@@ -634,7 +607,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .grid2 .iconcol i {
-  font-size: 35px;
+  font-size: 30px;
   color: #9f8be7;  
   border-radius: 1000px;
 }
