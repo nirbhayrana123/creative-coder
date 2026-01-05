@@ -1089,7 +1089,7 @@ a.client-video-review {
   margin-top: 15px;
   display: inline-block;
   font-size: 15px;
-  
+
   display: none;
 }
 
@@ -1255,9 +1255,7 @@ section.logo-slider {
   object-fit: contain;
 }
 
-img.filterblack {
-  filter: invert(1);
-}
+
 
 img.haight-auto {
   max-height: none;
@@ -2448,7 +2446,7 @@ section.bannerservices {
   position: absolute;
   left: 0;
   top: 0;
-  color: #4CAF50;
+  color: #b2324c;
   font-weight: bold;
 }
 
