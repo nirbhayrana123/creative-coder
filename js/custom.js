@@ -253,29 +253,32 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 
 
-document.getElementById("subscribeForm").addEventListener("submit", function (e) {
-  e.preventDefault();
+document.addEventListener("DOMContentLoaded", function () {
 
-  var form = this;
-  var formData = new FormData(form);
+  const form = document.getElementById("subscribeForm");
+  if (!form) return;
 
-  // Custom subject & message for subscribe
-  var email = form.querySelector("input[name='email']").value;
-  formData.append("subject", "New Newsletter Subscription");
-  formData.append("message", "New subscriber email: " + email);
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { Accept: "application/json" }
-  })
-    .then(function (response) {
-      if (response.ok) {
+    const formData = new FormData(form);
+
+    fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+      method: "POST",
+      body: formData,
+      headers: { Accept: "application/json" }
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.success === "true" || data.ok) {
         document.getElementById("subscribeMsg").style.display = "block";
         form.reset();
       } else {
-        alert("Subscription failed. Try again.");
+        alert("Email failed");
       }
-    });
+    })
+    .catch(() => alert("Network error"));
+  });
+
 });
 
