@@ -189,120 +189,54 @@ document.getElementById("contactForm")?.addEventListener("submit", function (e) 
   e.preventDefault();
 
   var form = this;
-  var msg = document.getElementById("headerMsg");
-
-  var name = form.name;
-  var email = form.email;
-  var message = form.message;
-
-  // reset old styles
-  [name, email, message].forEach(i => {
-    i.classList.remove("input-error");
-    i.classList.remove("input-success");
-  });
-
-  var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  var valid = true;
-
-  if (name.value.trim() === "") {
-    name.classList.add("input-error");
-    valid = false;
-  }
-
-  if (!emailPattern.test(email.value.trim())) {
-    email.classList.add("input-error");
-    valid = false;
-  }
-
-  if (message.value.trim() === "") {
-    message.classList.add("input-error");
-    valid = false;
-  }
-
-  if (!valid) {
-    msg.innerHTML = "❌ Please fill all fields correctly";
-    msg.style.color = "red";
-    return;
-  }
-
-  // success UI
-  [name, email, message].forEach(i => {
-    i.classList.add("input-success");
-  });
-
   var formData = new FormData(form);
 
   fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
     method: "POST",
     body: formData,
-    headers: { "Accept": "application/json" }
+    headers: { Accept: "application/json" }
   }).then(function (response) {
     if (response.ok) {
-      msg.innerHTML = "✅ Message sent successfully!";
-      msg.style.color = "green";
+      document.getElementById("headerMsg").innerHTML = "✅ Message sent successfully!";
+      document.getElementById("headerMsg").style.color = "green";
       form.reset();
-
-      setTimeout(() => {
-        [name, email, message].forEach(i => {
-          i.classList.remove("input-success");
-        });
-      }, 2000);
-    } else {
-      msg.innerHTML = "❌ Something went wrong";
-      msg.style.color = "red";
     }
   });
 });
-
 
 
 // FOOTER SUBSCRIBE (REAL FIX)
-document.getElementById("footerSubscribeForm")?.addEventListener("submit", function (e) {
-  e.preventDefault();
+document.addEventListener("DOMContentLoaded", function () {
 
-  var form = this;
-  var email = form.email;
-  var msg = document.getElementById("footerSubscribeMsg");
+  var footerForm = document.getElementById("footerSubscribeForm");
+  if (!footerForm) return;
 
-  // reset styles
-  email.classList.remove("input-error");
-  email.classList.remove("input-success");
+  footerForm.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-  var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    var formData = new FormData(footerForm);
+    var email = footerForm.querySelector("input[name='email']").value;
 
-  if (!emailPattern.test(email.value.trim())) {
-    email.classList.add("input-error");
-    msg.innerHTML = "❌ Please enter a valid email";
-    msg.style.color = "red";
-    return;
-  }
+    formData.set("subject", "New Newsletter Subscriber");
+    formData.set("message", "Subscriber email: " + email);
 
-  email.classList.add("input-success");
+    fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+      method: "POST",
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(res => res.json())
 
-  var formData = new FormData(form);
-  formData.set("subject", "New Newsletter Subscriber");
-  formData.set("message", "Subscriber email: " + email.value);
-
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { "Accept": "application/json" }
-  })
-  .then(function (response) {
+.then(function (response) {
     if (response.ok) {
-      msg.innerHTML = "✅ Thanks for subscribing!";
-      msg.style.color = "green";
+      document.getElementById("footerSubscribeMsg").innerHTML = "✅ Message sent successfully!";
+      document.getElementById("footerSubscribeMsg").style.color = "green";
       form.reset();
-
-      setTimeout(() => {
-        email.classList.remove("input-success");
-      }, 2000);
-    } else {
-      msg.innerHTML = "❌ Subscription failed";
-      msg.style.color = "red";
     }
   });
-});
 
+  });
+
+});
 
 
