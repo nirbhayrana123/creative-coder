@@ -257,8 +257,8 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   })
   .then(function(response){
     if(response.ok){
-      document.getElementById("formMsg").innerHTML = "✅ Message sent successfully!";
-      document.getElementById("formMsg").style.color = "green";
+      document.getElementById("headerMsg").innerHTML = "✅ Message sent successfully!";
+      document.getElementById("headerMsg").style.color = "green";
       form.reset();
     } else {
       alert("Something went wrong. Please try again.");
@@ -267,27 +267,6 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 });
 
 
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-
-  var form = this;
-  var formData = new FormData(form);
-
-  fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
-    method: "POST",
-    body: formData,
-    headers: { Accept: "application/json" }
-  })
-  .then(function(response){
-    if(response.ok){
-      document.getElementById("formMsg").innerHTML = "✅ Message sent successfully!";
-      document.getElementById("formMsg").style.color = "green";
-      form.reset();
-    } else {
-      alert("Something went wrong. Please try again.");
-    }
-  });
-});
 
 
 document.getElementById("subscribeForm").addEventListener("submit", function(e) {
