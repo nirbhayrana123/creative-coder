@@ -72,12 +72,10 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 // });
 
-document.getElementById("subscribeForm").addEventListener("submit", function () {
-
+document.getElementById("footerSubscribeForm").addEventListener("submit", function () {
   setTimeout(function () {
-    document.getElementById("subscribeMsg").style.display = "block";
-    document.getElementById("subscribeForm").reset();
+    document.getElementById("footerSubscribeMsg").style.display = "block";
+    document.getElementById("footerSubscribeForm").reset();
   }, 1200);
-
 });
 
