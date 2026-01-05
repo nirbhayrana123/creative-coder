@@ -467,22 +467,7 @@ header.header.activeshow .menu-list-ul {
   position: relative;
 }
 
-.development-technologie-logo:after,
-.development-technologie-logo:before {
-  content: "";
-  transition: all .3s;
-  background: #b41f3d1c;
-  position: absolute;
-  z-index: 0;
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
 
-.development-technologie-logo:hover:after {
-  width: 100%;
-}
 
 .pill {
   background: #9b8df2;
