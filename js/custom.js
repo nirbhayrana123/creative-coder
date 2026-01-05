@@ -254,31 +254,26 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-
   const form = document.getElementById("subscribeForm");
-  if (!form) return;
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
     const formData = new FormData(form);
 
-    fetch("https://formsubmit.co/amit.creativecoder@gmail.com", {
+    fetch("https://formsubmit.co/ajax/amit.creativecoder@gmail.com", {
       method: "POST",
-      body: formData,
-      headers: { Accept: "application/json" }
+      body: formData
     })
     .then(res => res.json())
     .then(data => {
-      if (data.success === "true" || data.ok) {
+      if (data.success === "true") {
         document.getElementById("subscribeMsg").style.display = "block";
         form.reset();
       } else {
-        alert("Email failed");
+        alert("Email sending failed");
       }
     })
     .catch(() => alert("Network error"));
   });
-
 });
-
