@@ -7,7 +7,22 @@ body {
 
 }
 
+.input-error {
+  border: 2px solid #ff3b3b !important;
+  background: #fff5f5;
+}
 
+/* Success state */
+.input-success {
+  border: 2px solid #28a745 !important;
+  background: #f4fff6;
+}
+
+/* Error message text */
+.form-msg {
+  margin-top: 10px;
+  font-weight: 600;
+}
 
 h1.pagename {
   margin-top: 100px;
@@ -556,7 +571,7 @@ header.header.activeshow .menu-list-ul {
 .grid2.onecol .iconcol {
   border-radius: 12px;
   padding: 20px;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
   padding-right: 65px;
 }
@@ -565,7 +580,19 @@ header.header.activeshow .menu-list-ul {
   color: #353535;
   margin-bottom: 0px;
   margin-top: 5px;
-  font-size: 13px;
+  font-size: 15px;
+}
+
+
+
+.grid2.onecol .iconcol::before {
+    content: "";
+    background-color: #9f8be7;
+    width: 78px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 0;
 }
 
 .grid2.onecol .iconcol i {
@@ -592,14 +619,14 @@ header.header.activeshow .menu-list-ul {
 }
 
 .grid2 .iconcol {
-  background-color: #ffffff;
-  box-shadow: 0px 0px 4px 0px #00000024;
-  padding: 10px;
-  display: flex;
-  gap: 16px;
-  border-top-right-radius: 30px;
-  align-items: center;
-  transition: 0.5s;
+    background-color: #ffffff;
+    border: 1px solid #9f8be7c2;
+    padding: 14px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 4px 0px 19px 0px;
 }
 
 .grid2 .iconcol h5 {
@@ -608,9 +635,7 @@ header.header.activeshow .menu-list-ul {
 
 .grid2 .iconcol i {
   font-size: 35px;
-  color: #9f8be7;
-  border: 3px dotted #9f8be7;
-  padding: 8px;
+  color: #9f8be7;  
   border-radius: 1000px;
 }
 
@@ -1309,8 +1334,7 @@ section.stack-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 45px;
-  min-height: 550px;
-  align-items: center;
+  min-height: 550px; 
 }
 
 .stack-card h2 {
