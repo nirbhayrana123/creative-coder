@@ -774,10 +774,10 @@ header.header.activeshow .menu-list-ul {
 }
 
 .card.white {
-  background: #fff;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 
