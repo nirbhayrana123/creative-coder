@@ -43,7 +43,7 @@ a {
   line-height: 1em;
 }
 
-p {
+p,li {
   font-size: 0.8em;
   line-height: 1.5;
   color: #000000;
@@ -1336,8 +1336,34 @@ section.stack-wrapper {
 .card-2 h2,
 .card-2 p,
 .card-4 h2,
-.card-4 p {
+.card-4 p,
+.card-content h6,
+.card-content li {
   color: #ffffff;
+}
+.card-content h6 {
+    margin-bottom: 7px;
+    margin-top: 14px;
+}
+
+.card-content ul  {
+    padding-left: 35px;
+}
+
+.webflow-services  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 25px;
+}
+
+.webflow-services span {
+    font-size: 0.7em;
+    color: #232128;
+    border-radius: 100px;
+    padding: 5px 14px;
+    background: #cdc6e6;
 }
 
 .card-3 h2,
