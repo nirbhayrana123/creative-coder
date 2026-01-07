@@ -5,7 +5,7 @@ body {
   font-size: 20px;
   overflow-x: hidden;
 
-} 
+}
 
 h1.pagename {
   margin-top: 100px;
@@ -43,7 +43,8 @@ a {
   line-height: 1em;
 }
 
-p {
+p,
+li {
   font-size: 0.8em;
   line-height: 1.5;
   color: #000000;
@@ -407,20 +408,30 @@ header.header.activeshow .menu-list-ul {
 }
 
 /*============ header END=============*/
-.mxd-project-item-tags {
+.project-services {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   position: absolute;
   bottom: 35px;
   left: 40px;
+  flex-wrap: wrap;
 }
 
+.project-services.webflow {
+  position: static;
+  margin-bottom: 20px;
+}
 
-.mxd-project-item-tags a {
-  background-color: #fff;
-  padding: 10px 17px;
-  border-radius: 30px;
+.project-services span {
   font-size: 0.7em;
+  color: #232128;
+  border-radius: 100px;
+  padding: 5px 14px;
+  background-color: #fbfbfbe6;
+}
+
+.project-services.webflow span {
+  background-color: #d6d0ec;
 }
 
 .herobanner {
@@ -537,13 +548,13 @@ header.header.activeshow .menu-list-ul {
 }
 
 .grid2.onecol .iconcol {
-  border-radius: 12px;
-  padding: 20px;
-  align-items: center;
-  position: relative;
-  padding-right: 65px;
+    border-radius: 12px;
+    padding: 15px;
+    align-items: flex-start;
+    position: relative;
+    padding-right: 65px;
+    background-color: #ffffff;
 }
-
 .grid2.onecol p {
   color: #353535;
   margin-bottom: 0px;
@@ -575,8 +586,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .grid2 .iconcol {
-  background-color: #ffffff;
-  border: 1px solid #9f8be7c2;
+  background-color: #f3f3f3;
   padding: 14px;
   display: flex;
   gap: 16px;
@@ -587,11 +597,12 @@ header.header.activeshow .menu-list-ul {
 
 .grid2 .iconcol h5 {
   margin-bottom: 0;
+  color: #000000;
 }
 
 .grid2 .iconcol i {
   font-size: 30px;
-  color: #9f8be7;
+  color: #000000;
   border-radius: 1000px;
 }
 
@@ -691,10 +702,11 @@ header.header.activeshow .menu-list-ul {
 
 .robot-arm {
   position: absolute;
-  right: 29px;
-  top: 37px;
+  right: 0;
+  top: auto;
+  bottom: 0;
   width: 390px;
-  border-radius: 100px 0px 100px 0px;
+  border-top-left-radius: 100px;
 }
 
 .exp-card {
@@ -750,7 +762,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .card-content p {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 
@@ -1122,8 +1134,8 @@ a.client-video-review {
 }
 
 .slider.owl-carousel .owl-nav button:hover {
-  background-color: #0d83fd;
-  border-color: #0d83fd;
+  background-color: #9b8df2;
+  border-color: #9b8df2;
 }
 
 .slider.owl-carousel .owl-nav button:hover i.fa-solid {
@@ -1326,7 +1338,7 @@ section.stack-wrapper {
   background-color: #ffffff;
 }
 
-.card-3 .mxd-project-item-tags a {
+.card-3 .project-services span {
   background-color: #000000;
   color: #ffffff;
 }
@@ -1340,9 +1352,21 @@ section.stack-wrapper {
 .card-2 h2,
 .card-2 p,
 .card-4 h2,
-.card-4 p {
+.card-4 p,
+.card-content h6,
+.card-content li {
   color: #ffffff;
 }
+
+.card-content h6 {
+  margin-bottom: 7px;
+  margin-top: 14px;
+}
+
+.card-content ul {
+  padding-left: 35px;
+}
+
 
 .card-3 h2,
 .card-3 p {
@@ -1432,14 +1456,14 @@ footer.footer {
 }
 
 p.bottom-links {
-    font-size: 0.7em;
-    margin-top: 20px;
+  font-size: 0.7em;
+  margin-top: 20px;
 }
 
 ul.footer-menu {
   display: flex;
   flex-direction: column;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .footer-menu li {
@@ -1452,7 +1476,7 @@ ul.footer-menu {
   font-weight: 700;
 }
 
- 
+
 
 .subscribe {
   padding: 32px;
@@ -1500,15 +1524,17 @@ input input {
 }
 
 
-.social {
+.footer-box .social {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .social li {
   font-size: 0.9em;
-  margin-bottom: 23px;
 }
 
 .copy {
@@ -1550,7 +1576,7 @@ input input {
 
 .footer-box.mal-middle a {
   background-color: #ffffff;
-  padding: 50px 30px;
+  padding: 42px 30px;
   border-radius: 25px;
   box-shadow: 0px 1px 5px 0px #0000003b;
   display: flex;
@@ -1559,11 +1585,7 @@ input input {
   font-size: 0.9em;
 }
 
-.footer-box i.fa-solid.fa-envelope {
-  font-size: 30px;
-}
-
-.footer-box i.fa-solid.fa-phone {
+.footer-box i {
   font-size: 30px;
 }
 
@@ -2584,14 +2606,7 @@ section.featured {
 }
 
 
-
- 
-/************blog page************/
-/************privacy************/
-
-
 /**************mobile media******************/
-/*****************amit****************/
 @media (max-width: 1200px) {
 
   body {
@@ -2642,9 +2657,6 @@ section.featured {
 
 }
 
-/*****************amit****************/
-
-
 @media(max-width:1024px) {
   body {
     font-size: 15px;
@@ -2665,6 +2677,9 @@ section.featured {
 }
 
 @media(max-width:991px) {
+  .socail {
+    margin: 18px 0px;
+  }
 
   .grid-3,
   .blog-grid,
@@ -2807,11 +2822,26 @@ section.featured {
     font-size: 14px;
   }
 
+  .footer-box i {
+    font-size: 20px;
+  }
+
+  .footer-box .social {
+    gap: 10px;
+  }
+
+  .footer-box.right h3 {
+    margin-bottom: 10px;
+  }
+
   .menu {
     width: 40px;
     height: 40px;
   }
 
+  ul.social li a {
+    font-size: 1em;
+  }
 
   .menu span {
     height: 2px;
@@ -2914,7 +2944,7 @@ section.featured {
     grid-template-columns: 1fr 1fr;
   }
 
-  
+
   .parallax-box {
     height: 270px;
     border-radius: 20px;
@@ -2950,9 +2980,7 @@ section.featured {
     gap: 40px;
   }
 
-  .mxd-project-item-tags {
-    flex-wrap: wrap;
-    gap: 7px;
+  .project-services {
     bottom: 18px;
     left: 15px;
   }
@@ -3031,9 +3059,19 @@ section.featured {
     margin: 0px 0 40px;
   }
 
-  .footer-box {
+  .footer-box,
+  .subscribe {
     padding: 24px;
   }
+
+  .footer-box.mal-middle a {
+    padding: 25px 24px;
+  }
+
+  ul.footer-menu {
+    margin-bottom: 14px;
+  }
+
 
   .pill {
     padding: 10px 0px;
@@ -3134,7 +3172,7 @@ section.featured {
     position: static;
     font-size: 14px;
   }
- 
+
 
   .footer-box.mal-middle a {
     gap: 15px;
@@ -3145,9 +3183,6 @@ section.featured {
     font-size: 1.2em;
   }
 
-  .footer-box.mal-middle a {
-    padding: 25px 30px;
-  }
 
   .bg-right img {
     z-index: -1;
@@ -3240,7 +3275,7 @@ section.featured {
     font-weight: 500;
   }
 
-  .mxd-project-item-tags {
+  .project-services {
     left: 15px;
   }
 
@@ -3338,9 +3373,12 @@ section.featured {
     padding-top: 20px;
   }
 
+<<<<<<< HEAD
   .robot-arm {
     top: 45px; 
   }
+=======
+>>>>>>> 578b9317db0416c9339e0290eafd4de65791bf69
 
 
 
