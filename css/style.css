@@ -427,12 +427,10 @@ header.header.activeshow .menu-list-ul {
   color: #232128;
   border-radius: 100px;
   padding: 5px 14px;
-  background-color: #fbfbfbe6;
+  background-color: #fff;
 }
 
-.project-services.webflow span {
-  background-color: #ffffff;
-}
+ 
 
 .herobanner {
   padding: 15px 0;
