@@ -2250,8 +2250,7 @@ section.bannerservices {
   margin-bottom: 15px;
 }
 
-.service-content p {
-  color: #555;
+.service-content p { 
   line-height: 1.7;
   margin-bottom: 25px;
 }
@@ -2260,7 +2259,6 @@ section.bannerservices {
   margin-bottom: 15px;
 }
 
-/* LIST */
 .service-content ul {
   list-style: none;
   padding: 0;
