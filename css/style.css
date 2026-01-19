@@ -795,7 +795,9 @@ header.header.activeshow .menu-list-ul {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+a#dm8lu8l9sbdc1768633459056 {
+    display: none;
+}
 
 .avatars {
   display: flex;
