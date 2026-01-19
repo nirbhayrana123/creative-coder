@@ -699,12 +699,12 @@ header.header.activeshow .menu-list-ul {
 }
 
 .robot-arm {
-  position: absolute;
-  right: 0;
-  top: auto;
-  bottom: 0;
-  width: 390px;
-  border-top-left-radius: 100px;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: -54px;
+    width: 390px;
+    border-top-left-radius: 100px;
 }
 
 .exp-card {
@@ -1855,7 +1855,7 @@ section.maincontects {
 
 .page-banner11 {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/teem9.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/trans-person-working-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 217px 0 235px;
