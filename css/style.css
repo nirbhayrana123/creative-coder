@@ -427,12 +427,10 @@ header.header.activeshow .menu-list-ul {
   color: #232128;
   border-radius: 100px;
   padding: 5px 14px;
-  background-color: #fbfbfbe6;
+  background-color: #fff;
 }
 
-.project-services.webflow span {
-  background-color: #d6d0ec;
-}
+ 
 
 .herobanner {
   padding: 15px 0;
@@ -1441,7 +1439,7 @@ footer.footer {
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  gap: 25px;
 }
 
 .footer-box {
@@ -2254,8 +2252,7 @@ section.bannerservices {
   margin-bottom: 15px;
 }
 
-.service-content p {
-  color: #555;
+.service-content p { 
   line-height: 1.7;
   margin-bottom: 25px;
 }
@@ -2264,7 +2261,6 @@ section.bannerservices {
   margin-bottom: 15px;
 }
 
-/* LIST */
 .service-content ul {
   list-style: none;
   padding: 0;
