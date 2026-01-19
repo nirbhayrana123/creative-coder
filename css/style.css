@@ -793,7 +793,9 @@ header.header.activeshow .menu-list-ul {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.font-lato a#k5igsego5j141768806276283 {
+    display: none;
+}
 
 .avatars {
   display: flex;
