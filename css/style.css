@@ -95,6 +95,17 @@ h6 {
 
 a.logo {
   max-width: 190px;
+  position: relative;
+  z-index: 99999; 
+}
+
+a.logo img { 
+  transition: filter 0.1s ease 1.5s;  
+}
+ 
+header.header.activeshow a.logo img {
+  filter: invert(1);
+  transition: filter 0.2s ease 0.6s; 
 }
 
 .container {
@@ -430,7 +441,7 @@ header.header.activeshow .menu-list-ul {
   background-color: #fff;
 }
 
- 
+
 
 .herobanner {
   padding: 15px 0;
@@ -546,13 +557,14 @@ header.header.activeshow .menu-list-ul {
 }
 
 .grid2.onecol .iconcol {
-    border-radius: 12px;
-    padding: 15px;
-    align-items: flex-start;
-    position: relative;
-    padding-right: 65px;
-    background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  align-items: flex-start;
+  position: relative;
+  padding-right: 65px;
+  background-color: #ffffff;
 }
+
 .grid2.onecol p {
   color: #353535;
   margin-bottom: 0px;
@@ -699,12 +711,12 @@ header.header.activeshow .menu-list-ul {
 }
 
 .robot-arm {
-    position: absolute;
-    right: 0;
-    top: auto;
-    bottom: -54px;
-    width: 390px;
-    border-top-left-radius: 100px;
+  position: absolute;
+  right: 0;
+  top: auto;
+  bottom: -54px;
+  width: 390px;
+  border-top-left-radius: 100px;
 }
 
 .exp-card {
@@ -785,16 +797,17 @@ header.header.activeshow .menu-list-ul {
 }
 
 .right-info h3 {
-    font-size: 5em;
-    margin-top: 60px; 
-    margin-bottom: 20px;
-    font-style: normal;
-    background: -webkit-linear-gradient(#a81637, #a895f4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 5em;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-style: normal;
+  background: -webkit-linear-gradient(#a81637, #a895f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 .font-lato a#k5igsego5j141768806276283 {
-    display: none;
+  display: none;
 }
 
 .avatars {
@@ -1900,8 +1913,8 @@ section.maincontects {
 .page-about h1 {
   color: #fff;
 }
- 
-  
+
+
 .about-info9 p {
   margin-bottom: 20px;
   line-height: 1.6;
@@ -2031,20 +2044,20 @@ section.section-about.aboutpage .teemcontent {
   gap: 40px;
   align-items: start;
 }
- 
+
 
 .team-counter {
   position: relative;
 }
- 
+
 
 .team-card {
   position: relative;
   display: inline-block;
   width: 100%;
 }
- 
- 
+
+
 
 .team-card:hover .social-links {
   -webkit-transform: translateY(0);
@@ -2056,7 +2069,7 @@ ul.social li a {
   font-size: 1.2em;
   font-weight: 600;
 }
- 
+
 
 .gridmembers.gaping {
   display: grid;
@@ -2075,7 +2088,7 @@ section.service-sec22 {
   padding-bottom: 100px;
 }
 
-  
+
 
 
 /**************about page ******************/
@@ -2252,7 +2265,7 @@ section.bannerservices {
   margin-bottom: 15px;
 }
 
-.service-content p { 
+.service-content p {
   line-height: 1.7;
   margin-bottom: 25px;
 }
@@ -2541,13 +2554,13 @@ section.featured {
     display: none;
   }
 
-  
+
 
   .gridmembers.gaping .gridmemberleftside:nth-child(even) {
     margin-top: 0px;
   }
 
- 
+
   .service-card {
     grid-template-columns: 1fr;
   }
@@ -2600,14 +2613,16 @@ section.featured {
     font-size: 38px;
     line-height: 1.4;
   }
-  .robot-arm { 
+
+  .robot-arm {
     top: 35px;
-    width: 270px; 
-}
-.exp-card { 
+    width: 270px;
+  }
+
+  .exp-card {
     padding: 40px;
     min-height: auto;
-}
+  }
 
 
 
@@ -2688,12 +2703,12 @@ section.featured {
     left: 0;
   }
 
-      .robot-arm {
-        top: 95px;
-        width: 150px;
-        border-radius: 50px 0px 50px 0px;
-        right: 13px;
-    }
+  .robot-arm {
+    top: 95px;
+    width: 150px;
+    border-radius: 50px 0px 50px 0px;
+    right: 13px;
+  }
 
   .project-page .featured-right {
     grid-template-columns: 1fr;
@@ -2901,14 +2916,16 @@ section.featured {
   }
 
   .card-imgg img {
-        position: relative;
-        height: auto;
-        border-radius: 20px;
-    }
-.section-about img {
+    position: relative;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .section-about img {
     border-radius: 0px 120px 0px 64px;
     box-shadow: 0px 5px 0px 0px #a00c2c;
-}
+  }
+
   form#contactForm,
   .tobader,
   .medader {
@@ -3033,7 +3050,7 @@ section.featured {
     grid-template-columns: 1fr;
   }
 
- 
+
 
   .rightblogimg {
     padding-top: 0;
@@ -3170,16 +3187,9 @@ section.featured {
     padding-top: 20px;
   }
 
-<<<<<<< HEAD
-  .robot-arm {
-    top: 45px; 
+  <<<<<<< HEAD .robot-arm {
+    top: 45px;
   }
-=======
->>>>>>> 578b9317db0416c9339e0290eafd4de65791bf69
 
-
-
-
-
-
+  =======>>>>>>>578b9317db0416c9339e0290eafd4de65791bf69
 }
