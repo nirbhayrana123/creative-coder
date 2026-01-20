@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   lenis.on("scroll", ({ scroll }) => {
-    if (scroll > 50) {
+    if (scroll > 9) {
       header.classList.add("bg");
     } else {
       header.classList.remove("bg");

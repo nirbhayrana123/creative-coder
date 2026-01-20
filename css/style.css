@@ -96,16 +96,16 @@ h6 {
 a.logo {
   max-width: 190px;
   position: relative;
-  z-index: 99999; 
+  z-index: 99999;
 }
 
-a.logo img { 
-  transition: filter 0.1s ease 1.7s;  
+a.logo img {
+  transition: filter 0.1s ease 1.7s;
 }
- 
+
 header.header.activeshow a.logo img {
   filter: invert(1);
-  transition: filter 0.2s ease 0.2s; 
+  transition: filter 0.2s ease 0.2s;
 }
 
 .container {
@@ -192,15 +192,28 @@ header.header.activeshow a.logo img {
 /*============ header =============*/
 header.header.bg {
   background-color: #faf7f4;
+  top: 0;
+  box-shadow: 0 -2px 15px #0000001c;
+  animation: fadeSlideDown .5s
 }
 
 .header {
-  padding: 10px 0;
-  transition: 1s;
+  padding: 10px 0; 
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 99999;
+}
+@keyframes fadeSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .header.activeshow .menubg {
@@ -1870,7 +1883,7 @@ section.maincontects {
 
 .page-banner11 {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/trans-person-working-office.jpg);
+  background-image: url(../images/trans-person-working-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 217px 0 235px;
