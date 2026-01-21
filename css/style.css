@@ -1130,8 +1130,7 @@ a.client-video-review {
   color: #ffffff;
   margin-top: 15px;
   display: inline-block;
-  font-size: 15px;
-
+  font-size: 15px; 
   display: none;
 }
 
@@ -2448,17 +2447,13 @@ section.featured {
   margin: 80px auto;
   text-align: center;
 }
-
-.video-heading {
-  font-size: 32px;
-  margin-bottom: 25px;
-}
-
+ 
 .video-thumb {
     position: relative;
     border-radius: 16px;
     overflow: hidden;
     border: 7px solid #9f8be7;
+    margin-top: 20px;
 }
 
 .video-thumb img,
@@ -2477,7 +2472,7 @@ section.featured {
   margin: auto;
   width: 70px;
   height: 70px;
-  background: #2f63e0;
+  background: #9f8be7;
   color: #fff;
   font-size: 28px;
   border: none;
