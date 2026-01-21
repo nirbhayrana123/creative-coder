@@ -2455,9 +2455,10 @@ section.featured {
 }
 
 .video-thumb {
-  position: relative;
-  border-radius: 16px;
-  overflow: hidden;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 7px solid #9f8be7;
 }
 
 .video-thumb img,
