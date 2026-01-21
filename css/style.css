@@ -2440,6 +2440,52 @@ section.featured {
 }
 
 
+/***********************client video *****************/
+
+
+.simple-video {
+  max-width: 900px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.video-heading {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.video-thumb {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.video-thumb img,
+.video-thumb video {
+  width: 100%;
+  display: block;
+}
+
+.video-thumb video {
+  display: none;
+}
+
+.play-btn {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  background: #2f63e0;
+  color: #fff;
+  font-size: 28px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
 /**************mobile media******************/
 @media (max-width: 1200px) {
 

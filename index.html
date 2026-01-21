@@ -670,6 +670,22 @@
       </div>
     </div>
   </section>
+<section class="simple-video">
+  <h2 class="video-heading">Our Client Story</h2>
+
+  <div class="video-thumb">
+    <img src="./images/client-video/next-level-img.png" alt="Client Video">
+    <button class="play-btn" onclick="playVideo()">▶</button>
+
+    <video id="clientVideo" controls>
+      <source src="images/client-video/next-level-video.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+
+
+
 
   <section class="testimonial-section">
     <div class="container">
@@ -972,6 +988,19 @@
   <script src="js/owl.carousel.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/form.js"></script>
+
+<script>
+function playVideo() {
+  const video = document.getElementById("clientVideo");
+  document.querySelector(".video-thumb img").style.display = "none";
+  document.querySelector(".play-btn").style.display = "none";
+  video.style.display = "block";
+  video.play();
+}
+</script>
+
+
+
 </body>
 
 </html>
