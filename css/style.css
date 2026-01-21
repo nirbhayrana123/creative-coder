@@ -1096,9 +1096,7 @@ section.services-section .container {
 .services-col:hover a {
   color: #171717;
 }
-
-
-
+ 
 /****************featured end****************/
 
 /******************testmonials***************/
@@ -1125,15 +1123,16 @@ section.services-section .container {
 }
 
 a.client-video-review {
-  background-color: #b2324c;
-  padding: 8px 15px;
-  border-radius: 20px;
-  color: #ffffff;
-  margin-top: 15px;
-  display: inline-block;
-  font-size: 15px;
-  display: none;
-}
+    background-color: #b2324c;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #ffffff; 
+    display: inline-block;
+    font-size: 15px;
+    position: absolute;
+    bottom: 14px;
+    display: none;
+  }
 
 .testimonial-wrap {
   display: flex;
@@ -1143,10 +1142,7 @@ a.client-video-review {
 
 .testimonial-left {
   width: 30%;
-}
-
-
-
+} 
 .slider.owl-carousel .owl-nav .owl-prev,
 .slider.owl-carousel .owl-nav .owl-next {
   width: 42px;
@@ -1195,11 +1191,13 @@ a.client-video-review {
 }
 
 .senials-client {
-  background: #fff;
-  padding: 25px;
-  border-radius: 24px;
-  transition: .4s;
-  box-shadow: 0px 1px 5px 0px #0000003b;
+    background: #fff;
+    padding: 25px;
+    border-radius: 24px;
+    transition: .4s;
+    box-shadow: 0px 1px 5px 0px #0000003b;
+    position: relative;
+    /* padding-bottom: 53px; */
 }
 
 .senials-client p {
