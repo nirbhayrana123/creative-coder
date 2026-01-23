@@ -594,7 +594,7 @@ header.header.activeshow .menu-list-ul {
 }
 
 .who-we-are {
-  padding: 120px 0;
+  padding: 0 0 120px 0;
   background: #faf7f4;
 }
 
@@ -2443,7 +2443,7 @@ section.featured {
 
 .simple-video {
   max-width: 900px;
-  margin: 80px auto;
+  margin: 80px auto 15px;
   text-align: center;
 }
 
