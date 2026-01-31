@@ -1320,7 +1320,8 @@ img.haight-auto {
 }
 
 section.stack-wrapper {
-  padding: 50px 0;
+  padding: 70px 0;
+  background-color: #fff;
 }
 
 .stack-card {
@@ -2720,8 +2721,7 @@ section.stack-wrapper h3 {
   text-align: center;
   color: #fff;
 }
-.industries-title {
-  font-size: 40px;
+.industries-title { 
   margin-bottom: 38px;
   text-transform: capitalize;
   font-weight: 700;
@@ -2835,9 +2835,7 @@ section.stack-wrapper h3 {
   gap: 30px;
 }
 
-.cta-title{
-  font-size: 32px;
- 
+.cta-title{ 
   color: #000;
   margin-bottom: 12px;
 }
@@ -2959,6 +2957,58 @@ section.stack-wrapper h3 {
 section.bacancy {
     padding: 50px 0px;
 }
+.price-item {
+    box-shadow: 0 1px 6px 0 #0000001a;
+}
+.boxed
+ {
+    text-align: center;
+    padding: 20px;
+}
+
+.boxed h4
+ {
+    font-size: 60px;
+    font-weight: 700;
+    color: #f08785;
+}
+.boxed p
+ {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+}
+.bottom-box {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #f08785;
+}
+.start-price {
+    text-align: center;
+    position: relative;
+    top: -12px;
+}
+.gridhirdeloper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: end;
+}
+.start-price img {
+    max-width: 100%;
+    width: auto;
+}
+.delopertitle
+ {
+    text-align: center;
+    padding-bottom: 75px;
+}
+section.hirdewloper {
+    padding: 70px 0px;
+    background-color: #fff;
+}
+
+
+
 /**************mobile media******************/
 @media (max-width: 1200px) {
 
@@ -3014,10 +3064,21 @@ section.bacancy {
   body {
     font-size: 15px;
   }
-
+.maincardgrid {
+    grid-template-columns: 1fr 1fr ;
+    gap: 1.5rem;
+}
   .rightproject {
     width: 45%;
   }
+.boxed h4 {
+    font-size: 40px;
+}
+.boxed p
+ {
+    font-size: 20px;
+}
+
 
   .leftcontern {
     width: 48%;
@@ -3033,7 +3094,10 @@ section.bacancy {
   .socail {
     margin: 18px 0px;
   }
-
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
   .grid-3,
   .blog-grid,
   .blog-layout {
@@ -3173,6 +3237,10 @@ section.bacancy {
   body {
     font-size: 14px;
   }
+.cta-proposal-wrap { 
+    flex-wrap: wrap;
+}
+
 
   .footer-box i {
     font-size: 20px;
@@ -3240,6 +3308,43 @@ section.bacancy {
     width: 100%;
     left: 0;
   }
+.skills-flex { 
+    grid-template-columns: 1fr 1fr ;
+    gap: 1.5rem;
+}
+
+.flex-servicethreesection { 
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+.flexinghft.sticky-div {
+    position: relative;
+    top: 0;
+    height: auto;
+}
+
+.gridings { 
+    grid-template-columns: 1fr  ;
+    gap: 1.5rem;
+}
+.gridhirdeloper 
+ { 
+    grid-template-columns: 1fr; 
+    gap: 40px 0px;
+}
+
+
+.stack-row { 
+    flex-wrap: wrap;
+}
+
+
+.stack-title { 
+    min-width: 100%; 
+}
+
+
+
 
   .robot-arm {
     top: 95px;
@@ -3585,9 +3690,18 @@ section.bacancy {
   .minebloges {
     grid-template-columns: 1fr;
   }
-
-
-
+    .maincardgrid {
+        grid-template-columns: 1fr; 
+    }
+.skills-box { 
+    margin-bottom: 0;
+}
+.centerbuttons {
+    margin-top: 20px;
+}
+.industries-grid { 
+        grid-template-columns: 1fr;
+    }
   .blog-hero {
     padding: 90px 0;
     padding-bottom: 0;
@@ -3601,7 +3715,9 @@ section.bacancy {
     padding-top: 35px;
     height: auto;
   }
-
+.skills-flex {
+        grid-template-columns: 1fr;
+    }
   .teemcontent .grid2 {
     grid-template-columns: 1fr
   }
