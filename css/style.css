@@ -2808,9 +2808,16 @@ section.stack-wrapper h3 {
 .industries-btn:hover {
   background: #28c76f;
 }
-  
-
-
+  .industries-cta a.button {
+    border-color: #fff;
+    color: #fff;
+}
+.industries-cta a.button::after {
+    background-color: #fff;
+}
+.industries-cta a.button:hover{
+  color: #000;
+}
 /* ================= CTA PROPOSAL SECTION START ================= */
 
 .cta-proposal-sec{
