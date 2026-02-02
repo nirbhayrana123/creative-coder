@@ -2427,7 +2427,7 @@ section.blog-detail-content {
 }
 
 .widget-content {
-  background-color: #9b8df2;
+  background-color: #a00c2c;
   text-align: left;
   padding: 20px;
   position: sticky;
@@ -2455,7 +2455,7 @@ section.blog-detail-content {
 
 .widget-content a {
   margin-top: 16px;
-  color: #a00c2c;
+  color: #fff;
 }
 
 .widget-content .socail {
@@ -2770,7 +2770,7 @@ section.stack-wrapper h3 {
     box-shadow: 0 0 25px 0 #00000014;
 }
 .industry-card:hover .industry-icon {
-  background: #274160;
+  background: #a00c2c;
   color: #ffffff;
 
 } 
@@ -2970,7 +2970,7 @@ section.bacancy {
  {
     font-size: 60px;
     font-weight: 700;
-    color: #f08785;
+    color: #a00c2c;
 }
 .boxed p
  {
@@ -2981,7 +2981,7 @@ section.bacancy {
 .bottom-box {
     text-align: center;
     padding: 20px;
-    border-top: 1px solid #f08785;
+    border-top: 1px solid #a00c2c;
 }
 .start-price {
     text-align: center;
