@@ -2361,11 +2361,11 @@ section.featured {
   color: #555;
 }
 
-a.blog-card:hover p.readmore {
+.blog-card:hover .readmore {
   letter-spacing: 1px;
 }
 
-p.readmore {
+.readmore {
   text-decoration: none;
   color: #5f4dce;
   font-weight: 600;
