@@ -2582,10 +2582,10 @@ section.skills-belovesoft {
 .left-contents a.button {
     margin-top: 25px;
 }
-section.servicesthreesection
- { 
+section.servicesthreesection {
     padding-top: 50px;
-     background-color: #fff;
+    background-color: #fff;
+    padding-bottom: 50px;
 }
 .gridings
  {
@@ -3030,14 +3030,7 @@ section.hirdewloper {
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   }
 
-  .audit-box input {
-    flex: 1;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    padding: 16px 18px;
-    border-radius: 10px;
-  }
+  
 
   .audit-box button {
     background: #b2324c;
@@ -3053,6 +3046,99 @@ section.hirdewloper {
   .audit-box button:hover {
     background: #3c4fe0;
   }
+
+  .audit-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 16px 18px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.audit-box input::placeholder {
+  color: #888;
+  opacity: 1;
+}
+
+.servicestext-info p {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+
+.rating{
+  margin:25px 0;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+ 
+
+
+.rights-servicesx {
+    width: 40%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #b2324c;
+}
+.rights-servicesx h4 {
+    color: #fff;
+}
+
+.form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+.form-grid input, .form-grid select, .form-grid textarea {
+      width: 100%;
+    outline: none;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+textarea{
+  grid-column:1 / -1;
+  resize:none;
+}
+.servicesbuttons  {
+    margin-top: 20px;
+}
+
+.form-grid input::placeholder,
+.form-grid textarea::placeholder {
+  color: #888;
+}
+
+.full{
+  grid-column:1 / -1;
+}
+.checkbox {
+    font-size: 17px;
+    margin: 20px 0;
+    color: #edf3f9;
+}
+ 
+
+.banner-mains {
+    display: flex;
+    width: 100%;
+    padding-top: 120px;
+    align-items: center;
+        justify-content: space-between;
+}
+.left {
+    width: 60%;
+}
+
 
 /**************mobile media******************/
 @media (max-width: 1200px) {
