@@ -3041,23 +3041,7 @@ section.hirdewloper {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   justify-content: space-between;
 }
-
-
-
-.audit-box button {
-  background: #b2324c;
-  color: #fff;
-  border: none;
-  padding: 16px 28px;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.audit-box button:hover {
-  background: #3c4fe0;
-}
+ 
 
 .audit-box input {
   background: transparent;
@@ -3068,7 +3052,7 @@ section.hirdewloper {
   border-radius: 10px;
   color: #000;
   max-width: 860px;
-  width: 100%;
+  width: 75%;
 }
 
 .audit-box input::placeholder {
