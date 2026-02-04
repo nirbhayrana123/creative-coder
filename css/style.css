@@ -2779,14 +2779,17 @@ section.stack-wrapper h3 {
   font-size: 28px;
   transition: all 0.3s ease;
 }
-.industry-name { 
+
+.industry-name {
   font-weight: 600;
   color: #222;
   line-height: 1.5;
 }
- .industry-card:hover {
-    background-color: #ccc;
+
+.industry-card:hover {
+  background-color: #ccc;
 }
+
 .industries-cta {
   margin-top: 55px;
   text-align: center;
@@ -3190,36 +3193,37 @@ section.faqsection {
   border-radius: 10px;
   margin-bottom: 12px;
   background-color: #ffffff;
-  padding: 14px 20px;
   color: #000000;
   cursor: pointer;
 }
 
 .faq-question {
   position: relative;
+  padding: 14px 20px;
 }
 
 .faq-question::after {
-  content: "+";
+  content: "❯";
   position: absolute;
-  right: 0px;
+  right: 20px;
   top: 50%;
   transform: translateY(-50%);
   font-size: 22px;
   color: #b11d0e;
+  transition: 0.4s;
 }
 
+
 .faq-item.active .faq-question::after {
-  content: "–";
+  transform: translateY(-50%) rotate(90deg);
 }
 
 .faq-answer {
   display: none;
-  padding: 15px 0 0 0;
+  padding: 0px 20px 18px 20px;
   font-size: 15px;
   line-height: 1.6;
 }
-
 
 
 
@@ -3324,8 +3328,9 @@ section.faqsection {
 
   .industries-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-}
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .grid-3,
   .blog-grid,
   .blog-layout {
