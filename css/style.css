@@ -3429,7 +3429,15 @@ section.faqsection {
   .blog-detail-row {
     grid-template-columns: 1fr;
   }
-
+.rights-servicesx {
+    width: 100%;
+}
+.left {
+    width: 100%;
+}
+.banner-mains {
+    flex-wrap: wrap;
+}
 }
 
 
@@ -3437,6 +3445,21 @@ section.faqsection {
   body {
     font-size: 14px;
   }
+.audit-box {
+    flex-wrap: wrap;
+}
+
+.audit-box input {
+    max-width: 100%;
+    width: 100%;
+}
+
+.audit-box button.button {
+    margin-top: 15px;
+    width: 100%;
+}
+
+
 
   .cta-proposal-wrap {
     flex-wrap: wrap;
