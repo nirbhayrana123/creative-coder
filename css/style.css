@@ -3324,14 +3324,8 @@ section.faqsection {
 
   .industries-grid {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-=======
     grid-template-columns: repeat(3, 1fr); 
 }
->>>>>>> f10ed283d720cfa363089d20ddba5a3367bea621
   .grid-3,
   .blog-grid,
   .blog-layout {
