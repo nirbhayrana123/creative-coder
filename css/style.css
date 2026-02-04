@@ -3086,7 +3086,7 @@ section.hirdewloper {
     padding: 10px 10px;
     font-size: 14px;
     color: #000000;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 
@@ -3100,7 +3100,7 @@ textarea{
 
 .form-grid input::placeholder,
 .form-grid textarea::placeholder {
-  color: #888;
+  color: #000000;
 }
 
 .full{
