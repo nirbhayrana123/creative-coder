@@ -2760,16 +2760,16 @@ section.stack-wrapper h3 {
 }
 
 .industry-card {
-  border: 1px solid #ccc;
-  border-radius: 14px;
-  padding: 17px 15px;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  justify-content: center;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.3s ease;
+ border: 1px solid #ccc;
+    border-radius: 14px;
+    padding: 17px 15px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: start;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .industry-icon {
