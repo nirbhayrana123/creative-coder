@@ -2705,14 +2705,12 @@ section.stack-wrapper h3 {
 
 /* ================= INDUSTRIES SECTION CSS START ================= */
 
-.industries-sec {
-  background: url("../images/overworked.jpg") center/cover no-repeat;
-  background-attachment: fixed;
+.industries-sec { 
   position: relative;
 }
 
 .industries-overlay {
-  background: rgba(10, 15, 35, 0.75);
+  /* background: rgba(10, 15, 35, 0.75); */
   padding: 90px 0;
 }
 .industries-container {
@@ -2727,7 +2725,7 @@ section.stack-wrapper h3 {
   font-weight: 700;
   letter-spacing: 0;
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 .industries-subtitle {
   letter-spacing: 0;
@@ -2735,7 +2733,7 @@ section.stack-wrapper h3 {
   margin: 0 auto 50px;
   font-size: 16px;
   line-height: 1.6;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 .industries-grid {
@@ -2778,17 +2776,7 @@ section.stack-wrapper h3 {
   font-weight: 600;
   color: #222;
 }
-
-.industry-no {
-    position: absolute;
-    right: 5px;
-    font-size: 85px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.13);
-    letter-spacing: 2px;
-}
-
-
+ 
 .industries-cta {
   margin-top: 55px;
   text-align: center;
