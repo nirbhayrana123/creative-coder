@@ -208,3 +208,18 @@ AOS.init(
   });
 
 
+ $(document).ready(function(){
+
+    $('.faq-question').click(function(){
+
+        // Close other open accordions
+        $('.faq-item').not($(this).parent()).removeClass('active')
+            .find('.faq-answer').slideUp(300);
+
+        // Toggle current
+        $(this).parent().toggleClass('active');
+        $(this).next('.faq-answer').slideToggle(300);
+    });
+
+});
+
