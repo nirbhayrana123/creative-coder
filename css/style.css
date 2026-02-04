@@ -2753,19 +2753,10 @@ section.stack-wrapper h3 {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.industry-icon {
-    width: 70px;
-    height: 70px;
-    border-radius: 0px 35px 35px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.industry-icon { 
     color: #a00c2c;
     font-size: 28px;
-    transition: all 0.3s ease;
-    border: 1px solid #a00c2c;
-    border-left: 0;
-    box-shadow: 0 0 25px 0 #00000014;
+    transition: all 0.3s ease;  
 }
 .industry-card:hover .industry-icon {
   background: #a00c2c;
