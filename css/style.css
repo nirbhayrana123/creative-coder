@@ -2632,20 +2632,20 @@ section.servicesthreesection {
 }
 
 .flexibels span.bg-img {
-  background-color: #a00c2c;
-  padding: 12px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  font-size: 15px;
-  color: #fff;
-  display: flex;
-  line-height: 1;
-  align-items: center;
-  background-position: 50%;
-  margin-right: 20px;
-  position: relative;
-  z-index: 1;
-  border-radius: 10px;
+      background-color: #a00c2c;
+    padding: 12px;
+    font-size: 28px;
+    color: #fff;
+    display: flex;
+    line-height: 1;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .rightvertylfrt {
@@ -2653,14 +2653,14 @@ section.servicesthreesection {
 }
 
 .rightvertylfrt::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 27.5px;
-  width: 2px;
-  height: 96%;
-  background: linear-gradient(180deg, #a00c2c, #fff);
-  z-index: 0;
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 35.5px;
+    width: 2px;
+    height: calc(100% - 100px);
+    background: linear-gradient(180deg, #a00c2c, #fff);
+    z-index: 0;
 }
 
 .lisitems .list-flexibal:not(:last-child) {
@@ -3074,16 +3074,6 @@ section.hirdewloper {
 }
 
 
-
-.rating {
-  margin: 25px 0;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-
-
 .rights-servicesx {
   width: 40%;
   background: #fff;
@@ -3442,7 +3432,15 @@ section.faqsection {
   .blog-detail-row {
     grid-template-columns: 1fr;
   }
-
+.rights-servicesx {
+    width: 100%;
+}
+.left {
+    width: 100%;
+}
+.banner-mains {
+    flex-wrap: wrap;
+}
 }
 
 
@@ -3450,6 +3448,21 @@ section.faqsection {
   body {
     font-size: 14px;
   }
+.audit-box {
+    flex-wrap: wrap;
+}
+
+.audit-box input {
+    max-width: 100%;
+    width: 100%;
+}
+
+.audit-box button.button {
+    margin-top: 15px;
+    width: 100%;
+}
+
+
 
   .cta-proposal-wrap {
     flex-wrap: wrap;
