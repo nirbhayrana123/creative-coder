@@ -2738,36 +2738,34 @@ section.stack-wrapper h3 {
 }
 .industries-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 25px;
 }
 .industry-card {
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 10px 0px;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  position: relative;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
+ border: 1px solid #ccc;
+    border-radius: 14px;
+    padding: 17px 15px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 .industry-icon { 
     color: #a00c2c;
     font-size: 28px;
     transition: all 0.3s ease;  
 }
-.industry-card:hover .industry-icon {
-  background: #a00c2c;
-  color: #ffffff;
-
-} 
 .industry-name { 
   font-weight: 600;
   color: #222;
+  line-height: 1.5;
 }
- 
+ .industry-card:hover {
+    background-color: #ccc;
+}
 .industries-cta {
   margin-top: 55px;
   text-align: center;
@@ -3284,7 +3282,7 @@ section.faqsection {
   }
 .industries-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
 }
   .grid-3,
   .blog-grid,
