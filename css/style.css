@@ -170,6 +170,14 @@ header.header.activeshow a.logo img {
   pointer-events: none;
 }
 
+.button.blackbt::after {
+  content: ""; 
+  width: 100%; 
+}
+.button.blackbt {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
 .button:hover::after {
   width: 100%;
 }
@@ -2759,17 +2767,17 @@ section.stack-wrapper h3 {
 }
 
 .industry-card {
-    border: 1px solid #ccc;
-    border-radius: 14px;
-    padding: 17px 15px;
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    justify-content: start;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    min-height: 85px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  padding: 17px 15px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: start;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-height: 85px;
 }
 
 
@@ -2786,7 +2794,7 @@ section.stack-wrapper h3 {
 }
 
 .industry-card:hover {
-  background-color: #ccc;
+  background-color: #cccccc33;
 }
 
 .industries-cta {
@@ -2893,7 +2901,7 @@ section.stack-wrapper h3 {
   height: 390px;
 }
 
-.cardboxdeader {  
+.cardboxdeader {
   align-items: center;
   gap: 10px;
 }
@@ -2911,9 +2919,9 @@ section.stack-wrapper h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-      margin-bottom: 20px;
+  margin-bottom: 20px;
 }
- 
+
 
 .cardbody ul.cardlist {
   list-style: none;
@@ -3041,7 +3049,7 @@ section.hirdewloper {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   justify-content: space-between;
 }
- 
+
 
 .audit-box input {
   background: transparent;
@@ -3071,7 +3079,7 @@ section.hirdewloper {
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  background-color: #b2324c;
+  background-color: #9b8df2;
 }
 
 .rights-servicesx h4 {
@@ -3123,23 +3131,18 @@ textarea {
   color: #edf3f9;
 }
 
-
 .banner-mains {
   display: flex;
   width: 100%;
   padding-top: 120px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .left {
   width: 65%;
 }
-
-
-
-
-
 
 section.faqsection {
   padding: 60px 0px;
