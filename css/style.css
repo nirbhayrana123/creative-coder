@@ -3608,6 +3608,17 @@ section.faqsection {
 .banner-mains {
     flex-wrap: wrap;
 }
+.bs-project-grid { 
+    grid-template-columns: 1fr; 
+}
+
+
+
+
+
+
+
+
 }
 
 
