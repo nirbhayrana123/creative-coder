@@ -178,19 +178,11 @@ a.logo {
   width: 100%;
 }
 
-.button.whitebt::after {
-  content: "";
-  background-color: #ffffff;
-}
 
-.button.whitebt {
-  border: 1px solid #ffffff;
-  color: #ffffff;
-}
 
-.button.whitebt:hover {
-  color: #000000;
-}
+
+
+
 
 /*============ header =============*/
 header.header.bg {
@@ -637,9 +629,6 @@ a.websiteurl {
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
 }
 
- 
-
-
 .card {
   border-radius: 28px;
   position: relative;
@@ -647,31 +636,28 @@ a.websiteurl {
   padding: 20px;
 }
 
-.card.purple {
-  background: #7c3928;
-  color: #fff; 
-}
- 
-
 .card-content h3 {
   font-size: 3em;
-  color: #ffffff;
+    margin-bottom: 20px;
+    font-style: normal;
+    background: -webkit-linear-gradient(#a81637, #a895f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .card-content p {
   margin-bottom: 20px;
-  color: #ffffff;
 }
 
 .card.white {
   background-color: #ffffff;
   width: 100%;
 }
-  
-
+.right-info p {
+    margin-bottom: 20px;
+}
 .right-info h3 {
-  font-size: 3em;
-  margin-top: 60px;
+  font-size: 3em; 
   margin-bottom: 20px;
   font-style: normal;
   background: -webkit-linear-gradient(#a81637, #a895f4);
@@ -683,16 +669,7 @@ a.websiteurl {
   display: none;
 }
 
-.avatars {
-  display: flex; 
-  gap: 10px;
-}
-
-.avatars img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-}
+  
 
 .spark {
   font-size: 1.1em;
