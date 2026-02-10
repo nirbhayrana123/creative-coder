@@ -217,11 +217,11 @@ ul.nav-list {
 }
 
 a.current {
-  color: #9b8df2 !important;
+  color: #b2324c !important;
 }
 
 ul.nav-list li a:hover {
-  color: #9b8df2;
+  color: #b2324c;
 }
 
 ul.nav-list li a {
@@ -307,7 +307,7 @@ a.websiteurl {
   height: 85px;
   background-color: #ffffff;
   border-radius: 100px;
-  color: #9f8be7;
+  color: #b2324c;
   margin: 0 auto;
 }
 
@@ -410,11 +410,10 @@ a.websiteurl {
   justify-content: center;
   position: relative;
 }
-
-
+ 
 
 .pill {
-  background: #9b8df2;
+  background: #b2324c;
   padding: 24px 0px;
   border-radius: 100px;
   width: 400px;
@@ -551,7 +550,7 @@ a.websiteurl {
 
 
 .grid2.onecol .iconcol:hover {
-  background-color: #9f8be7;
+  background-color: #b2324c;
 }
 
 .grid2.onecol .iconcol h5,
@@ -780,19 +779,15 @@ a.up-solid.black {
 }
 
 .marquee-track h2 {
-  margin-bottom: 0;
-  text-transform: capitalize;
-  background: -webkit-linear-gradient(#a81637, #a895f4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: #b2324c;
 }
 
 .marquee-track i {
   font-size: 2em;
   font-style: normal;
-  background: -webkit-linear-gradient(#a81637, #a895f4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+color: #b2324c;
 }
 
 /* ANIMATION */
@@ -1010,8 +1005,8 @@ a.client-video-review {
 }
 
 .slider.owl-carousel .owl-nav button:hover {
-  background-color: #9b8df2;
-  border-color: #9b8df2;
+  background-color: #b2324c;
+  border-color: #b2324c;
 }
 
 .slider.owl-carousel .owl-nav button:hover i.fa-solid {
@@ -1209,7 +1204,7 @@ section.stack-wrapper {
 
 .card-2 {
   z-index: 2;
-  background-color: #9f8be7;
+  background-color: #b2324c;
 }
 
 .card-3 {
@@ -1313,7 +1308,7 @@ footer.footer {
 }
 
 .footer-menu a:hover {
-  color: #9b8df2;
+  color: #b2324c;
 }
 
 .footer-grid {
@@ -1487,7 +1482,7 @@ input input {
   align-items: center;
   justify-content: center;
   transition: 0.5s;
-  background-color: #9b8df2;
+  background-color: #b2324c;
   padding: 5px;
   width: 46px;
   height: 46px;
@@ -2222,7 +2217,7 @@ section.featured {
 
 .readmore {
   text-decoration: none;
-  color: #5f4dce;
+  color: #b2324c;
   font-weight: 600;
   transition: 0.6s;
 }
@@ -2244,7 +2239,7 @@ section.featured {
 }
 
 .collaboration-slider-tems .item {
-  border: 2px solid #9b8df2;
+  border: 2px solid #b2324c;
   padding: 4px;
   border-radius: 10px;
   overflow: hidden;
@@ -2358,7 +2353,7 @@ section.banner.white-text h1 {
   position: relative;
   border-radius: 16px;
   overflow: hidden;
-  border: 7px solid #9f8be7;
+  border: 7px solid #b2324c;
   margin-top: 20px;
 }
 
@@ -2378,7 +2373,7 @@ section.banner.white-text h1 {
   margin: auto;
   width: 70px;
   height: 70px;
-  background: #9f8be7;
+  background: #b2324c;
   color: #fff;
   font-size: 28px;
   border: none;
@@ -2924,7 +2919,7 @@ section.hirdewloper {
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  background-color: #9b8df2;
+  background-color: #b2324c;
 }
 
 .rights-servicesx h4 {
@@ -3135,7 +3130,7 @@ section.faqsection {
 
 .bs-project-tags span {
   font-size: 16px;
-  border: 1px solid #9b8df2;
+  border: 1px solid #b2324c;
   border-radius: 100px;
   padding: 5px 14px;
 }
