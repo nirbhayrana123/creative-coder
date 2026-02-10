@@ -3053,7 +3053,7 @@ textarea {
 }
 
 .left {
-  width: 60%;
+  width: 65%;
 }
 
 section.faqsection {
@@ -3106,6 +3106,173 @@ section.faqsection {
   font-size: 15px;
   line-height: 1.6;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================================================
+   PROJECT PAGE – PROJECT LISTING (2 COLUMN GRID)
+   Design system: BeloveSoft (tags, headings, text)
+   ===================================================== */
+
+/* Section spacing */
+ .bs-project-listing {
+  padding: 60px 0;
+}
+
+/* Grid layout */
+ .bs-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+}
+
+/* Single project card */
+ .bs-project-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: 0.4s ease;
+}
+
+/* Image wrapper */
+ .bs-project-img {
+  border-radius: 28px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+.projects_listing-card-bg {
+    z-index: 1;
+    background-color: #ccc;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    inset: auto 0% 0%;
+    transition: opacity 0.4s ease;
+     opacity: 0;
+     border-radius: 20px;
+}
+/* Image itself */
+ .bs-project-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Content area */
+ .bs-project-info {
+  padding: 20px 0px 20px 0px;
+  transition: padding 0.4s ease;
+  position: relative;
+  z-index: 2;
+}
+ .bs-project-item:hover .bs-project-info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Tags wrapper */
+ .bs-project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.bs-project-item:hover .projects_listing-card-bg{
+  opacity: 1;
+}
+ .bs-project-tags span {
+    font-size: 16px;
+    border: 1px solid #9b8df2;
+    border-radius: 100px;
+    padding: 5px 14px;
+}
+
+ .bs-project-info h3 {
+    font-size: 32px;
+    color: #010101c7;
+    margin-bottom: 10px;
+}
+
+ .bs-project-info p {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #000000cf;
+}
+
+
+
+
+
+
+/* =====================================================
+   PROJECT PAGE – CTA HEADING + IMAGE SECTION
+   Design system: BeloveSoft (heading, button, text)
+   ===================================================== */
+
+/* Section spacing */
+ .bs-project-cta-sec {
+  padding: 80px 0;
+}
+
+/* Top row layout */
+ .bs-project-cta-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+
+ .bs-project-cta-left {
+  max-width: 700px;
+}
+
+/* Paragraph spacing only */
+ .bs-project-cta-left p {
+  margin-top: 20px;
+  max-width: 520px;
+}
+
+/* Right CTA alignment */
+ .bs-project-cta-right {
+  flex-shrink: 0;
+}
+
+/* Image wrapper */
+ .bs-project-cta-image {
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+/* Image styling */
+ .bs-project-cta-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.bs-project-cta-left h1 {
+    font-size: 65px;
+}
+
+
+
+
 
 
 
