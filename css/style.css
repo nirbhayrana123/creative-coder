@@ -143,9 +143,7 @@ a.logo {
 .button:hover {
   color: #ffffff;
 }
-ul.nav-list li a.button:hover {
-    color: #ffffff;
-}
+
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: #fff;
