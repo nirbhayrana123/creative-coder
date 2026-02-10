@@ -148,12 +148,14 @@ a.logo {
 .contact-form textarea::placeholder {
   color: #fff;
 }
+
 a.button.whitebt:hover {
   color: #000000;
 }
+
 a.button.whitebt::after {
   content: "";
-  background-color: #ffffff; 
+  background-color: #ffffff;
 }
 
 .button::after {
@@ -198,9 +200,11 @@ header.header.bg {
   box-shadow: 0 -2px 15px #0000001c;
   animation: fadeSlideDown .5s
 }
+
 .header.bgcolor {
-    background-color: #faf7f4;
+  background-color: #faf7f4;
 }
+
 .header {
   padding: 10px 0;
   position: fixed;
@@ -224,9 +228,9 @@ ul.nav-list li a:hover {
 }
 
 ul.nav-list li a {
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .header .container {
@@ -260,8 +264,7 @@ ul.nav-list li a {
   align-items: center;
   cursor: pointer;
   flex-direction: column;
-  gap: 7px;
-  transition: 1s;
+  gap: 7px; 
   z-index: 10;
   display: none;
 }
@@ -274,9 +277,9 @@ ul.nav-list li a {
   width: 50%;
   height: .2rem;
   position: relative;
-  transition: 1s;
+  transition: 0.5s;
 }
- 
+
 
 .header.activeshow .menu span:first-child {
   transform: translateY(5px) rotate(45deg);
@@ -290,31 +293,30 @@ ul.nav-list li a {
 /*========Parallax scrolling ===========*/
 
 a.websiteurl {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    z-index: 999;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 53%;
-    /* opacity: 0; */
-    transition: 1s;
-    width: 85px;
-    height: 85px;
-    border-radius: 100px;
-    color: #000000;
-    margin: 0 auto;
-    background: #ffffffbd;
-    -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px); 
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 40%;
+  opacity: 0;
+  transition: 1s;
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  color: #000000;
+  margin: 0 auto;
+  background-color: #e4e4e4;
+  transform: rotate(-30deg);
 }
 
 .parallax-box:hover a.websiteurl {
   opacity: 1;
-  top: 50%;
+  top: 38%;
   transform: rotate(8deg);
 }
 
@@ -411,7 +413,7 @@ a.websiteurl {
   justify-content: center;
   position: relative;
 }
- 
+
 
 .pill {
   background: #b2324c;
@@ -585,36 +587,37 @@ a.websiteurl {
   right: 8px;
   top: 0;
 }
- 
+
 .stats-grid {
   display: grid;
   gap: 20px;
   width: 100%;
   margin-bottom: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-} 
+}
 
 .stats-grid .card {
-    border-radius: 28px;
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
-    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 18%);
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 11px;
-    justify-content: space-around;
+  border-radius: 28px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 18%);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  justify-content: space-around;
 }
-.stats-grid .card  h3 {
-    font-size: 3em; 
+
+.stats-grid .card h3 {
+  font-size: 3em;
 }
-  
+
 .font-lato a#k5igsego5j141768806276283 {
   display: none;
 }
 
-  
+
 
 .spark {
   font-size: 1.1em;
@@ -706,15 +709,15 @@ a.up-solid.black {
 }
 
 .marquee-track h2 {
-    margin-bottom: 0;
-    text-transform: capitalize;
-    color: #b2324c;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: #b2324c;
 }
 
 .marquee-track i {
   font-size: 2em;
   font-style: normal;
-color: #b2324c;
+  color: #b2324c;
 }
 
 /* ANIMATION */
@@ -2263,7 +2266,7 @@ section.banner.aboutbanner {
   border-bottom-left-radius: 80px;
 }
 
- 
+
 section.banner.white-text h1 {
   color: #ffffff;
 }
@@ -2615,8 +2618,8 @@ section.stack-wrapper h3 {
 
 
 a.button.whitebt {
-    border: 1px solid #ffffff;
-    color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 
 .servicessumbit a.button {
@@ -3248,26 +3251,36 @@ section.faqsection {
     display: flex;
   }
 
-  ul.nav-list {
-    padding: 20px; 
-    position: absolute;
-    top: 118%;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #faf7f4; 
-    display: none; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center;
+ul.nav-list {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #faf7f4;
+
+  display: flex;                 /* ❌ none hatao */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  transform: translateY(-120%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.4s ease;
+}
+
+.header.activeshow ul.nav-list {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+  ul.nav-list li a {
+    font-size: 20px;
   }
 
-  .header.activeshow ul.nav-list {
-    display: flex;
-  }
-ul.nav-list li a {
-    font-size: 30px; 
-}
   /*======== header =============*/
 
   .socail {
@@ -3285,13 +3298,13 @@ ul.nav-list li a {
     grid-template-columns: 1fr;
   }
 
-  .stats-grid  {
+  .stats-grid {
     gap: 15px;
-     grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-bottom: 15px;
   }
 
- 
+
 
   .footer-grid {
     gap: 20px;
@@ -3382,7 +3395,8 @@ ul.nav-list li a {
   .blog-hero h1 {
     font-size: 38px;
     line-height: 1.4;
-  } 
+  }
+
   .detail-content {
     width: 100%;
   }
@@ -3406,6 +3420,7 @@ ul.nav-list li a {
   .banner-mains {
     flex-wrap: wrap;
   }
+
   .bs-project-grid {
     grid-template-columns: 1fr;
   }
@@ -3417,8 +3432,18 @@ ul.nav-list li a {
     font-size: 14px;
   }
 
+  a.websiteurl {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+  }
+
   .audit-box {
     flex-wrap: wrap;
+  }
+
+  .card-content ul {
+    padding-left: 10px;
   }
 
   .audit-box input {
@@ -3437,9 +3462,6 @@ ul.nav-list li a {
     flex-wrap: wrap;
   }
 
-.stats-grid  {
-     grid-template-columns: 1fr 1fr;
-}
   .footer-box i {
     font-size: 20px;
   }
@@ -3555,13 +3577,13 @@ ul.nav-list li a {
   section.featured-section.project-page {
     padding-bottom: 50px;
   }
- 
+
   .slider.owl-carousel .owl-nav {
     margin-top: 20px;
     text-align: center;
   }
 
- 
+
 
   .helmet {
     right: -23px;
@@ -3569,7 +3591,7 @@ ul.nav-list li a {
     width: 210px;
   }
 
-  
+
   .grid2 {
     grid-template-columns: 1fr;
   }
@@ -3592,7 +3614,7 @@ ul.nav-list li a {
     width: 190px;
     top: 35px;
   }
- 
+
 
   .parallax-img {
     position: relative;
