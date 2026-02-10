@@ -199,7 +199,9 @@ header.header.bg {
   box-shadow: 0 -2px 15px #0000001c;
   animation: fadeSlideDown .5s
 }
-
+.header.bgcolor {
+    background-color: #faf7f4;
+}
 .header {
   padding: 10px 0;
   position: fixed;
@@ -2345,10 +2347,7 @@ section.banner.aboutbanner {
   border-bottom-left-radius: 80px;
 }
 
-section.banner.blogbanner {
-  margin-top: 0;
-}
-
+ 
 section.banner.white-text h1 {
   color: #ffffff;
 }
