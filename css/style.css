@@ -225,8 +225,9 @@ ul.nav-list li a:hover {
 }
 
 ul.nav-list li a {
-  font-size: 16px;
-  font-weight: 600;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .header .container {
@@ -276,14 +277,7 @@ ul.nav-list li a {
   position: relative;
   transition: 1s;
 }
-
-.header.activeshow .menu {
-  background-color: #ffffff;
-}
-
-.header.activeshow .menu span {
-  background-color: #000000;
-}
+ 
 
 .header.activeshow .menu span:first-child {
   transform: translateY(5px) rotate(45deg);
@@ -3327,8 +3321,7 @@ section.faqsection {
   }
 
   ul.nav-list {
-    padding: 20px;
-    gap: 15px;
+    padding: 20px; 
     position: absolute;
     top: 118%;
     left: 0;
@@ -3344,7 +3337,9 @@ section.faqsection {
   .header.activeshow ul.nav-list {
     display: flex;
   }
-
+ul.nav-list li a {
+    font-size: 30px; 
+}
   /*======== header =============*/
 
   .socail {
@@ -3463,11 +3458,7 @@ section.faqsection {
   .blog-hero h1 {
     font-size: 38px;
     line-height: 1.4;
-  }
-
- 
-
-
+  } 
   .detail-content {
     width: 100%;
   }
