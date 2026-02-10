@@ -23,52 +23,26 @@
 <body>
   <!-- header -->
   <header class="header">
-    <div class="container">
-      <div class="relativee">
+    <div class="container"> 
         <a class="logo" href="/">
           <img src="./images/main-logo.svg" alt="BeloveSoft creative web design and development studio logo">
         </a>
 
-        <div class="button-row">
-          <a href="tel:+91 63987 09470" class="button">Book a Call<i class="fa-solid fa-phone"></i></a>
-          <div class="menu">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
+         
+          <ul class="nav-list">
+            <li><a href="/">Home</a></li>
+            <li><a class="current" href="/about">About Us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/project">Projects</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="tel:+91 63987 09470" class="button">Book a Call<i class="fa-solid fa-phone"></i></a></li>
+          </ul>
+        
 
-      </div>
-    </div>
-
-    <!-- header menu -->
-    <div class="menubg">
-      <div class="menu-wrapper">
-        <div class="tobader"></div>
-        <div class="menu-list-ul">
-          <a href="/">Home</a>
-          <a class="current" href="/about">About</a>
-          <a href="/services">Services</a>
-          <a href="/project">Projects</a>
-          <a href="/blog">Blog</a>
-          <a href="/contact">Contact</a>
-        </div>
-        <div class="medader"></div>
-
-        <form class="contact-form" id="contactForm">
-          <h3>Contact Us</h3>
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="thankyou.html">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="your@email.com" required>
-          <textarea name="message" placeholder="Your Message" required></textarea>
-
-          <button type="submit">Send Message <i class="fa-solid fa-location-arrow"></i></button>
-          <p class="form-msg" id="headerMsg"></p>
-        </form>
-
-      </div>
-
-    </div>
+           <div class="menu"><span></span><span></span></div>
+ 
+    </div> 
   </header>
   <!-- header END -->
   <main>
@@ -283,7 +257,7 @@
             <h3>Join Our Newsletter</h3>
             <form id="footerSubscribeForm">
 
-              <input type="hidden" name="_captcha" value="false">
+              
 
               <div class="input">
                 <input type="email" name="email" placeholder="your@email.com" required>
