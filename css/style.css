@@ -148,6 +148,13 @@ a.logo {
 .contact-form textarea::placeholder {
   color: #fff;
 }
+a.button.whitebt:hover {
+  color: #000000;
+}
+a.button.whitebt::after {
+  content: "";
+  background-color: #ffffff; 
+}
 
 .button::after {
   content: "";
@@ -2661,6 +2668,12 @@ section.stack-wrapper h3 {
 .cta-subtitle {
   font-size: 20px;
   color: #000;
+}
+
+
+a.button.whitebt {
+    border: 1px solid #ffffff;
+    color: #ffffff;
 }
 
 .servicessumbit a.button {
