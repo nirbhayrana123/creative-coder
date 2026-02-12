@@ -1373,7 +1373,7 @@ input input {
 
 .footer-box i {
   font-size: 30px;
-  color:var(--Black);
+  color: var(--Black);
 }
 
 .subscribe input {
@@ -1581,7 +1581,8 @@ section.maincontects {
   gap: 15px;
 }
 
-.input-area input,.input-area textarea {
+.input-area input,
+.input-area textarea {
   border-radius: 8px;
   border: 1px solid var(--Black);
   background-color: var(--BG);
@@ -1592,9 +1593,9 @@ section.maincontects {
   outline: none;
 }
 
-.input-area textarea { 
-  height: 120px; 
-  resize: none; 
+.input-area textarea {
+  height: 120px;
+  resize: none;
 }
 
 .gridcontectfield {
