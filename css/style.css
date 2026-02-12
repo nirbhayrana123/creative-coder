@@ -9,7 +9,7 @@ body {
 :root {
   --White: #fff;
   --Black: #2c2c2c;
-  --Red: #688b2d;
+  --Red: #b2324c;
   --BG: #faf7f4;
 }
 
@@ -1552,7 +1552,7 @@ section.maincontects {
   line-height: 60px;
   border-radius: 50%;
   transition: all 0.4s;
-  background-color: #e1e1e169;
+  border: 1px solid var(--Black);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1581,10 +1581,10 @@ section.maincontects {
   gap: 15px;
 }
 
-.input-area input {
+.input-area input,.input-area textarea {
   border-radius: 8px;
-  border: 1px solid #9a9a9a;
-  background-color: var(--White);
+  border: 1px solid var(--Black);
+  background-color: var(--BG);
   width: 100%;
   padding: 16px;
   height: 48px;
@@ -1592,16 +1592,9 @@ section.maincontects {
   outline: none;
 }
 
-.input-area textarea {
-  border-radius: 8px;
-  border: 1px solid #9a9a9a;
-  background-color: var(--White);
-  width: 100%;
-  padding: 16px;
-  height: 120px;
-  font-size: 0.8em;
-  resize: none;
-  outline: none;
+.input-area textarea { 
+  height: 120px; 
+  resize: none; 
 }
 
 .gridcontectfield {
