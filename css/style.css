@@ -222,7 +222,10 @@ ul.nav-list {
   gap: 30px;
   align-items: center;
 }
-
+.centerbutton {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
 a.current {
   color: var(--Red) !important;
 }
