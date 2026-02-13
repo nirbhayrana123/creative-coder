@@ -2405,7 +2405,7 @@ section.vertyfer {
 
 .stack-row {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   background: var(--White);
   border-radius: 14px;
   margin-bottom: 20px;
