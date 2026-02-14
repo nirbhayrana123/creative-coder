@@ -2899,7 +2899,7 @@ section.delivering-right-solution {
     padding: 0 15px;
 }
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) .image {
-    background-color: rgba(var(--box-rgb-color), .48);
+    background-color: rgba(215, 155, 250, 0.48);
 }
 .wpweb-process_flow_section .process_flow_wrap .image {
     position: relative;
@@ -2916,12 +2916,67 @@ section.delivering-right-solution {
 
 
 
+.wpweb-process_flow_section .process_flow_wrap:nth-child(1) figure {
+    box-shadow: 0 0 0 10px #d79bfa!important;
+}
 
+.wpweb-process_flow_section .process_flow_wrap .image figure {
+    width: 139px;
+    height: 139px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 0 10px #f98c8c;
+}
+.wpweb-process_flow_section .process_flow_wrap .image figure img {
+    width: 60%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.wpweb-process_flow_section .process_flow_wrap .image:after {
+    content: "";
+    position: absolute;
+    background-image: url('../images/rounded-1.png');
+    width: 160px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: -143px;
+    z-index: 1;
+    top: 14px;
+}
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image::after
+ {
+    transform: rotate(-180deg) scaleX(-1);
+    top: 50px;
+}
 
+.wpweb-process_flow_section .process_flow_wrap:nth-child(4) .image::after{
+  display: none;
+}
+.wpweb-process_flow_section .process_flow_wrap .process_flow_title {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.wpweb-process_flow_section .process_flow_wrap:nth-child(3) .image
+ {
+    background-color: rgb(123 144 248 / 48%);
+}
+.wpweb-process_flow_section .process_flow_wrap:nth-child(3) figure
 
+ {
+    box-shadow: 0 0 0 10px rgb(123 144 248 / 48%);}
 
-
-
+.wpweb-process_flow_section .process_flow_wrap:nth-child(4) .image {
+    background-color: rgb(123 227 248 / 48%);
+}
+.wpweb-process_flow_section .process_flow_wrap:nth-child(4) figure {
+    box-shadow: 0 0 0 10px #7be3f8;
+}
 
 
 
