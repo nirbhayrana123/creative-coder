@@ -2860,7 +2860,7 @@ section.delivering-right-solution {
     padding: 0 15px;
 }
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) .image {
-    background-color: rgba(var(--box-rgb-color), .48);
+    background-color: rgba(215, 155, 250, 0.48);
 }
 .wpweb-process_flow_section .process_flow_wrap .image {
     position: relative;
