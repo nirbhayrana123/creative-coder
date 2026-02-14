@@ -339,6 +339,16 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
     gap: 24px;
     grid-template-columns: 1fr 1fr;
 }
+.wpweb-solution-item {
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.wpweb-solution-item i {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
 
 /*========Parallax scrolling ===========*/
 
