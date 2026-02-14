@@ -2266,6 +2266,10 @@ section.baneer.blackbg {
     padding: 110px 0;
 }
  
+.breadcrumb a{
+  color:var(--Grey);
+}
+
 section.baneer.blackbg h3,section.baneer.blackbg p,.breadcrumb a,.breadcrumb span {
   color:var(--White);
 }
