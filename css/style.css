@@ -1,6 +1,6 @@
 body {
   background: var(--BG);
-  color: var(--Black);
+  color: var(--Dark_Black);
   font-family: 'Poppins';
   font-size: 20px;
   overflow-x: hidden;
@@ -8,7 +8,8 @@ body {
 
 :root {
   --White: #fff;
-  --Black: #2c2c2c;
+  --Black: #000000;
+  --Dark_Black: #2c2c2c;
   --Red: #b2324c;
   --BG: #faf7f4;
 }
@@ -44,7 +45,7 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--Black);
+  color: var(--Dark_Black);
   font-size: 0.8em;
   line-height: 1em;
 }
@@ -53,7 +54,7 @@ p,
 li {
   font-size: 0.8em;
   line-height: 1.5;
-  color: var(--Black);
+  color: var(--Dark_Black);
   list-style: none;
 }
 
@@ -63,7 +64,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--Black);
+  color: var(--Dark_Black);
   font-weight: 700;
   line-height: 1.2em;
   margin-bottom: 15px;
@@ -95,7 +96,7 @@ h5 {
 }
 
 h6 {
-  color: var(--Black);
+  color: var(--Dark_Black);
   font-weight: 700;
   font-size: 0.8em;
 }
@@ -135,7 +136,7 @@ a.logo {
 
 .button {
   z-index: 5;
-  border: 1px solid var(--Black);
+  border: 1px solid var(--Dark_Black);
   text-align: center;
   border-radius: 60px;
   min-width: 150px;
@@ -160,7 +161,7 @@ a.logo {
 }
 
 a.button.whitebt:hover {
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 a.button.whitebt::after {
@@ -170,7 +171,7 @@ a.button.whitebt::after {
 
 .button::after {
   content: "";
-  background-color: var(--Black);
+  background-color: var(--Dark_Black);
   height: 100%;
   width: 0%;
   position: absolute;
@@ -262,7 +263,7 @@ ul.nav-list li a {
 }
 
 .menu {
-  background-color: var(--Black);
+  background-color: var(--Dark_Black);
   border-radius: 100px;
   width: 50px;
   height: 50px;
@@ -313,7 +314,7 @@ a.websiteurl {
   width: 85px;
   height: 85px;
   border-radius: 100px;
-  color: var(--Black);
+  color: var(--Dark_Black);
   margin: 0 auto;
   background-color: #e4e4e4;
   transform: rotate(-30deg);
@@ -366,7 +367,7 @@ a.websiteurl {
 
 .project-services span {
   font-size: 0.7em;
-  color: var(--Black);
+  color: var(--Dark_Black);
   border-radius: 100px;
   padding: 5px 14px;
   background-color: var(--White);
@@ -493,7 +494,7 @@ a.websiteurl {
 }
 
 .grid2.onecol p {
-  color: var(--Black);
+  color: var(--Dark_Black);
   margin-bottom: 0px;
   margin-top: 5px;
   font-size: 15px;
@@ -503,7 +504,7 @@ a.websiteurl {
   border: none;
   padding: 0;
   border-radius: 0;
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .who-we-are {
@@ -534,12 +535,12 @@ a.websiteurl {
 
 .grid2 .iconcol h5 {
   margin-bottom: 0;
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .grid2 .iconcol i {
   font-size: 30px;
-  color: var(--Black);
+  color: var(--Dark_Black);
   border-radius: 1000px;
 }
 
@@ -647,7 +648,7 @@ a.up-solid {
 }
 
 a.up-solid.black {
-  background-color: var(--Black);
+  background-color: var(--Dark_Black);
   color: var(--White);
 }
 
@@ -865,7 +866,7 @@ section.services-section .container {
 .services-col:hover h6,
 .services-col:hover p,
 .services-col:hover a {
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 /****************featured end****************/
@@ -920,7 +921,7 @@ a.client-video-review {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: 1px solid var(--Black);
+  border: 1px solid var(--Dark_Black);
   background: transparent;
   cursor: pointer;
   margin-right: 10px;
@@ -985,7 +986,7 @@ a.client-video-review {
 
 .senials-client h6 {
   font-weight: 300;
-  color: var(--Black);
+  color: var(--Dark_Black);
   font-size: .7em;
 }
 
@@ -1094,7 +1095,7 @@ section.stack-wrapper {
 .stack-card {
   position: sticky;
   top: 170px;
-  background: var(--Black);
+  background: var(--Dark_Black);
   border-radius: 50px;
   padding: 30px;
   display: grid;
@@ -1130,7 +1131,7 @@ section.stack-wrapper {
 }
 
 .card-3 .project-services span {
-  background-color: var(--Black);
+  background-color: var(--Dark_Black);
   color: var(--White);
 }
 
@@ -1161,7 +1162,7 @@ section.stack-wrapper {
 
 .card-3 h2,
 .card-3 p {
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 
@@ -1338,7 +1339,7 @@ input input {
   bottom: 20px;
   width: 45px;
   height: 45px;
-  background: var(--Black);
+  background: var(--Dark_Black);
   color: var(--White);
   border-radius: 50%;
   display: flex;
@@ -1376,7 +1377,7 @@ input input {
 
 .footer-box i {
   font-size: 30px;
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .subscribe input {
@@ -1398,7 +1399,7 @@ input input {
   align-items: center;
   justify-content: center;
   transition: 0.5s;
-  background-color: var(--Black);
+  background-color: var(--Dark_Black);
   padding: 5px;
   width: 46px;
   height: 46px;
@@ -1555,7 +1556,7 @@ section.maincontects {
   line-height: 60px;
   border-radius: 50%;
   transition: all 0.4s;
-  border: 1px solid var(--Black);
+  border: 1px solid var(--Dark_Black);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1587,7 +1588,7 @@ section.maincontects {
 .input-area input,
 .input-area textarea {
   border-radius: 8px;
-  border: 1px solid var(--Black);
+  border: 1px solid var(--Dark_Black);
   background-color: var(--BG);
   width: 100%;
   padding: 16px;
@@ -1621,11 +1622,11 @@ section.maincontects {
 }
 
 .input-area input::placeholder {
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .input-area textarea::placeholder {
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 /**************contact page ******************/
@@ -1672,7 +1673,7 @@ section.maincontects {
 }
 
 .ser-content22 {
-  background-color: var(--Black);
+  background-color: var(--Dark_Black);
   border-radius: 25px;
   padding: 50px 50px 50px;
   position: relative;
@@ -1849,7 +1850,7 @@ section.service-sec22 {
 .video-modal {
   position: fixed;
   inset: 0;
-  background: var(--Black);
+  background: var(--Dark_Black);
   display: none;
   justify-content: center;
   align-items: center;
@@ -1863,7 +1864,7 @@ section.service-sec22 {
 .video-box {
   position: relative;
   width: 100%;
-  background: var(--Black);
+  background: var(--Dark_Black);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -1877,7 +1878,7 @@ section.service-sec22 {
   position: absolute;
   top: 0;
   right: 0;
-  color: var(--Black);
+  color: var(--Dark_Black);
   font-size: 35px;
   background-color: var(--White);
   width: 30px;
@@ -2018,7 +2019,7 @@ section.service-sec22 {
 .service-content ul li {
   padding-left: 30px;
   position: relative;
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .service-content ul li p {
@@ -2101,7 +2102,7 @@ section.featured {
 .blog-card p {
   font-size: 14px;
   margin: 10px 0;
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .blog-card:hover .readmore {
@@ -2292,7 +2293,7 @@ section.banner.white-text h1 {
   background-color: var(--BG);
   border-radius: 8px;
   padding: 25px 20px;
-  border: 1px solid var(--Black);
+  border: 1px solid var(--Dark_Black);
   gap: 10px;
 }
 
@@ -2427,7 +2428,7 @@ section.vertyfer {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  color: var(--Black);
+  color: var(--Dark_Black);
   font-size: 14px;
 }
 
@@ -2472,7 +2473,7 @@ section.stack-wrapper h3 {
   font-weight: 700;
   letter-spacing: 0;
   text-align: center;
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .industries-subtitle {
@@ -2481,7 +2482,7 @@ section.stack-wrapper h3 {
   margin: 0 auto 50px;
   font-size: 16px;
   line-height: 1.6;
-  color: var(--Black);
+  color: var(--Dark_Black);
   text-align: center;
 }
 
@@ -2514,7 +2515,7 @@ section.stack-wrapper h3 {
 
 .industry-name {
   font-weight: 600;
-  color: var(--Black);
+  color: var(--Dark_Black);
   line-height: 1.5;
 }
 
@@ -2561,13 +2562,13 @@ section.stack-wrapper h3 {
 }
 
 .cta-title {
-  color: var(--Black);
+  color: var(--Dark_Black);
   margin-bottom: 12px;
 }
 
 .cta-subtitle {
   font-size: 20px;
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 a.button.whitebt {
@@ -2581,7 +2582,7 @@ a.button.whitebt {
 }
 
 .servicessumbit a.button:hover {
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .servicessumbit a.button:hover::after {
@@ -2636,7 +2637,7 @@ a.button.whitebt {
 }
 
 .cardboxdeader h5.cardtitlehesder {
-  background-color: var(--Black);
+  background-color: var(--Dark_Black);
   min-width: 50px;
   max-width: 50px;
   min-height: 50px;
@@ -2665,7 +2666,7 @@ a.button.whitebt {
   margin-bottom: 10px;
   display: flex;
   padding: 10px 0;
-  color: var(--Black);
+  color: var(--Dark_Black);
   text-decoration: none;
   background-color: var(--White);
   border: 1px solid rgba(0, 0, 0, .125);
@@ -2702,7 +2703,7 @@ section.bacancy {
 }
 
 .price-item {
-  box-shadow: 0 1px 6px 0 var(--Black);
+  box-shadow: 0 1px 6px 0 var(--Dark_Black);
 }
 
 .boxed {
@@ -2717,7 +2718,7 @@ section.bacancy {
 }
 
 .boxed p {
-  color: var(--Black);
+  color: var(--Dark_Black);
   font-size: 25px;
   font-weight: 600;
 }
@@ -2787,7 +2788,7 @@ section.hirdewloper {
   font-size: 16px;
   padding: 16px 18px;
   border-radius: 10px;
-  color: var(--Black);
+  color: var(--Dark_Black);
   max-width: 860px;
   width: 75%;
 }
@@ -2802,18 +2803,10 @@ section.hirdewloper {
   margin: 0 auto;
 }
 
-
-.rights-servicesx {
-  width: 40%;
-  background: var(--White);
-  padding: 30px;
-  border-radius: 10px;
-  background-color: var(--Red);
+section.baneer.blackbg {
+  background-color:var(--Black);
 }
-
-.rights-servicesx h4 {
-  color: var(--White);
-}
+ 
 
 .form-grid {
   display: grid;
@@ -2830,7 +2823,7 @@ section.hirdewloper {
   border: 1px solid var(--White);
   padding: 10px 10px;
   font-size: 14px;
-  color: var(--Black);
+  color: var(--Dark_Black);
   border-radius: 5px;
   font-family: 'Poppins';
 }
@@ -2847,7 +2840,7 @@ textarea {
 
 .form-grid input::placeholder,
 .form-grid textarea::placeholder {
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 .full {
@@ -2892,7 +2885,7 @@ section.faqsection {
   border-radius: 10px;
   margin-bottom: 12px;
   background-color: var(--White);
-  color: var(--Black);
+  color: var(--Dark_Black);
   cursor: pointer;
 }
 
@@ -3011,14 +3004,14 @@ section.faqsection {
 
 .bs-project-info h3 {
   font-size: 32px;
-  color: var(--Black);
+  color: var(--Dark_Black);
   margin-bottom: 10px;
 }
 
 .bs-project-info p {
   font-size: 19px;
   line-height: 1.6;
-  color: var(--Black);
+  color: var(--Dark_Black);
 }
 
 /* =====================================================
