@@ -155,7 +155,19 @@ a.logo {
 .button:hover {
   color: var(--White);
 }
-
+.play-btn {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background: var(--Red);
+    color: var(--White);
+    font-size: 28px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: var(--White);
@@ -338,6 +350,16 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
     display: grid;
     gap: 24px;
     grid-template-columns: 1fr 1fr;
+}
+.wpweb-solution-item {
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.wpweb-solution-item i {
+    font-size: 2.5em;
+    margin-bottom: 15px;
 }
 
 /*========Parallax scrolling ===========*/
