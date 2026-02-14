@@ -1446,6 +1446,20 @@ input input {
   transform: translateY(-6px);
 }
 
+.baneer.blackbg ul {
+    margin-top: 25px; 
+}
+.baneer.blackbg ul li { 
+  color: var(--White);
+  margin-bottom: 10px; 
+  font-size: 0.9em;
+}
+ .baneer.blackbg ul li i {
+    color: #118cffaa;
+}
+.rightimgbox {
+    width: 500px;
+}
 /**************projectpage ******************/
 
 section.herobanner1-section-area {
