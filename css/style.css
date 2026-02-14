@@ -160,10 +160,12 @@ a.logo {
 .contact-form textarea::placeholder {
   color: var(--White);
 }
+
 a.button.whitebt {
-   border: 1px solid var(--White);
-   color:var(--White);
+  border: 1px solid var(--White);
+  color: var(--White);
 }
+
 a.button.whitebt:hover {
   color: var(--Dark_Black);
 }
@@ -227,10 +229,12 @@ ul.nav-list {
   gap: 30px;
   align-items: center;
 }
+
 .centerbutton {
-    text-align: center;
-    margin: 20px 0px 0px 0px;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
 }
+
 a.current {
   color: var(--Red) !important;
 }
@@ -243,6 +247,38 @@ ul.nav-list li a {
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+header.header.whitecolor.bg ul.nav-list li a {
+  color: var(--Black);
+}
+
+header.header.whitecolor.bg a.logo img {
+  filter: inherit;
+}
+
+header.header.whitecolor.bg ul.nav-list a.button {
+  color: var(--Black);
+  border: 1px solid var(--Black);
+}
+
+header.header.whitecolor.bg ul.nav-list a.button:hover {
+  color: var(--White);
+  border: 1px solid var(--Black);
+}
+
+.header.whitecolor ul.nav-list li a {
+  color: var(--White);
+}
+
+.header.whitecolor ul.nav-list a.button {
+  color: var(--White);
+  border: 1px solid var(--White);
+}
+
+ 
+.header.whitecolor a.logo img {
+  filter: invert(1);
 }
 
 .header .container {
@@ -1090,6 +1126,7 @@ img.haight-auto {
   width: 100%;
   object-fit: cover;
 }
+
 .stack-card {
   position: sticky;
   top: 170px;
@@ -2262,16 +2299,31 @@ section.banner.white-text h1 {
 }
 
 section.baneer.blackbg {
-    background-color: var(--Black);
-    padding: 110px 0;
-}
- 
-.breadcrumb a{
-  color:var(--Grey);
+  background-color: var(--Black);
+  padding: 110px 0;
 }
 
-section.baneer.blackbg h3,section.baneer.blackbg p,.breadcrumb a,.breadcrumb span {
-  color:var(--White);
+.breadcrumb a {
+  color: var(--Grey);
+  font-size: 0.8em;
+}
+
+.breadcrumb span {
+  color: var(--White);
+  font-size: 0.8em;
+}
+
+.breadcrumb a:after {
+  content: "/";
+  display: inline-block;
+  color: var(--White);
+  margin: 0 3px 0 5px;
+  font-size: 0.8em;
+}
+
+section.baneer.blackbg h3,
+section.baneer.blackbg p {
+  color: var(--White);
 }
 
 .form-grid {
@@ -2928,7 +2980,7 @@ section.faqsection {
     grid-template-columns: 1fr;
     gap: 40px 0px;
   }
- 
+
 
 
   .stack-title {
