@@ -155,7 +155,19 @@ a.logo {
 .button:hover {
   color: var(--White);
 }
-
+.play-btn {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background: var(--Red);
+    color: var(--White);
+    font-size: 28px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: var(--White);
