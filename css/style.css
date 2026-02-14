@@ -1455,7 +1455,7 @@ input input {
   font-size: 0.9em;
 }
  .baneer.blackbg ul li i {
-    color: #526afc;
+    color: #0095d8;
     padding-right: 8px;
 }
 .rightimgbox {
@@ -2313,6 +2313,42 @@ section.banner.white-text h1 {
 .servicestext-info p {
   width: 1150px;
   margin: 0 auto;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.info-box-item {
+    background: #f6f7fa;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 30px 25px;
+    transition: all .3s ease-in;
+}
+
+.info-box-item:hover {
+    background: rgba(0, 149, 216, .08);
+    border-color: #0095d8 ;
+}
+
+.info-box-item span {
+    align-items: center;
+    background: #0095d8;
+    border-radius: 6px;
+    color: #fff;
+    display: flex ;
+    font-size: 24px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 27px;
+    width: 45px;
+}
+
+.info-box-item h4 {
+    font-size: 1.2em;
 }
 
 section.baneer.blackbg {
