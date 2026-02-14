@@ -1455,7 +1455,8 @@ input input {
   font-size: 0.9em;
 }
  .baneer.blackbg ul li i {
-    color: #118cffaa;
+    color: #526afc;
+    padding-right: 8px;
 }
 .rightimgbox {
     width: 500px;
@@ -2318,7 +2319,9 @@ section.baneer.blackbg {
   background-color: var(--Black);
   padding: 110px 0;
 }
-
+.breadcrumb {
+    margin-bottom: 10px;
+}
 .breadcrumb a {
   color: var(--Grey);
   font-size: 0.8em;
