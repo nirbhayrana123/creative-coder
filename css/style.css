@@ -159,7 +159,10 @@ a.logo {
 .contact-form textarea::placeholder {
   color: var(--White);
 }
-
+a.button.whitebt {
+   border: 1px solid var(--White);
+   color:var(--White);
+}
 a.button.whitebt:hover {
   color: var(--Dark_Black);
 }
@@ -2265,9 +2268,15 @@ section.banner.white-text h1 {
 }
 
 section.baneer.blackbg {
-  background-color:var(--Black);
+    background-color: var(--Black);
+    padding: 60px 0;
 }
  
+section.baneer.blackbg h1,section.baneer.blackbg p,.breadcrumb a,.breadcrumb span {
+  color:var(--White);
+}
+
+
 
 .form-grid {
   display: grid;
