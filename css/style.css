@@ -414,13 +414,40 @@ a.websiteurl {
 }
 
 .herobanner {
-  padding: 15px 0;
-  padding-top: 95px;
-  height: 90vh;
+    padding: 15px 0;
+    padding-top: 95px;
+    height: 90vh;
+    background-color: #fff;
+}
+.herobanner-text span {
+    color: #9c273f;
+}
+.map-bannner {
+    width: 35%;
+}
+.mapsbanners {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+.herobanner-text {
+    margin-top: 35px;
+    width: 70%;
 }
 
- 
-
+.herobanner-text h1 {
+    font-size: 2.4em;
+    line-height: 1.2em;
+    font-weight: 600;
+    font-family: "PP Neue Montreal", sans-serif;
+}
+ul.features {
+    padding: 11px 0;
+}
+.features li {
+    padding: 5px 0;
+    font-size: 18px;
+}
 .development-technologie-logo img {
   max-width: 100px;
   max-height: 60px;
@@ -647,7 +674,7 @@ a.up-solid.black {
 .portal {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .frelans {
@@ -678,6 +705,7 @@ a.up-solid.black {
 .frelans img {
   width: 35px;
 }
+
 
 /********************logo-marquee*******************/
 .logo-marquee {
@@ -1033,9 +1061,9 @@ a.client-video-review {
 }
 
 section.logo-slider {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
-
+ 
 .owl-carousel .owl-item {
   display: flex;
   align-items: center;
@@ -1363,7 +1391,7 @@ input input {
   font-size: 0.9em;
 }
  .baneer.blackbg ul li i {
-    color: #526afc;
+    color: #0095d8;
     padding-right: 8px;
 }
 .rightimgbox {
@@ -2218,6 +2246,42 @@ section.banner.white-text h1 {
 .servicestext-info p {
   width: 1150px;
   margin: 0 auto;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.info-box-item {
+    background: #f6f7fa;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 30px 25px;
+    transition: all .3s ease-in;
+}
+
+.info-box-item:hover {
+    background: rgba(0, 149, 216, .08);
+    border-color: #0095d8 ;
+}
+
+.info-box-item span {
+    align-items: center;
+    background: #0095d8;
+    border-radius: 6px;
+    color: #fff;
+    display: flex ;
+    font-size: 24px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 27px;
+    width: 45px;
+}
+
+.info-box-item h4 {
+    font-size: 1.2em;
 }
 
 section.baneer.blackbg {
