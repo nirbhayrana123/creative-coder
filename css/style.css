@@ -1169,7 +1169,9 @@ img.haight-auto {
   background-color: var(--Dark_Black);
   color: var(--White);
 }
-
+section.baneer.blackbg .banner-mains{
+    padding-top: 0px;
+}
 .card-4 {
   z-index: 4;
 }
@@ -1390,7 +1392,7 @@ input input {
 .footer-box.mal-middle {
   display: flex;
   flex-direction: column;
-  background-color: var(--White);
+  background-color: transparent;
   gap: 23px;
   padding: 0;
   box-shadow: none;
@@ -1444,6 +1446,21 @@ input input {
   transform: translateY(-6px);
 }
 
+.baneer.blackbg ul {
+    margin-top: 25px; 
+}
+.baneer.blackbg ul li { 
+  color: var(--White);
+  margin-bottom: 10px; 
+  font-size: 0.9em;
+}
+ .baneer.blackbg ul li i {
+    color: #526afc;
+    padding-right: 8px;
+}
+.rightimgbox {
+    width: 500px;
+}
 /**************projectpage ******************/
 
 section.herobanner1-section-area {
@@ -2302,7 +2319,9 @@ section.baneer.blackbg {
   background-color: var(--Black);
   padding: 110px 0;
 }
-
+.breadcrumb {
+    margin-bottom: 10px;
+}
 .breadcrumb a {
   color: var(--Grey);
   font-size: 0.8em;
