@@ -1390,7 +1390,7 @@ input input {
 .footer-box.mal-middle {
   display: flex;
   flex-direction: column;
-  background-color: var(--White);
+  background-color: transparent;
   gap: 23px;
   padding: 0;
   box-shadow: none;
