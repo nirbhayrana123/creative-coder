@@ -12,6 +12,7 @@ body {
   --Dark_Black: #2c2c2c;
   --Red: #b2324c;
   --BG: #faf7f4;
+  --Grey: #ccc;
 }
 
 h1.pagename {
@@ -205,7 +206,7 @@ a.button.whitebt::after {
 header.header.bg {
   background-color: var(--BG);
   top: 0;
-  box-shadow: 0px 1px 5px 0px #2c2c2c42;
+  box-shadow: 0px 1px 5px 0px var(--Grey);
   animation: fadeSlideDown .5s
 }
 
@@ -319,7 +320,7 @@ a.websiteurl {
   border-radius: 100px;
   color: var(--Dark_Black);
   margin: 0 auto;
-  background-color: #e4e4e4;
+  background-color: var(--Grey);
   transform: rotate(-30deg);
 }
 
@@ -403,7 +404,7 @@ a.websiteurl {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(255 255 255);
+  background-color: var(--White);
   backdrop-filter: blur(15px);
   border-radius: 10px;
 }
@@ -461,7 +462,7 @@ a.websiteurl {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  border-top: 4px dashed #ccc;
+  border-top: 4px dashed var(--Grey);
   padding-top: 30px;
   margin-top: 50px;
 }
@@ -572,7 +573,7 @@ a.websiteurl {
 }
 
 .grid2.onecol .iconcol:hover::after {
-  color: #d6d6d6;
+  color: var(--Grey);
 }
 
 .grid2.onecol {
@@ -583,7 +584,7 @@ a.websiteurl {
 .grid2.onecol .iconcol::after {
   counter-increment: step;
   content: "0" counter(step);
-  color: #8d8d8d75;
+  color: var(--Grey);
   font-size: 40px;
   font-weight: 500;
   position: absolute;
@@ -834,7 +835,7 @@ section.services-section .container {
   min-height: 445px;
   border-radius: 0px 50px 0px 0px;
   padding: 20px;
-  border: solid 1px #d9d9d9c4;
+  border: solid 1px var(--Grey);
   transition: 0.9s;
 }
 
@@ -971,7 +972,7 @@ a.client-video-review {
   padding: 25px;
   border-radius: 24px;
   transition: .4s;
-  box-shadow: 0px 1px 5px 0px #2c2c2c42;
+  box-shadow: 0px 1px 5px 0px var(--Grey);
   position: relative;
 }
 
@@ -1089,9 +1090,6 @@ img.haight-auto {
   width: 100%;
   object-fit: cover;
 }
-
-
-
 .stack-card {
   position: sticky;
   top: 170px;
@@ -1159,12 +1157,10 @@ img.haight-auto {
   padding-left: 35px;
 }
 
-
 .card-3 h2,
 .card-3 p {
   color: var(--Dark_Black);
 }
-
 
 .bg-right img {
   position: absolute;
@@ -1276,7 +1272,7 @@ ul.footer-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 0px 1px 5px 0px #2c2c2c42;
+  box-shadow: 0px 1px 5px 0px var(--Grey);
 }
 
 .subscribe h3 {
@@ -1288,7 +1284,7 @@ ul.footer-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid var(--Grey);
   padding-bottom: 12px;
 }
 
@@ -1302,7 +1298,7 @@ input input {
 }
 
 .input input::placeholder {
-  color: #777;
+  color: var(--Grey);
 }
 
 .arrow {
@@ -1329,9 +1325,8 @@ input input {
 
 .copy {
   font-size: 0.8em;
-  color: #777;
+  color: var(--Grey);
 }
-
 
 .to-top {
   position: fixed;
@@ -1358,7 +1353,7 @@ input input {
 .footer-box.mal-middle {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff00;
+  background-color: var(--White);
   gap: 23px;
   padding: 0;
   box-shadow: none;
@@ -1368,7 +1363,7 @@ input input {
   background: var(--White);
   padding: 42px 30px;
   border-radius: 25px;
-  box-shadow: 0px 1px 5px 0px #2c2c2c42;
+  box-shadow: 0px 1px 5px 0px var(--Grey);
   display: flex;
   align-items: center;
   gap: 15px;
@@ -1418,7 +1413,7 @@ section.herobanner1-section-area {
   position: relative;
   z-index: 1;
   padding: 100px 0 0;
-  background-color: #f2f2f2;
+  background-color: var(--White);
 }
 
 @keyframes animation-1 {
@@ -2230,7 +2225,6 @@ section.banner.aboutbanner {
   border-bottom-left-radius: 80px;
 }
 
-
 section.banner.white-text h1 {
   color: var(--White);
 }
@@ -2269,14 +2263,12 @@ section.banner.white-text h1 {
 
 section.baneer.blackbg {
     background-color: var(--Black);
-    padding: 60px 0;
+    padding: 110px 0;
 }
  
-section.baneer.blackbg h1,section.baneer.blackbg p,.breadcrumb a,.breadcrumb span {
+section.baneer.blackbg h3,section.baneer.blackbg p,.breadcrumb a,.breadcrumb span {
   color:var(--White);
 }
-
-
 
 .form-grid {
   display: grid;
@@ -2297,7 +2289,6 @@ section.baneer.blackbg h1,section.baneer.blackbg p,.breadcrumb a,.breadcrumb spa
   border-radius: 5px;
   font-family: 'Poppins';
 }
-
 
 textarea {
   grid-column: 1 / -1;
@@ -2320,7 +2311,7 @@ textarea {
 .checkbox {
   font-size: 17px;
   margin: 20px 0;
-  color: #edf3f9;
+  color: var(--Grey);
 }
 
 .banner-mains {
@@ -2422,7 +2413,7 @@ section.faqsection {
 
 .projects_listing-card-bg {
   z-index: 1;
-  background-color: #cccccc24;
+  background-color: var(--Grey);
   width: 100%;
   height: 80%;
   position: absolute;
