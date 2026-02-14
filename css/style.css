@@ -334,7 +334,11 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
 .header.activeshow .menu span:last-child {
   transform: translateY(-5px) rotate(-45deg);
 }
-
+.websolution-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+}
 
 /*========Parallax scrolling ===========*/
 
@@ -1460,6 +1464,11 @@ input input {
   cursor: pointer;
   color: var(--White);
 }
+
+
+
+
+
 
 .socail i:hover {
   transform: translateY(-6px);
