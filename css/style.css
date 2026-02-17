@@ -1172,7 +1172,9 @@ img.haight-auto {
   font-size: 2em;
   margin-bottom: 13px;
 }
-
+section.stack-wrapper {
+    padding-bottom: 50px;
+}
 .stack-card-row {
   list-style: none;
   display: grid;
@@ -3627,6 +3629,14 @@ section.delivering-right-solution {
     background-color: var(--White);
     padding: 8px;
   }
+  .grid3,.websolution-grid,.service-case-studies-slider { 
+    grid-template-columns:  1fr;
+    gap: 20px;
+}
+.delivering-right-solution-wrap { 
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 20px;
+}
 }
 
 @media(max-width:500px) {
