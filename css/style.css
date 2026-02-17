@@ -155,33 +155,36 @@ a.logo {
 .button:hover {
   color: var(--White);
 }
+
 .play-btn {
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    width: 70px;
-    height: 70px;
-    background: var(--Red);
-    color: var(--White);
-    font-size: 28px;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  background: var(--Red);
+  color: var(--White);
+  font-size: 28px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 
 section.web-solution-wrap {
-    padding: 60px 0;
-    background-color: var(--White);
+  padding: 60px 0;
+  background-color: var(--White);
 }
+
 .background-max {
-    box-shadow: 0px 3px 8px 4px #0000001f;
-    padding: 40px;
-    border-radius: 20px;
+  box-shadow: 0px 0px 2px 4px #0000000d;
+  padding: 40px;
+  border-radius: 20px;
 }
+
 .container.py2 {
-    padding: 100px;
-    box-shadow: 10px 13px 21px 12px #00000087;
+  padding: 100px;
+  box-shadow: 10px 13px 21px 12px #00000087;
 }
 
 .contact-form input::placeholder,
@@ -304,7 +307,7 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
   border: 1px solid var(--White);
 }
 
- 
+
 .header.whitecolor a.logo img {
   filter: invert(1);
 }
@@ -362,22 +365,23 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
 .header.activeshow .menu span:last-child {
   transform: translateY(-5px) rotate(-45deg);
 }
+
 .websolution-grid {
-    display: grid;
-    gap: 24px;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .wpweb-solution-item {
-    background-color: var(--White);
-    border-radius: 20px;
-    padding: 30px;
-    border: 2px solid darkmagenta;
+  background-color: var(--White);
+  border-radius: 20px;
+  padding: 30px;
+    border: 2px solid #74c0fc;
 }
 
 .wpweb-solution-item i {
-    font-size: 2.5em;
-    margin-bottom: 15px;
+  font-size: 2.5em;
+  margin-bottom: 15px;
 }
 
 /*========Parallax scrolling ===========*/
@@ -458,40 +462,47 @@ a.websiteurl {
 }
 
 .herobanner {
-    padding: 15px 0;
-    padding-top: 95px;
-    height: 90vh;
-    background-color: #fff;
+  padding: 15px 0;
+  padding-top: 95px;
+  height: 90vh;
+  background-color: var(--White);
 }
+
 .herobanner-text span {
-    color: #9c273f;
+  color: var(--Red);
 }
+
 .map-bannner {
-    width: 40%;
+  width: 40%;
 }
+
 .mapsbanners {
-    display: flex; 
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
+
 .herobanner-text {
-    margin-top: 35px;
-    width: 70%;
+  margin-top: 35px;
+  width: 70%;
 }
 
 .herobanner-text h1 {
-    font-size: 2.4em;
-    line-height: 1.2em;
-    font-weight: 600;
-    font-family: "PP Neue Montreal", sans-serif;
+  font-size: 2.4em;
+  line-height: 1.2em;
+  font-weight: 600;
+  font-family: "PP Neue Montreal", sans-serif;
 }
+
 ul.features {
-    padding: 11px 0;
+  padding: 11px 0;
 }
+
 .features li {
-    padding: 5px 0;
-    font-size: 18px;
+  padding: 5px 0;
+  font-size: 18px;
 }
+
 .development-technologie-logo img {
   max-width: 100px;
   max-height: 60px;
@@ -516,9 +527,6 @@ ul.features {
   justify-content: center;
   position: relative;
 }
-
- 
- 
 
 .freelancer-section {
   display: flex;
@@ -683,8 +691,6 @@ ul.features {
   display: none;
 }
 
- 
-
 a.up-solid:hover i {
   margin-left: 1px;
   margin-top: -15px;
@@ -783,7 +789,6 @@ a.up-solid.black {
   color: var(--Red);
 }
 
-/* ANIMATION */
 @keyframes scroll {
   from {
     transform: translateX(0);
@@ -1107,7 +1112,7 @@ a.client-video-review {
 section.logo-slider {
   margin-bottom: 30px;
 }
- 
+
 .owl-carousel .owl-item {
   display: flex;
   align-items: center;
@@ -1193,9 +1198,11 @@ img.haight-auto {
   background-color: var(--Dark_Black);
   color: var(--White);
 }
-section.baneer.blackbg .banner-mains{
-    padding-top: 0px;
+
+section.baneer.blackbg .banner-mains {
+  padding-top: 0px;
 }
+
 .card-4 {
   z-index: 4;
 }
@@ -1225,9 +1232,6 @@ section.baneer.blackbg .banner-mains{
   color: var(--Dark_Black);
 }
 
- 
-
- 
 /******************footer**************/
 
 footer.footer {
@@ -1422,30 +1426,29 @@ input input {
   color: var(--White);
 }
 
-
-
-
-
-
 .socail i:hover {
   transform: translateY(-6px);
 }
 
 .baneer.blackbg ul {
-    margin-top: 25px; 
+  margin-top: 25px;
 }
-.baneer.blackbg ul li { 
+
+.baneer.blackbg ul li {
   color: var(--White);
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   font-size: 0.9em;
 }
- .baneer.blackbg ul li i {
-    color: #0095d8;
-    padding-right: 8px;
+
+.baneer.blackbg ul li i {
+  color: #0095d8;
+  padding-right: 8px;
 }
+
 .rightimgbox {
-    width: 500px;
+  width: 500px;
 }
+
 /**************projectpage ******************/
 
 section.herobanner1-section-area {
@@ -1481,12 +1484,10 @@ section.herobanner1-section-area {
   justify-content: space-between;
 }
 
-
 .heading1 h1 {
   line-height: 1.3;
 }
 
- 
 
 .herobanner1-section-area .header-images-area {
   position: relative;
@@ -1692,11 +1693,9 @@ section.maincontects {
   margin: 0 auto;
 }
 
-
 .page-about h1 {
   color: var(--White);
 }
-
 
 .about-info9 p {
   margin-bottom: 20px;
@@ -1827,7 +1826,6 @@ section.section-about.aboutpage .teemcontent {
   gap: 40px;
   align-items: start;
 }
-
 
 .team-counter {
   position: relative;
@@ -2291,55 +2289,57 @@ section.banner.white-text h1 {
   display: none;
 }
 
-
 .servicestext-info p {
   width: 1150px;
   margin: 0 auto;
 }
+
 .grid3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
 }
 
 .info-box-item {
-    background: #f6f7fa;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    padding: 30px 25px;
-    transition: all .3s ease-in;
+  background: #f6f7fa;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 30px 25px;
+  transition: all .3s ease-in;
 }
 
 .info-box-item:hover {
-    background: rgba(0, 149, 216, .08);
-    border-color: #0095d8 ;
+  background: rgba(0, 149, 216, .08);
+  border-color: #0095d8;
 }
 
 .info-box-item span {
-    align-items: center;
-    background: #0095d8;
-    border-radius: 6px;
-    color: #fff;
-    display: flex ;
-    font-size: 24px;
-    font-weight: 600;
-    height: 50px;
-    justify-content: center;
-    margin-bottom: 27px;
-    width: 45px;
+  align-items: center;
+  background: #0095d8;
+  border-radius: 6px;
+  color: var(--White);
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 27px;
+  width: 45px;
 }
 
 .info-box-item h4 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 section.baneer.blackbg {
   background-color: var(--Black);
   padding: 110px 0;
 }
+
 .breadcrumb {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 .breadcrumb a {
   color: var(--Grey);
   font-size: 0.8em;
@@ -2459,7 +2459,6 @@ section.faqsection {
   transition: 0.4s;
 }
 
-
 .faq-item.active .faq-question::after {
   transform: translateY(-50%) rotate(90deg);
 }
@@ -2476,19 +2475,16 @@ section.faqsection {
    Design system: BeloveSoft (tags, headings, text)
    ===================================================== */
 
-/* Section spacing */
 .bs-project-listing {
   padding: 60px 0;
 }
 
-/* Grid layout */
 .bs-project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 45px;
 }
 
-/* Single project card */
 .bs-project-item {
   display: flex;
   flex-direction: column;
@@ -2496,7 +2492,6 @@ section.faqsection {
   transition: 0.4s ease;
 }
 
-/* Image wrapper */
 .bs-project-img {
   border-radius: 28px;
   overflow: hidden;
@@ -2516,7 +2511,6 @@ section.faqsection {
   border-radius: 20px;
 }
 
-/* Image itself */
 .bs-project-img img {
   width: 100%;
   height: auto;
@@ -2524,7 +2518,6 @@ section.faqsection {
   object-fit: cover;
 }
 
-/* Content area */
 .bs-project-info {
   padding: 20px 0px 20px 0px;
   transition: padding 0.4s ease;
@@ -2537,7 +2530,6 @@ section.faqsection {
   padding-right: 20px;
 }
 
-/* Tags wrapper */
 .bs-project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -2573,12 +2565,10 @@ section.faqsection {
    Design system: BeloveSoft (heading, button, text)
    ===================================================== */
 
-/* Section spacing */
 .bs-project-cta-sec {
   padding: 80px 0;
 }
 
-/* Top row layout */
 .bs-project-cta-row {
   display: flex;
   justify-content: space-between;
@@ -2591,24 +2581,20 @@ section.faqsection {
   max-width: 700px;
 }
 
-/* Paragraph spacing only */
 .bs-project-cta-left p {
   margin-top: 20px;
   max-width: 520px;
 }
 
-/* Right CTA alignment */
 .bs-project-cta-right {
   flex-shrink: 0;
 }
 
-/* Image wrapper */
 .bs-project-cta-image {
   border-radius: 28px;
   overflow: hidden;
 }
 
-/* Image styling */
 .bs-project-cta-image img {
   width: 100%;
   height: auto;
@@ -2620,368 +2606,388 @@ section.faqsection {
   font-size: 65px;
 }
 
-
-
-
-
-
-/*************amit******************/
-
- 
 section.service-case-studies-wrap {
-    padding: 60px 0px 50px;
-    background-color: var(--White);
+  padding: 60px 0px 50px;
+  background-color: var(--White);
 }
-
 
 section.service-case-studies-wrap .sub-title {
-    padding-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 section.service-case-studies-wrap .sub-title h4 {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .service-case-studies-main {
-    margin: 0 -15px;
+  margin: 0 -15px;
 }
+
 .service-case-studies-slider {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
+
 .service-case-studies-main .service-case-studies .service-case-studies-box {
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: 100%;
 }
+
 .service-case-studies-main .service-case-studies .service-case-studies-img {
-    height: 350px;
-    border-radius: 12px;
-    transition: all 400ms ease;
-    overflow: hidden;
+  height: 350px;
+  border-radius: 12px;
+  transition: all 400ms ease;
+  overflow: hidden;
 }
 
 .service-case-studies-main .service-case-studies .service-case-studies-img figure {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-} 
-figure, ul {
-    margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
+
+figure,
+ul {
+  margin: 0;
+}
+
 .service-case-studies-main .service-case-studies .service-case-studies-img figure img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 12px;
-    transition: all 400ms ease;
-    transform: scale(1);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: all 400ms ease;
+  transform: scale(1);
 }
-.service-case-studies-main .service-case-studies .service-case-studies-img figure:hover img
- 
- {
-    transform: scale(1.2);
+
+.service-case-studies-main .service-case-studies .service-case-studies-img figure:hover img {
+  transform: scale(1.2);
 }
 
 .service-case-studies-main .service-case-studies .service-case-studies-content {
-    padding-top: 20px;
-    padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
-
 
 .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category {
-    display: inline-flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
+
 studies-category .case-study-btn {
-    display: flex;
-    gap: 8px;
-    align-items: center;
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
-.service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn a, .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn span {
-    font-size: 14px;
-    font-weight: 400;
-    border: 1px solid transparent;
-    border-radius: 15px;
-    padding: 10px 10px;
-    background-color: #edf9ff;
-    color: #0095d8;
-    width: auto;
-    margin-bottom: 0;
-    line-height: normal;
-    margin-right: 0;
-    display: inline-block;
+
+.service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn a,
+.service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn span {
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  padding: 10px 10px;
+  background-color: #edf9ff;
+  color: #0095d8;
+  width: auto;
+  margin-bottom: 0;
+  line-height: normal;
+  margin-right: 0;
+  display: inline-block;
 }
 
 .service-case-studies-main .service-case-studies .service-case-studies-content .case-studies-desc {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
+
 .case-study-tech {
-    display: inline-flex;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 42px;
+  display: inline-flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 42px;
 }
+
 .case-study-tech .case-study-btn {
-    width: 90%;
+  width: 90%;
 }
-.case-study-tech .case-study-btn a, .case-study-tech .case-study-btn span {
-    transition: all 500ms ease-in-out;
-    color: #b2b2b2;
-    font-weight: 500;
-    border: 1px solid rgb(63, 63, 63);
-    padding: 10px 15px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 25px;
-    text-transform: uppercase;
-    margin-right: 5px;
-    margin-bottom: 10px;
+
+.case-study-tech .case-study-btn a,
+.case-study-tech .case-study-btn span {
+  transition: all 500ms ease-in-out;
+  color: var(--Black);
+  font-weight: 500;
+  border: 1px solid rgb(63, 63, 63);
+  padding: 10px 15px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 25px;
+  text-transform: uppercase;
+  margin-right: 5px;
+  margin-bottom: 10px;
 }
+
 .case-study-tech .country-flag {
-    width: 10%;
-    text-align: right;
+  width: 10%;
+  text-align: right;
 }
+
 .case-study-tech .country-flag figure {
-    height: 13px;
-    width: 21px;
-    float: right;
+  height: 13px;
+  width: 21px;
+  float: right;
 }
-.case-study-tech .case-study-btn a:hover, .case-study-tech .case-study-btn span:hover {
-    box-shadow: 0px 7px 12.09px 0.91px rgb(0 0 0 / 20%);
+
+.case-study-tech .case-study-btn a:hover,
+.case-study-tech .case-study-btn span:hover {
+  box-shadow: 0px 7px 12.09px 0.91px rgb(0 0 0 / 20%);
 }
 
 .case-study-tech .country-flag figure:hover span.c-tooltip {
-    visibility: visible;
+  visibility: visible;
 }
+
 span.c-tooltip {
-    visibility: hidden;
-    width: auto;
-    background-color: #0095d8;
-    color: var(--White);
-    text-align: center;
-    border-radius: 15px;
-    padding: 5px 10px;
-    position: absolute;
-    z-index: 1;
-    font-size: 12px;
-    top: 30px;
-    right: 0px;
+  visibility: hidden;
+  width: auto;
+  background-color: #0095d8;
+  color: var(--White);
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+  top: 30px;
+  right: 0px;
 }
+
 .service-case-studies-box:hover .service-case-studies-img {
-    box-shadow: 1.928px 2.298px 31.5px 3.5px rgba(21, 21, 21, 0.06);
+  box-shadow: 1.928px 2.298px 31.5px 3.5px rgba(21, 21, 21, 0.06);
 }
-
-
 
 .wpweb-page-call-to-action .wpweb-page-cta-cont {
-    position: relative;
+  position: relative;
 }
+
 .wpweb-page-cta-cont {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--White);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--White);
 }
-.wpweb-page-cta-cont h4{
+
+.wpweb-page-cta-cont h4 {
   width: 60%;
-    text-align: left;
-    padding-bottom: 0px;
-    color: var(--White); 
-    line-height: 40px;
-    margin: 0;
-    letter-spacing: 1px;
+  text-align: left;
+  padding-bottom: 0px;
+  color: var(--White);
+  line-height: 40px;
+  margin: 0;
+  letter-spacing: 1px;
 }
 
 .wpweb-page-call-to-action {
-    position: relative;
-    z-index: 1;
-    padding: 50px 0 60px;
-    background-color: var(--Black);
+  position: relative;
+  z-index: 1;
+  padding: 50px 0 60px;
+  background-color: var(--Black);
 }
+
 .button-1 a.button {
-    border-color:var(--White);
-    color: var(--White);
+  border-color: var(--White);
+  color: var(--White);
 }
 
 section.delivering-right-solution {
-    padding: 60px 0px;
-    background-color: var(--White);
+  padding: 60px 0px;
+  background-color: var(--White);
 }
 
 .delivering-right-heding {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
+
 .delivering-right-solution-wrap {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px 20px;
 }
+
 .deliver-right-sol {
-    min-height: 162px;
-    margin-bottom: 25px;
+  min-height: 162px;
+  margin-bottom: 25px;
 }
+
 .deliver-right-sol .inner {
-    border-radius: 10px;
-    border: 0;
-    flex-direction: column;
-    padding: 30px 20px 20px;
-    justify-content: center;
-    box-shadow: 3px 4px 30px 0px #AEAEAE33;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    background-color: var(--White);
-}
-  .deliver-right-sol .inner figure {
-    width: 32px;
-    height: 32px;
-    position: static;
-    margin-bottom: 10px;
-    background-color: transparent !important;
+  border-radius: 10px;
+  border: 0;
+  flex-direction: column;
+  padding: 30px 20px 20px;
+  justify-content: center;
+  box-shadow: 3px 4px 30px 0px #AEAEAE33;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  background-color: var(--White);
 }
 
+.deliver-right-sol .inner figure {
+  width: 32px;
+  height: 32px;
+  position: static;
+  margin-bottom: 10px;
+  background-color: transparent !important;
+}
 
 .deliver-right-sol .inner figure img {
-    filter: grayscale(100%) brightness(60%);
+  filter: grayscale(100%) brightness(60%);
 }
+
 .deliver-right-sol .inner figure img {
-    filter: grayscale(100%) brightness(60%);
+  filter: grayscale(100%) brightness(60%);
 }
+
 .deliver-right-sol .inner h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #121212;
-    padding: 0;
-    letter-spacing: 0;
-    text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--Black);
+  padding: 0;
+  letter-spacing: 0;
+  text-align: center;
 }
- .deliver-right-sol .inner:hover {
-    border: 0 !important;
-    background: #E2F6FF;
+
+.deliver-right-sol .inner:hover {
+  border: 0 !important;
+  background: #E2F6FF;
 }
-  .deliver-right-sol .inner:hover figure img {
-    filter: brightness(0) saturate(100%) invert(40%) sepia(100%) saturate(704%) hue-rotate(162deg) brightness(93%) contrast(106%);
+
+.deliver-right-sol .inner:hover figure img {
+  filter: brightness(0) saturate(100%) invert(40%) sepia(100%) saturate(704%) hue-rotate(162deg) brightness(93%) contrast(106%);
 }
- 
+
 .deliver-right-sol .inner:hover h3 {
-    color: #0095D8;
+  color: #0095D8;
 }
+
 .wpweb-developer-process-flow-section {
-    padding: 60px 0 60px;
-    background-color: #F6F7FA;
+  padding: 60px 0 60px;
+  background-color: #F6F7FA;
 }
 
 .wpweb-developer-process-flow-section .title {
-    padding-bottom: 50px;
-    text-align: center;
+  padding-bottom: 50px;
+  text-align: center;
 }
+
 .wpweb-process_flow_section {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .wpweb-process_flow_section .process_flow_wrap {
-    width: 25%;
-    text-align: center;
-    padding: 0 15px;
+  width: 25%;
+  text-align: center;
+  padding: 0 15px;
 }
+
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) .image {
-    background-color: rgba(215, 155, 250, 0.48);
+  background-color: rgba(215, 155, 250, 0.48);
 }
+
 .wpweb-process_flow_section .process_flow_wrap .image {
-    position: relative;
-    width: 176px;
-    height: 176px;
-    border-radius: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(249, 140, 140, .48);
+  position: relative;
+  width: 176px;
+  height: 176px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(249, 140, 140, .48);
 }
-
-
-
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) figure {
-    box-shadow: 0 0 0 10px #d79bfa!important;
+  box-shadow: 0 0 0 10px #d79bfa !important;
 }
 
 .wpweb-process_flow_section .process_flow_wrap .image figure {
-    width: 139px;
-    height: 139px;
-    border-radius: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    box-shadow: 0 0 0 10px #f98c8c;
-}
-.wpweb-process_flow_section .process_flow_wrap .image figure img {
-    width: 60%;
-    -o-object-fit: contain;
-    object-fit: contain;
-}
-.wpweb-process_flow_section .process_flow_wrap .image:after {
-    content: "";
-    position: absolute;
-    background-image: url('../images/rounded-1.png');
-    width: 160px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: -143px;
-    z-index: 1;
-    top: 14px;
-}
-.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image::after
- {
-    transform: rotate(-180deg) scaleX(-1);
-    top: 50px;
+  width: 139px;
+  height: 139px;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--White);
+  box-shadow: 0 0 0 10px #f98c8c;
 }
 
-.wpweb-process_flow_section .process_flow_wrap:nth-child(4) .image::after{
+.wpweb-process_flow_section .process_flow_wrap .image figure img {
+  width: 60%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.wpweb-process_flow_section .process_flow_wrap .image:after {
+  content: "";
+  position: absolute;
+  background-image: url('../images/rounded-1.png');
+  width: 160px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: -143px;
+  z-index: 1;
+  top: 14px;
+}
+
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image::after {
+  transform: rotate(-180deg) scaleX(-1);
+  top: 50px;
+}
+
+.wpweb-process_flow_section .process_flow_wrap:nth-child(4) .image::after {
   display: none;
 }
-.wpweb-process_flow_section .process_flow_wrap .process_flow_title {
-    padding-top: 30px;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 600;
-}
-.wpweb-process_flow_section .process_flow_wrap:nth-child(3) .image
- {
-    background-color: rgb(123 144 248 / 48%);
-}
-.wpweb-process_flow_section .process_flow_wrap:nth-child(3) figure
 
- {
-    box-shadow: 0 0 0 10px rgb(123 144 248 / 48%);}
+.wpweb-process_flow_section .process_flow_wrap .process_flow_title {
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.wpweb-process_flow_section .process_flow_wrap:nth-child(3) .image {
+  background-color: rgb(123 144 248 / 48%);
+}
+
+.wpweb-process_flow_section .process_flow_wrap:nth-child(3) figure {
+  box-shadow: 0 0 0 10px rgb(123 144 248 / 48%);
+}
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) .image {
-    background-color: rgb(123 227 248 / 48%);
+  background-color: rgb(123 227 248 / 48%);
 }
+
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) figure {
-    box-shadow: 0 0 0 10px #7be3f8;
+  box-shadow: 0 0 0 10px #7be3f8;
 }
-
-
-
 
 /**************mobile media******************/
 @media (max-width: 1200px) {
@@ -2993,10 +2999,7 @@ section.delivering-right-solution {
   .herobanner {
     position: relative;
     height: 85vh;
-  } 
- 
-
-  
+  }
 
   html {
     overflow-x: hidden;
@@ -3021,7 +3024,6 @@ section.delivering-right-solution {
   .staff-text {
     font-size: 45px;
   }
-
 }
 
 @media(max-width:1024px) {
@@ -3076,9 +3078,7 @@ section.delivering-right-solution {
     width: 100%;
     height: 100vh;
     background-color: var(--BG);
-
     display: flex;
-    /* ❌ none hatao */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -3094,11 +3094,9 @@ section.delivering-right-solution {
     opacity: 1;
   }
 
-
   ul.nav-list li a {
     font-size: 20px;
   }
-
   /*======== header =============*/
 
   .socail {
@@ -3158,7 +3156,6 @@ section.delivering-right-solution {
   .gridmembers.gaping .gridmemberleftside:nth-child(even) {
     margin-top: 0px;
   }
-
 
   .service-card {
     grid-template-columns: 1fr;
@@ -3272,8 +3269,6 @@ section.delivering-right-solution {
     width: 100%;
   }
 
-
-
   .cta-proposal-wrap {
     flex-wrap: wrap;
   }
@@ -3371,12 +3366,9 @@ section.delivering-right-solution {
     gap: 40px 0px;
   }
 
-
-
   .stack-title {
     min-width: 100%;
   }
-
 
   .project-page .featured-right {
     grid-template-columns: 1fr;
@@ -3395,14 +3387,11 @@ section.delivering-right-solution {
     text-align: center;
   }
 
-
-
   .helmet {
     right: -23px;
     bottom: -15px;
     width: 210px;
   }
-
 
   .grid2 {
     grid-template-columns: 1fr;
@@ -3411,7 +3400,6 @@ section.delivering-right-solution {
   .teemcontent .grid2 {
     grid-template-columns: 1fr 1fr;
   }
-
 
   .parallax-box {
     height: 270px;
@@ -3426,7 +3414,6 @@ section.delivering-right-solution {
     width: 190px;
     top: 35px;
   }
-
 
   .parallax-img {
     position: relative;
@@ -3459,9 +3446,6 @@ section.delivering-right-solution {
     border-radius: 25px;
     padding: 20px;
   }
-
-  
- 
 
   .bottom {
     flex-wrap: wrap;
@@ -3528,9 +3512,6 @@ section.delivering-right-solution {
   ul.footer-menu {
     margin-bottom: 14px;
   }
-
-
-   
 
   .who-right h2 {
     font-size: 2em;
@@ -3618,7 +3599,6 @@ section.delivering-right-solution {
     font-size: 14px;
   }
 
-
   .footer-box.mal-middle a {
     gap: 15px;
     font-size: 1.2em;
@@ -3627,9 +3607,6 @@ section.delivering-right-solution {
   .social li {
     font-size: 1.2em;
   }
- 
-
- 
 
   section.services-section {
     padding: 40px 0px;
