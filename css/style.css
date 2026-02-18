@@ -477,7 +477,7 @@ a.websiteurl {
 }
 
 .map-bannner {
-  width: 40%;
+    width: 59%;
 }
 
 .mapsbanners {
@@ -3015,7 +3015,7 @@ section.delivering-right-solution {
 
   .herobanner {
     position: relative;
-    height: 85vh;
+    height: auto;
   }
 
   html {
@@ -3286,6 +3286,15 @@ section.delivering-right-solution {
     margin-top: 15px;
     width: 100%;
   }
+.mapsbanners { 
+    flex-wrap: wrap;
+}
+.herobanner-text { 
+    width: 100%;
+}
+.map-bannner {
+    width: 100%;
+}
 
   .cta-proposal-wrap {
     flex-wrap: wrap;
@@ -3463,6 +3472,20 @@ section.delivering-right-solution {
     height: auto;
     border-radius: 25px;
     padding: 20px;
+  }
+
+     .herobanner-text h1 {
+        font-size: 2.5em;
+        line-height: 1.3em;
+        text-align: left;
+    }
+    .features li { 
+    font-size: 16px;
+}
+
+  .pill {
+    width: 300px;
+    top: 10px;
   }
 
   .bottom {
