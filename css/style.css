@@ -1356,7 +1356,7 @@ input input {
 
 .copy {
   font-size: 0.8em;
-  color: var(--Grey);
+  color: #444343;
 }
 
 .to-top {
