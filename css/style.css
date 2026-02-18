@@ -2018,10 +2018,7 @@ section.service-sec22 {
   transition: 0.9s ease;
   transition-delay: 0.5s;
 }
-
  
- 
-
 .service-content {
   width: 100%;
   padding: 30px;
@@ -2498,11 +2495,15 @@ section.faqsection {
 }
 
 .bs-project-item {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  transition: 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 0.4s ease;
+    border: 1px solid var(--Grey);
+    border-radius: 13px;
+    background-color: var(--White);
 }
+
 
 .bs-project-img {
   border-radius: 28px;
@@ -2510,19 +2511,7 @@ section.faqsection {
   position: relative;
   z-index: 2;
 }
-
-.projects_listing-card-bg {
-  z-index: 1;
-  background-color: var(--Grey);
-  width: 100%;
-  height: 80%;
-  position: absolute;
-  inset: auto 0% 0%;
-  transition: opacity 0.4s ease;
-  opacity: 0;
-  border-radius: 20px;
-}
-
+ 
 .bs-project-img img {
   width: 100%;
   height: auto;
@@ -2531,17 +2520,12 @@ section.faqsection {
 }
 
 .bs-project-info {
-  padding: 20px 0px 20px 0px;
-  transition: padding 0.4s ease;
-  position: relative;
-  z-index: 2;
+    padding: 15px;
+    transition: padding 0.4s ease;
+    position: relative;
+    z-index: 2;
 }
-
-.bs-project-item:hover .bs-project-info {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
+ 
 .bs-project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -2549,9 +2533,7 @@ section.faqsection {
   margin-bottom: 18px;
 }
 
-.bs-project-item:hover .projects_listing-card-bg {
-  opacity: 1;
-}
+ 
 
 .bs-project-tags span {
   font-size: 16px;
