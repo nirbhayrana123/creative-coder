@@ -2961,11 +2961,11 @@ section.delivering-right-solution {
     content: "";
     position: absolute;
     background-image: url('../images/rounded-1.png');
-    width: 160px;
+    width: 210px;
     height: 100px;
     background-repeat: no-repeat;
     background-size: contain;
-    right: -143px;
+    right: -191px;
     z-index: 1;
     top: 14px;
 }
