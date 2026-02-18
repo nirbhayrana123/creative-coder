@@ -2195,7 +2195,7 @@ section.featured {
 }
 
 section.blog-detail-content {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .blog-detail-row {
@@ -2206,10 +2206,12 @@ section.blog-detail-content {
   align-items: start;
 }
 
-.detail-content h3 {
+.detail-content h3 { 
   margin-top: 30px;
-  font-size: 1.5em;
+  font-size: 1.5em; 
 }
+
+ 
 
 .widget-content {
   background-color: var(--Red);
@@ -2248,7 +2250,7 @@ section.blog-detail-content {
 }
 
 .detail-content ul {
-  padding-left: 35px;
+  padding-left: 50px;
   margin-top: 14px;
 }
 
@@ -2500,13 +2502,15 @@ section.faqsection {
   grid-template-columns: repeat(2, 1fr);
   gap: 45px;
 }
+
 section.banner.white-text.detailbanner::after {
-    content: "";
-    position: absolute;
-    background-color: #02020257;
-    z-index: 0;
-    inset: 0;
+  content: "";
+  position: absolute;
+  background-color: #02020257;
+  z-index: 0;
+  inset: 0;
 }
+
 .detailbanner .leftcontentblog {
   max-width: 70%;
   z-index: 2;
