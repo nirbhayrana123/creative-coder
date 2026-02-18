@@ -477,7 +477,7 @@ a.websiteurl {
 }
 
 .map-bannner {
-    width: 59%;
+  width: 59%;
 }
 
 .mapsbanners {
@@ -1407,11 +1407,12 @@ input input {
 }
 
 .subscribe input {
-    font-size: 1em;
-    outline: none;
-    border: none;
-    width: 100%;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  width: 100%;
 }
+
 .socail {
   display: flex;
   gap: 8px;
@@ -1958,16 +1959,16 @@ section.service-sec22 {
 }
 
 .service-card {
-    max-width: 100%;
-    margin: 50px auto;
-    background: var(--White);
-    border-radius: 22px;
-    overflow: hidden;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    display: grid;
-    border: 1px solid var(--Grey);
+  max-width: 100%;
+  margin: 50px auto;
+  background: var(--White);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  display: grid;
+  border: 1px solid var(--Grey);
 }
 
 .service-image {
@@ -1991,8 +1992,8 @@ section.service-sec22 {
   height: 100%;
   object-fit: cover;
   transition: 1s;
-   border-radius: 25px;
-    border: 1px solid var(--Grey);
+  border-radius: 25px;
+  border: 1px solid var(--Grey);
 }
 
 .service-image::after {
@@ -2018,7 +2019,7 @@ section.service-sec22 {
   transition: 0.9s ease;
   transition-delay: 0.5s;
 }
- 
+
 .service-content {
   width: 100%;
   padding: 30px;
@@ -2059,20 +2060,20 @@ section.service-sec22 {
 }
 
 .service-content ul li:before {
-    content: "✔";
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: var(--White);
-    font-weight: bold;
-    background-color: var(--Red);
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 23px;
-    font-size: 10px;
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--White);
+  font-weight: bold;
+  background-color: var(--Red);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 23px;
+  font-size: 10px;
 }
 
 /**************Services page******************/
@@ -2194,7 +2195,7 @@ section.featured {
 }
 
 section.blog-detail-content {
-  padding: 60px 0;
+    padding-bottom: 60px;
 }
 
 .blog-detail-row {
@@ -2479,10 +2480,16 @@ section.faqsection {
   line-height: 1.6;
 }
 
-/* =====================================================
-   PROJECT PAGE – PROJECT LISTING (2 COLUMN GRID)
-   Design system: BeloveSoft (tags, headings, text)
-   ===================================================== */
+.detail-content h5 {
+  margin-bottom: 7px;
+  margin-top: 17px;
+  font-weight: 700;
+}
+
+.detail-content ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
 
 .bs-project-listing {
   padding: 60px 0;
@@ -2494,14 +2501,18 @@ section.faqsection {
   gap: 45px;
 }
 
+.leftcontentblog {
+  max-width: 70%;
+}
+
 .bs-project-item {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    transition: 0.4s ease;
-    border: 1px solid var(--Grey);
-    border-radius: 13px;
-    background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: 0.4s ease;
+  border: 1px solid var(--Grey);
+  border-radius: 13px;
+  background-color: var(--White);
 }
 
 
@@ -2511,7 +2522,7 @@ section.faqsection {
   position: relative;
   z-index: 2;
 }
- 
+
 .bs-project-img img {
   width: 100%;
   height: auto;
@@ -2520,12 +2531,12 @@ section.faqsection {
 }
 
 .bs-project-info {
-    padding: 15px;
-    transition: padding 0.4s ease;
-    position: relative;
-    z-index: 2;
+  padding: 15px;
+  transition: padding 0.4s ease;
+  position: relative;
+  z-index: 2;
 }
- 
+
 .bs-project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -2533,7 +2544,7 @@ section.faqsection {
   margin-bottom: 18px;
 }
 
- 
+
 
 .bs-project-tags span {
   font-size: 16px;
@@ -2876,65 +2887,67 @@ section.delivering-right-solution {
 }
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) .image {
-    background-color: rgb(0 176 255 / 28%);
+  background-color: rgb(0 176 255 / 28%);
 }
 
 .wpweb-process_flow_section .process_flow_wrap .image {
-    position: relative;
-    width: 176px;
-    height: 176px;
-    border-radius: 15%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(249, 140, 140, .48);
+  position: relative;
+  width: 176px;
+  height: 176px;
+  border-radius: 15%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(249, 140, 140, .48);
 }
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) figure {
-    box-shadow: 0 0 0 10px #23486d!important;
+  box-shadow: 0 0 0 10px #23486d !important;
 }
-.wpweb-process_flow_section .process_flow_wrap:nth-child(2) figure
- {
-     box-shadow: 0 0 0 10px #23486d!important;
+
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) figure {
+  box-shadow: 0 0 0 10px #23486d !important;
 }
+
 .wpweb-process_flow_section .process_flow_wrap .image figure {
-    width: 139px;
-    height: 139px;
-    border-radius: 15%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    box-shadow: 0 0 0 10px #f98c8c;
+  width: 139px;
+  height: 139px;
+  border-radius: 15%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 0 0 10px #f98c8c;
 }
+
 .wpweb-process_flow_section .process_flow_wrap .image figure img {
-    width: 60%;
-    -o-object-fit: contain;
-    object-fit: contain;
+  width: 60%;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
+
 .wpweb-process_flow_section .process_flow_wrap .image:after {
-    content: "";
-    position: absolute;
-    background-image: url('../images/rounded-1.png');
-    width: 210px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: -191px;
-    z-index: 1;
-    top: 14px;
+  content: "";
+  position: absolute;
+  background-image: url('../images/rounded-1.png');
+  width: 210px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: -191px;
+  z-index: 1;
+  top: 14px;
 }
-.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image
- {
-    background-color: #667f9aad;
+
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image {
+  background-color: #667f9aad;
 }
 
 
-.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image::after
- {
-    transform: rotate(-180deg) scaleX(-1);
-    top: 50px;
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image::after {
+  transform: rotate(-180deg) scaleX(-1);
+  top: 50px;
 }
 
 .wpweb-process_flow_section .process_flow_wrap .image figure img {
@@ -2981,11 +2994,11 @@ section.delivering-right-solution {
 }
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) .image {
-    background-color: rgb(47 168 204);
+  background-color: rgb(47 168 204);
 }
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) figure {
-    box-shadow: 0 0 0 10px #547580;
+  box-shadow: 0 0 0 10px #547580;
 }
 
 /**************mobile media******************/
@@ -3268,15 +3281,18 @@ section.delivering-right-solution {
     margin-top: 15px;
     width: 100%;
   }
-.mapsbanners { 
+
+  .mapsbanners {
     flex-wrap: wrap;
-}
-.herobanner-text { 
+  }
+
+  .herobanner-text {
     width: 100%;
-}
-.map-bannner {
+  }
+
+  .map-bannner {
     width: 100%;
-}
+  }
 
   .cta-proposal-wrap {
     flex-wrap: wrap;
@@ -3456,14 +3472,15 @@ section.delivering-right-solution {
     padding: 20px;
   }
 
-     .herobanner-text h1 {
-        font-size: 2.5em;
-        line-height: 1.3em;
-        text-align: left;
-    }
-    .features li { 
+  .herobanner-text h1 {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    text-align: left;
+  }
+
+  .features li {
     font-size: 16px;
-}
+  }
 
   .pill {
     width: 300px;
