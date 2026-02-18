@@ -502,7 +502,9 @@ a.websiteurl {
 ul.features {
   padding: 11px 0;
 }
-
+ul.features li i {
+    padding-right: 10px;
+}
 .features li {
   padding: 5px 0;
   font-size: 18px;
@@ -1208,9 +1210,7 @@ section.stack-wrapper {
   color: var(--White);
 }
 
-section.baneer.blackbg .banner-mains {
-  padding-top: 0px;
-}
+ 
 
 .card-4 {
   z-index: 4;
@@ -1438,21 +1438,7 @@ input input {
 .socail i:hover {
   transform: translateY(-6px);
 }
-
-.baneer.blackbg ul {
-  margin-top: 25px;
-}
-
-.baneer.blackbg ul li {
-  color: var(--White);
-  margin-bottom: 10px;
-  font-size: 0.9em;
-}
-
-.baneer.blackbg ul li i {
-  color: #0095d8;
-  padding-right: 8px;
-}
+ 
 
 .rightimgbox {
   width: 500px;
@@ -2346,38 +2332,30 @@ section.banner.white-text h1 {
   font-size: 1.2em;
 }
 
-section.baneer.blackbg {
-  background-color: var(--Black);
-  padding: 110px 0;
-}
-
+ 
 .breadcrumb {
   margin-bottom: 10px;
 }
 
 .breadcrumb a {
-  color: var(--Grey);
+  color: var(--Dark_Black);
   font-size: 0.8em;
 }
 
 .breadcrumb span {
-  color: var(--White);
+  color: var(--Black);
   font-size: 0.8em;
 }
 
 .breadcrumb a:after {
   content: "/";
   display: inline-block;
-  color: var(--White);
+  color: var(--Dark_Black);
   margin: 0 3px 0 5px;
   font-size: 0.8em;
 }
 
-section.baneer.blackbg h3,
-section.baneer.blackbg p {
-  color: var(--White);
-}
-
+  
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2879,8 +2857,7 @@ section.delivering-right-solution {
 }
 
 .wpweb-developer-process-flow-section {
-  padding: 60px 0 60px;
-  background-color: #F6F7FA;
+  padding: 60px 0 60px; 
 }
 
 .wpweb-developer-process-flow-section .title {
