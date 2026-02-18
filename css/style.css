@@ -477,7 +477,7 @@ a.websiteurl {
 }
 
 .map-bannner {
-  width: 40%;
+    width: 59%;
 }
 
 .mapsbanners {
@@ -2730,40 +2730,14 @@ studies-category .case-study-btn {
   margin-bottom: 10px;
 }
 
-.case-study-tech .country-flag {
-  width: 10%;
-  text-align: right;
-}
 
-.case-study-tech .country-flag figure {
-  height: 13px;
-  width: 21px;
-  float: right;
-}
 
 .case-study-tech .case-study-btn a:hover,
 .case-study-tech .case-study-btn span:hover {
   box-shadow: 0px 7px 12.09px 0.91px rgb(0 0 0 / 20%);
 }
 
-.case-study-tech .country-flag figure:hover span.c-tooltip {
-  visibility: visible;
-}
 
-span.c-tooltip {
-  visibility: hidden;
-  width: auto;
-  background-color: #0095d8;
-  color: var(--White);
-  text-align: center;
-  border-radius: 15px;
-  padding: 5px 10px;
-  position: absolute;
-  z-index: 1;
-  font-size: 12px;
-  top: 30px;
-  right: 0px;
-}
 
 .service-case-studies-box:hover .service-case-studies-img {
   box-shadow: 1.928px 2.298px 31.5px 3.5px rgba(21, 21, 21, 0.06);
@@ -2869,15 +2843,15 @@ section.delivering-right-solution {
 
 .deliver-right-sol .inner:hover {
   border: 0 !important;
-  background: #E2F6FF;
+  background: #b74159;
 }
 
 .deliver-right-sol .inner:hover figure img {
-  filter: brightness(0) saturate(100%) invert(40%) sepia(100%) saturate(704%) hue-rotate(162deg) brightness(93%) contrast(106%);
+  filter: brightness(0) invert(1) opacity(0.9);
 }
 
 .deliver-right-sol .inner:hover h3 {
-  color: #0095D8;
+  color: #ffffff;
 }
 
 .wpweb-developer-process-flow-section {
@@ -2902,34 +2876,65 @@ section.delivering-right-solution {
 }
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) .image {
-  background-color: rgba(215, 155, 250, 0.48);
+    background-color: rgb(0 176 255 / 28%);
 }
 
 .wpweb-process_flow_section .process_flow_wrap .image {
-  position: relative;
-  width: 176px;
-  height: 176px;
-  border-radius: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(249, 140, 140, .48);
+    position: relative;
+    width: 176px;
+    height: 176px;
+    border-radius: 15%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(249, 140, 140, .48);
 }
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) figure {
-  box-shadow: 0 0 0 10px #d79bfa !important;
+    box-shadow: 0 0 0 10px #23486d!important;
+}
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) figure
+ {
+     box-shadow: 0 0 0 10px #23486d!important;
+}
+.wpweb-process_flow_section .process_flow_wrap .image figure {
+    width: 139px;
+    height: 139px;
+    border-radius: 15%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 0 10px #f98c8c;
+}
+.wpweb-process_flow_section .process_flow_wrap .image figure img {
+    width: 60%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.wpweb-process_flow_section .process_flow_wrap .image:after {
+    content: "";
+    position: absolute;
+    background-image: url('../images/rounded-1.png');
+    width: 210px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: -191px;
+    z-index: 1;
+    top: 14px;
+}
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image
+ {
+    background-color: #667f9aad;
 }
 
-.wpweb-process_flow_section .process_flow_wrap .image figure {
-  width: 139px;
-  height: 139px;
-  border-radius: 100%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--White);
-  box-shadow: 0 0 0 10px #f98c8c;
+
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image::after
+ {
+    transform: rotate(-180deg) scaleX(-1);
+    top: 50px;
 }
 
 .wpweb-process_flow_section .process_flow_wrap .image figure img {
@@ -2942,11 +2947,11 @@ section.delivering-right-solution {
   content: "";
   position: absolute;
   background-image: url('../images/rounded-1.png');
-  width: 160px;
+  width: 210px;
   height: 100px;
   background-repeat: no-repeat;
   background-size: contain;
-  right: -143px;
+  right: -191px;
   z-index: 1;
   top: 14px;
 }
@@ -2976,11 +2981,11 @@ section.delivering-right-solution {
 }
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) .image {
-  background-color: rgb(123 227 248 / 48%);
+    background-color: rgb(47 168 204);
 }
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) figure {
-  box-shadow: 0 0 0 10px #7be3f8;
+    box-shadow: 0 0 0 10px #547580;
 }
 
 /**************mobile media******************/
@@ -2992,7 +2997,7 @@ section.delivering-right-solution {
 
   .herobanner {
     position: relative;
-    height: 85vh;
+    height: auto;
   }
 
   html {
@@ -3263,6 +3268,15 @@ section.delivering-right-solution {
     margin-top: 15px;
     width: 100%;
   }
+.mapsbanners { 
+    flex-wrap: wrap;
+}
+.herobanner-text { 
+    width: 100%;
+}
+.map-bannner {
+    width: 100%;
+}
 
   .cta-proposal-wrap {
     flex-wrap: wrap;
@@ -3440,6 +3454,20 @@ section.delivering-right-solution {
     height: auto;
     border-radius: 25px;
     padding: 20px;
+  }
+
+     .herobanner-text h1 {
+        font-size: 2.5em;
+        line-height: 1.3em;
+        text-align: left;
+    }
+    .features li { 
+    font-size: 16px;
+}
+
+  .pill {
+    width: 300px;
+    top: 10px;
   }
 
   .bottom {
