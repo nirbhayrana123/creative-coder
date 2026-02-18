@@ -2748,40 +2748,14 @@ studies-category .case-study-btn {
   margin-bottom: 10px;
 }
 
-.case-study-tech .country-flag {
-  width: 10%;
-  text-align: right;
-}
 
-.case-study-tech .country-flag figure {
-  height: 13px;
-  width: 21px;
-  float: right;
-}
 
 .case-study-tech .case-study-btn a:hover,
 .case-study-tech .case-study-btn span:hover {
   box-shadow: 0px 7px 12.09px 0.91px rgb(0 0 0 / 20%);
 }
 
-.case-study-tech .country-flag figure:hover span.c-tooltip {
-  visibility: visible;
-}
 
-span.c-tooltip {
-  visibility: hidden;
-  width: auto;
-  background-color: #0095d8;
-  color: var(--White);
-  text-align: center;
-  border-radius: 15px;
-  padding: 5px 10px;
-  position: absolute;
-  z-index: 1;
-  font-size: 12px;
-  top: 30px;
-  right: 0px;
-}
 
 .service-case-studies-box:hover .service-case-studies-img {
   box-shadow: 1.928px 2.298px 31.5px 3.5px rgba(21, 21, 21, 0.06);
