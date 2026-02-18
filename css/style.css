@@ -1407,12 +1407,11 @@ input input {
 }
 
 .subscribe input {
-  font-size: 1em;
-  outline: none;
-  border: none;
-
+    font-size: 1em;
+    outline: none;
+    border: none;
+    width: 100%;
 }
-
 .socail {
   display: flex;
   gap: 8px;
@@ -1959,15 +1958,16 @@ section.service-sec22 {
 }
 
 .service-card {
-  max-width: 100%;
-  margin: 50px auto;
-  background: var(--White);
-  border-radius: 22px;
-  overflow: hidden;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  display: grid;
+    max-width: 100%;
+    margin: 50px auto;
+    background: var(--White);
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    display: grid;
+    border: 1px solid var(--Grey);
 }
 
 .service-image {
@@ -1977,6 +1977,7 @@ section.service-sec22 {
   max-height: none;
   position: relative;
   overflow: hidden;
+  padding: 14px;
 }
 
 .service-card.aos-animate img {
@@ -1990,6 +1991,8 @@ section.service-sec22 {
   height: 100%;
   object-fit: cover;
   transition: 1s;
+   border-radius: 25px;
+    border: 1px solid var(--Grey);
 }
 
 .service-image::after {
@@ -2016,13 +2019,8 @@ section.service-sec22 {
   transition-delay: 0.5s;
 }
 
-.mainservidesr .service-card:nth-child(even) .service-image img {
-  border-top-right-radius: 120px;
-}
-
-.mainservidesr .service-card:nth-child(odd) .service-image img {
-  border-top-left-radius: 120px;
-}
+ 
+ 
 
 .service-content {
   width: 100%;
@@ -2064,12 +2062,20 @@ section.service-sec22 {
 }
 
 .service-content ul li:before {
-  content: "✔";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: var(--Red);
-  font-weight: bold;
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--White);
+    font-weight: bold;
+    background-color: var(--Red);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 23px;
+    font-size: 10px;
 }
 
 /**************Services page******************/
