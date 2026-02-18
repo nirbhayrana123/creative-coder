@@ -423,7 +423,7 @@ a.websiteurl {
     color: #9c273f;
 }
 .map-bannner {
-    width: 40%;
+    width: 59%;
 }
 .mapsbanners {
     display: flex; 
@@ -2931,7 +2931,7 @@ section.delivering-right-solution {
 
   .herobanner {
     position: relative;
-    height: 85vh;
+    height: auto;
   }
 
   .bg-imgs img {
@@ -3220,8 +3220,15 @@ section.delivering-right-solution {
     margin-top: 15px;
     width: 100%;
   }
-
-
+.mapsbanners { 
+    flex-wrap: wrap;
+}
+.herobanner-text { 
+    width: 100%;
+}
+.map-bannner {
+    width: 100%;
+}
 
   .cta-proposal-wrap {
     flex-wrap: wrap;
@@ -3409,11 +3416,14 @@ section.delivering-right-solution {
     padding: 20px;
   }
 
-  .herobanner-text h1 {
-    font-size: 2.5em;
-    line-height: 1.6em;
-    text-align: center;
-  }
+     .herobanner-text h1 {
+        font-size: 2.5em;
+        line-height: 1.3em;
+        text-align: left;
+    }
+    .features li { 
+    font-size: 16px;
+}
 
   .pill {
     width: 300px;
