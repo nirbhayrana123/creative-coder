@@ -102,6 +102,10 @@ h6 {
   font-size: 0.8em;
 }
 
+.mt-2 {
+  margin-top: 20px;
+}
+
 a.logo {
   max-width: 190px;
   position: relative;
@@ -239,7 +243,7 @@ a.button.whitebt::after {
 header.header.bg {
   background-color: var(--BG);
   top: 0;
-  box-shadow: 0px 1px 5px 0px var(--Grey);
+  box-shadow: 0px 1px 5px 0px #cccccc24;
   animation: fadeSlideDown .5s
 }
 
@@ -376,7 +380,7 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
   background-color: var(--White);
   border-radius: 20px;
   padding: 30px;
-    border: 2px solid #74c0fc;
+  border: 2px solid #74c0fc;
 }
 
 .wpweb-solution-item i {
@@ -1172,9 +1176,11 @@ img.haight-auto {
   font-size: 2em;
   margin-bottom: 13px;
 }
+
 section.stack-wrapper {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
+
 .stack-card-row {
   list-style: none;
   display: grid;
@@ -2390,9 +2396,7 @@ textarea {
   resize: none;
 }
 
-.servicesbuttons {
-  margin-top: 20px;
-}
+
 
 .form-grid input::placeholder,
 .form-grid textarea::placeholder {
@@ -3099,6 +3103,7 @@ section.delivering-right-solution {
   ul.nav-list li a {
     font-size: 20px;
   }
+
   /*======== header =============*/
 
   .socail {
@@ -3629,14 +3634,18 @@ section.delivering-right-solution {
     background-color: var(--White);
     padding: 8px;
   }
-  .grid3,.websolution-grid,.service-case-studies-slider { 
-    grid-template-columns:  1fr;
+
+  .grid3,
+  .websolution-grid,
+  .service-case-studies-slider {
+    grid-template-columns: 1fr;
     gap: 20px;
-}
-.delivering-right-solution-wrap { 
+  }
+
+  .delivering-right-solution-wrap {
     grid-template-columns: 1fr 1fr;
     gap: 0px 20px;
-}
+  }
 }
 
 @media(max-width:500px) {
