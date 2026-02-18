@@ -2861,15 +2861,15 @@ section.delivering-right-solution {
 
 .deliver-right-sol .inner:hover {
   border: 0 !important;
-  background: #E2F6FF;
+  background: #b74159;
 }
 
 .deliver-right-sol .inner:hover figure img {
-  filter: brightness(0) saturate(100%) invert(40%) sepia(100%) saturate(704%) hue-rotate(162deg) brightness(93%) contrast(106%);
+  filter: brightness(0) invert(1) opacity(0.9);
 }
 
 .deliver-right-sol .inner:hover h3 {
-  color: #0095D8;
+  color: #ffffff;
 }
 
 .wpweb-developer-process-flow-section {
