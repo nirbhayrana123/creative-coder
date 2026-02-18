@@ -2901,13 +2901,13 @@ section.delivering-right-solution {
     padding: 0 15px;
 }
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) .image {
-    background-color: rgba(215, 155, 250, 0.48);
+    background-color: rgb(0 176 255 / 28%);
 }
 .wpweb-process_flow_section .process_flow_wrap .image {
     position: relative;
     width: 176px;
     height: 176px;
-    border-radius: 100%;
+    border-radius: 15%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -2919,13 +2919,16 @@ section.delivering-right-solution {
 
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(1) figure {
-    box-shadow: 0 0 0 10px #d79bfa!important;
+    box-shadow: 0 0 0 10px #23486d!important;
 }
-
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) figure
+ {
+     box-shadow: 0 0 0 10px #23486d!important;
+}
 .wpweb-process_flow_section .process_flow_wrap .image figure {
     width: 139px;
     height: 139px;
-    border-radius: 100%;
+    border-radius: 15%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -2949,6 +2952,12 @@ section.delivering-right-solution {
     z-index: 1;
     top: 14px;
 }
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image
+ {
+    background-color: #667f9aad;
+}
+
+
 .wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image::after
  {
     transform: rotate(-180deg) scaleX(-1);
@@ -2974,10 +2983,10 @@ section.delivering-right-solution {
     box-shadow: 0 0 0 10px rgb(123 144 248 / 48%);}
 
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) .image {
-    background-color: rgb(123 227 248 / 48%);
+    background-color: rgb(47 168 204);
 }
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) figure {
-    box-shadow: 0 0 0 10px #7be3f8;
+    box-shadow: 0 0 0 10px #547580;
 }
 
 
