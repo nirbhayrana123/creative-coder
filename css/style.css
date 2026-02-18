@@ -2500,9 +2500,17 @@ section.faqsection {
   grid-template-columns: repeat(2, 1fr);
   gap: 45px;
 }
-
-.leftcontentblog.w7 {
+section.banner.white-text.detailbanner::after {
+    content: "";
+    position: absolute;
+    background-color: #02020257;
+    z-index: 0;
+    inset: 0;
+}
+.detailbanner .leftcontentblog {
   max-width: 70%;
+  z-index: 2;
+  position: relative;
 }
 
 .bs-project-item {
