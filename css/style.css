@@ -1083,11 +1083,34 @@ a.client-video-review {
   display: none;
 }
 
+.tp-testimonial-thumb 
+ {width: 500px;
+    position: relative;
+}
 .testimonial-wrap {
   display: flex;
   gap: 40px;
   width: 100%;
 }
+.testimolcra  h5 {
+    font-size: 35px;
+}
+.tp-testimonial-thumb a.client-video-review
+ {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+    right: 15px;
+}
+.tp-testimonial-thumb a.client-video-review i.fa-regular {
+    font-size: 25px;
+}
+
+
+
 
 .testimonial-left {
   width: 30%;
@@ -1117,10 +1140,10 @@ a.client-video-review {
   margin-top: 40px;
 }
 
-.owl-carousel .owl-stage {
+ .owl-carousel .owl-stage {
   display: flex;
   align-items: center;
-}
+}  
 
 .slider.owl-carousel .owl-stage-outer {
   padding-bottom: 10px;
@@ -1213,15 +1236,90 @@ a.client-video-review {
 }
 
 section.logo-slider {
-  padding: 100px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
   position: relative;
 }
 
-.owl-carousel .owl-item {
+  .owl-carousel .owl-item {
   display: flex;
   align-items: center;
   justify-content: center;
+}  
+
+.tp-hero-bottom {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 0px 50px;
 }
+.tp-hero-bottom-thumb {
+    height: 548px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.tp-hero-bottom-right.h-100 {
+    background-color: #000;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.tp-hero-bottom-right.h-100 img.tp-hero-customer-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} 
+
+.tp-hero-bottom-box {
+    padding: 40px 60px 40px 60px;
+}
+.contenthero h6 {
+    color: var(--White);
+}
+.contenthero h3{
+  color: var(--White);
+}
+img.tp-hero-bottom-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 15%;
+}
+.mainleft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 10px;
+    padding-bottom: 40px;
+}
+.leftverty p {
+    font-size: 30px;
+}
+.testimonialserdtyu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
+.tp-testimonial-thumb-wrap {
+    display: grid;
+    grid-template-columns:260px 1fr;
+    align-items: end;
+}
+.tp-testimonial-agents h3 {
+    font-size: 6rem;
+}
+.tp-testimonial-agents span.tottleagent {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
 
 
 .websitelogo-section { 
@@ -1234,7 +1332,7 @@ section.logo-slider {
 }
 .tp-brand-customer-wrap {
     position: absolute;
-    top: 80px;
+    top: 10px;
     left: 0;
     right: 0;
     text-align: center;
