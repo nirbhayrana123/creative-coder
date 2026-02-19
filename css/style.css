@@ -51,7 +51,7 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--Dark_Black);
+  color: var(--Black);
   font-size: 0.8em;
   line-height: 1em;
 }
@@ -287,7 +287,7 @@ ul.nav-list {
 
 ul.nav-list li a {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -398,10 +398,12 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
 
 /*========Parallax scrolling ===========*/
 .buttionvideopop {
-    display: flex;
-    align-items: center;
-    gap: 0px 10px;
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+  margin-top: 20px;
 }
+
 a.websiteurl {
   position: absolute;
   display: flex;
@@ -616,14 +618,17 @@ ul.features li i {
   justify-content: center;
   position: relative;
 }
+
 .development-technologie-all-logo .development-technologie-logo:first-child {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
+
 .development-technologie-all-logo .development-technologie-logo:last-child {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
+
 .freelancer-section {
   display: flex;
   justify-content: space-between;
@@ -1060,17 +1065,19 @@ section.services-section .container {
 }
 
 a.client-video-review.banner {
-    position: static;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 66px;
-    width: 60px;
-    height: 60px;
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 66px;
+  width: 65px;
+  height: 65px;
 }
+
 a.client-video-review.banner i {
-    font-size: 30px;
+  font-size: 22px;
 }
+
 a.client-video-review {
   background-color: var(--Black);
   padding: 8px 15px;
@@ -1322,14 +1329,16 @@ img.tp-hero-bottom-shape {
 
 
 
-.websitelogo-section { 
+.websitelogo-section {
   display: flex;
   align-items: center;
   justify-content: center;
   border-top: 1px solid #03030324;
   border-bottom: 1px solid #03030324;
-  padding: 50px 0px 15px 0px;;
+  padding: 50px 0px 15px 0px;
+  ;
 }
+
 .tp-brand-customer-wrap {
     position: absolute;
     top: 10px;
@@ -1338,13 +1347,15 @@ img.tp-hero-bottom-shape {
     text-align: center;
     z-index: 2;
 }
+
 .tp-brand-customer {
-    border: 1px solid #03030324;
-    border-radius: 100px;
-    padding: 6px 35px;
-    display: inline-block;
-    background-color: var(--White);
+  border: 1px solid #03030324;
+  border-radius: 100px;
+  padding: 6px 35px;
+  display: inline-block;
+  background-color: var(--White);
 }
+
 .websitelogo-section img {
   max-height: 48px;
   max-width: 140px;
@@ -1356,81 +1367,88 @@ img.haight-auto {
   max-height: none;
   max-width: 86px;
 }
+
 .tp-service-item {
-    padding: 25px 25px 25px 25px;
-    border: 1px solid #eee;
-    margin-bottom: 30px;
-    position: relative;
+  padding: 25px 25px 25px 25px;
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+  position: relative;
 }
+
 .tp-service-item-bg {
-    z-index: -1;
+  z-index: -1;
 }
+
 .tp-service-item-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.4s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
 }
 
 .tp-service-item ul li a::before {
-    position: absolute;
-    content: "";
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    width: 6px;
-    height: 6px;
-    background: var(--Black);
-    border-radius: 40px;
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: var(--Black);
+  border-radius: 40px;
 }
+
 .tp-service-item ul li a {
-    font-size: 22px;
-    line-height: 165%;
-    font-weight: 500;
-    padding-left: 15px;
-    position: relative;
-    background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
-    background-size: 0 1px, 0 1px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.3s linear;
+  font-size: 22px;
+  line-height: 165%;
+  font-weight: 500;
+  padding-left: 15px;
+  position: relative;
+  background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
+  background-size: 0 1px, 0 1px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s linear;
 }
 
 .tp-service-item h4.tp-service-item-title {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .tp-service-item:hover .tp-service-item-bg {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
+
 .tp-service-item ul li a:hover {
-    background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor); 
-    background-size: 0 1px, 100% 1px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.3s linear;
-    -webkit-transition: all 0.4s ease 0.3s 0s ease-out;
-    -moz-transition: all 0.4s ease 0.3s 0s ease-out;
-    -ms-transition: all 0.4s ease 0.3s 0s ease-out;
-    -o-transition: all 0.4s ease 0.3s 0s ease-out;
-    transition: all 0.4s ease 0.3s 0s ease-out;
+  background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
+  background-size: 0 1px, 100% 1px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s linear;
+  -webkit-transition: all 0.4s ease 0.3s 0s ease-out;
+  -moz-transition: all 0.4s ease 0.3s 0s ease-out;
+  -ms-transition: all 0.4s ease 0.3s 0s ease-out;
+  -o-transition: all 0.4s ease 0.3s 0s ease-out;
+  transition: all 0.4s ease 0.3s 0s ease-out;
 }
+
 .servicesmainss {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px 40px;
 }
+
 .tp-service-item ul li:not(:last-child) {
-    margin-bottom: 17px;
+  margin-bottom: 17px;
 }
 
 section.tp-service-area {
-    padding: 100px 0px;
+  padding: 100px 0px;
 }
 
 /******************testmonials***************/
@@ -1505,8 +1523,6 @@ section.stack-wrapper {
 
 .card-1 h2,
 .card-1 p,
-.card-2 h2,
-.card-2 p,
 .card-4 h2,
 .card-4 p,
 .card-content h6,
