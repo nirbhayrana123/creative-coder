@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -71,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--Dark_Black);
+  color: var(--Black);
   font-weight: 700;
   line-height: 1.2em;
   margin-bottom: 15px;
@@ -396,7 +396,11 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
 }
 
 /*========Parallax scrolling ===========*/
-
+.buttionvideopop {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
 a.websiteurl {
   position: absolute;
   display: flex;
@@ -514,6 +518,7 @@ img.logos-people2 {
 .people {
   display: flex;
   gap: 60px;
+  padding-top: 35px;
 }
 
 img.logos-people3 {
