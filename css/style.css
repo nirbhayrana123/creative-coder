@@ -17,6 +17,7 @@ body {
   --Green: #c4ee18;
   --BG: #faf7f4;
   --Grey: #ccc;
+  --Grey1: #eee;
 }
 
 h1.pagename {
@@ -607,7 +608,7 @@ ul.features li i {
 }
 
 .development-technologie-logo {
-  border: 1px solid #b41f3d75;
+  border: 1px solid var(--Grey1);
   min-height: 70px;
   width: 15%;
   display: flex;
@@ -615,7 +616,14 @@ ul.features li i {
   justify-content: center;
   position: relative;
 }
-
+.development-technologie-all-logo .development-technologie-logo:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.development-technologie-all-logo .development-technologie-logo:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 .freelancer-section {
   display: flex;
   justify-content: space-between;
@@ -965,6 +973,7 @@ section.services-section .container {
 .content-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
 }
 
 .services-col:hover a {
@@ -1204,7 +1213,7 @@ a.client-video-review {
 }
 
 section.logo-slider {
-  margin-bottom: 30px;
+  padding: 100px 0px 30px 0px;
   position: relative;
 }
 
@@ -1225,7 +1234,7 @@ section.logo-slider {
 }
 .tp-brand-customer-wrap {
     position: absolute;
-    top: -20px;
+    top: 80px;
     left: 0;
     right: 0;
     text-align: center;
@@ -1248,6 +1257,82 @@ section.logo-slider {
 img.haight-auto {
   max-height: none;
   max-width: 86px;
+}
+.tp-service-item {
+    padding: 25px 25px 25px 25px;
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    position: relative;
+}
+.tp-service-item-bg {
+    z-index: -1;
+}
+.tp-service-item-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+
+.tp-service-item ul li a::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background: var(--Black);
+    border-radius: 40px;
+}
+.tp-service-item ul li a {
+    font-size: 22px;
+    line-height: 165%;
+    font-weight: 500;
+    padding-left: 15px;
+    position: relative;
+    background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
+    background-size: 0 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s linear;
+}
+
+.tp-service-item h4.tp-service-item-title {
+    margin-bottom: 35px;
+}
+
+.tp-service-item:hover .tp-service-item-bg {
+    opacity: 1;
+    visibility: visible;
+}
+.tp-service-item ul li a:hover {
+    background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor); 
+    background-size: 0 1px, 100% 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s linear;
+    -webkit-transition: all 0.4s ease 0.3s 0s ease-out;
+    -moz-transition: all 0.4s ease 0.3s 0s ease-out;
+    -ms-transition: all 0.4s ease 0.3s 0s ease-out;
+    -o-transition: all 0.4s ease 0.3s 0s ease-out;
+    transition: all 0.4s ease 0.3s 0s ease-out;
+}
+.servicesmainss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 40px;
+}
+.tp-service-item ul li:not(:last-child) {
+    margin-bottom: 17px;
+}
+
+section.tp-service-area {
+    padding: 100px 0px;
 }
 
 /******************testmonials***************/
