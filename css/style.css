@@ -1236,7 +1236,7 @@ section.logo-slider {
     border-radius: 100px;
     padding: 6px 35px;
     display: inline-block;
-    background-color: var(--BG);
+    background-color: var(--White);
 }
 .websitelogo-section img {
   max-height: 48px;
