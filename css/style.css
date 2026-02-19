@@ -274,7 +274,7 @@ header.header.bg {
   z-index: 99999;
 }
 
-ul.nav-list {
+.nav-list {
   display: flex;
   gap: 30px;
   align-items: center;
@@ -285,13 +285,13 @@ ul.nav-list {
   margin: 20px 0px 0px 0px;
 }
 
-ul.nav-list li a {
+.nav-list li a {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-header.header.whitecolor.bg ul.nav-list li a {
+header.header.whitecolor.bg .nav-list li a {
   color: var(--Black);
 }
 
@@ -299,21 +299,21 @@ header.header.whitecolor.bg a.logo img {
   filter: inherit;
 }
 
-header.header.whitecolor.bg ul.nav-list a.button {
+header.header.whitecolor.bg .nav-list a.button {
   color: var(--Black);
   border: 1px solid var(--Black);
 }
 
-header.header.whitecolor.bg ul.nav-list a.button:hover {
+header.header.whitecolor.bg .nav-list a.button:hover {
   color: var(--White);
   border: 1px solid var(--Black);
 }
 
-.header.whitecolor ul.nav-list li a {
+.header.whitecolor .nav-list li a {
   color: var(--White);
 }
 
-.header.whitecolor ul.nav-list a.button {
+.header.whitecolor .nav-list a.button {
   color: var(--White);
   border: 1px solid var(--White);
 }
@@ -3303,7 +3303,10 @@ section.delivering-right-solution {
 .wpweb-process_flow_section .process_flow_wrap:nth-child(4) figure {
   box-shadow: 0 0 0 10px #547580;
 }
-
+.nav-list a.button.fillbg {
+    display: none;
+}
+ 
 /**************mobile media******************/
 @media (max-width: 1200px) {
 
@@ -3371,12 +3374,21 @@ section.delivering-right-solution {
   .video-wrapper {
     width: 90%;
   }
-
+.detailbanner .leftcontentblog {
+    max-width: 100%; 
+}
 }
 
 @media(max-width:991px) {
 
   /*======= header =============*/
+.nav-list a.button.fillbg {
+    display: block;
+}
+a.button.fillbg.mobilehide {
+    display: none;
+}
+
   .header.activeshow .header.activeshow {
     display: block;
   }
@@ -3385,7 +3397,7 @@ section.delivering-right-solution {
     display: flex;
   }
 
-  ul.nav-list {
+  .nav-list {
     padding: 20px;
     position: absolute;
     top: 0;
@@ -3404,12 +3416,12 @@ section.delivering-right-solution {
     transition: transform 0.5s ease, opacity 0.4s ease;
   }
 
-  .header.activeshow ul.nav-list {
+  .header.activeshow .nav-list {
     transform: translateY(0);
     opacity: 1;
   }
 
-  ul.nav-list li a {
+  .nav-list li a {
     font-size: 20px;
   }
 
