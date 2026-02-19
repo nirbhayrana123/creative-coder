@@ -262,7 +262,7 @@ header.header.bg {
 }
 
 .header.bgcolor {
-  background-color: var(--BG);
+  background-color: var(--White);
 }
 
 .header {
@@ -1349,6 +1349,7 @@ section.stack-wrapper {
 
 footer.footer {
   padding-bottom: 40px;
+  background-color: var(--BG);
 }
 
 .footer-menu li:hover {
@@ -2157,7 +2158,7 @@ section.service-sec22 {
   top: 0;
   color: var(--White);
   font-weight: bold;
-  background-color: var(--Green);
+  background-color: var(--Dark_Black);
   width: 20px;
   height: 20px;
   display: flex;
@@ -2243,7 +2244,7 @@ section.featuGreen {
 
 .readmore {
   text-decoration: none;
-  color: var(--Green);
+  color: var(--Black);
   font-weight: 600;
   transition: 0.6s;
 }
@@ -2305,7 +2306,7 @@ section.blog-detail-content {
 
 
 .widget-content {
-  background-color: var(--Green);
+  background-color: var(--Black);
   text-align: left;
   padding: 20px;
   position: sticky;
