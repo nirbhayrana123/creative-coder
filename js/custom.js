@@ -237,21 +237,6 @@ jQuery(document).ready(function(){
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $('.collaboration-slider-tems').owlCarousel({
   loop: true,
   margin: 10,
@@ -279,3 +264,15 @@ AOS.init(
 
  
 
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("components/header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+
+      // Header load hone ke baad custom function call karo
+      if (typeof initCustom === "function") {
+        initCustom();
+      }
+    });
+});

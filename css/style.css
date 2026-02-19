@@ -290,7 +290,9 @@ header.header.bg {
   font-weight: 700;
   text-transform: uppercase;
 }
-
+.nav-list li a i {
+    margin-left: 8px;
+}
 header.header.whitecolor.bg .nav-list li a {
   color: var(--Black);
 }
