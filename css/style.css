@@ -1,16 +1,20 @@
 body {
-  background: var(--BG);
+  background: var(--White);
   color: var(--Dark_Black);
   font-family: 'Poppins';
   font-size: 20px;
   overflow-x: hidden;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 :root {
   --White: #fff;
-  --Black: #000000;
+  --Black: #030303;
   --Dark_Black: #2c2c2c;
-  --Red: #b2324c;
+  --Green: #c4ee18;
   --BG: #faf7f4;
   --Grey: #ccc;
 }
@@ -57,7 +61,9 @@ li {
   line-height: 1.5;
   color: var(--Dark_Black);
   list-style: none;
+  font-weight: 500;
 }
+
 
 h1,
 h2,
@@ -69,6 +75,7 @@ h6 {
   font-weight: 700;
   line-height: 1.2em;
   margin-bottom: 15px;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 h1 {
@@ -166,7 +173,7 @@ a.logo {
   margin: auto;
   width: 70px;
   height: 70px;
-  background: var(--Red);
+  background: var(--Black);
   color: var(--White);
   font-size: 28px;
   border: none;
@@ -194,6 +201,13 @@ section.web-solution-wrap {
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: var(--White);
+}
+
+a.button.fillbg {
+  background-color: var(--Black);
+  color: var(--White);
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 a.button.whitebt {
@@ -241,7 +255,7 @@ a.button.whitebt::after {
 
 /*============ header =============*/
 header.header.bg {
-  background-color: var(--BG);
+  background-color: var(--White);
   top: 0;
   box-shadow: 0px 1px 5px 0px #cccccc24;
   animation: fadeSlideDown .5s
@@ -268,14 +282,6 @@ ul.nav-list {
 .centerbutton {
   text-align: center;
   margin: 20px 0px 0px 0px;
-}
-
-a.current {
-  color: var(--Red) !important;
-}
-
-ul.nav-list li a:hover {
-  color: var(--Red);
 }
 
 ul.nav-list li a {
@@ -380,13 +386,13 @@ header.header.whitecolor.bg ul.nav-list a.button:hover {
   background-color: var(--White);
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid var(--Red);
+  border: 2px solid var(--Green);
 }
 
 .wpweb-solution-item i {
   font-size: 2.5em;
   margin-bottom: 15px;
-  color:var(--Red);
+  color: var(--Green);
 }
 
 /*========Parallax scrolling ===========*/
@@ -473,38 +479,108 @@ a.websiteurl {
   background-color: var(--White);
 }
 
-.herobanner-text span {
-  color: var(--Red);
-}
-
-.map-bannner {
-  width: 59%;
-}
-
 .mapsbanners {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
+  height: 75vh;
 }
 
-.herobanner-text {
-  margin-top: 35px;
-  width: 70%;
+.logos-flex {
+  display: flex
+}
+
+.logos-people img:hover {
+  margin-top: -10px
+}
+
+.logos-people img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  border: 2px solid var(--White);
+  object-fit: cover;
+  position: relative;
+  min-width: 60px;
+  min-height: 60px;
+  transition: 1s
+}
+
+img.logos-people2 {
+  left: -25px
+}
+
+.people {
+  display: flex;
+  gap: 60px;
+}
+
+img.logos-people3 {
+  left: -50px
+}
+
+img.logos-people4 {
+  left: -75px
+}
+
+img.logos-people5 {
+  left: -100px
+}
+
+img.logos-people6 {
+  left: -125px
+}
+
+.logos-people {
+  display: flex;
+}
+
+.logos-people p {
+  font-size: 1em;
+  font-weight: 700;
+  margin-left: -80px;
+}
+
+
+
+
+
+
+
+
+
+
+.herobanner-text span svg {
+  position: absolute;
+  left: 33px;
+  bottom: 7px;
+}
+
+.herobanner-text span {
+  background-color: var(--Green);
+  font-size: 27px;
+  padding: 16px 40px;
+  border-radius: 50px;
+  position: relative;
+  top: -16px;
 }
 
 .herobanner-text h1 {
-  font-size: 2.4em;
+  font-size: 3.5em;
   line-height: 1.2em;
-  font-weight: 600;
-  font-family: "PP Neue Montreal", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 ul.features {
   padding: 11px 0;
 }
+
 ul.features li i {
-    padding-right: 10px;
+  padding-right: 10px;
 }
+
 .features li {
   padding: 5px 0;
   font-size: 18px;
@@ -634,7 +710,7 @@ ul.features li i {
 
 
 .grid2.onecol .iconcol:hover {
-  background-color: var(--Red);
+  background-color: var(--Green);
 }
 
 .grid2.onecol .iconcol h5,
@@ -787,13 +863,12 @@ a.up-solid.black {
 .marquee-track h2 {
   margin-bottom: 0;
   text-transform: capitalize;
-  color: var(--Red);
 }
 
 .marquee-track i {
   font-size: 2em;
   font-style: normal;
-  color: var(--Red);
+  color: var(--Black);
 }
 
 @keyframes scroll {
@@ -808,41 +883,41 @@ a.up-solid.black {
 
 /***********************logo-marquee end***************/
 
-/****************featured start*****************/
+/****************featuGreen start*****************/
 
-.featured-section {
+.featuGreen-section {
   background: var(--BG);
   padding: 30px 0;
 }
 
 /* MAIN LAYOUT */
-.featured-container {
+.featuGreen-container {
   display: flex;
   gap: 80px;
   align-items: flex-start;
 }
 
 /* LEFT FIXED */
-.featured-left {
+.featuGreen-left {
   flex: 1;
   position: sticky;
   top: 120px;
 }
 
-.featured-right {
+.featuGreen-right {
   flex: 1.2;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.project-page .featured-right {
+.project-page .featuGreen-right {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
-.featured-left p {
+.featuGreen-left p {
   margin-bottom: 30px;
 }
 
@@ -923,7 +998,7 @@ section.services-section .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--Red);
+  color: var(--Black);
   font-size: 32px;
   margin-bottom: 20px;
   background-color: var(--White);
@@ -945,7 +1020,7 @@ section.services-section .container {
   color: var(--Dark_Black);
 }
 
-/****************featured end****************/
+/****************featuGreen end****************/
 
 /******************testmonials***************/
 .main-user {
@@ -970,8 +1045,20 @@ section.services-section .container {
   padding-bottom: 10px;
 }
 
+a.client-video-review.banner {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 66px;
+    width: 60px;
+    height: 60px;
+}
+a.client-video-review.banner i {
+    font-size: 30px;
+}
 a.client-video-review {
-  background-color: var(--Red);
+  background-color: var(--Black);
   padding: 8px 15px;
   border-radius: 20px;
   color: var(--White);
@@ -1004,8 +1091,8 @@ a.client-video-review {
 }
 
 .slider.owl-carousel .owl-nav button:hover {
-  background-color: var(--Red);
-  border-color: var(--Red);
+  background-color: var(--Green);
+  border-color: var(--Green);
 }
 
 .slider.owl-carousel .owl-nav button:hover i.fa-solid {
@@ -1101,19 +1188,14 @@ a.client-video-review {
   margin-top: 10px;
 }
 
-.section-about h6 {
-  color: var(--Red);
-}
-
 .grid2.aboutbox i {
   font-size: 50px;
-  color: var(--Red);
   margin-bottom: 20px;
 }
 
 .section-about img {
   border-radius: 8px 161px 8px 8px;
-  box-shadow: 5px 0px 0px 5px var(--Red);
+  box-shadow: 5px 0px 0px 5px var(--Dark_Black);
 }
 
 section.logo-slider {
@@ -1197,7 +1279,7 @@ section.stack-wrapper {
 
 .card-2 {
   z-index: 2;
-  background-color: var(--Red);
+  background-color: var(--Green);
 }
 
 .card-3 {
@@ -1210,7 +1292,7 @@ section.stack-wrapper {
   color: var(--White);
 }
 
- 
+
 
 .card-4 {
   z-index: 4;
@@ -1254,7 +1336,7 @@ footer.footer {
 }
 
 .footer-menu a:hover {
-  color: var(--Red);
+  color: var(--Green);
 }
 
 .footer-grid {
@@ -1438,7 +1520,7 @@ input input {
 .socail i:hover {
   transform: translateY(-6px);
 }
- 
+
 
 .rightimgbox {
   width: 500px;
@@ -2053,7 +2135,7 @@ section.service-sec22 {
   top: 0;
   color: var(--White);
   font-weight: bold;
-  background-color: var(--Red);
+  background-color: var(--Green);
   width: 20px;
   height: 20px;
   display: flex;
@@ -2066,7 +2148,7 @@ section.service-sec22 {
 /**************Services page******************/
 /************blog page************/
 
-section.featured {
+section.featuGreen {
   padding-top: 60px;
 }
 
@@ -2139,7 +2221,7 @@ section.featured {
 
 .readmore {
   text-decoration: none;
-  color: var(--Red);
+  color: var(--Green);
   font-weight: 600;
   transition: 0.6s;
 }
@@ -2161,7 +2243,7 @@ section.featured {
 }
 
 .collaboration-slider-tems .item {
-  border: 2px solid var(--Red);
+  border: 2px solid var(--Black);
   padding: 4px;
   border-radius: 10px;
   overflow: hidden;
@@ -2193,15 +2275,15 @@ section.blog-detail-content {
   align-items: start;
 }
 
-.detail-content h3 { 
+.detail-content h3 {
   margin-top: 30px;
-  font-size: 1.5em; 
+  font-size: 1.5em;
 }
 
- 
+
 
 .widget-content {
-  background-color: var(--Red);
+  background-color: var(--Green);
   text-align: left;
   padding: 20px;
   position: sticky;
@@ -2276,7 +2358,7 @@ section.banner.white-text h1 {
   position: relative;
   border-radius: 16px;
   overflow: hidden;
-  border: 7px solid var(--Red);
+  border: 7px solid var(--Black);
   margin-top: 20px;
 }
 
@@ -2311,12 +2393,12 @@ section.banner.white-text h1 {
 
 .info-box-item:hover {
   background-color: rgb(178 50 76 / 10%);
-  border-color: var(--Red);
+  border-color: var(--Green);
 }
 
 .info-box-item span {
   align-items: center;
-  background-color: var(--Red);
+  background-color: var(--Green);
   border-radius: 6px;
   color: var(--White);
   display: flex;
@@ -2332,7 +2414,7 @@ section.banner.white-text h1 {
   font-size: 1.2em;
 }
 
- 
+
 .breadcrumb {
   margin-bottom: 10px;
 }
@@ -2355,7 +2437,7 @@ section.banner.white-text h1 {
   font-size: 0.8em;
 }
 
-  
+
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2446,7 +2528,7 @@ section.faqsection {
   top: 50%;
   transform: translateY(-50%);
   font-size: 22px;
-  color: var(--Red);
+  color: var(--Green);
   transition: 0.4s;
 }
 
@@ -2539,7 +2621,7 @@ section.banner.white-text.detailbanner::after {
 
 .bs-project-tags span {
   font-size: 16px;
-  border: 1px solid var(--Red);
+  border: 1px solid var(--Green);
   border-radius: 100px;
   padding: 5px 14px;
 }
@@ -2845,7 +2927,7 @@ section.delivering-right-solution {
 
 .deliver-right-sol .inner:hover {
   border: 0 !important;
-  background: var(--Red);
+  background: var(--Green);
 }
 
 .deliver-right-sol .inner:hover figure img {
@@ -2857,7 +2939,7 @@ section.delivering-right-solution {
 }
 
 .wpweb-developer-process-flow-section {
-  padding: 60px 0 60px; 
+  padding: 60px 0 60px;
 }
 
 .wpweb-developer-process-flow-section .title {
@@ -3132,7 +3214,7 @@ section.delivering-right-solution {
     grid-column: 1 / -1;
   }
 
-  .featured-container {
+  .featuGreen-container {
     flex-wrap: wrap;
     gap: 40px;
   }
@@ -3145,14 +3227,14 @@ section.delivering-right-solution {
     height: 450px;
   }
 
-  .featured-left {
+  .featuGreen-left {
     flex: 100%;
     position: relative;
     top: 0;
     text-align: center;
   }
 
-  .featured-left h2 br {
+  .featuGreen-left h2 br {
     display: none;
   }
 
@@ -3280,9 +3362,6 @@ section.delivering-right-solution {
     width: 100%;
   }
 
-  .map-bannner {
-    width: 100%;
-  }
 
   .cta-proposal-wrap {
     flex-wrap: wrap;
@@ -3385,7 +3464,7 @@ section.delivering-right-solution {
     min-width: 100%;
   }
 
-  .project-page .featured-right {
+  .project-page .featuGreen-right {
     grid-template-columns: 1fr;
   }
 
@@ -3393,7 +3472,7 @@ section.delivering-right-solution {
     margin: 15px 0px;
   }
 
-  section.featured-section.project-page {
+  section.featuGreen-section.project-page {
     padding-bottom: 50px;
   }
 
@@ -3581,7 +3660,7 @@ section.delivering-right-solution {
     padding: 40px 0;
   }
 
-  .featured-section {
+  .featuGreen-section {
     padding: 0px 0;
   }
 

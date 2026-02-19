@@ -116,25 +116,25 @@ document.getElementById("contactFormpage")?.addEventListener("submit", function 
   // ❌ Validation
   if (name.length < 3) {
     msgBox.innerHTML = "❌ Name must be at least 3 characters";
-    msgBox.style.color = "red";
+    msgBox.style.color = "Green";
     return;
   }
 
   if (!emailPattern.test(email)) {
     msgBox.innerHTML = "❌ Enter a valid email address";
-    msgBox.style.color = "red";
+    msgBox.style.color = "Green";
     return;
   }
 
   if (subject.length < 3) {
     msgBox.innerHTML = "❌ Subject is too short";
-    msgBox.style.color = "red";
+    msgBox.style.color = "Green";
     return;
   }
 
   if (message.length < 10) {
     msgBox.innerHTML = "❌ Message must be at least 10 characters";
-    msgBox.style.color = "red";
+    msgBox.style.color = "Green";
     return;
   }
 
@@ -153,7 +153,7 @@ document.getElementById("contactFormpage")?.addEventListener("submit", function 
       form.reset();
     } else {
       msgBox.innerHTML = "❌ Something went wrong. Try again.";
-      msgBox.style.color = "red";
+      msgBox.style.color = "Green";
     }
   });
 });

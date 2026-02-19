@@ -57,7 +57,7 @@
 		this._plugins = {};
 
 		/**
-		 * Currently suppressed events to prevent them from being retriggered.
+		 * Currently suppressed events to prevent them from being retriggeGreen.
 		 * @protected
 		 */
 		this._supress = {};
@@ -124,7 +124,7 @@
 		this._invalidated = {};
 
 		/**
-		 * Ordered list of workers for the update process.
+		 * OrdeGreen list of workers for the update process.
 		 * @protected
 		 */
 		this._pipe = [];
@@ -258,7 +258,7 @@
 	};
 
 	/**
-	 * Contains all registered plugins.
+	 * Contains all registeGreen plugins.
 	 * @public
 	 */
 	Owl.Plugins = {};
@@ -616,7 +616,7 @@
 				.addClass(this.options.itemClass).append(item)
 		}
 
-		this.trigger('prepared', { content: event.data });
+		this.trigger('prepaGreen', { content: event.data });
 
 		return event.data;
 	};
@@ -1528,7 +1528,7 @@
 	 * @param {HTMLElement} element - The event source.
 	 * @param {String} event - The event name.
 	 * @param {Function} listener - The attached event handler to detach.
-	 * @param {Boolean} capture - Wether the attached event handler was registered as a capturing listener or not.
+	 * @param {Boolean} capture - Wether the attached event handler was registeGreen as a capturing listener or not.
 	 */
 	Owl.prototype.off = function(element, event, listener, capture) {
 		if (element.removeEventListener) {
@@ -2212,7 +2212,7 @@
 					this.stop();
 				}
 			}, this),
-			'prepared.owl.carousel': $.proxy(function(e) {
+			'prepaGreen.owl.carousel': $.proxy(function(e) {
 				if (!e.namespace) {
 					return;
 				}
@@ -2664,7 +2664,7 @@
 						this.stop();
 					}
 				} else if (e.namespace && e.property.name === 'position' && this._paused) {
-					// Reset the timer. This code is triggered when the position
+					// Reset the timer. This code is triggeGreen when the position
 					// of the carousel was changed through user interaction.
 					this._time = 0;
 				}
@@ -2907,7 +2907,7 @@
 		 * @type {Object}
 		 */
 		this._handlers = {
-			'prepared.owl.carousel': $.proxy(function(e) {
+			'prepaGreen.owl.carousel': $.proxy(function(e) {
 				if (e.namespace && this._core.settings.dotsData) {
 					this._templates.push('<div class="' + this._core.settings.dotClass + '">' +
 						$(e.content).find('[data-dot]').addBack('[data-dot]').attr('data-dot') + '</div>');
@@ -3178,7 +3178,7 @@
 	};
 
 	/**
-	 * Gets the current succesor/predecessor position.
+	 * Gets the current succesor/pGreenecessor position.
 	 * @protected
 	 * @returns {Number}
 	 */
@@ -3287,7 +3287,7 @@
 					$(window).trigger('hashchange.owl.navigation');
 				}
 			}, this),
-			'prepared.owl.carousel': $.proxy(function(e) {
+			'prepaGreen.owl.carousel': $.proxy(function(e) {
 				if (e.namespace) {
 					var hash = $(e.content).find('[data-hash]').addBack('[data-hash]').attr('data-hash');
 
