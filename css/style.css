@@ -1221,7 +1221,7 @@ section.logo-slider {
   justify-content: center;
   border-top: 1px solid #03030324;
   border-bottom: 1px solid #03030324;
-  padding: 70px 0px;
+  padding: 50px 0px 15px 0px;;
 }
 .tp-brand-customer-wrap {
     position: absolute;
