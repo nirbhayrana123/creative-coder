@@ -235,9 +235,7 @@ a.button.whitebt::after {
   left: 0;
   top: 0;
   z-index: -1;
-  transition: all 1s;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
+  transition: all 1s; 
   pointer-events: none;
 }
 
@@ -2746,13 +2744,16 @@ section.banner.white-text h1 {
 }
 
 .breadcrumb a {
-  color: var(--Dark_Black);
-  font-size: 0.8em;
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: var(--Dark_Black);
+    list-style: none;
+    font-weight: 500;
 }
 
 .breadcrumb span {
-  color: var(--Black);
-  font-size: 0.8em;
+    color: #504f4f;
+    font-size: 0.8em;
 }
 
 .breadcrumb a:after {
