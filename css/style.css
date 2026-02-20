@@ -2964,10 +2964,10 @@ section.banner.white-text.detailbanner::after {
   color: var(--Dark_Black);
 }
 
-/* =====================================================
-   PROJECT PAGE – CTA HEADING + IMAGE SECTION
-   Design system: BeloveSoft (heading, button, text)
-   ===================================================== */
+.current {
+    color: #89a900!important;
+}
+ 
 
 .bs-project-cta-sec {
   padding: 80px 0;
