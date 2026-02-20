@@ -152,7 +152,7 @@ a.logo {
   z-index: 5;
   border: 1px solid var(--Dark_Black);
   text-align: center;
-  border-radius: 60px;
+  border-radius: 5px;
   min-width: 150px;
   padding: 15px 22px;
   font-size: 0.9em;
