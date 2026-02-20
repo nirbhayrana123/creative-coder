@@ -152,7 +152,7 @@ a.logo {
   z-index: 5;
   border: 1px solid var(--Dark_Black);
   text-align: center;
-  border-radius: 5px;
+  border-radius: 50px;
   min-width: 150px;
   padding: 15px 22px;
   font-size: 0.9em;
@@ -236,8 +236,10 @@ a.button.whitebt::after {
   left: 0;
   top: 0;
   z-index: -1;
-  transition: all 1s; 
+  transition: all 1s;
   pointer-events: none;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .button.blackbt::after {
@@ -419,9 +421,11 @@ header.header.whitecolor.bg .nav-list a.button:hover {
   gap: 0px 10px;
   margin-top: 20px;
 }
+
 .buttionvideopop p {
-    font-weight: bold;
+  font-weight: bold;
 }
+
 a.websiteurl {
   position: absolute;
   display: flex;
@@ -443,21 +447,22 @@ a.websiteurl {
   background-color: var(--Grey);
   transform: rotate(-30deg);
 }
+
 .creativetext {
-    width: 520px;
-    overflow: hidden;
-    position: relative;
-    height: 400px;
-    border-radius: 12px;
+  width: 520px;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  border-radius: 12px;
 }
 
 .creativetext img {
-    position: absolute;
-    inset: 0;
-    height: 400px;
-    object-fit: cover; 
+  position: absolute;
+  inset: 0;
+  height: 400px;
+  object-fit: cover;
 }
- 
+
 .parallax-box:hover a.websiteurl {
   opacity: 1;
   top: 38%;
@@ -466,7 +471,7 @@ a.websiteurl {
 
 .parallax-box {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
   height: 530px;
 }
 
@@ -537,7 +542,7 @@ a.websiteurl {
   width: 60px;
   height: 60px;
   border-radius: 100px;
-  border: 2px solid var(--White);
+  border: 2px solid var(--Black);
   object-fit: cover;
   position: relative;
   min-width: 60px;
@@ -1273,7 +1278,7 @@ a.client-video-review {
 
 .section-about img {
   border-radius: 8px 161px 8px 8px;
-  box-shadow: 5px 0px 0px 5px var(--Dark_Black);
+  box-shadow: 5px 0px 0px 5px #a0c402;
 }
 
 section.logo-slider {
@@ -2228,11 +2233,11 @@ section.service-sec22 {
 }
 
 .megamenu-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--White);
-    border-bottom: 1px solid #cccccc87;
-    padding: 60px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--White);
+  border-bottom: 1px solid #cccccc87;
+  padding: 60px 100px;
 }
 
 .tp-megamenu-wrapper {
@@ -2252,10 +2257,10 @@ section.service-sec22 {
 }
 
 .tp-megamenu-list ul {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
 }
 
 .tp-megamenu-list ul li a {
@@ -2732,8 +2737,8 @@ section.banner.white-text h1 {
 }
 
 .info-box-item:hover {
-    background-color: rgb(178 50 76 / 10%);
-    border-color: #cfcfcf;
+  background-color: rgb(178 50 76 / 10%);
+  border-color: #cfcfcf;
 }
 
 .info-box-item span {
@@ -2760,16 +2765,16 @@ section.banner.white-text h1 {
 }
 
 .breadcrumb a {
-    font-size: 0.8em;
-    line-height: 1.5;
-    color: var(--Dark_Black);
-    list-style: none;
-    font-weight: 500;
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: var(--Dark_Black);
+  list-style: none;
+  font-weight: 500;
 }
 
 .breadcrumb span {
-    color: #504f4f;
-    font-size: 0.8em;
+  color: #504f4f;
+  font-size: 0.8em;
 }
 
 .breadcrumb a:after {
@@ -2982,9 +2987,9 @@ section.banner.white-text.detailbanner::after {
 }
 
 .current {
-    color: #89a900!important;
+  color: #89a900 !important;
 }
- 
+
 
 .bs-project-cta-sec {
   padding: 80px 0;
