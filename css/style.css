@@ -701,8 +701,9 @@ ul.features li i {
   align-items: flex-start;
   position: relative;
   padding-right: 65px;
-  background-color: var(--White);
+  background-color: #00000012;
 }
+
 
 .grid2.onecol p {
   color: var(--Dark_Black);
@@ -764,7 +765,7 @@ ul.features li i {
 
 
 .grid2.onecol .iconcol:hover {
-  background-color: var(--Green);
+  background-color: var(--Dark_Black);
 }
 
 .grid2.onecol .iconcol h5,
@@ -1421,24 +1422,10 @@ img.haight-auto {
 
 .tp-service-item {
   padding: 25px 25px 25px 25px;
-  border: 1px solid #eee;
+  border: 1px solid #a0c40254;
   margin-bottom: 30px;
   position: relative;
-}
-
-.tp-service-item-bg {
-  z-index: -1;
-}
-
-.tp-service-item-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.4s ease;
+  border-radius: 10px;
 }
 
 .tp-service-item ul li a::before {
@@ -1470,10 +1457,7 @@ img.haight-auto {
   margin-bottom: 35px;
 }
 
-.tp-service-item:hover .tp-service-item-bg {
-  opacity: 1;
-  visibility: visible;
-}
+
 
 .tp-service-item ul li a:hover {
   background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
@@ -1553,12 +1537,12 @@ section.stack-wrapper {
 
 .card-2 {
   z-index: 2;
-  background-color: var(--Green);
+  background-color: var(--White);
 }
 
 .card-3 {
   z-index: 3;
-  background-color: var(--White);
+  background-color: var(--Dark_Black);
 }
 
 .card-3 .project-services span {
@@ -1566,16 +1550,18 @@ section.stack-wrapper {
   color: var(--White);
 }
 
-
+.project-services.webflow span {
+  color: var(--White);
+  background-color: var(--Dark_Black);
+}
 
 .card-4 {
   z-index: 4;
+  background-color: var(--White);
 }
 
 .card-1 h2,
 .card-1 p,
-.card-4 h2,
-.card-4 p,
 .card-content h6,
 .card-content li {
   color: var(--White);
@@ -1592,7 +1578,7 @@ section.stack-wrapper {
 
 .card-3 h2,
 .card-3 p {
-  color: var(--Dark_Black);
+  color: var(--White);
 }
 
 /******************footer**************/
@@ -1609,7 +1595,11 @@ footer.footer {
 }
 
 .footer-menu a:hover {
-  color: var(--Green);
+  color: #7d7d7d;
+}
+
+.current {
+  color: #7d7d7d !important;
 }
 
 .footer-grid {
@@ -2984,13 +2974,7 @@ section.banner.white-text.detailbanner::after {
   font-size: 19px;
   line-height: 1.6;
   color: var(--Dark_Black);
-}
-
-.current {
-  color: #89a900 !important;
-}
-
-
+} 
 .bs-project-cta-sec {
   padding: 80px 0;
 }
