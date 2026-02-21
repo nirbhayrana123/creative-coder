@@ -130,7 +130,7 @@ a.logo {
 
 .leftcontentblog h1,
 .leftcontentblog p {
-  color: var(--White);
+  color: var(--Black);
 }
 
 .button-row {
@@ -2517,7 +2517,7 @@ section.featuGreen {
 
 .minebloges {
   display: grid;
-  align-items: center;
+  align-items: end;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -2525,7 +2525,11 @@ section.featuGreen {
 .blog-area {
   padding: 80px 0;
 }
-
+.detailsflexing {
+    display: grid;
+    align-items: end;
+    grid-template-columns: 1fr 1fr;
+}
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2535,10 +2539,11 @@ section.featuGreen {
 .blog-card:hover {
   margin-top: -5px;
 }
-
+.imbgdetails {
+    margin: 20px 0px;
+}
 .blog-card {
-  background: var(--White);
-  border-radius: 10px;
+  background: var(--White); 
   padding: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
   transition: 0.6s;
@@ -2546,8 +2551,7 @@ section.featuGreen {
 
 .blog-card img {
   width: 100%;
-  height: 250px;
-  border-radius: 10px;
+  height: 250px; 
   object-fit: cover;
 }
 
@@ -2561,7 +2565,12 @@ section.featuGreen {
   margin: 10px 0;
   color: var(--Dark_Black);
 }
-
+section.p-blog-banne-area {
+    background-attachment: fixed;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
 .blog-card:hover .readmore {
   letter-spacing: 1px;
 }
@@ -2671,15 +2680,15 @@ section.blog-detail-content {
 }
 
 section.banner {
-  position: relative;
-  height: 70vh;
+  position: relative; 
   display: flex;
   align-items: center;
   margin: 70px 0px 0;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-}
+  padding: 40px 0px;
+} 
 
 section.banner.servicesbanner {
   height: 57vh;
@@ -2688,10 +2697,7 @@ section.banner.servicesbanner {
 section.banner.aboutbanner {
   border-bottom-left-radius: 80px;
 }
-
-section.banner.white-text h1 {
-  color: var(--White);
-}
+ 
 
 /***********************client video *****************/
 
@@ -2913,21 +2919,18 @@ section.faqsection {
   grid-template-columns: repeat(2, 1fr);
   gap: 45px;
 }
-
-section.banner.white-text.detailbanner::after {
-  content: "";
-  position: absolute;
-  background-color: #02020257;
-  z-index: 0;
-  inset: 0;
-}
-
 .detailbanner .leftcontentblog {
   max-width: 70%;
   z-index: 2;
   position: relative;
 }
-
+section.detailperalex {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .bs-project-item {
   display: flex;
   flex-direction: column;
