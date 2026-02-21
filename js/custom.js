@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("scroll", function () {
   const creativeText = document.querySelector(".creativetext");
 
-  if (window.scrollY > 99) {
+  if (window.scrollY > 120) {
     creativeText.classList.add("creative-move");
   } else {
     creativeText.classList.remove("creative-move");
