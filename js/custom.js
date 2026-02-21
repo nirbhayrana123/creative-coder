@@ -58,6 +58,25 @@ window.addEventListener("scroll", function () {
     creativeText.classList.remove("creative-move");
   }
 });
+
+
+
+let lastScroll = 0;
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function () {
+  let currentScroll = window.scrollY;
+
+  if (currentScroll > lastScroll && currentScroll > 50) {
+    // 🔽 Scroll Down → Hide
+    header.classList.add("header-hide");
+  } else {
+    // 🔼 Scroll Up → Show
+    header.classList.remove("header-hide");
+  }
+
+  lastScroll = currentScroll;
+});
 /*============= tawk =============*/
 
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
