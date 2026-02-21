@@ -525,7 +525,7 @@ a.websiteurl {
 .herobanner {
   padding: 15px 0;
   padding-top: 95px;
-  height: 90vh;
+  height: 100vh;
   background-color: var(--White);
 }
 
@@ -549,7 +549,7 @@ a.websiteurl {
   width: 60px;
   height: 60px;
   border-radius: 100px;
-  border: 2px solid var(--Black);
+  border: 2px solid var(--Grey);
   object-fit: cover;
   position: relative;
   min-width: 60px;
@@ -1333,7 +1333,12 @@ section.logo-slider {
 .tp-hero-bottom-box {
   padding: 40px 60px 40px 60px;
 }
-
+.contenthero img {
+    width: 108px;
+    position: absolute;
+    right: 11px;
+    top: 10px;
+}
 .contenthero h6 {
   color: var(--White);
 }
