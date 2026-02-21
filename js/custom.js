@@ -1,8 +1,4 @@
 /*********header scroll header**********/
-
-
-
-
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
 
@@ -53,6 +49,15 @@ document.addEventListener("DOMContentLoaded", () => {
   requestAnimationFrame(raf);
 });
 
+window.addEventListener("scroll", function () {
+  const creativeText = document.querySelector(".creativetext");
+
+  if (window.scrollY > 99) {
+    creativeText.classList.add("creative-move");
+  } else {
+    creativeText.classList.remove("creative-move");
+  }
+});
 /*============= tawk =============*/
 
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -112,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 jQuery(function ($) {
   var owl = $('.testimolcra');
-  
+
   if (owl.length) {
     owl.owlCarousel({
       loop: true,
@@ -121,16 +126,16 @@ jQuery(function ($) {
       dots: false,
       items: 1,
       responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      1000: {
-        items: 1
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
       }
-    }
     });
   }
 });
@@ -154,7 +159,7 @@ jQuery(function ($) {
       1000: { items: 2.5 }
     }
   });
- 
+
 
 
 
@@ -221,18 +226,18 @@ jQuery(function ($) {
 
 });
 
-jQuery(document).ready(function(){
+jQuery(document).ready(function () {
 
-    $('.faq-question').click(function(){
+  $('.faq-question').click(function () {
 
-        // Close other open accordions
-        $('.faq-item').not($(this).parent()).removeClass('active')
-            .find('.faq-answer').slideUp(300);
+    // Close other open accordions
+    $('.faq-item').not($(this).parent()).removeClass('active')
+      .find('.faq-answer').slideUp(300);
 
-        // Toggle current
-        $(this).parent().toggleClass('active');
-        $(this).next('.faq-answer').slideToggle(300);
-    });
+    // Toggle current
+    $(this).parent().toggleClass('active');
+    $(this).next('.faq-answer').slideToggle(300);
+  });
 
 });
 
@@ -262,7 +267,7 @@ AOS.init(
   });
 
 
- 
+
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("components/header.html")
