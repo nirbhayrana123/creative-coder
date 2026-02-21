@@ -3503,14 +3503,17 @@ section.delivering-right-solution {
     right: 15px !important;
     margin: 0;
     inset: auto;
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
 }
 
 
 .testimonial-slider h3{
-    font-size:22px;
-    line-height:1.6;
-    margin-bottom:20px;
-    font-weight:500;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 26px;
+    font-weight: 500;
 }
 
 .author{
@@ -3519,11 +3522,11 @@ section.delivering-right-solution {
 
 .author strong{
     display:block;
-    font-size:16px;
+    font-size:18px;
 }
 
 .author span{
-    font-size:14px;
+    font-size:16px;
     color:#666;
 }
 
@@ -3536,6 +3539,7 @@ section.delivering-right-solution {
 
 .slider-nav span{
     font-size:14px;
+    font-weight: 500;
 }
 
 .slider-line{
