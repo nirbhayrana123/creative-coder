@@ -922,6 +922,10 @@ a.up-solid.black {
   padding: 80px 0;
   overflow: hidden;
 }
+.marquee {
+    background-color: var(--Green);
+    padding: 20px 0;
+}
 
 .marquee-track h2 {
   margin-bottom: 0;
