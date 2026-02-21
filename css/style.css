@@ -575,14 +575,14 @@ a.websiteurl {
 }
 
 .logos-people img {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border-radius: 100px;
   border: 2px solid var(--Grey);
   object-fit: cover;
   position: relative;
-  min-width: 60px;
-  min-height: 60px;
+  min-width: 55px;
+  min-height: 55px;
   transition: 1s
 }
 
@@ -594,6 +594,7 @@ img.logos-people2 {
   display: flex;
   gap: 60px;
   padding-top: 35px;
+  width: 90%;
 }
 
 img.logos-people3 {
@@ -604,14 +605,6 @@ img.logos-people4 {
   left: -75px
 }
 
-img.logos-people5 {
-  left: -100px
-}
-
-img.logos-people6 {
-  left: -125px
-}
-
 .logos-people {
   display: flex;
 }
@@ -619,17 +612,8 @@ img.logos-people6 {
 .logos-people p {
   font-size: 1em;
   font-weight: 700;
-  margin-left: -80px;
+  margin-left: -55px;
 }
-
-
-
-
-
-
-
-
-
 
 .herobanner-text span svg {
   position: absolute;
@@ -1162,7 +1146,7 @@ a.client-video-review {
   bottom: 14px;
   display: none;
 }
- 
+
 
 .testimonial-wrap {
   display: flex;
@@ -1173,7 +1157,7 @@ a.client-video-review {
 .testimolcra h5 {
   font-size: 35px;
 }
-  
+
 
 
 .testimonial-left {
@@ -1364,8 +1348,8 @@ img.tp-hero-bottom-shape {
   top: 0;
   left: 0;
   max-width: 15%;
-} 
-  
+}
+
 
 
 
@@ -1433,7 +1417,7 @@ img.haight-auto {
 }
 
 .tp-service-item ul li a {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 165%;
   font-weight: 500;
   padding-left: 15px;
@@ -1448,8 +1432,6 @@ img.haight-auto {
 .tp-service-item h4.tp-service-item-title {
   margin-bottom: 35px;
 }
-
-
 
 .tp-service-item ul li a:hover {
   background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
@@ -3489,20 +3471,21 @@ section.delivering-right-solution {
   object-fit: cover;
 }
 
-.play-btn{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonial-text {
   flex: 1;
 }
+
 .video-image .play-btn {
-    top: 15px !important;
-    right: 15px !important;
-    margin: 0;
-    inset: auto;
+  top: 15px !important;
+  right: 15px !important;
+  margin: 0;
+  inset: auto;
 }
 
 
@@ -4138,9 +4121,11 @@ section.delivering-right-solution {
   .footer-box.mal-middle a {
     padding: 25px 24px;
   }
-footer.footer {
-    padding: 25px 0; 
-}
+
+  footer.footer {
+    padding: 25px 0;
+  }
+
   ul.footer-menu {
     margin-bottom: 14px;
   }
