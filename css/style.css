@@ -1687,7 +1687,12 @@ ul.footer-menu li a i {
   font-weight: 500;
   color: var(--White);
 }
-
+.mailto {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 13px;
+}
 .subscribe {
   height: 100%;
   display: flex;
