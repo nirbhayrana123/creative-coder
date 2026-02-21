@@ -300,3 +300,44 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 });
+
+
+
+
+
+
+
+
+jQuery(document).ready(function($){
+
+    var owl = $('.testimonial-slider');
+
+    owl.owlCarousel({
+        items:1,
+        autoplay:true,
+        loop:true,
+        margin:0,
+        nav:false,
+        dots:false,
+        smartSpeed:800
+    });
+
+    // 👉 ORIGINAL TOTAL (Clones ignore karega)
+    var totalItems = owl.find('.owl-item:not(.cloned)').length;
+    $('#total').text(("0" + totalItems).slice(-2));
+
+    // 👉 Slide Change
+    owl.on('changed.owl.carousel', function(event){
+
+        var current = event.item.index - event.relatedTarget._clones.length / 2;
+
+        if(current < 0){
+            current = totalItems - 1;
+        }
+
+        current = (current % totalItems) + 1;
+
+        $('#current').text(("0" + current).slice(-2));
+    });
+
+});

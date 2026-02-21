@@ -3443,6 +3443,203 @@ section.delivering-right-solution {
   display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:40px;
+}
+
+/* LEFT SIDE */
+.left-content{
+    width:35%;
+}
+
+.tag{
+    display:inline-block;
+    padding:6px 14px;
+    border:1px solid #ccc;
+    border-radius:20px;
+    font-size:14px;
+    margin-bottom:20px;
+    background:#fff;
+}
+
+.left-content p{
+    font-size:18px;
+    color:#555;
+    line-height:1.6;
+}
+
+.counter-box{
+    margin-top:60px;
+}
+
+.counter-box h2{
+    font-size:60px;
+    margin:0;
+    font-weight:600;
+}
+
+.counter-box span{
+    font-size:14px;
+    color:#666;
+}
+
+/* RIGHT SIDE */
+.right-content{
+    width:60%;
+}
+
+.heading{
+    text-align:center;
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:60px;
+}
+
+.testimonial-wrapper{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.video-image{
+    position:relative;
+}
+
+.video-image img{
+    width:250px;
+    height:300px;
+    object-fit:cover;
+}
+
+.play-btn{
+    position:absolute;
+    top:15px;
+    right:15px;
+    width:35px;
+    height:35px;
+    background:#b6ff00;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.testimonial-text{
+    flex:1;
+}
+
+.testimonial-slider h3{
+    font-size:22px;
+    line-height:1.6;
+    margin-bottom:20px;
+    font-weight:500;
+}
+
+.author{
+    margin-bottom:25px;
+}
+
+.author strong{
+    display:block;
+    font-size:16px;
+}
+
+.author span{
+    font-size:14px;
+    color:#666;
+}
+
+.slider-nav{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.slider-nav span{
+    font-size:14px;
+}
+
+.slider-line{
+    width:100px;
+    height:2px;
+    background:#ccc;
+}
+
+.small-image img{
+    width:120px;
+    height:150px;
+    object-fit:cover;
+}
+
+
+.testimonials-section{
+    padding:80px 60px;
+}
+
+
+
+.testimonial-slider .owl-stage-outer{
+    overflow:hidden;
+}
+
+.testimonial-slider .owl-item{
+    width:100% !important;
+}
+ 
+ 
+.testimonial-slider .item {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**************mobile media******************/
 @media (max-width: 1200px) {
 
