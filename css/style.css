@@ -481,13 +481,14 @@ a.websiteurl {
   height: 400px;
   border-radius: 12px;
   opacity: 1;
-  transition: 2s ease;
+  transition: 0.5s ease;
   transform: translate(0px, 20px);
 }
 
 .creativetext.creative-move {
-  transform: translate(450px, 140px);
-  opacity: 0;
+    transform: translate(450px, 140px) rotate(45deg);
+    opacity: 0;
+    transition: 1s ease;
 }
 
 .creativetext img {
