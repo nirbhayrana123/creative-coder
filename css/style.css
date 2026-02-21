@@ -1681,7 +1681,7 @@ ul.footer-menu {
   transition: all 0.3s ease;
 }
 
-ul.footer-menu li a i {
+.footer a i {
   padding-right: 8px;
 }
 
