@@ -550,10 +550,11 @@ a.websiteurl {
 }
 
 .herobanner {
-  padding: 15px 0;
-  padding-top: 95px;
-  height: 100vh;
-  background-color: var(--White);
+    padding: 15px 0;
+    padding-top: 95px;
+    height: 100vh;
+    background-color: var(--White);
+    overflow: hidden;
 }
 
 .mapsbanners {
