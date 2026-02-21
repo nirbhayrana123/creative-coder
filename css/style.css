@@ -610,9 +610,10 @@ img.logos-people4 {
 }
 
 .logos-people p {
-  font-size: 1em;
-  font-weight: 700;
-  margin-left: -55px;
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: -55px;
+    width: 275px;
 }
 
 .herobanner-text span svg {
@@ -1122,13 +1123,14 @@ section.services-section .container {
 }
 
 a.client-video-review.banner {
-  position: static;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 66px;
-  width: 65px;
-  height: 65px;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 66px;
+    width: 65px;
+    height: 65px;
+    pointer-events: none;
 }
 
 a.client-video-review.banner i {
