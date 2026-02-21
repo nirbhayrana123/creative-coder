@@ -3482,32 +3482,35 @@ section.delivering-right-solution {
 }
 
 .video-image .play-btn {
-  top: 15px !important;
-  right: 15px !important;
-  margin: 0;
-  inset: auto;
+    top: 15px !important;
+    right: 15px !important;
+    margin: 0;
+    inset: auto;
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
 }
 
 
-.testimonial-slider h3 {
-  font-size: 22px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  font-weight: 500;
+.testimonial-slider h3{
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 26px;
+    font-weight: 500;
 }
 
 .author {
   margin-bottom: 25px;
 }
 
-.author strong {
-  display: block;
-  font-size: 16px;
+.author strong{
+    display:block;
+    font-size:18px;
 }
 
-.author span {
-  font-size: 14px;
-  color: #666;
+.author span{
+    font-size:16px;
+    color:#666;
 }
 
 .slider-nav {
@@ -3517,8 +3520,9 @@ section.delivering-right-solution {
   margin-top: 20px;
 }
 
-.slider-nav span {
-  font-size: 14px;
+.slider-nav span{
+    font-size:14px;
+    font-weight: 500;
 }
 
 .slider-line {
