@@ -1107,7 +1107,7 @@ section.services-section .container {
 /****************featuGreen end****************/
 
 /******************testmonials***************/
-.main-user {
+/* .main-user {
   display: flex;
   gap: 25px;
 }
@@ -1122,12 +1122,12 @@ section.services-section .container {
 .testimonial-section {
   background: var(--White);
   padding: 60px 0;
-}
-
+} */
+/* 
 .rating {
   display: flex;
   padding-bottom: 10px;
-}
+} */
 
 a.client-video-review.banner {
   position: static;
@@ -1157,11 +1157,11 @@ a.client-video-review {
 }
 
 
-.testimonial-wrap {
+/* .testimonial-wrap {
   display: flex;
   gap: 40px;
   width: 100%;
-}
+} */
 
 .testimolcra h5 {
   font-size: 35px;
@@ -1173,7 +1173,7 @@ a.client-video-review {
   width: 30%;
 }
 
-.slider.owl-carousel .owl-nav .owl-prev,
+/* .slider.owl-carousel .owl-nav .owl-prev,
 .slider.owl-carousel .owl-nav .owl-next {
   width: 42px;
   height: 42px;
@@ -1195,7 +1195,7 @@ a.client-video-review {
 
 .slider.owl-carousel .owl-nav {
   margin-top: 40px;
-}
+} */
 
 .owl-carousel .owl-stage {
   display: flex;
@@ -1220,7 +1220,7 @@ a.client-video-review {
   padding: 8px 8px;
 }
 
-.senials-client {
+/* .senials-client {
   background: var(--White);
   padding: 25px;
   border-radius: 24px;
@@ -1245,7 +1245,7 @@ a.client-video-review {
   font-weight: 300;
   color: var(--Dark_Black);
   font-size: .7em;
-}
+} */
 
 .senials-client .active {
   opacity: 1;
@@ -2892,12 +2892,11 @@ section.detailperalex {
   border: 1px solid var(--Grey);
   border-radius: 13px;
   background-color: var(--White);
+  overflow: hidden;
 }
 
 
 .bs-project-img {
-  border-radius: 28px;
-  overflow: hidden;
   position: relative;
   z-index: 2;
 }
@@ -2927,7 +2926,7 @@ section.detailperalex {
 
 .bs-project-tags span {
   font-size: 16px;
-  border: 1px solid var(--Green);
+  border: 1px solid var(--Dark_Black);
   border-radius: 100px;
   padding: 5px 14px;
 }
@@ -2941,12 +2940,6 @@ section.detailperalex {
 header.header.bg .creativetext {
   position: relative;
   top: 28px;
-}
-
-.bs-project-info p {
-  font-size: 19px;
-  line-height: 1.6;
-  color: var(--Dark_Black);
 }
 
 .bs-project-cta-sec {
