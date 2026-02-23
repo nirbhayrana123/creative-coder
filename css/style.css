@@ -1695,9 +1695,8 @@ input input {
 button.arrow {
   border: none;
   font-size: 0.9em;
-  cursor: pointer;
-  padding-left: 10px;
-  background-color: #a1c608;
+  cursor: pointer; 
+  background-color: var(--Green);
   position: absolute;
   right: 0;
   height: 100%;
@@ -1707,7 +1706,7 @@ button.arrow {
 
 .copy {
   font-size: 0.8em;
-  color: #b3b3b3;
+  color: var(--Grey);
 }
 
 .to-top {
