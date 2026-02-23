@@ -3642,6 +3642,18 @@ section.delivering-right-solution {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:991px) {
  
   /*======= header =============*/
@@ -3663,7 +3675,7 @@ section.delivering-right-solution {
 
   .nav-list {
    padding: 20px;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -3679,6 +3691,11 @@ section.delivering-right-solution {
         transition: transform 0.5s ease, opacity 0.4s ease;
         overflow-y: auto;
   }
+
+
+
+
+
 
   .header.activeshow .nav-list {
     transform: translateY(0);
