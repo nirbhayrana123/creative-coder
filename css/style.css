@@ -413,10 +413,8 @@ header.header.whitecolor.bg .nav-list a.button:hover {
   display: flex;
   flex-direction: column;
   top: 185px;
-  gap: 15px;
+  gap: 6px;
 }
-
-
 
 .tp-hero-social a i {
   font-size: 20px;
@@ -728,7 +726,6 @@ ul.features li i {
   background-color: #00000012;
 }
 
-
 .grid2.onecol p {
   color: var(--Dark_Black);
   margin-bottom: 0px;
@@ -917,8 +914,6 @@ a.up-solid.black {
 .frelans img {
   width: 35px;
 }
-
-
 /********************logo-marquee*******************/
 .logo-marquee {
   background: var(--White);
@@ -977,14 +972,12 @@ a.up-solid.black {
   padding: 30px 0;
 }
 
-/* MAIN LAYOUT */
 .featuGreen-container {
   display: flex;
   gap: 80px;
   align-items: flex-start;
 }
 
-/* LEFT FIXED */
 .featuGreen-left {
   flex: 1;
   position: sticky;
@@ -1171,8 +1164,6 @@ a.client-video-review {
   font-size: 35px;
 }
 
-
-
 .testimonial-left {
   width: 30%;
 }
@@ -1293,7 +1284,7 @@ a.client-video-review {
 
 .section-about img {
   border-radius: 8px 161px 8px 8px;
-  box-shadow: 5px 0px 0px 5px #a0c402;
+  box-shadow: 5px 0px 0px 5px var(--Green);
 }
 
 section.logo-slider {
@@ -1321,7 +1312,7 @@ section.logo-slider {
 }
 
 .tp-hero-bottom-right.h-100 {
-  background-color: #000;
+  background-color: var(--Black);
   height: 100%;
   position: relative;
   display: flex;
@@ -1362,13 +1353,6 @@ img.tp-hero-bottom-shape {
   left: 0;
   max-width: 15%;
 }
-
-
-
-
-
-
-
 
 .websitelogo-section {
   display: flex;
@@ -1586,7 +1570,7 @@ footer.footer {
 }
 
 .footer-menu a:hover {
-  color: #a0c402;
+  color: var(--Green);
 }
 
 .current {
@@ -1594,7 +1578,7 @@ footer.footer {
 }
 
 .footer-menu a.current {
-  color: #a0c402 !important;
+  color: var(--Green) !important;
 }
 
 .footer-grid {
