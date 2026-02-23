@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("videoModal");
   const video = document.getElementById("reviewVideo");
 
-  document.querySelectorAll(".client-video-review").forEach(btn => {
+  document.querySelectorAll(".client-video-review, .play-btn").forEach(btn => {
     btn.addEventListener("click", function (e) {
       e.preventDefault();
       modal.classList.add("active");

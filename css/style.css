@@ -833,8 +833,7 @@ ul.features li i {
 
 .stats-grid .card {
   border-radius: 28px;
-  position: relative;
-  overflow: hidden;
+  position: relative; 
   padding: 20px;
   box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 6%);
   background-color: var(--White);
@@ -2209,7 +2208,7 @@ section.service-sec22 {
 /**************about page ******************/
 .video-wrapper {
   position: relative;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   justify-content: center;
   display: flex;
@@ -2619,9 +2618,27 @@ section.banner.servicesbanner {
 
 section.banner.aboutbanner {
   border-bottom-left-radius: 80px;
+  height: 70vh;
 }
-
-
+.small-image {
+    width: 120px;
+    height: 150px;
+    display: block;
+    position: absolute; 
+    left: 200px;
+    bottom: -70px;
+}
+.imagebox {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.flexbox {
+  text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /***********************client video *****************/
 
 .simple-video {
@@ -3349,36 +3366,11 @@ section.delivering-right-solution {
   display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 .row {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: end;
   gap: 40px;
 }
 
@@ -3397,7 +3389,7 @@ section.delivering-right-solution {
   background: #fff;
 }
 
-.left-content p {
+.vertylefts p {
   font-size: 18px;
   color: #555;
   line-height: 1.6;
@@ -3423,8 +3415,7 @@ section.delivering-right-solution {
   width: 60%;
 }
 
-.heading {
-  text-align: center;
+.heading { 
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 60px;
@@ -3441,8 +3432,8 @@ section.delivering-right-solution {
 }
 
 .video-image img {
-  width: 250px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -3515,27 +3506,22 @@ section.delivering-right-solution {
 
 .testimonials-section {
   padding: 80px 60px;
-}
-
-
-
-.testimonial-slider .owl-stage-outer {
-  overflow: hidden;
-}
-
-.testimonial-slider .owl-item {
-  width: 100% !important;
-}
-
+} 
 
 .testimonial-slider .item {
   width: 100%;
 }
-
-
-
-
-
+.flexingtestimonial {   
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+ 
+.testimonial-content {
+    position: relative;
+}
 
 
 
@@ -3623,7 +3609,7 @@ section.delivering-right-solution {
 }
 
 @media(max-width:991px) {
-
+ 
   /*======= header =============*/
   .nav-list a.button.fillbg {
     display: block;
