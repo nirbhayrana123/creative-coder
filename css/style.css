@@ -940,7 +940,7 @@ a.up-solid.black {
   align-items: center;
   gap: 40px;
   width: max-content;
-  animation: scroll 25s linear infinite;
+  animation: scroll 50s linear infinite;
 }
 
 .marquee-track h2 {
@@ -1396,11 +1396,11 @@ img.haight-auto {
 }
 
 .tp-service-item {
-  padding: 25px 25px 25px 25px;
-  border: 1px solid #a0c40254;
-  margin-bottom: 30px;
-  position: relative;
-  border-radius: 10px;
+    padding: 25px 25px 25px 25px;
+    border: 1px solid #50505054;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 10px;
 }
 
 .tp-service-item ul li a {
@@ -1423,7 +1423,7 @@ img.haight-auto {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .servicesmainss {
@@ -2987,10 +2987,6 @@ section.service-case-studies-wrap .sub-title {
 
 section.service-case-studies-wrap .sub-title h4 {
   margin-bottom: 0;
-}
-
-.service-case-studies-main {
-  margin: 0 -15px;
 }
 
 .service-case-studies-slider {
