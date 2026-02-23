@@ -2645,8 +2645,7 @@ section.banner.aboutbanner {
     width: 120px;
     height: 150px;
     display: block;
-    position: absolute;
-    z-index: 999999999;
+    position: absolute; 
     left: 200px;
     bottom: -70px;
 }
