@@ -3550,7 +3550,11 @@ section.delivering-right-solution {
   html {
     overflow-x: hidden;
   }
-
+.servicesmainss {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
   .servicesgride {
     grid-template-columns: 1fr;
   }
@@ -3570,6 +3574,22 @@ section.delivering-right-solution {
   .staff-text {
     font-size: 45px;
   }
+
+.row { 
+    flex-wrap: wrap;
+}
+.left-content {
+    width: 100%;
+}
+.right-content {
+    width: 100%;
+}
+
+
+
+
+
+
 }
 
 @media(max-width:1024px) {
