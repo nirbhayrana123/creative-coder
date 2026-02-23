@@ -2474,6 +2474,7 @@ section.banner.aboutbanner {
     position: absolute; 
     left: 200px;
     bottom: -70px;
+    display: none;
 }
 .imagebox {
     width: 100px;

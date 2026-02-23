@@ -316,7 +316,7 @@ $('.collaboration-slider-tems').owlCarousel({
   margin: 10,
   nav: false,
   autoplay: true,
-  autoplayTimeout:3000,
+  autoplayTimeout:2000,
   autoplayHoverPause: true,
   responsive: {
     0: {
