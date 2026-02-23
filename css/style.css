@@ -430,16 +430,19 @@ header.header.whitecolor.bg .nav-list a.button:hover {
 }
 
 .tp-hero-social span h5 {
-  transform: rotate(90deg);
-  margin-left: -26px;
-  margin-bottom: 40px;
+    transform: rotate(90deg);
+    position: relative;
+    margin-bottom: 40px;
+    left: 16px;
+    margin-left: -26px;
 }
 
 .tp-hero-social span {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
-
 /*========Parallax scrolling ===========*/
 .buttionvideopop {
   display: flex;
@@ -559,13 +562,13 @@ a.websiteurl {
 }
 
 .mapsbanners {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: 75vh;
+    margin: 0 auto;
 }
-
 .logos-flex {
   display: flex
 }
