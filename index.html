@@ -648,10 +648,8 @@
     </div>
   </section>
   <section class="who-we-are">
-    <div class="container">
-
-      <div class="who-wrap">
-
+    <div class="container"> 
+      <div class="who-wrap"> 
         <!-- LEFT -->
         <div class="who-left" data-aos="fade-right">
           <h5>✦ Who we are</h5>
@@ -1195,6 +1193,28 @@
   <script src="./js/owl.carousel.js"></script>
   <script src="./js/custom.js"></script>
   <script src="./js/form.js"></script>
+
+ <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const section = document.querySelector(".who-we-are");
+
+  window.addEventListener("scroll", function () {
+
+    const rect = section.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    if (rect.top < windowHeight && rect.bottom > 0) {
+
+      let offset = rect.top * 0.3;
+      section.style.backgroundPosition = "center " + offset + "px";
+
+    }
+
+  });
+
+});
+</script>
 
   <script>
     function playVideo() {
