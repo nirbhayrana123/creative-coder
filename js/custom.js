@@ -49,15 +49,23 @@ document.addEventListener("DOMContentLoaded", () => {
   requestAnimationFrame(raf);
 });
 
-window.addEventListener("scroll", function () {
-  const creativeText = document.querySelector(".creativetext");
+// Sirf desktop pe chalega (768px se upar)
+if (window.innerWidth > 768) {
 
-  if (window.scrollY > 120) {
-    creativeText.classList.add("creative-move");
-  } else {
-    creativeText.classList.remove("creative-move");
-  }
-});
+  window.addEventListener("scroll", function () {
+
+    const creativeText = document.querySelector(".creativetext");
+    if (!creativeText) return;
+
+    if (window.scrollY > 120) {
+      creativeText.classList.add("creative-move");
+    } else {
+      creativeText.classList.remove("creative-move");
+    }
+
+  });
+
+}
 
 
 
