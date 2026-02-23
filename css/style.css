@@ -831,8 +831,7 @@ ul.features li i {
 
 .stats-grid .card {
   border-radius: 28px;
-  position: relative;
-  overflow: hidden;
+  position: relative; 
   padding: 20px;
   box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 6%);
   background-color: var(--White);
@@ -2649,7 +2648,17 @@ section.banner.aboutbanner {
     left: 200px;
     bottom: -70px;
 }
-
+.imagebox {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.flexbox {
+  text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /***********************client video *****************/
 
 .simple-video {
@@ -3620,7 +3629,7 @@ section.delivering-right-solution {
 }
 
 @media(max-width:991px) {
-
+ 
   /*======= header =============*/
   .nav-list a.button.fillbg {
     display: block;
