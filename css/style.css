@@ -125,7 +125,7 @@ a.logo {
   width: 100%;
   max-width: 100rem;
   margin: 0 auto;
-  padding: 0 3%;
+  padding: 0 1%;
 }
 
 .leftcontentblog h1,
@@ -413,10 +413,8 @@ header.header.whitecolor.bg .nav-list a.button:hover {
   display: flex;
   flex-direction: column;
   top: 185px;
-  gap: 15px;
+  gap: 6px;
 }
-
-
 
 .tp-hero-social a i {
   font-size: 20px;
@@ -430,16 +428,19 @@ header.header.whitecolor.bg .nav-list a.button:hover {
 }
 
 .tp-hero-social span h5 {
-  transform: rotate(90deg);
-  margin-left: -26px;
-  margin-bottom: 40px;
+    transform: rotate(90deg);
+    position: relative;
+    margin-bottom: 40px;
+    left: 16px;
+    margin-left: -26px;
 }
 
 .tp-hero-social span {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
-
 /*========Parallax scrolling ===========*/
 .buttionvideopop {
   display: flex;
@@ -559,13 +560,13 @@ a.websiteurl {
 }
 
 .mapsbanners {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: 75vh;
+    margin: 0 auto;
 }
-
 .logos-flex {
   display: flex
 }
@@ -724,7 +725,6 @@ ul.features li i {
   padding-right: 65px;
   background-color: #00000012;
 }
-
 
 .grid2.onecol p {
   color: var(--Dark_Black);
@@ -914,8 +914,6 @@ a.up-solid.black {
 .frelans img {
   width: 35px;
 }
-
-
 /********************logo-marquee*******************/
 .logo-marquee {
   background: var(--White);
@@ -974,14 +972,12 @@ a.up-solid.black {
   padding: 30px 0;
 }
 
-/* MAIN LAYOUT */
 .featuGreen-container {
   display: flex;
   gap: 80px;
   align-items: flex-start;
 }
 
-/* LEFT FIXED */
 .featuGreen-left {
   flex: 1;
   position: sticky;
@@ -1168,8 +1164,6 @@ a.client-video-review {
   font-size: 35px;
 }
 
-
-
 .testimonial-left {
   width: 30%;
 }
@@ -1290,7 +1284,7 @@ a.client-video-review {
 
 .section-about img {
   border-radius: 8px 161px 8px 8px;
-  box-shadow: 5px 0px 0px 5px #a0c402;
+  box-shadow: 5px 0px 0px 5px var(--Green);
 }
 
 section.logo-slider {
@@ -1318,7 +1312,7 @@ section.logo-slider {
 }
 
 .tp-hero-bottom-right.h-100 {
-  background-color: #000;
+  background-color: var(--Black);
   height: 100%;
   position: relative;
   display: flex;
@@ -1359,13 +1353,6 @@ img.tp-hero-bottom-shape {
   left: 0;
   max-width: 15%;
 }
-
-
-
-
-
-
-
 
 .websitelogo-section {
   display: flex;
@@ -1583,7 +1570,7 @@ footer.footer {
 }
 
 .footer-menu a:hover {
-  color: #a0c402;
+  color: var(--Green);
 }
 
 .current {
@@ -1591,7 +1578,7 @@ footer.footer {
 }
 
 .footer-menu a.current {
-  color: #a0c402 !important;
+  color: var(--Green) !important;
 }
 
 .footer-grid {
@@ -1695,9 +1682,8 @@ input input {
 button.arrow {
   border: none;
   font-size: 0.9em;
-  cursor: pointer;
-  padding-left: 10px;
-  background-color: #a1c608;
+  cursor: pointer; 
+  background-color: var(--Green);
   position: absolute;
   right: 0;
   height: 100%;
@@ -1707,7 +1693,7 @@ button.arrow {
 
 .copy {
   font-size: 0.8em;
-  color: #b3b3b3;
+  color: var(--Grey);
 }
 
 .to-top {
