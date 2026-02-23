@@ -507,9 +507,10 @@ a.websiteurl {
 }
 
 .parallax-box {
-  position: relative;
-  overflow: hidden;
-  height: 530px;
+    position: relative;
+    overflow: hidden;
+    height: 530px;
+    border-radius: 50px;
 }
 
 .parallax-img {
