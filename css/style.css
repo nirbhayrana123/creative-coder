@@ -428,19 +428,20 @@ header.header.whitecolor.bg .nav-list a.button:hover {
 }
 
 .tp-hero-social span h5 {
-    transform: rotate(90deg);
-    position: relative;
-    margin-bottom: 40px;
-    left: 16px;
-    margin-left: -26px;
+  transform: rotate(90deg);
+  position: relative;
+  margin-bottom: 40px;
+  left: 16px;
+  margin-left: -26px;
 }
 
 .tp-hero-social span {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
+
 /*========Parallax scrolling ===========*/
 .buttionvideopop {
   display: flex;
@@ -560,13 +561,14 @@ a.websiteurl {
 }
 
 .mapsbanners {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    align-items: center;
-    height: 75vh;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  height: 75vh;
+  margin: 0 auto;
 }
+
 .logos-flex {
   display: flex
 }
@@ -913,6 +915,7 @@ a.up-solid.black {
 .frelans img {
   width: 35px;
 }
+
 /********************logo-marquee*******************/
 .logo-marquee {
   background: var(--White);
@@ -1400,56 +1403,33 @@ img.haight-auto {
   border-radius: 10px;
 }
 
-.tp-service-item ul li a::before {
-  position: absolute;
-  content: "";
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  width: 6px;
-  height: 6px;
-  background: var(--Black);
-  border-radius: 40px;
-}
-
 .tp-service-item ul li a {
   font-size: 20px;
-  line-height: 165%;
   font-weight: 500;
-  padding-left: 15px;
-  position: relative;
-  background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
-  background-size: 0 1px, 0 1px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.3s linear;
 }
 
+.tp-service-item ul li {
+  list-style: disc; 
+  transition: 1s;
+}
+.tp-service-item ul li:hover { 
+  margin-left: 13px;
+}
 .tp-service-item h4.tp-service-item-title {
   margin-bottom: 35px;
 }
 
-.tp-service-item ul li a:hover {
-  background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
-  background-size: 0 1px, 100% 1px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.3s linear;
-  -webkit-transition: all 0.4s ease 0.3s 0s ease-out;
-  -moz-transition: all 0.4s ease 0.3s 0s ease-out;
-  -ms-transition: all 0.4s ease 0.3s 0s ease-out;
-  -o-transition: all 0.4s ease 0.3s 0s ease-out;
-  transition: all 0.4s ease 0.3s 0s ease-out;
+.tp-service-item ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 25px;
 }
 
 .servicesmainss {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 0px 40px;
-}
-
-.tp-service-item ul li:not(:last-child) {
-  margin-bottom: 17px;
+  gap: 0px 20px;
 }
 
 section.tp-service-area {
@@ -1681,7 +1661,7 @@ input input {
 button.arrow {
   border: none;
   font-size: 0.9em;
-  cursor: pointer; 
+  cursor: pointer;
   background-color: var(--Green);
   position: absolute;
   right: 0;
