@@ -653,6 +653,8 @@ ul.features li i {
 .features li {
   padding: 5px 0;
   font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
 .development-technologie-logo img {
