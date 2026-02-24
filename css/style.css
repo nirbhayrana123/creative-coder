@@ -744,8 +744,33 @@ ul.features li i {
 }
 
 .who-we-are {
-  padding: 0 0 120px 0;
-  background-color: var(--White);
+  position: relative;
+  background: url('../images/beloveshoftimg.webp') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;   
+  padding: 60px 0;
+  color: #fff;
+}
+.who-left h5 {
+    color: #fff;
+}
+.who-right a.button {
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
+/* Overlay */
+.who-we-are::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(196 238 24 / 28%);
+  z-index: 1;
+}
+
+.who-wrap {
+  position: relative;
+  z-index: 2;
 }
 
 .grid2.onecol {
@@ -780,12 +805,7 @@ ul.features li i {
   border-radius: 1000px;
 }
 
-.who-wrap {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 120px;
-  align-items: start;
-}
+
 
 
 .grid2.onecol .iconcol:hover {
@@ -1005,11 +1025,12 @@ a.up-solid.black {
 }
 
 .who-right h2 {
-  font-weight: 400;
-  line-height: 1.4em;
-  font-size: 2.2em;
+    font-weight: 400;
+    line-height: 1.4em;
+    font-size: 2em;
+    color: #fff;
+    width: 700px;
 }
-
 section.services-section {
   padding: 40px;
   background-image: url(../images/laptop-wooden-table.jpg);
@@ -3444,13 +3465,30 @@ section.delivering-right-solution {
 .container { 
     padding: 0 20px;
 }
+
+
+
+.wpweb-process_flow_section .process_flow_wrap .image:after { 
+    width: 125px; 
+    right: -122px; 
+       top: 50px;
+}
+
+.wpweb-process_flow_section .process_flow_wrap:nth-child(2) .image::after { 
+    top: 20px;
+} 
+
+
 }
 
 @media(max-width:1024px) {
   body {
     font-size: 15px;
   }
-
+    .wpweb-process_flow_section .process_flow_wrap .image:after {
+        width: 90px;
+        right: -80px; 
+    }
   .maincardgrid {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
@@ -3514,7 +3552,18 @@ section.delivering-right-solution {
   a.button.fillbg.mobilehide {
     display: none;
   }
+.wpweb-process_flow_section .process_flow_wrap {
+    width: 50%; 
+    margin-bottom: 50px;
 
+}
+.wpweb-process_flow_section .process_flow_wrap .image:after{
+  content: "";
+  display: none;
+}
+.wpweb-process_flow_section .process_flow_wrap .process_flow_title {
+    padding-top: 15px; 
+}
   .header.activeshow .header.activeshow {
     display: block;
   }
@@ -3714,10 +3763,21 @@ section.delivering-right-solution {
 .testimonials-section {
     padding: 60px 0px;
 }
+.detailsflexing { 
+    grid-template-columns: 1fr;
+}
 .testimonial-wrapper { 
     flex-wrap: wrap;
 }
-
+.video-image { 
+    width: 100%;
+    text-align: center;
+}
+.video-image img {
+    width: 100%;
+    height: auto; 
+    margin: 0 auto;
+}
 section.tp-service-area {
     padding: 50px 0px;
 }
@@ -4208,16 +4268,38 @@ section.tp-service-area {
   .gridmembers.gaping {
     grid-template-columns: 1fr;
   }
+     section.service-case-studies-wrap .sub-title { 
+    gap: 20px 0px;
+}
     .servicesmainss { 
         grid-template-columns: 1fr; 
     }
+    .wpweb-page-cta-cont h4 {
+    width: 100%; 
+    line-height: 30px; 
+    margin-bottom: 15px;
+}
+    .testimonial-content {
+    position: relative;
+    width: 100%;
+}
+
+.slider-nav { 
+    justify-content: center;
+    width: 100%;
+}
     .contenthero img {
     width: 40px; 
 }
   .minebloges {
     grid-template-columns: 1fr;
   }
-
+    .wpweb-process_flow_section .process_flow_wrap {
+        width: 100%; 
+    }
+    .wpweb-process_flow_section .process_flow_wrap:last-child {
+    margin-bottom: 0;
+}
   .maincardgrid {
     grid-template-columns: 1fr;
   }
@@ -4377,5 +4459,51 @@ section.tp-service-area {
     width: 50px;
     height: 50px;
   }
+.case-study-tech .case-study-btn {
+    width: 100%;
+}
+.service-case-studies-main .service-case-studies .service-case-studies-img {
+    height: auto; 
+    overflow: visible;
+}
+.service-case-studies-main .service-case-studies .service-case-studies-content {
+  
+    padding-bottom: 10px;
+}
+.case-study-tech { 
+    height: auto;
+    position: relative;
+}
+.wpweb-page-cta-cont h4 {
+    width: 100%; 
+    line-height: 30px; 
+    margin-bottom: 20px;
+}
+}
 
+@media(max-width:400px) {
+    .delivering-right-solution-wrap {
+        grid-template-columns: 1fr; 
+    }
+ .background-max { 
+    padding: 20px; 
+}
+.service-case-studies-main .service-case-studies .service-case-studies-content .case-studies-desc {
+    margin: 5px 0px;
+}
+.case-study-btn 
+ {
+    margin-top: 15px;
+}
+.service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn a, .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn span {
+    margin-bottom: 12px; 
+    margin-right: 12px; 
+}
+
+.wpweb-solution-item { 
+    padding: 20px; 
+}
+.info-box-item { 
+    padding: 20px 20px; 
+}
 }
