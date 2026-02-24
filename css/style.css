@@ -4470,6 +4470,11 @@ section.tp-service-area {
     height: auto;
     position: relative;
 }
+.wpweb-page-cta-cont h4 {
+    width: 100%; 
+    line-height: 30px; 
+    margin-bottom: 20px;
+}
 }
 
 @media(max-width:400px) {
