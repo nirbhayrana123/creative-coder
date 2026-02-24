@@ -353,7 +353,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
+if (window.location.pathname === "/services") {
+    window.location.replace("/services/front-end");
+  }
 
 
 
