@@ -747,7 +747,7 @@ ul.features li i {
   position: relative;
   background: url('../images/beloveshoftimg.webp') no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;  /* Parallax Effect */
+  background-attachment: fixed;   
   padding: 60px 0;
   color: #fff;
 }
@@ -760,7 +760,7 @@ ul.features li i {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(196 238 24 / 28%);
   z-index: 1;
 }
 
