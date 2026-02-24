@@ -754,6 +754,10 @@ ul.features li i {
 .who-left h5 {
     color: #fff;
 }
+.who-right a.button {
+    color: #fff;
+    border: 1px solid #ffffff;
+}
 
 /* Overlay */
 .who-we-are::before {
