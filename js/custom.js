@@ -1,7 +1,7 @@
 /********* HEADER TOGGLE **********/
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
-const servicesDropdown = document.querySelector('.services-dropdown');
+const servicesToggle = document.querySelector('.services-toggle');
 const megaMenu = document.querySelector('.tp-megamenu-wrapper');
 
 // Mobile Menu Toggle
@@ -9,22 +9,23 @@ editBtn.addEventListener('click', function () {
   model.classList.toggle('activeshow');
 });
 
-// Services Accordion (Mobile Only)
-servicesDropdown.addEventListener('click', function (e) {
+// ✅ SIRF SERVICES TOGGLE PAR CLICK
+servicesToggle.addEventListener('click', function (e) {
+
   if (window.innerWidth < 992) {
-    e.preventDefault();
+    e.preventDefault(); // Sirf mobile me link stop kare
     megaMenu.classList.toggle('active-mega');
   }
+
 });
 
-// Close menu on normal links (except services toggle)
+// Baaki links par menu close
 document.querySelectorAll('.header a:not(.services-toggle)').forEach(link => {
   link.addEventListener('click', () => {
     model.classList.remove('activeshow');
     megaMenu.classList.remove('active-mega');
   });
 });
-
 /*=============header scroll bg =============*/
 
 document.addEventListener("DOMContentLoaded", () => {
