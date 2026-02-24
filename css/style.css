@@ -2220,7 +2220,7 @@ section.service-sec22 {
 }
 
 .tp-megamenu-list ul li a:hover {
-  color: var(--Dark_Black);
+  color: #93ad21 ;
   padding-left: 5px;
 }
 
@@ -3610,11 +3610,7 @@ section.delivering-right-solution {
     transition: transform 0.5s ease, opacity 0.4s ease;
     overflow-y: scroll;
   }
-
-
-
-
-
+ 
 
   .header.activeshow .nav-list {
     transform: translateY(0);
