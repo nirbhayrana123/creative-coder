@@ -351,11 +351,5 @@ AOS.init(
   });
 
 
-if (
-  window.location.pathname === "/services" ||
-  window.location.pathname === "/services/"
-) {
-  window.location.href = "/services/front-end";
-}
-
+ 
 
