@@ -352,11 +352,9 @@ AOS.init(
 
 
  
-
-if (window.location.pathname === "/services") {
-    window.location.replace("/services/front-end");
-  }
-
+if (window.location.pathname.startsWith("/services")) {
+  window.location.replace("/services/front-end");
+}
 
 
 
