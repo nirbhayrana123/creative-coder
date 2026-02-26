@@ -342,14 +342,3 @@ AOS.init(
     duration: 1200,
   });
 
-
- ///////////current Page////////////
-
-  const links = document.querySelectorAll("nav ul li a");
-  const currentPage = window.location.pathname.split("/").pop();
-
-  links.forEach(link => {
-    if (link.getAttribute("href") === currentPage) {
-      link.classList.add("active");
-    }
-  });
