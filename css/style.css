@@ -8,7 +8,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  display: none!important;
+
+    display: none!important;
   opacity: 0!important;
   visibility: hidden!important;
   pointer-events: none!important;
@@ -215,7 +216,6 @@ a.button.fillbg {
   text-transform: uppercase;
   font-size: 0.8em;
   border-radius: 100px;
-  display: none;
 }
 
 a.button.whitebt {
@@ -1634,7 +1634,7 @@ ul.footer-menu {
 }
 
 .mailto {
-  display: none;
+  display: flex;
   margin-top: 25px;
   flex-direction: column;
   gap: 20px;
@@ -1660,7 +1660,6 @@ ul.footer-menu {
 
 form#footerSubscribeForm {
   width: 35%;
-  display: none;
 }
 
 .subscribe h3 {
@@ -1956,7 +1955,6 @@ section.maincontects {
   background-color: var(--White)fa;
   padding: 25px;
   border-radius: 15px;
-  display: none;
 }
 
 .inner-contect-right {
@@ -2227,7 +2225,7 @@ section.service-sec22 {
 }
 
 .tp-megamenu-list ul li a:hover {
-  color: #93ad21;
+  color: #93ad21 ;
   padding-left: 5px;
 }
 
@@ -2934,17 +2932,17 @@ studies-category .case-study-btn {
 
 .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn a,
 .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn span {
-  font-size: 14px;
-  font-weight: 400;
-  border-radius: 9px;
-  padding: 10px 10px;
-  background-color: #a0c4022b;
-  color: var(--Dark_Black);
-  width: auto;
-  margin-bottom: 0;
-  line-height: normal;
-  margin-right: 0;
-  display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 9px;
+    padding: 10px 10px;
+    background-color: #a0c4022b;
+    color: var(--Dark_Black);
+    width: auto;
+    margin-bottom: 0;
+    line-height: normal;
+    margin-right: 0;
+    display: inline-block;
 }
 
 .service-case-studies-main .service-case-studies .service-case-studies-content .case-studies-desc {
@@ -3022,6 +3020,7 @@ studies-category .case-study-btn {
   padding: 50px 0 60px;
   background-color: var(--Black);
 }
+
 
 section.delivering-right-solution {
   padding: 60px 0px;
@@ -3611,7 +3610,7 @@ section.delivering-right-solution {
     transition: transform 0.5s ease, opacity 0.4s ease;
     overflow-y: scroll;
   }
-
+ 
 
   .header.activeshow .nav-list {
     transform: translateY(0);
