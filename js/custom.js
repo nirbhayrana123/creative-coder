@@ -203,8 +203,6 @@ jQuery(function ($) {
   });
 
 
-
-
 });
 
 
@@ -241,12 +239,6 @@ jQuery(document).ready(function($){
     });
 
 });
-
-
-
-
-
-
 
 
 jQuery(function ($) {
@@ -351,5 +343,13 @@ AOS.init(
   });
 
 
- 
+ ///////////current Page////////////
 
+  const links = document.querySelectorAll("nav ul li a");
+  const currentPage = window.location.pathname.split("/").pop();
+
+  links.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
