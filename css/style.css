@@ -8,6 +8,10 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  display: none!important;
+  opacity: 0!important;
+  visibility: hidden!important;
+  pointer-events: none!important;
 }
 
 :root {
