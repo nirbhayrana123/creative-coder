@@ -10,6 +10,24 @@ body {
   font-style: normal; 
 }
 
+
+
+
+.subscribe,.mailto { 
+    display: none!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 :root {
   --White: #fff;
   --Black: #030303;
