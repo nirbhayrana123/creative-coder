@@ -7,12 +7,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-
-    display: none!important;
-  opacity: 0!important;
-  visibility: hidden!important;
-  pointer-events: none!important;
+  font-style: normal; 
 }
 
 :root {
