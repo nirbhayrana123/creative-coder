@@ -2927,18 +2927,17 @@ studies-category .case-study-btn {
 
 .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn a,
 .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn span {
-  font-size: 14px;
-  font-weight: 400;
-  border: 1px solid transparent;
-  border-radius: 15px;
-  padding: 10px 10px;
-  background-color: #edf9ff;
-  color: var(--Dark_Black);
-  width: auto;
-  margin-bottom: 0;
-  line-height: normal;
-  margin-right: 0;
-  display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 9px;
+    padding: 10px 10px;
+    background-color: #a0c4022b;
+    color: var(--Dark_Black);
+    width: auto;
+    margin-bottom: 0;
+    line-height: normal;
+    margin-right: 0;
+    display: inline-block;
 }
 
 .service-case-studies-main .service-case-studies .service-case-studies-content .case-studies-desc {
