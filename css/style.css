@@ -1582,7 +1582,7 @@ footer.footer {
 }
 
 .current {
-  color: #7d7d7d !important;
+  color: #93ad21 !important;
 }
 
 .footer-menu a.current {
@@ -2220,7 +2220,7 @@ section.service-sec22 {
 }
 
 .tp-megamenu-list ul li a:hover {
-  color: var(--Dark_Black);
+  color: #93ad21 ;
   padding-left: 5px;
 }
 
@@ -3083,7 +3083,7 @@ section.delivering-right-solution {
   padding: 0;
   letter-spacing: 0;
   text-align: center;
-   transition: 0.6s;
+  transition: 0.6s;
 }
 
 .deliver-right-sol .inner:hover {
@@ -3610,11 +3610,7 @@ section.delivering-right-solution {
     transition: transform 0.5s ease, opacity 0.4s ease;
     overflow-y: scroll;
   }
-
-
-
-
-
+ 
 
   .header.activeshow .nav-list {
     transform: translateY(0);
