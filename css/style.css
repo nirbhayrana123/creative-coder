@@ -9,24 +9,9 @@ body {
   font-weight: 400;
   font-style: normal; 
 }
-
-
-
-
 .subscribe,.mailto { 
     display: none!important;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 :root {
   --White: #fff;
@@ -1215,16 +1200,6 @@ a.client-video-review {
   width: 30%;
 }
 
-/* .slider.owl-carousel .owl-nav .owl-prev,
-.slider.owl-carousel .owl-nav .owl-next {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  border: 1px solid var(--Dark_Black);
-  background: transparent;
-  cursor: pointer;
-  margin-right: 10px;
-}
 
 .slider.owl-carousel .owl-nav button:hover {
   background-color: var(--Green);
@@ -1262,32 +1237,7 @@ a.client-video-review {
   padding: 8px 8px;
 }
 
-/* .senials-client {
-  background: var(--White);
-  padding: 25px;
-  border-radius: 24px;
-  transition: .4s;
-  box-shadow: 0px 1px 5px 0px var(--Grey);
-  position: relative;
-}
 
-.senials-client p {
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  min-height: 125px;
-}
-
-.senials-client h5 {
-  margin-bottom: 5px;
-}
-
-.senials-client h6 {
-  font-weight: 300;
-  color: var(--Dark_Black);
-  font-size: .7em;
-} */
 
 .senials-client .active {
   opacity: 1;
@@ -3258,7 +3208,7 @@ section.delivering-right-solution {
 }
 
 .left-content {
-  width: 35%;
+  width: 20%;
 }
 
 .tag {
@@ -3294,7 +3244,8 @@ section.delivering-right-solution {
 
 /* RIGHT SIDE */
 .right-content {
-  width: 60%;
+  width: 80%;
+  overflow: hidden;
 }
 
 .heading {
@@ -3406,16 +3357,134 @@ section.delivering-right-solution {
   position: relative;
 }
 
+/**************case studies page******************/
+
+section.case-studiosverty {
+    padding: 50px 0px;
+}
 
 
+.studies-buttondesign {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    display: inline-block; 
+    margin-bottom: 20px;
+}
 
+.studies-buttondesign h5 {
+    line-height: 1.4;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.case-studies-category-main 
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 100px;
+}
+.right-case-studies-category p {
+    margin-bottom: 20px;
+}
+section.case-studio-bannerdeail {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 70px 0px 0;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+    border-bottom-left-radius: 80px;
+    height: 70vh;
+}
+.contentbanner {
+    text-align: center;
+}
+.contentbanner h1{
+  color: #fff;
+}
+.contentbanner .breadcrumb a {
+    color: #fff;
+}
+.contentbanner .breadcrumb span {
+    color: #fff;
+}
+.contentbanner .breadcrumb a::after {
+    color: #fff;
+} 
+.box-casestuday {
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px 0px #9b9b9b;
+    position: sticky;
+    top: 20px;
+}
+.inner-casestudy {
+    display: flex;
+    gap: 0px 45px;
+    align-items: start;
+    padding: 20px 0px;
+} 
+.img-casestudion img {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px 0px #9b9b9b;
+}
+section.boxmaindetail {
+    padding: 50px 0px;
+}
+section.challengescasesstudios {
+    padding: 50px 0px;
+}
+.flexchelenges 
+ {
+    display: flex;
+    align-items: start;
+}
+.right-chelengesconten {
+    width: 66%;
+} 
 
+.fleitemheading {
+    display: flex;
+    align-items: start;
+    gap: 0px 10px;
+}
 
+.fleitemheading i.fa-solid {
+    font-size: 18px;
+    margin-top: 2px;
+}
 
+.left-chelengesconten {
+    width: 33%;
+    position: sticky;
+    top: 20px;
+}
 
+.flex-imagesdefuletr 
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 25px;
+}
+section.imagcasecatgiri {
+    padding: 50px 0px;
+}
+.rightimgser img, .leftimgser img {
+    border-radius: 20px;
+}
+section.solutioncontent {
+    padding-bottom: 100px;
+}
 
-
-
+/**************case studies page end******************/
 
 
 /**************mobile media******************/
