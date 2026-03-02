@@ -3398,7 +3398,7 @@ section.case-studio-bannerdeail {
     background-size: cover;
     padding: 40px 0px;
     border-bottom-left-radius: 80px;
-    height: 70vh;
+    height: 50vh;
 }
 .contentbanner {
     text-align: center;
@@ -3417,10 +3417,10 @@ section.case-studio-bannerdeail {
 } 
 .box-casestuday {
     width: 40%;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 1px 1px 4px 0px #9b9b9b;
+    box-shadow: 1px 1px 4px 0px #9b9b9b; */
     position: sticky;
     top: 20px;
 }
@@ -3431,11 +3431,14 @@ section.case-studio-bannerdeail {
     padding: 20px 0px;
 } 
 .img-casestudion img {
-    border: 1px solid #ccc;
+      border: 1px solid #ccc;  
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 4px 0px #9b9b9b;
+      border-radius: 20px;
+    box-shadow: 1px 1px 4px 0px #9b9b9b;  
 }
+ 
+
+
 section.boxmaindetail {
     padding: 50px 0px;
 }
