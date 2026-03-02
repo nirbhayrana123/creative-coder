@@ -206,7 +206,21 @@ jQuery(function ($) {
 });
 
 
+$('.case-filter-tabs li').click(function() {
 
+    $('.case-filter-tabs li').removeClass('active');
+    $(this).addClass('active');
+
+    let filter = $(this).data('filter');
+
+    if(filter == 'all') {
+        $('.case-card').fadeIn();
+    } else {
+        $('.case-card').hide();
+        $('.' + filter).fadeIn();
+    }
+
+});
 
 
 jQuery(function ($) {
