@@ -3437,7 +3437,9 @@ section.case-studio-bannerdeail {
     box-shadow: 1px 1px 4px 0px #9b9b9b;  
 }
  
-
+.img-casestudion .feryligerimg {
+    margin-bottom: 20px;
+}
 
 section.boxmaindetail {
     padding: 50px 0px;
