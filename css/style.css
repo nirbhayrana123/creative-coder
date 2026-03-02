@@ -3574,8 +3574,23 @@ section.case-studieslistbanner {
 section.filtersall {
     padding: 50px 0px;
 }
-
-
+.itemcase-studies {
+    background-color: #ccc;
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.itemcase-studies h4 {
+    margin-top: 14px;
+    color: #000;
+    transition: 0.5s;
+}
+.itemcase-studies:hover {
+    background-color: #a0c402;
+}
+.itemcase-studies:hover h4 {
+    color: #fff;
+}
 
 
 
