@@ -3483,7 +3483,27 @@ section.imagcasecatgiri {
 section.solutioncontent {
     padding-bottom: 100px;
 }
-
+.img-brand {
+    width: 85px;
+}
+.flexicon-case-studies {
+    display: flex;
+    align-items: center;
+     margin-bottom: 20px;
+}
+ .plush-point {
+    margin-top: 30px;
+}
+.plush-point h6 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+.plush-point h6 span {
+    color: #c5ee1d;
+    font-size: 60px;
+}
 /**************case studies page end******************/
 
 
