@@ -3511,6 +3511,108 @@ section.solutioncontent {
 }
 /**************case studies page end******************/
 
+/**************case studies page ******************/
+section.case-studieslistbanner {
+    padding: 100px 0px;
+    position: relative;
+    background: linear-gradient(120deg, #E8E6F8 0%, #E0DDF3 100%);
+}
+.maincase-studies {
+    text-align: center;
+}
+
+
+
+
+
+
+
+.case-filter-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.case-filter-tabs {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background: #f2f3f7;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.case-filter-tabs li {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #777;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.case-filter-tabs li.active {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.case-filter-tabs li:hover {
+    color: #000;
+}
+
+.case-study-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.case-card img {
+    width: 100%;
+    border-radius: 12px;
+}
+section.filtersall {
+    padding: 50px 0px;
+}
+.itemcase-studies {
+    background-color: #ccc;
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.itemcase-studies h4 {
+    margin-top: 14px;
+    color: #000;
+    transition: 0.5s;
+}
+.itemcase-studies:hover {
+    background-color: #a0c402;
+}
+.itemcase-studies:hover h4 {
+    color: #fff;
+}
+.itemcase-studies:hover p {
+    color: #fff;
+}
+
+
+.all-projectdetais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 50px;
+    margin-top: 40px;
+
+}
+
+/**************case studies page end******************/
+
+
+
+
+
+
+
 
 /**************mobile media******************/
 @media (max-width: 1200px) {
