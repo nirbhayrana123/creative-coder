@@ -3596,7 +3596,14 @@ section.filtersall {
 }
 
 
+.all-projectdetais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 50px;
+    margin-top: 40px;
 
+}
 
 /**************case studies page end******************/
 
