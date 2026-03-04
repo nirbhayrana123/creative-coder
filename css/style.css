@@ -8,10 +8,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal; 
-}
-.subscribe,.mailto { 
-    display: none!important;
-}
+} 
 
 :root {
   --White: #fff;
@@ -4122,7 +4119,7 @@ section.filtersall {
     transform: translate(0px, 0px);
     margin: 20px 0px;
   }
-
+.tp-hero-social{display:none;}
   .creativetext img {
     height: auto;
     position: relative;
