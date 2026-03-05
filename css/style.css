@@ -726,8 +726,7 @@ ul.features li i {
   border-radius: 12px;
   padding: 15px;
   align-items: flex-start;
-  position: relative;
-  padding-right: 65px;
+  position: relative; 
   background-color: #00000012;
 }
 
@@ -3786,12 +3785,14 @@ section.hirebanner-deign {
 
 
 
- 
+
 
 
 
 @media(max-width:991px) {
-
+.stack-card.twocol.card-3,.stack-card.card-1 {
+    padding: 14px;
+}
   /*======= header =============*/
   .nav-list a.button.fillbg {
     display: block;
@@ -3873,7 +3874,7 @@ section.hirebanner-deign {
   }
 
   .stats-grid {
-    gap: 15px;
+    gap: 10px;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 15px;
   }
@@ -3898,6 +3899,7 @@ section.hirebanner-deign {
 
   .stack-card {
     height: 450px;
+    padding: 0;
   }
 
   .featuGreen-left {
@@ -4002,12 +4004,6 @@ section.hirebanner-deign {
     gap: 0px 15px;
   }
 
-
-
-
-
-
-
   .services-dropdown:hover .tp-megamenu-wrapper {
     opacity: 1;
     visibility: visible;
@@ -4056,20 +4052,38 @@ section.hirebanner-deign {
     padding: 14px 0px;
   }
 
+  .mapsbanners {
+    width: 100%;
+  }
+
+  .herobanner-text span {
+    font-size: 24px;
+    padding: 9px 28px;
+    top: -7px;
+  }
+
+  .herobanner-text span svg {
+    bottom: 2px;
+  }
+
+
 }
 
 
 
 
 @media(max-width:767px) {
+
   body {
     font-size: 14px;
   }
-
-.tp-service-item {
-    padding: 18px; 
-    margin-bottom: 14px; 
+section.banner.aboutbanner { 
+    height: 40vh;
 }
+  .tp-service-item {
+    padding: 18px;
+    margin-bottom: 14px;
+  }
 
   .testimonials-section {
     padding: 60px 0px;
@@ -4161,12 +4175,19 @@ section.hirebanner-deign {
     position: relative;
   }
 
+  a.client-video-review.banner {
+    width: 48px;
+    height: 48px;
+  }
+
   a.logo {
     max-width: 125px;
   }
-.tp-service-item ul li a {
-    font-size: 15px; 
-}
+
+  .tp-service-item ul li a {
+    font-size: 15px;
+  }
+
   .cta-proposal-wrap {
     flex-wrap: wrap;
   }
@@ -4344,8 +4365,7 @@ section.hirebanner-deign {
     grid-template-columns: 1fr;
     gap: 30px;
     height: auto;
-    border-radius: 25px;
-    padding: 20px;
+    border-radius: 25px; 
   }
 
   .herobanner-text h1 {
@@ -4591,12 +4611,18 @@ section.hirebanner-deign {
     font-size: 50px;
   }
 
-  .stats-grid {
-    grid-template-columns: 1fr;
+  .imagebox {
+    width: 55px;
+    height: auto;
   }
+.stats-grid .card h3 {
+    font-size: 2em;
+}
 
-
-
+.stats-grid .card {
+    border-radius: 15px; 
+    padding: 12px; 
+}
 
 }
 
