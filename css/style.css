@@ -1911,7 +1911,7 @@ section.maincontects {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  background-color: var(--White)fa;
+  background-color: var(--White);
   padding: 25px;
   border-radius: 15px;
 }
@@ -4406,12 +4406,12 @@ section.hirebanner-deign {
   .herobanner-text span svg {
     bottom: 2px;
   }
-
-
+.innermain-contact { 
+    padding: 0px; 
 }
 
-
-
+}
+ 
 
 @media(max-width:767px) {
 
@@ -4422,7 +4422,18 @@ section.hirebanner-deign {
   section.banner.aboutbanner {
     height: 40vh;
   }
+.phone-number i {
+    font-size: 17px;
+}
+.contact-main-inner-area .contact-header .number-address-area .phone-number .img1 {
+    height: 45px;
+    width: 45px; 
+}
 
+
+.gridcontectfield,.contact-box { 
+    gap: 8px;
+}
   section.solutioncontent {
     padding-bottom: 40px;
   }
@@ -4742,7 +4753,9 @@ section.hirebanner-deign {
     min-width: 45px;
     min-height: 45px;
   }
-
+.leftcontentblog h1 { 
+    font-size: 2em;
+}
   .herobanner-text h1 {
     font-size: 2.1em;
     line-height: 1.3em;
