@@ -2171,11 +2171,11 @@ section.service-sec22 {
 }
 
 .tp-megamenu-list ul {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: 30px;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .tp-megamenu-list ul li a {
@@ -2996,18 +2996,17 @@ section.delivering-right-solution {
 .delivering-right-solution-wrap {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0px 20px;
+  gap: 20px;
 }
 
 .deliver-right-sol {
-  min-height: 162px;
-  margin-bottom: 25px;
+  min-height: 160px;
 }
 
 .deliver-right-sol .inner {
   border-radius: 10px;
   flex-direction: column;
-  padding: 30px 20px 20px;
+  padding: 20px;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
@@ -4476,9 +4475,11 @@ section.hirebanner-deign {
   .testimonials-section {
     padding: 40px 0px;
   }
-.testimonial-slider h3 {
-    font-size: 18px; 
-}
+
+  .testimonial-slider h3 {
+    font-size: 18px;
+  }
+
   .detailsflexing {
     grid-template-columns: 1fr;
   }
@@ -4516,6 +4517,10 @@ section.hirebanner-deign {
 
   }
 
+  .banner-mains {
+    padding-top: 80px;
+  }
+
   a.websiteurl {
     font-size: 25px;
     width: 60px;
@@ -4547,17 +4552,18 @@ section.hirebanner-deign {
   .herobanner-text {
     width: 100%;
   }
-.bs-project-info h3 {
-    font-size: 24px; 
-}
 
-.bs-project-tags { 
-    gap: 3px; 
-}
+  .bs-project-info h3 {
+    font-size: 24px;
+  }
 
-.bs-project-tags span {
-    font-size: 10px; 
-}
+  .bs-project-tags {
+    gap: 3px;
+  }
+
+  .bs-project-tags span {
+    font-size: 10px;
+  }
 
 
 
@@ -4803,6 +4809,19 @@ section.hirebanner-deign {
     width: 100%;
   }
 
+  .deliver-right-sol .inner {
+    padding: 10px;
+  }
+
+
+  .deliver-right-sol .inner h3 {
+    font-size: 12px;
+  }
+
+  .deliver-right-sol {
+    min-height: 150px;
+  }
+
   .features li {
     font-size: 16px;
   }
@@ -5015,7 +5034,7 @@ section.hirebanner-deign {
 
   .delivering-right-solution-wrap {
     grid-template-columns: 1fr 1fr;
-    gap: 0px 20px;
+    gap: 10px;
   }
 
 
@@ -5290,10 +5309,6 @@ section.hirebanner-deign {
 }
 
 @media(max-width:400px) {
-  .delivering-right-solution-wrap {
-    grid-template-columns: 1fr;
-  }
-
   .background-max {
     padding: 20px;
   }
