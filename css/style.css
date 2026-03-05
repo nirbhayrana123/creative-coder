@@ -3662,10 +3662,7 @@ color: var(--White);
 .breadcrumb ul li a:after{
   color: var(--White);
 }
-.list-buleticon ul li p {
-    color: #000;
-}
-
+ 
 .breadcrumb ul li span {
   color: var(--White);
   font-size: 1rem;
@@ -3701,7 +3698,7 @@ color: var(--White);
 }
 
 .list-buleticon ul li i.fa.fa-check-circle {
-    color: var(--Black);
+    color: var(--White);
 }
 
 
@@ -3883,7 +3880,7 @@ margin-bottom:20px;
 }
 
 .google-btn{
-width: 100%;
+    width: 100%;
     padding: 12px;
     background: #fff;
     margin-bottom: 15px;
@@ -3894,6 +3891,15 @@ width: 100%;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
     color: #484848;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.google-btn img.googleimgs {
+    width: 20px;
+    height: 20px;
 }
 
 .flex-devaider span{
@@ -3904,24 +3910,45 @@ font-size: 16px;
 }
 
 .modal-box label{
-display:block;
-font-size:14px;
-margin-top:10px;
+display: block;
+    margin-top: 10px;
+    color: #484848;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: .15px;
+    margin-bottom: 6px;
 }
 
-.modal-box input{
-width:100%;
-padding:10px;
-border:1px solid #ddd;
-border-radius:5px;
-margin-top:5px;
+.modal-box input
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 400;
 }
+
 
 .name-row{
 display:flex;
 gap:10px;
 }
 
+.formsubmitbuttin {
+  width:100%;
+padding:12px;
+background:#1a8ecb;
+border:none;
+color:#fff;
+margin-top:15px;
+border-radius:5px;
+cursor:pointer;
+}
 .mobile-row{
 display:flex;
 align-items:center;
@@ -3930,9 +3957,12 @@ border-radius:5px;
 overflow:hidden;
 }
 
-.mobile-row span{
-padding:10px;
-background:#f5f5f5;
+.mobile-row span {
+    padding: 10px;
+    background: #f5f5f5;
+    font-size: 14px;
+    height: 100%;
+    line-height: 1.8;
 }
 
 .mobile-row input{
