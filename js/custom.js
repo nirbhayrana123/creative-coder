@@ -1,3 +1,31 @@
+$('.openModal').click(function(e){
+e.preventDefault();
+$('.custom-modal').fadeIn();
+});
+
+$('.close-modal').click(function(){
+$('.custom-modal').fadeOut();
+});
+
+$(document).mouseup(function(e){
+var modal = $(".modal-box");
+if (!modal.is(e.target) && modal.has(e.target).length === 0){
+$('.custom-modal').fadeOut();
+}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********* HEADER TOGGLE **********/
 const editBtn = document.querySelector('.menu');
 const model = document.querySelector('.header');
