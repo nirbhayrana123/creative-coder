@@ -356,7 +356,7 @@ header.header.whitecolor.bg .nav-list a.button:hover {
 }
 
 .menu {
-  background-color: var(--Dark_Black);
+  background-color: var(--Black);
   border-radius: 100px;
   width: 50px;
   height: 50px;
@@ -2171,15 +2171,16 @@ section.service-sec22 {
 }
 
 .tp-megamenu-list ul {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 .tp-megamenu-list ul li a {
   text-decoration: none;
-  color: var(--Dark_Black);
+  color: var(--Black);
   transition: 0.3s;
 }
 
