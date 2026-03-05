@@ -3630,10 +3630,14 @@ section.filtersall {
 }
 
 /**************case studies page end******************/
-
-
-
-
+section.hirebanner-deign {
+    padding: 100px 0px;
+}
+ 
+.breadcrumb ul {
+    display: flex;
+    align-items: center;
+}
 
 
 
