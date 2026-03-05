@@ -3630,14 +3630,146 @@ section.filtersall {
 }
 
 /**************case studies page end******************/
-section.hirebanner-deign {
+section.hirebanner-deign 
+ {
     padding: 100px 0px;
+    background: linear-gradient(180deg, #ffffff -51.06%, #7eb2a3 100%);
 }
  
 .breadcrumb ul {
     display: flex;
     align-items: center;
 }
+
+.breadcrumb ul li a  {
+    font-size: 1rem;
+    color: var(--White);
+}
+.breadcrumb ul li span{
+color: var(--White);
+ font-size: 1rem;
+}
+.left-hire-content h1 span {
+    color: #93ad21;
+}
+.list-buleticon {
+    margin: 40px 0px;
+    background-color: #93ad21;
+    padding: 20px;
+    border-radius: 10px;
+}
+.hierbanner-content h1 {
+    color: var(--White);
+}
+.hierbanner-content p {
+    color: var(--White);
+}
+.breadcrumb ul li a:after{
+  color: var(--White);
+}
+
+.list-buleticon ul li 
+ {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0px;
+}
+.list-buleticon ul li i.fa.fa-check-circle {
+    color: var(--White);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hire-section{
+    padding:80px 0;
+    text-align:center;
+    background:#f7f7f7;
+    font-family:Arial, sans-serif;
+}
+
+.hire-section h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.sub-text{
+    color:#666;
+    margin-bottom:40px;
+}
+
+.pricing-wrapper{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.price-card{
+    background:#fff;
+    width:300px;
+    padding:40px 20px;
+    border-radius:6px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+    position:relative;
+}
+
+.price-card .price{
+    font-size:36px;
+    color:var(--Green);
+}
+
+.price-card h4{
+    margin:10px 0 20px;
+    font-weight:600;
+}
+
+.quote{
+    font-size:28px;
+    color:var(--Green);
+}
+ 
+.price-card p{
+    color:#666;
+    font-size:14px;
+}
+ 
+
+.hire-btn{ 
+    margin-top:30px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
