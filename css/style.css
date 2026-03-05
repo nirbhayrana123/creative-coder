@@ -726,8 +726,7 @@ ul.features li i {
   border-radius: 12px;
   padding: 15px;
   align-items: flex-start;
-  position: relative;
-  padding-right: 65px;
+  position: relative; 
   background-color: #00000012;
 }
 
@@ -3787,7 +3786,9 @@ section.filtersall {
 
 
 @media(max-width:991px) {
-
+.stack-card.twocol.card-3,.stack-card.card-1 {
+    padding: 14px;
+}
   /*======= header =============*/
   .nav-list a.button.fillbg {
     display: block;
@@ -3894,6 +3895,7 @@ section.filtersall {
 
   .stack-card {
     height: 450px;
+    padding: 0;
   }
 
   .featuGreen-left {
@@ -4071,7 +4073,9 @@ section.filtersall {
   body {
     font-size: 14px;
   }
-
+section.banner.aboutbanner { 
+    height: 40vh;
+}
   .tp-service-item {
     padding: 18px;
     margin-bottom: 14px;
@@ -4357,8 +4361,7 @@ section.filtersall {
     grid-template-columns: 1fr;
     gap: 30px;
     height: auto;
-    border-radius: 25px;
-    padding: 20px;
+    border-radius: 25px; 
   }
 
   .herobanner-text h1 {
