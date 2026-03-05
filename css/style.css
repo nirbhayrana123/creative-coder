@@ -726,7 +726,7 @@ ul.features li i {
   border-radius: 12px;
   padding: 15px;
   align-items: flex-start;
-  position: relative; 
+  position: relative;
   background-color: #00000012;
 }
 
@@ -2755,9 +2755,10 @@ section.detailperalex {
 
 .bs-project-tags span {
   font-size: 16px;
-  border: 1px solid var(--Dark_Black);
+  border: 1px solid #2c2c2c26;
   border-radius: 100px;
   padding: 5px 14px;
+  background-color: #0000000a;
 }
 
 .bs-project-info h3 {
@@ -3630,20 +3631,14 @@ section.filtersall {
 }
 
 /**************case studies page end******************/
-section.hirebanner-deign 
- {
-    padding: 100px 0px;
-    background: linear-gradient(180deg, #ffffff -51.06%, #7eb2a3 100%);
-}
- 
-.breadcrumb ul {
-    display: flex;
-    align-items: center;
+section.hirebanner-deign {
+  padding: 100px 0px;
+  background: linear-gradient(180deg, #ffffff -51.06%, #7eb2a3 100%);
 }
 
-.breadcrumb ul li a  {
-    font-size: 1rem;
-    color: var(--White);
+.breadcrumb ul {
+  display: flex;
+  align-items: center;
 }
 .breadcrumb ul li span{
 color: var(--White);
@@ -3671,12 +3666,40 @@ color: var(--White);
     color: #000;
 }
 
-.list-buleticon ul li 
- {
-    display: flex;
-    gap: 10px;
-    margin: 15px 0px;
+.breadcrumb ul li span {
+  color: var(--White);
+  font-size: 1rem;
 }
+
+.left-hire-content h1 span {
+  color: #93ad21;
+}
+
+.list-buleticon {
+  margin: 40px 0px;
+  background-color: #93ad21;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hierbanner-content h1 {
+  color: var(--White);
+}
+
+.hierbanner-content p {
+  color: var(--White);
+}
+
+.breadcrumb ul li a:after {
+  color: var(--White);
+}
+
+.list-buleticon ul li {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0px;
+}
+
 .list-buleticon ul li i.fa.fa-check-circle {
     color: var(--Black);
 }
@@ -4030,6 +4053,16 @@ font-size:14px;
     font-size: 15px;
   }
 
+  .inner-casestudy {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .box-casestuday {
+    width: 65%;
+    position: static;
+  }
+
   .wpweb-process_flow_section .process_flow_wrap .image:after {
     width: 90px;
     right: -80px;
@@ -4074,15 +4107,17 @@ font-size:14px;
     width: 85px;
     height: 85px;
   }
- 
+
 }
 
- 
 
 @media(max-width:991px) {
-.stack-card.twocol.card-3,.stack-card.card-1 {
+
+  .stack-card.twocol.card-3,
+  .stack-card.card-1 {
     padding: 14px;
-}
+  }
+
   /*======= header =============*/
   .nav-list a.button.fillbg {
     display: block;
@@ -4367,9 +4402,36 @@ font-size:14px;
   body {
     font-size: 14px;
   }
-section.banner.aboutbanner { 
+
+  section.banner.aboutbanner {
     height: 40vh;
-}
+  }
+
+  section.solutioncontent {
+    padding-bottom: 40px;
+  }
+
+  section.boxmaindetail {
+    padding: 0px 0px;
+  }
+
+  .flex-imagesdefuletr {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  section.challengescasesstudios {
+    padding: 0;
+  }
+
+  .flexchelenges {
+    display: block;
+  }
+
+  .case-studies-category-main {
+    grid-template-columns: 1fr;
+  }
+
   .tp-service-item {
     padding: 18px;
     margin-bottom: 14px;
@@ -4655,7 +4717,7 @@ section.banner.aboutbanner {
     grid-template-columns: 1fr;
     gap: 30px;
     height: auto;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
 
   .herobanner-text h1 {
@@ -4905,14 +4967,15 @@ section.banner.aboutbanner {
     width: 55px;
     height: auto;
   }
-.stats-grid .card h3 {
-    font-size: 2em;
-}
 
-.stats-grid .card {
-    border-radius: 15px; 
-    padding: 12px; 
-}
+  .stats-grid .card h3 {
+    font-size: 2em;
+  }
+
+  .stats-grid .card {
+    border-radius: 15px;
+    padding: 12px;
+  }
 
 }
 
