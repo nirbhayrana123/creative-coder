@@ -3639,8 +3639,19 @@ section.hirebanner-deign {
     align-items: center;
 }
 
-
-
+.breadcrumb ul li a  {
+    font-size: 1rem;
+}
+.breadcrumb ul li span{
+color: #504f4f;
+ font-size: 1rem;
+}
+.left-hire-content h1 span {
+    color: #93ad21;
+}
+.list-buleticon {
+    margin: 40px 0px;
+}
 
 /**************mobile media******************/
 @media (max-width: 1200px) {
