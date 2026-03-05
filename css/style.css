@@ -3782,7 +3782,7 @@ section.filtersall {
 
 
 
- 
+
 
 
 
@@ -3869,7 +3869,7 @@ section.filtersall {
   }
 
   .stats-grid {
-    gap: 15px;
+    gap: 10px;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 15px;
   }
@@ -3998,12 +3998,6 @@ section.filtersall {
     gap: 0px 15px;
   }
 
-
-
-
-
-
-
   .services-dropdown:hover .tp-megamenu-wrapper {
     opacity: 1;
     visibility: visible;
@@ -4052,20 +4046,36 @@ section.filtersall {
     padding: 14px 0px;
   }
 
+  .mapsbanners {
+    width: 100%;
+  }
+
+  .herobanner-text span {
+    font-size: 24px;
+    padding: 9px 28px;
+    top: -7px;
+  }
+
+  .herobanner-text span svg {
+    bottom: 2px;
+  }
+
+
 }
 
 
 
 
 @media(max-width:767px) {
+
   body {
     font-size: 14px;
   }
 
-.tp-service-item {
-    padding: 18px; 
-    margin-bottom: 14px; 
-}
+  .tp-service-item {
+    padding: 18px;
+    margin-bottom: 14px;
+  }
 
   .testimonials-section {
     padding: 60px 0px;
@@ -4157,12 +4167,19 @@ section.filtersall {
     position: relative;
   }
 
+  a.client-video-review.banner {
+    width: 48px;
+    height: 48px;
+  }
+
   a.logo {
     max-width: 125px;
   }
-.tp-service-item ul li a {
-    font-size: 15px; 
-}
+
+  .tp-service-item ul li a {
+    font-size: 15px;
+  }
+
   .cta-proposal-wrap {
     flex-wrap: wrap;
   }
@@ -4587,12 +4604,18 @@ section.filtersall {
     font-size: 50px;
   }
 
-  .stats-grid {
-    grid-template-columns: 1fr;
+  .imagebox {
+    width: 55px;
+    height: auto;
   }
+.stats-grid .card h3 {
+    font-size: 2em;
+}
 
-
-
+.stats-grid .card {
+    border-radius: 15px; 
+    padding: 12px; 
+}
 
 }
 
