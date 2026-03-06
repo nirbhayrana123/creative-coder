@@ -3632,39 +3632,26 @@ section.filtersall {
 
 /**************case studies page end******************/
 section.hirebanner-deign {
-  padding: 100px 0px;
-  background: linear-gradient(180deg, #ffffff -51.06%, #7eb2a3 100%);
+  padding: 100px 0px; 
 }
 
 .breadcrumb ul {
   display: flex;
   align-items: center;
 }
-
-.breadcrumb ul li span {
-  color: var(--White);
-  font-size: 1rem;
-}
+ 
 
 .left-hire-content h1 span {
   color: #93ad21;
 }
 
-.list-buleticon {
-  margin: 40px 0px;
-  background-color: #fff;
-  padding: 10px 15px;
-  border-radius: 10px;
+ .button-vertical {
+    margin-top: 30px;
 }
 
-.hierbanner-content h1 {
-  color: var(--White);
-}
+
+
  
-.breadcrumb ul li span {
-  color: var(--White);
-  font-size: 1rem;
-}
 
 .left-hire-content h1 span {
   color: #93ad21;
@@ -3677,27 +3664,10 @@ section.hirebanner-deign {
   border-radius: 10px;
 }
 
-.hierbanner-content h1 {
-  color: var(--White);
-}
 
-.hierbanner-content p {
-  color: var(--White);
-}
 
-.breadcrumb ul li a:after {
-  color: var(--White);
-}
-
-.list-buleticon ul li {
-  display: flex;
-  gap: 10px;
-  margin: 15px 0px;
-}
-
-.list-buleticon ul li i.fa.fa-check-circle {
-    color: var(--White);
-}
+  
+ 
 
 
 
@@ -3840,10 +3810,22 @@ section.hirebanner-deign {
   line-height: 1.5;
 }
 
+.hierbanner-content {
+    display: flex;
+    align-items: center;
+}
 
-
-
-
+.left-hire-content {
+    width: 50%;
+}
+.right-hire-content {
+    width: 50%;
+    text-align:right;
+}
+.right-hire-content img {
+    max-width: 100%;
+    width: auto;
+}
 
 
 
@@ -3948,7 +3930,7 @@ gap:10px;
 .formsubmitbuttin {
   width:100%;
 padding:12px;
-background:#1a8ecb;
+background-color:#93ad21;
 border:none;
 color:#fff;
 margin-top:15px;
