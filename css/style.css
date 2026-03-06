@@ -2306,10 +2306,12 @@ section.featuGreen {
 }
 
 .blog-card {
-  background: var(--White);
-  padding: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
-  transition: 0.6s;
+    background: var(--White);
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+    transition: 0.6s;
+    border: 1px solid #00000026;
+    border-radius: 8px;
 }
 
 .blog-card img {
