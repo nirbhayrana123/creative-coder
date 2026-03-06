@@ -3696,12 +3696,13 @@ section.hirebanner-deign {
 .pricing-wrapper {
   display: flex;
   justify-content: center;
-  /* gap:20px; */
+ gap:20px;
   flex-wrap: wrap;
 }
 
 .price-card {
   background: #fff;
+  border: 1px solid #ccc;
   width: 300px;
   padding: 40px 20px;
   border-radius: 6px;
@@ -3733,10 +3734,10 @@ section.hirebanner-deign {
   margin-top: 30px;
 }
 
-.pricing-wrapper .price-card:nth-child(2) {
+/* .pricing-wrapper .price-card:nth-child(2) {
   border-left: 5px solid #c4ee18;
   border-right: 5px solid #c4ee18;
-}
+} */
 
 
 
@@ -3816,8 +3817,7 @@ section.hirebanner-deign {
     width: 50%;
 }
 .right-hire-content {
-    width: 50%;
-    text-align:right;
+    width: 50%; 
 }
 .right-hire-content img {
     max-width: 100%;
