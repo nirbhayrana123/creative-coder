@@ -1210,7 +1210,7 @@ a.client-video-review {
   margin-top: 40px;
 }
 
-*/ .owl-carousel .owl-stage {
+.owl-carousel .owl-stage {
   display: flex;
   align-items: center;
 }
@@ -1218,6 +1218,7 @@ a.client-video-review {
 .slider.owl-carousel .owl-stage-outer {
   padding-bottom: 10px;
   padding-top: 10px;
+  align-items: center;
 }
 
 .testimonial-right {
