@@ -1,6 +1,6 @@
 $('.openModal').click(function(e){
 e.preventDefault();
-$('.custom-modal').fadeIn();
+$('.custom-modal').css('display','flex').hide().fadeIn();
 });
 
 $('.close-modal').click(function(){
