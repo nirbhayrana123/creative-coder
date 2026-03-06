@@ -2290,12 +2290,7 @@ section.featuGreen {
   padding: 80px 0;
 }
 
-.detailsflexing {
-  display: grid;
-  align-items: end;
-  grid-template-columns: 1fr 1fr;
-}
-
+ 
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2311,10 +2306,12 @@ section.featuGreen {
 }
 
 .blog-card {
-  background: var(--White);
-  padding: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
-  transition: 0.6s;
+    background: var(--White);
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+    transition: 0.6s;
+    border: 1px solid #00000026;
+    border-radius: 8px;
 }
 
 .blog-card img {
@@ -2703,9 +2700,9 @@ section.faqsection {
 }
 
 .detailbanner .leftcontentblog {
-  max-width: 70%;
-  z-index: 2;
-  position: relative;
+    max-width: 70%;
+    z-index: 2;
+    position: relative;
 }
 
 section.detailperalex {
@@ -4483,9 +4480,7 @@ overflow:hidden;
     font-size: 18px;
   }
 
-  .detailsflexing {
-    grid-template-columns: 1fr;
-  }
+ 
 
   .testimonial-wrapper {
     flex-wrap: wrap;
