@@ -4420,7 +4420,7 @@ overflow:hidden;
   body {
     font-size: 14px;
   }
-
+   
   section.banner.aboutbanner {
     height: 40vh;
   }
@@ -4952,13 +4952,45 @@ overflow:hidden;
   }
 
   .who-right h2 {
-    font-size: 1.4em;
-  }
+        font-size: 1.5em;
+        width: 270px;
+    }
 
   .card-content p {
     margin: 0px 0 40px;
+    font-size: 1em;
   }
+.card-content li {
+    font-size: 0.9rem;
+}
 
+.project-services span {
+    font-size: 1em;  
+}
+p.sb-client-collaboration__description {
+    font-size: 1em;
+}
+p.bottom-links {
+    font-size: 1em; 
+}
+.footer-box a { 
+    font-size: 1em;
+}
+.card-content h6 { 
+    font-size: 1rem;
+}
+.counter-box span {
+    font-size: 1.2em; 
+}
+.fleifggg p {
+    font-size: 1em;
+}
+.footer-menu li { 
+    font-size: 1em;
+}
+p {
+    font-size: 1em;
+}
   .card-content h3 {
     font-size: 4em;
   }
