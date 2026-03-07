@@ -183,7 +183,6 @@ a.logo {
   cursor: pointer;
 }
 
-
 section.web-solution-wrap {
   padding: 60px 0;
   background-color: var(--White);
@@ -256,6 +255,8 @@ a.button.whitebt::after {
   width: 100%;
 }
 
+
+ 
 /*============ header =============*/
 header.header.bg {
   background-color: var(--White);
@@ -974,9 +975,10 @@ a.up-solid.black {
 }
 
 .marquee-track i {
-  font-size: 20px;
-  font-style: normal;
-  color: var(--Black);
+    font-size: 20px;
+    font-style: normal;
+    color: var(--Black);
+    margin-right: 5px;
 }
 
 @keyframes scroll {
@@ -1433,7 +1435,7 @@ section.tp-service-area {
 }
 
 .stack-card h2 {
-  font-size: 2em;
+  font-size: 1.7em;
   margin-bottom: 13px;
 }
 
@@ -1466,12 +1468,14 @@ section.stack-wrapper {
   background-color: var(--Dark_Black);
   color: var(--White);
 }
-
-.project-services.webflow span {
-  color: var(--White);
-  background-color: var(--Dark_Black);
+.stack-card.card-2 ul {
+      margin: 20px 0;
 }
-
+ 
+.stack-card.card-2 li {
+    color: var(--Black);
+    list-style: disc;
+}
 .card-4 {
   z-index: 4;
   background-color: var(--White);

@@ -64,7 +64,16 @@
   <priority>0.70</priority>
 </url>
 
-</urlset>
-
 <!-- services Detail Pages -->
+
+<url>
+  <loc>https://belovesoft.com/services/front-end.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+
+
+
+</urlset>
 
