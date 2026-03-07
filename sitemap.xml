@@ -5,41 +5,64 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <url>
-    <loc>https://belovesoft.com/</loc>
-    <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
+<!-- Main Pages -->
 
-  <url>
-    <loc>https://belovesoft.com/about.html</loc>
-    <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<url>
+  <loc>https://belovesoft.com/</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
 
-  <url>
-    <loc>https://belovesoft.com/services.html</loc>
-    <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<url>
+  <loc>https://belovesoft.com/about.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://belovesoft.com/project.html</loc>
-    <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<url>
+  <loc>https://belovesoft.com/project.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://belovesoft.com/blog.html</loc>
-    <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<url>
+  <loc>https://belovesoft.com/blog.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://belovesoft.com/contact.html</loc>
-    <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<url>
+  <loc>https://belovesoft.com/contact.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+<!-- Blog Detail Pages -->
+
+<url>
+  <loc>https://belovesoft.com/blog/create-impactful-digital-experiences.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://belovesoft.com/blog/the-power-of-creative-design.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://belovesoft.com/blog/build-stunning-websites-with-webflow.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://belovesoft.com/blog/webflow-speed-performance-optimization.html</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
 
 </urlset>
 
