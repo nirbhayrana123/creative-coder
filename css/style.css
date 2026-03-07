@@ -14,7 +14,7 @@ body {
   --White: #fff;
   --Black: #030303;
   --Dark_Black: #2c2c2c;
-  --Green: #c4ee18;
+  --Green: #a1c608;
   --BG: #faf7f4;
   --Grey: #ccc;
   --Grey1: #eee;
@@ -2859,7 +2859,7 @@ ul {
 .skills-row a {
   font-size: 14px;
   padding: 5px 13px;
-  background-color: #a1c608db;
+  background-color: var(--Green);
   border-radius: 50px;
   color: var(--Black);
 }
@@ -2956,7 +2956,7 @@ section.delivering-right-solution {
 }
 
 .deliver-right-sol .inner:hover {
-  box-shadow: inset 8px 7px 0px 94px var(--Black);
+  box-shadow: inset 8px 7px 0px 94px var(--Green);
 }
 
  
