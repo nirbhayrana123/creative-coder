@@ -967,7 +967,9 @@ a.up-solid.black {
   width: max-content;
   animation: scroll 50s linear infinite;
 }
-
+.service-case-studies-content .case-studies-desc {
+    width: 90%;
+}
 .marquee-track h2 {
   margin-bottom: 0;
   text-transform: uppercase;
