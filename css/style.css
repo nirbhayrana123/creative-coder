@@ -1865,8 +1865,7 @@ section.maincontects {
 }
 
 .input-area input,
-.input-area textarea {
-  border-radius: 8px;
+.input-area textarea { 
   border: 1px solid var(--Dark_Black);
   background-color: var(--White);
   width: 100%;
@@ -1888,12 +1887,12 @@ section.maincontects {
 }
 
 .innermain-contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  background-color: var(--White);
-  padding: 25px;
-  border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #f4f4f4;
+    padding: 65px 25px;
+    border-radius: 15px;
 }
 
 .inner-contect-right {
