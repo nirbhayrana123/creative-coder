@@ -1132,27 +1132,6 @@ section.services-section .container {
 /****************featuGreen end****************/
 
 /******************testmonials***************/
-/* .main-user {
-  display: flex;
-  gap: 25px;
-}
-
-.rating span {
-  font-size: 20px;
-  padding-right: 12px;
-  color: #caca0d;
-  font-weight: bold;
-}
-
-.testimonial-section {
-  background: var(--White);
-  padding: 60px 0;
-} */
-/* 
-.rating {
-  display: flex;
-  padding-bottom: 10px;
-} */
 
 a.client-video-review.banner {
   position: static;
@@ -1181,12 +1160,6 @@ a.client-video-review {
   display: none;
 }
 
-
-/* .testimonial-wrap {
-  display: flex;
-  gap: 40px;
-  width: 100%;
-} */
 
 .testimolcra h5 {
   font-size: 35px;
@@ -2082,10 +2055,8 @@ section.section-about.aboutpage .teemcontent {
   color: var(--White);
 }
 
-.ser-content22 .title {
+.ser-content22 h3 {
   color: var(--White);
-  max-width: 450px;
-  margin-bottom: 21px;
 }
 
 .servicesgride {
@@ -2291,7 +2262,7 @@ section.featuGreen {
   padding: 80px 0;
 }
 
- 
+
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2307,12 +2278,12 @@ section.featuGreen {
 }
 
 .blog-card {
-    background: var(--White);
-    padding: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
-    transition: 0.6s;
-    border: 1px solid #00000026;
-    border-radius: 8px;
+  background: var(--White);
+  padding: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+  transition: 0.6s;
+  border: 1px solid #00000026;
+  border-radius: 8px;
 }
 
 .blog-card img {
@@ -2701,9 +2672,9 @@ section.faqsection {
 }
 
 .detailbanner .leftcontentblog {
-    max-width: 70%;
-    z-index: 2;
-    position: relative;
+  max-width: 70%;
+  z-index: 2;
+  position: relative;
 }
 
 section.detailperalex {
@@ -2745,19 +2716,11 @@ section.detailperalex {
   z-index: 2;
 }
 
-.bs-project-tags {
+.skills-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 18px;
-}
-
-.bs-project-tags span {
-  font-size: 16px;
-  border: 1px solid #2c2c2c26;
-  border-radius: 100px;
-  padding: 5px 14px;
-  background-color: #0000000a;
 }
 
 .bs-project-info h3 {
@@ -2883,68 +2846,24 @@ ul {
   align-items: center;
 }
 
-studies-category .case-study-btn {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn a,
-.service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn span {
-  font-size: 14px;
-  font-weight: 400;
-  border-radius: 9px;
-  padding: 10px 10px;
-  background-color: #a0c4022b;
-  color: var(--Dark_Black);
-  width: auto;
-  margin-bottom: 0;
-  line-height: normal;
-  margin-right: 0;
-  display: inline-block;
-}
-
 .service-case-studies-main .service-case-studies .service-case-studies-content .case-studies-desc {
   margin: 20px 0px;
 }
 
-.case-study-tech {
-  display: inline-flex;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 42px;
-}
-
-.case-study-tech .case-study-btn {
-  width: 90%;
-}
-
-.case-study-tech .case-study-btn a,
-.case-study-tech .case-study-btn span {
-  transition: all 500ms ease-in-out;
+.skills-row span,
+.skills-row a {
+  font-size: 14px;
+  padding: 5px 13px;
+  background-color: #a1c608db;
+  border-radius: 50px;
   color: var(--Black);
-  font-weight: 500;
-  border: 1px solid rgb(63, 63, 63);
-  padding: 10px 15px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 25px;
-  text-transform: uppercase;
-  margin-right: 5px;
-  margin-bottom: 10px;
 }
 
-
-
-.case-study-tech .case-study-btn a:hover,
-.case-study-tech .case-study-btn span:hover {
-  box-shadow: 0px 7px 12.09px 0.91px rgb(0 0 0 / 20%);
+.skills-row a.sub-category {
+  border-radius: 5px;
+  background-color: #ebebeb;
+  padding: 8px 15px;
 }
-
-
 
 .service-case-studies-box:hover .service-case-studies-img {
   box-shadow: 1.928px 2.298px 31.5px 3.5px rgba(21, 21, 21, 0.06);
@@ -3630,26 +3549,26 @@ section.filtersall {
 
 /**************case studies page end******************/
 section.hirebanner-deign {
-  padding: 100px 0px; 
+  padding: 100px 0px;
 }
 
 .breadcrumb ul {
   display: flex;
   align-items: center;
 }
- 
+
 
 .left-hire-content h1 span {
   color: #93ad21;
 }
 
- .button-vertical {
-    margin-top: 30px;
+.button-vertical {
+  margin-top: 30px;
 }
 
 
 
- 
+
 
 .left-hire-content h1 span {
   color: #93ad21;
@@ -3664,8 +3583,8 @@ section.hirebanner-deign {
 
 
 
-  
- 
+
+
 
 
 
@@ -3697,7 +3616,7 @@ section.hirebanner-deign {
 .pricing-wrapper {
   display: flex;
   justify-content: center;
- gap:20px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -3810,19 +3729,21 @@ section.hirebanner-deign {
 }
 
 .hierbanner-content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .left-hire-content {
-    width: 50%;
+  width: 50%;
 }
+
 .right-hire-content {
-    width: 50%; 
+  width: 50%;
 }
+
 .right-hire-content img {
-    max-width: 100%;
-    width: auto;
+  max-width: 100%;
+  width: auto;
 }
 
 
@@ -3865,27 +3786,27 @@ section.hirebanner-deign {
   margin-bottom: 20px;
 }
 
-.google-btn{
-    width: 100%;
-    padding: 12px;
-    background: #fff;
-    margin-bottom: 15px;
-    cursor: pointer;
-    border-radius: 6px;
-    border: 1px solid #EEE;
-    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
-    color: #484848;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #EEE;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
+  color: #484848;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .google-btn img.googleimgs {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .flex-devaider span {
@@ -3895,60 +3816,60 @@ section.hirebanner-deign {
   font-size: 16px;
 }
 
-.modal-box label{
-display: block;
-    margin-top: 10px;
-    color: #484848;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    letter-spacing: .15px;
-    margin-bottom: 6px;
+.modal-box label {
+  display: block;
+  margin-top: 10px;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: .15px;
+  margin-bottom: 6px;
 }
 
-.modal-box input
- {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-top: 5px;
-    background: #fff;
-    font-size: 14px;
-    line-height: 1.57142857;
-    font-weight: 400;
+.modal-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.57142857;
+  font-weight: 400;
 }
 
 
-.name-row{
-display:flex;
-gap:10px;
+.name-row {
+  display: flex;
+  gap: 10px;
 }
 
 .formsubmitbuttin {
-  width:100%;
-padding:12px;
-background-color:#93ad21;
-border:none;
-color:#fff;
-margin-top:15px;
-border-radius:5px;
-cursor:pointer;
+  width: 100%;
+  padding: 12px;
+  background-color: #93ad21;
+  border: none;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.mobile-row{
-display:flex;
-align-items:center;
-border:1px solid #ddd;
-border-radius:5px;
-overflow:hidden;
+
+.mobile-row {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .mobile-row span {
-    padding: 10px;
-    background: #f5f5f5;
-    font-size: 14px;
-    height: 100%;
-    line-height: 1.8;
+  padding: 10px;
+  background: #f5f5f5;
+  font-size: 14px;
+  height: 100%;
+  line-height: 1.8;
 }
 
 .mobile-row input {
@@ -4420,7 +4341,7 @@ overflow:hidden;
   body {
     font-size: 14px;
   }
-   
+
   section.banner.aboutbanner {
     height: 40vh;
   }
@@ -4481,7 +4402,7 @@ overflow:hidden;
     font-size: 18px;
   }
 
- 
+
 
   .testimonial-wrapper {
     flex-wrap: wrap;
@@ -4556,11 +4477,11 @@ overflow:hidden;
     font-size: 24px;
   }
 
-  .bs-project-tags {
+  .skills-row {
     gap: 3px;
   }
 
-  .bs-project-tags span {
+  .skills-row span {
     font-size: 10px;
   }
 
@@ -4952,45 +4873,55 @@ overflow:hidden;
   }
 
   .who-right h2 {
-        font-size: 1.5em;
-        width: 270px;
-    }
+    font-size: 1.5em;
+    width: 270px;
+  }
 
   .card-content p {
     margin: 0px 0 40px;
     font-size: 1em;
   }
-.card-content li {
-    font-size: 0.9rem;
-}
 
-.project-services span {
-    font-size: 1em;  
-}
-p.sb-client-collaboration__description {
+  .card-content li {
+    font-size: 0.9rem;
+  }
+
+  .project-services span {
     font-size: 1em;
-}
-p.bottom-links {
-    font-size: 1em; 
-}
-.footer-box a { 
+  }
+
+  p.sb-client-collaboration__description {
     font-size: 1em;
-}
-.card-content h6 { 
+  }
+
+  p.bottom-links {
+    font-size: 1em;
+  }
+
+  .footer-box a {
+    font-size: 1em;
+  }
+
+  .card-content h6 {
     font-size: 1rem;
-}
-.counter-box span {
-    font-size: 1.2em; 
-}
-.fleifggg p {
+  }
+
+  .counter-box span {
+    font-size: 1.2em;
+  }
+
+  .fleifggg p {
     font-size: 1em;
-}
-.footer-menu li { 
+  }
+
+  .footer-menu li {
     font-size: 1em;
-}
-p {
+  }
+
+  p {
     font-size: 1em;
-}
+  }
+
   .card-content h3 {
     font-size: 4em;
   }
@@ -5313,9 +5244,7 @@ p {
     height: 50px;
   }
 
-  .case-study-tech .case-study-btn {
-    width: 100%;
-  }
+
 
   .service-case-studies-main .service-case-studies .service-case-studies-img {
     height: auto;
@@ -5327,10 +5256,6 @@ p {
     padding-bottom: 10px;
   }
 
-  .case-study-tech {
-    height: auto;
-    position: relative;
-  }
 
   .wpweb-page-cta-cont h4 {
     width: 100%;
@@ -5346,16 +5271,6 @@ p {
 
   .service-case-studies-main .service-case-studies .service-case-studies-content .case-studies-desc {
     margin: 5px 0px;
-  }
-
-  .case-study-btn {
-    margin-top: 15px;
-  }
-
-  .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn a,
-  .service-case-studies-main .service-case-studies .service-case-studies-content .service-case-studies-category .case-study-btn span {
-    margin-bottom: 12px;
-    margin-right: 12px;
   }
 
   .wpweb-solution-item {
