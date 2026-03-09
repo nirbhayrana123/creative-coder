@@ -4844,6 +4844,7 @@ section.hirebanner-deign {
 
   .who-we-are {
     padding: 30px 0;
+      background-position: center right -112px !important;
   }
 
   .bottom p {
