@@ -256,7 +256,7 @@ a.button.whitebt::after {
 }
 
 
- 
+
 /*============ header =============*/
 header.header.bg {
   background-color: var(--White);
@@ -967,9 +967,11 @@ a.up-solid.black {
   width: max-content;
   animation: scroll 50s linear infinite;
 }
+
 .service-case-studies-content .case-studies-desc {
-    width: 90%;
+  width: 90%;
 }
+
 .marquee-track h2 {
   margin-bottom: 0;
   text-transform: uppercase;
@@ -977,10 +979,10 @@ a.up-solid.black {
 }
 
 .marquee-track i {
-    font-size: 20px;
-    font-style: normal;
-    color: var(--Black);
-    margin-right: 5px;
+  font-size: 20px;
+  font-style: normal;
+  color: var(--Black);
+  margin-right: 5px;
 }
 
 @keyframes scroll {
@@ -1470,14 +1472,16 @@ section.stack-wrapper {
   background-color: var(--Dark_Black);
   color: var(--White);
 }
+
 .stack-card.card-2 ul {
-      margin: 20px 0;
+  margin: 20px 0;
 }
- 
+
 .stack-card.card-2 li {
-    color: var(--Black);
-    list-style: disc;
+  color: var(--Black);
+  list-style: disc;
 }
+
 .card-4 {
   z-index: 4;
   background-color: var(--White);
@@ -1865,7 +1869,7 @@ section.maincontects {
 }
 
 .input-area input,
-.input-area textarea { 
+.input-area textarea {
   border: 1px solid var(--Dark_Black);
   background-color: var(--White);
   width: 100%;
@@ -1887,12 +1891,12 @@ section.maincontects {
 }
 
 .innermain-contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    background-color: #f4f4f4;
-    padding: 65px 25px;
-    border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #f4f4f4;
+  padding: 65px 25px;
+  border-radius: 15px;
 }
 
 .inner-contect-right {
@@ -2728,6 +2732,12 @@ section.detailperalex {
   margin-bottom: 18px;
 }
 
+.bs-project-info .skills-row span {
+  background-color: #0026fa08;
+  border: 1px solid #5573db4d;
+  color: #545454;
+}
+
 .bs-project-info h3 {
   font-size: 32px;
   color: var(--Dark_Black);
@@ -2924,10 +2934,12 @@ section.delivering-right-solution {
 .deliver-right-sol {
   min-height: 160px;
 }
+
 .deliver-right-sol .inner i {
-    font-size: 38px;
-    margin-bottom: 10px;
+  font-size: 38px;
+  margin-bottom: 10px;
 }
+
 .deliver-right-sol .inner {
   border-radius: 10px;
   flex-direction: column;
@@ -2942,8 +2954,8 @@ section.delivering-right-solution {
   transition: 0.6s;
   border: 1px solid #0000002b;
 }
- 
- 
+
+
 .deliver-right-sol .inner h3 {
   font-size: 20px;
   font-weight: 500;
@@ -2959,9 +2971,10 @@ section.delivering-right-solution {
   box-shadow: inset 8px 7px 0px 94px var(--Green);
 }
 
- 
 
-.deliver-right-sol .inner:hover h3, .deliver-right-sol .inner:hover i  {
+
+.deliver-right-sol .inner:hover h3,
+.deliver-right-sol .inner:hover i {
   color: var(--White);
 }
 
@@ -3540,7 +3553,7 @@ section.filtersall {
 /**************case studies page end******************/
 section.hirebanner-deign {
   padding: 100px 0px;
- 
+
 }
 
 .breadcrumb ul {
@@ -3890,88 +3903,97 @@ section.hirebanner-deign {
   border: none;
   border-top: 1px solid #DDD;
 }
+
 .easy-step-outer {
-    padding: 60px 0;
+  padding: 60px 0;
 }
+
 .dev-zig {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 
 .dev-zig-content-outer {
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .easy-step-outer .heading-hire {
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .dev-zig-content-inner {
-    width: 25%;
-    background-color: #F4F4F4;
-    padding: 25px 15px;
-    position: relative;
-    margin-right: 15px;
-    transition: all 1s ease-out 0.3s;
+  width: 25%;
+  background-color: #F4F4F4;
+  padding: 25px 15px;
+  position: relative;
+  margin-right: 15px;
+  transition: all 1s ease-out 0.3s;
 }
 
 .dev-zig-content-inner:before {
-    position: absolute;
-    display: block;
-    content: "";
-    left: 20px;
-    top: -30px;
-    width: 57px;
-    height: 42px;
-    background: url() left top no-repeat;
+  position: absolute;
+  display: block;
+  content: "";
+  left: 20px;
+  top: -30px;
+  width: 57px;
+  height: 42px;
+  background: url() left top no-repeat;
 }
 
 .dev-zig-content-inner:hover {
-    background: linear-gradient(24deg, #000000 1.12%, #000000 100%);
+  background: linear-gradient(24deg, #000000 1.12%, #000000 100%);
 }
+
 .dev-zig-content-inner:hover:before {
-    background: url('../images/poly12.png') left top no-repeat;
+  background: url('../images/poly12.png') left top no-repeat;
 }
+
 .dev-zig-content-inner:hover .no-head {
-    border: 9px solid #000000;
-    background: #fff;
+  border: 9px solid #000000;
+  background: #fff;
 }
+
 .no-head:nth-child(1n) {
-    top: -120px;
-    left: 69px;
+  top: -120px;
+  left: 69px;
 }
+
 .no-head {
-    width: 75px;
-    height: 75px;
-    background: linear-gradient(24deg, #000000 1.12%, #000000 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    border: 9px solid #fff;
-    filter: drop-shadow(0px 7px 23px rgba(0, 0, 0, 0.13));
-    position: absolute;
+  width: 75px;
+  height: 75px;
+  background: linear-gradient(24deg, #000000 1.12%, #000000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 9px solid #fff;
+  filter: drop-shadow(0px 7px 23px rgba(0, 0, 0, 0.13));
+  position: absolute;
 }
+
 .dev-zig-content-inner:hover .no-head h4 {
-    color: #000000;
+  color: #000000;
 }
+
 .no-head h4 {
-    color: #fff;
-    font-family: "Poppins", Sans-serif;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 60px;
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 60px;
 }
 
 .dev-zig-content-inner:hover h5 {
-    color: #fff;
+  color: #fff;
 }
+
 .dev-zig-content-inner:hover p {
-    color: #fff;
+  color: #fff;
 }
 
 
