@@ -4601,7 +4601,9 @@ section.hirebanner-deign {
   a.logo {
     max-width: 125px;
   }
-
+.right-chelengesconten {
+    width: 100%;
+}
   .tp-service-item ul li a {
     font-size: 15px;
   }
@@ -4615,11 +4617,18 @@ section.hirebanner-deign {
     gap: 15px 15px;
     padding: 0px 15px;
   }
-
+.left-chelengesconten {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
   .left-top-hero {
     order: 2;
   }
-
+.box-casestuday {
+        width: 100%;
+        position: relative;
+    }
   .logos-people {
     align-items: center;
   }
