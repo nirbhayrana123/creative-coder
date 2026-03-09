@@ -3931,36 +3931,23 @@ section.hirebanner-deign {
   padding: 25px 15px;
   position: relative;
   margin-right: 15px;
-  transition: all 1s ease-out 0.3s;
+  transition: 0.5s;
 }
 
-.dev-zig-content-inner:before {
-  position: absolute;
-  display: block;
-  content: "";
-  left: 20px;
-  top: -30px;
-  width: 57px;
-  height: 42px;
-  background: url() left top no-repeat;
-}
+ 
 
 .dev-zig-content-inner:hover {
   background: linear-gradient(24deg, #000000 1.12%, #000000 100%);
 }
-
-.dev-zig-content-inner:hover:before {
-  background: url('../images/poly12.png') left top no-repeat;
-}
-
+ 
 .dev-zig-content-inner:hover .no-head {
   border: 9px solid #000000;
   background: #fff;
 }
 
 .no-head:nth-child(1n) {
-  top: -120px;
-  left: 69px;
+    left: 100px;
+    top: -60px;
 }
 
 .no-head {
@@ -3974,6 +3961,7 @@ section.hirebanner-deign {
   border: 9px solid #fff;
   filter: drop-shadow(0px 7px 23px rgba(0, 0, 0, 0.13));
   position: absolute;
+  transition: 0.5s;
 }
 
 .dev-zig-content-inner:hover .no-head h4 {
@@ -3986,6 +3974,7 @@ section.hirebanner-deign {
   font-size: 30px;
   font-weight: 800;
   line-height: 60px;
+  margin: 0;
 }
 
 .dev-zig-content-inner:hover h5 {
@@ -4866,6 +4855,7 @@ section.hirebanner-deign {
 
   .who-we-are {
     padding: 30px 0;
+      background-position: center right -112px !important;
   }
 
   .bottom p {
