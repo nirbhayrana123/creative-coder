@@ -3443,7 +3443,7 @@ section.solutioncontent {
 }
 
 .plush-point h6 span {
-  color: #c5ee1d;
+  color: var(--Green);
   font-size: 60px;
 }
 
