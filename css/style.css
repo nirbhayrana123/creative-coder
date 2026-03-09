@@ -2727,7 +2727,10 @@ section.detailperalex {
   gap: 10px;
   margin-bottom: 18px;
 }
-
+.bs-project-info .skills-row span {
+    background-color: #58585824;
+    border: 1px solid #3333334d;
+} 
 .bs-project-info h3 {
   font-size: 32px;
   color: var(--Dark_Black);
