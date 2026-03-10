@@ -72,7 +72,7 @@
 .toc-component {
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
-    background-color: #ccc;
+    background-color: #efebfc;
     border-radius: .75rem;
     flex-flow: column;
     padding: 2rem;
@@ -102,4 +102,22 @@
 .cus-story_logo
  {
     width: 180px;
+}
+.story-content_block p {
+    margin: 18px 0px;
+}
+.story-content_right .story-content_block.dash-bottom {
+    padding: 27px 0px;
+    border-style: none none dashed none;
+    border-width: 1px;
+    border-color: #d5d5d5;
+}
+
+.story-content_right .story-content_block.dash-bottom blockquote {
+    background-color: #efebfc;
+    border-left-style: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem 2rem 2rem;
+    font-weight: 500;
 }
