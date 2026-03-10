@@ -1,0 +1,79 @@
+.container.boxborder {
+    border-color: #d5d5d5;
+    border-style: none dashed;
+    border-width: 1px;
+    max-width: 80rem;
+    padding: 0;
+}
+
+.detailcasestudiespage {
+    grid-column-gap: 3.25rem;
+    grid-row-gap: 3.25rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 26.875rem;
+    grid-auto-columns: 1fr;
+    padding-top: 10rem;
+    padding-bottom: 4.5rem;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.leftcaserbanner {
+    flex-flow: column;
+    display: flex;
+}
+.stat-cards {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    max-width: 37.5rem;
+    display: flex;
+}
+
+.slide-stat {
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    background-color: #e7f0f8;
+    border-radius: .375rem;
+    flex-flow: column;
+    justify-content: space-between;
+    width: calc(50% - .5rem);
+    padding: 1rem;
+    display: flex;
+}
+.slide-stat.is-smaller {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+.slide-stat.is-green {
+    background-color: #e1f7e4;
+}
+.flegidfg {
+    margin-bottom: 50px;
+}
+
+.story-content_layout {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto;
+    grid-template-columns: 31rem 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+.story-content_left {
+    padding: 3rem;
+    position: relative;
+}
+.toc-component {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    background-color: var(--white);
+    border-radius: .75rem;
+    flex-flow: column;
+    padding: 2rem;
+    display: flex;
+    position: sticky;
+    top: 6rem;
+}
