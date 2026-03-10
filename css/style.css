@@ -4420,19 +4420,53 @@ section.hirebanner-deign {
   .innermain-contact {
     padding: 0px;
   }
+.process-wrapper::before {
+    content: ""; 
+    display: none;
+}
+.process-wrapper { 
+    gap: 60px; 
+}
+.dev-zig-content-outer { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+.dev-zig-content-inner {
+    width: 100%; 
+}
+.no-head:nth-child(1n) {
+    left: auto;
+    right: auto;
+    top: -60px;
+}
+
 
 }
 
 
 @media(max-width:767px) {
-
+.dev-zig { 
+    display: none;
+}
+section.hirebanner-deign { 
+    padding-bottom: 0;
+}
   body {
     font-size: 14px;
   }
-
+.left-hire-content {
+    width: 100%;
+}
+.hierbanner-content { 
+    flex-wrap: wrap;
+}
   section.banner.aboutbanner {
     height: 40vh;
   }
+  .right-hire-content {
+    width: 100%;
+}
 
   .phone-number i {
     font-size: 17px;
@@ -5139,7 +5173,10 @@ section.hirebanner-deign {
   .gridmembers.gaping {
     grid-template-columns: 1fr;
   }
-
+    .dev-zig-content-outer { 
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
   section.service-case-studies-wrap .sub-title {
     gap: 20px 0px;
   }
@@ -5360,6 +5397,10 @@ section.hirebanner-deign {
     line-height: 30px;
     margin-bottom: 20px;
   }
+  .price-card { 
+    width: 100%; 
+}
+
 }
 
 @media(max-width:400px) {

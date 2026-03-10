@@ -63,17 +63,43 @@
     display: grid;
 }
 .story-content_left {
-    padding: 3rem;
+    padding: 1rem;
     position: relative;
+    border-style: dashed none dashed none;
+    border-width: 1px;
+    border-color: #d5d5d5;
 }
 .toc-component {
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
-    background-color: var(--white);
+    background-color: #ccc;
     border-radius: .75rem;
     flex-flow: column;
     padding: 2rem;
     display: flex;
     position: sticky;
     top: 6rem;
+}
+.instentverty h5 {
+    color: #929292;
+    font-size: 1rem;
+}
+.instentverty h5.darkcolor {
+    color: #000;
+}
+.dash-left {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #d5d5d5;
+}
+.story-content_right {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cus-story_logo
+ {
+    width: 180px;
 }
