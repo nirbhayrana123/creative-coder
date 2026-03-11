@@ -11,6 +11,9 @@
     display: grid;
     padding-left: 20px;
     padding-right: 20px;
+    border-style: none dashed none dashed;
+    border-width: 1px;
+    border-color: #d5d5d5;
 }
 .leftcaserbanner {
     flex-flow: column;
@@ -59,7 +62,7 @@
 .story-content_left {
     padding: 1rem;
     position: relative;
-    border-style: dashed none dashed none;
+    border-style: dashed none dashed dashed;
     border-width: 1px;
     border-color: #d5d5d5;
 }
@@ -114,4 +117,39 @@
     margin-bottom: 2rem;
     padding: 2rem 2rem 2rem;
     font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px) {
+
+
+.detailcasestudiespage {
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    padding-top: 5rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+}
+.story-content_layout { 
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr; 
+}
+.story-content_left { 
+    border-style: dashed dashed dashed dashed;
+    border-width: 1px;
+    border-color: #d5d5d5;
+}
 }
