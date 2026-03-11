@@ -1,10 +1,4 @@
-.container.boxborder {
-    border-color: #d5d5d5;
-    border-style: none dashed;
-    border-width: 1px;
-    max-width: 80rem;
-    padding: 0;
-}
+
 
 .detailcasestudiespage {
     grid-column-gap: 3.25rem;
