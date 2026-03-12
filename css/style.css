@@ -3928,9 +3928,123 @@ section.hirebanner-deign {
   color: #fff;
 }
 
+/*******************portfolio********************/
 
 
 
+.filter-tabs ul{
+    display:flex;
+    justify-content:center;
+    position:relative;
+}
+.filter-tabs li{
+    list-style:none;
+}
+.tab.active{
+    color:#fff;
+}
+.tab-indicator{
+    position:absolute;
+    height:100%;
+    background:#000; 
+    transition:all .35s ease;
+    z-index:1;
+}
+.filter-tabs {
+  margin-bottom: 20px;
+}
+
+.filter-tabs .tab {
+    padding: 8px 18px;
+    border: 1px dashed #ccc;
+    cursor: pointer;
+    background-color: transparent;
+        position: relative;
+    z-index: 2;
+    font-size: 1rem;
+}
+
+.filter-tabs .tab.active {
+  background: #000;
+  color: #fff;
+}
+
+.filter-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.itemtab { 
+  border: 1px solid #ddd;
+}
+
+.hide {
+  display: none;
+}
+ 
+.gallery-main{
+    width:100%;
+    display:table;
+}
+
+.gallery-inner{
+    overflow:hidden;
+    position:relative;
+    height:360px;
+    border-radius:5px;
+}
+
+.gal-img{
+    display:inline-block;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+    width:100%;
+    border:1px solid #e5e5e5;
+    border-radius:5px;
+}
+
+.gal-p{
+    background-position:center 0;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    width:100%;
+    transition:all 2s ease-out;
+    margin: 0 auto;
+}
+
+.gallery_mod{
+    position:absolute;
+    bottom:0;
+    left:-100%;
+    background-color:rgba(101,101,101,0.35);
+    width:100%;
+    height:100%;
+    transition:0.5s ease;
+}
+
+.gallery-main:hover .gal-p{
+    background-position:center 100%;
+}
+
+.gallery-main:hover .gallery_mod{
+    left:0;
+}
+section.portfoliodesignin 
+ {
+    padding: 0px 100px;
+}
+
+
+
+
+
+
+
+
+/*******************portfolio********************/
 /**************mobile media******************/
 @media (max-width: 1200px) {
 
