@@ -3974,11 +3974,6 @@ section.hirebanner-deign {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 }
-
-.itemtab { 
-  border: 1px solid #ddd;
-}
-
 .hide {
   display: none;
 }
@@ -3993,8 +3988,12 @@ section.hirebanner-deign {
     position:relative;
     height:360px;
     border-radius:5px;
+    border: 1px solid #ddd;
 }
-
+.title-website {
+    padding: 15px 15px;
+    text-align: center;
+}
 .gal-img{
     display:inline-block;
     height:100%;
@@ -4036,7 +4035,19 @@ section.portfoliodesignin
  {
     padding: 0px 100px;
 }
-
+.gallery_mod a.click-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 7px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    cursor: pointer;
+}
 
 
 
