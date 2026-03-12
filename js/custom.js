@@ -25,48 +25,61 @@ const tabs = document.querySelectorAll(".tab");
 const items = document.querySelectorAll(".itemtab");
 const indicator = document.querySelector(".tab-indicator");
 
-function moveIndicator(el){
+function moveIndicator(el) {
+  if (!indicator || !el) return;
+
   indicator.style.width = el.offsetWidth + "px";
   indicator.style.left = el.offsetLeft + "px";
 }
 
-tabs.forEach(tab => {
-  tab.addEventListener("click", () => {
+if (tabs.length) {
 
-    document.querySelector(".tab.active").classList.remove("active");
-    tab.classList.add("active");
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
 
-    let filter = tab.getAttribute("data-filter");
+      const activeTab = document.querySelector(".tab.active");
+      if (activeTab) activeTab.classList.remove("active");
 
-    items.forEach(itemtab => {
-      if (filter === "all" || itemtab.classList.contains(filter)) {
-        itemtab.classList.remove("hide");
-      } else {
-        itemtab.classList.add("hide");
-      }
+      tab.classList.add("active");
+
+      let filter = tab.getAttribute("data-filter");
+
+      items.forEach(itemtab => {
+        if (filter === "all" || itemtab.classList.contains(filter)) {
+          itemtab.classList.remove("hide");
+        } else {
+          itemtab.classList.add("hide");
+        }
+      });
+
+      moveIndicator(tab);
+
     });
-
-    moveIndicator(tab);
-
   });
-});
 
-moveIndicator(document.querySelector(".tab.active"));
+  const activeTab = document.querySelector(".tab.active");
+  if (activeTab) {
+    moveIndicator(activeTab);
+  }
 
+}
+
+
+// Modal
 $('.openModal').click(function(e){
-e.preventDefault();
-$('.custom-modal').css('display','flex').hide().fadeIn();
+  e.preventDefault();
+  $('.custom-modal').css('display','flex').hide().fadeIn();
 });
 
 $('.close-modal').click(function(){
-$('.custom-modal').fadeOut();
+  $('.custom-modal').fadeOut();
 });
 
 $(document).mouseup(function(e){
-var modal = $(".modal-box");
-if (!modal.is(e.target) && modal.has(e.target).length === 0){
-$('.custom-modal').fadeOut();
-}
+  var modal = $(".modal-box");
+  if (!modal.is(e.target) && modal.has(e.target).length === 0){
+    $('.custom-modal').fadeOut();
+  }
 });
 
 
