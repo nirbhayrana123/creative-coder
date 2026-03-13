@@ -5134,7 +5134,9 @@ section.portfoliodesignin {
   .testimonial-right {
     width: 100%;
   }
-
+.nav-list li a {
+        font-size: 16px;
+    }
   .slider {
     gap: 15px;
   }
