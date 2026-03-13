@@ -5182,7 +5182,9 @@ section.hirebanner-deign {
   section.service-case-studies-wrap .sub-title {
     gap: 20px 0px;
   }
-
+.who-right h2 { 
+        width: 100%;
+    }
   .servicesmainss {
     grid-template-columns: 1fr;
   }
