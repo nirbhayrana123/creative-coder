@@ -4520,6 +4520,11 @@ section.portfoliodesignin {
     right: auto;
     top: -60px;
   }
+section.portfoliodesignin {
+    padding: 50px 0px;
+}
+
+
 }
 
 
@@ -4527,7 +4532,9 @@ section.portfoliodesignin {
   .dev-zig {
     display: none;
   }
-
+.filter-items {
+    grid-template-columns: 1fr 1fr;
+}
   .story-content_right .story-content_block.dash-bottom blockquote {
     padding: 1rem 1rem 1rem;
   }
@@ -5264,7 +5271,16 @@ section.portfoliodesignin {
   .gridmembers.gaping {
     grid-template-columns: 1fr;
   }
-
+.filter-items {
+        grid-template-columns: 1fr;
+    }
+    .filter-tabs ul { 
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tab-indicator { 
+    display: none;
+}
   .dev-zig-content-outer {
     grid-template-columns: 1fr;
     gap: 80px;
