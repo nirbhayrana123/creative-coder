@@ -4205,7 +4205,9 @@ section.portfoliodesignin
   .stack-card.card-1 {
     padding: 14px;
   }
-
+section.maincontects {
+        padding: 70px 0px 0px;
+    }
   /*======= header =============*/
   .nav-list a.button.fillbg {
     display: block;
@@ -4371,10 +4373,7 @@ section.portfoliodesignin
   .maintitle h1 {
     font-size: 5em;
   }
-
-  section.maincontects {
-    padding: 125px 0px 0px;
-  }
+ 
 
   .innermain-contact {
     grid-template-columns: 1fr;
@@ -4490,7 +4489,7 @@ section.portfoliodesignin
   }
 
   .innermain-contact {
-    padding: 0px;
+    padding: 15px;
   }
 .process-wrapper::before {
     content: ""; 
@@ -4521,9 +4520,17 @@ section.portfoliodesignin
 .dev-zig { 
     display: none;
 }
+.story-content_right .story-content_block.dash-bottom blockquote {
+    padding: 1rem 1rem 1rem; 
+}
+
 section.hirebanner-deign { 
     padding-bottom: 0;
 }
+section.banner { 
+    padding-top: 0;
+}
+
   body {
     font-size: 14px;
   }
@@ -5169,6 +5176,27 @@ section.hirebanner-deign {
     border-width: 1px;
     border-color: #d5d5d5;
 }
+.story-content_right {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+    section.hirebanner-deign { 
+        padding-top: 70px;
+    }
+
+.hire-process h2 {
+    font-size: 28px; 
+}
+
+
+
+
+
+
+
 }
 
 @media(max-width:500px) {
