@@ -4523,7 +4523,9 @@ section.maincontects {
 .story-content_right .story-content_block.dash-bottom blockquote {
     padding: 1rem 1rem 1rem; 
 }
-
+.rightimgbox {
+    width: 100%;
+}
 section.hirebanner-deign { 
     padding-bottom: 0;
 }
@@ -4916,9 +4918,6 @@ section.banner {
     font-size: 1.2em;
   }
 
-  .button-row a.button {
-    display: none;
-  }
 
   .herobanner {
     padding-top: 100px;
@@ -5439,7 +5438,13 @@ section.banner {
   .background-max {
     padding: 20px;
   }
-
+.button-row.left { 
+    flex-wrap: wrap;
+}
+.button-row.left a.button {
+    width: 100%;
+    display: block;
+}
   .service-case-studies-main .service-case-studies .service-case-studies-content .case-studies-desc {
     margin: 5px 0px;
   }
