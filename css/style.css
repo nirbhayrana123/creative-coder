@@ -4247,24 +4247,34 @@ section.portfoliodesignin
     width: 100%;
     height: 100vh;
     background-color: var(--White);
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: self-start;
     justify-content: center;
-    gap: 35px;
+    gap: 35px; */
+    display: block;
     transform: translateY(-120%);
     opacity: 0;
     transition: transform 0.5s ease, opacity 0.4s ease;
     overflow-y: scroll;
   }
 
-
+.header.activeshow .nav-list li {
+    padding: 15px 0px;
+}
   .header.activeshow .nav-list {
     transform: translateY(0);
     opacity: 1;
-    top: 60px;
+    top: 58px;
   }
-
+.services-dropdown .tp-megamenu-wrapper .tp-megamenu-list ul li {
+    padding: 8px 0px;
+}
+    .tp-megamenu-wrapper .megamenu-container .tp-megamenu-list
+ {
+        width: 100%;
+        padding-bottom: 30px;
+    }
   .nav-list li a {
     font-size: 20px;
   }
