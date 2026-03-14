@@ -6,7 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <!-- Main Pages -->
-
 <url>
   <loc>https://belovesoft.com/</loc>
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
@@ -42,7 +41,6 @@
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 
 <!-- Blog Detail Pages -->
 
