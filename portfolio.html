@@ -20,6 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="css/owl.carousel.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <!-- Organization Schema -->
@@ -174,7 +175,7 @@
                 <div class="gal-p" style="background-image:url('./images/portfolio/Jewellery.jpg');"></div>
               </div>
               <div class="gallery_mod">
-                <a class="click-btn" href="#" data-index="0">View</a>
+                <a class="click-btn" href="images/portfolio/Jewellery.jpg" data-lightbox="portfoliolightbox" data-index="0">View</a>
               </div>
             </div>
             <div class="title-website">
@@ -190,7 +191,7 @@
                 <div class="gal-p" style="background-image:url('./images/portfolio/chashma.jpg');"></div>
               </div>
               <div class="gallery_mod">
-                <a class="click-btn" href="#">View</a>
+                <a class="click-btn" href="images/portfolio/chashma.jpg" data-lightbox="portfoliolightbox" >View</a>
               </div>
             </div>
             <div class="title-website">
@@ -205,7 +206,7 @@
                 <div class="gal-p" style="background-image:url('./images/portfolio/evelyn-mora.jpg');"></div>
               </div>
               <div class="gallery_mod">
-                <a class="click-btn" href="#">View</a>
+                <a class="click-btn" href="images/portfolio/evelyn-mora.jpg" data-lightbox="portfoliolightbox">View</a>
               </div>
             </div>
             <div class="title-website">
@@ -220,7 +221,7 @@
                 <div class="gal-p" style="background-image:url('./images/portfolio/hometown-electrical.jpg');"></div>
               </div>
               <div class="gallery_mod">
-                <a class="click-btn" href="#">View</a>
+                <a class="click-btn" href="images/portfolio/hometown-electrical.jpg" data-lightbox="portfoliolightbox">View</a>
               </div>
             </div>
             <div class="title-website">
@@ -235,7 +236,7 @@
                 <div class="gal-p" style="background-image:url('./images/portfolio/krispy-krevings.jpg');"></div>
               </div>
               <div class="gallery_mod">
-                <a class="click-btn" href="#">View</a>
+                <a class="click-btn" href="images/portfolio/krispy-krevings.jpg" data-lightbox="portfoliolightbox">View</a>
               </div>
             </div>
             <div class="title-website">
@@ -251,7 +252,7 @@
                 <div class="gal-p" style="background-image:url('./images/portfolio/money-mileage.jpg');"></div>
               </div>
               <div class="gallery_mod">
-                <a class="click-btn" href="#">View</a>
+                <a class="click-btn" href="images/portfolio/money-mileage.jpg" data-lightbox="portfoliolightbox">View</a>
               </div>
             </div>
             <div class="title-website">
@@ -267,7 +268,7 @@
                 <div class="gal-p" style="background-image:url('./images/portfolio/techference-website.jpg');"></div>
               </div>
               <div class="gallery_mod">
-                <a class="click-btn" href="#">View</a>
+                <a class="click-btn" href="images/portfolio/techference-website.jpg" data-lightbox="portfoliolightbox">View</a>
               </div>
             </div>
             <div class="title-website">
@@ -369,8 +370,19 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="js/owl.carousel.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/form.js"></script>
+
+ <script>
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true,
+  'fadeDuration': 200,
+  'imageFadeDuration': 200
+});
+</script>
+
 </body> 
 </html>

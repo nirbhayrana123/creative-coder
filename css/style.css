@@ -4049,7 +4049,11 @@ section.portfoliodesignin {
 }
 
 
-
+.lb-image {
+    width: 60vw !important;
+    height: auto !important;
+    object-fit: contain;
+}
 
 
 
@@ -4531,6 +4535,9 @@ section.portfoliodesignin {
   .dev-zig {
     display: none;
   }
+  .lb-image {
+    width: 150px !important;
+}
 .filter-items {
     grid-template-columns: 1fr 1fr;
 }
