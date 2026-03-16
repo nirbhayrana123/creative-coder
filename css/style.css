@@ -4057,6 +4057,31 @@ section.portfoliodesignin {
 
 
 
+
+
+
+
+
+.projectlistflex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0px;
+}
+.rightprojectlisting .skills-row {
+    margin-top: 30px;
+}
+section.projectlistitems {
+    padding: 50px 0px;
+}
+
+
+
+
+
+
 /*******************portfolio********************/
 /**************mobile media******************/
 @media (max-width: 1200px) {
