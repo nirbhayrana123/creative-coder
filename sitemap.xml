@@ -37,6 +37,12 @@
 </url>
 
 <url>
+  <loc>https://belovesoft.com/web-development-case-studies</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
   <loc>https://belovesoft.com/contact</loc>
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
   <priority>0.80</priority>
@@ -70,14 +76,60 @@
 
 <!-- services Detail Pages -->
 
+      <!-- Design Services -->
+<url>
+  <loc>https://belovesoft.com/services/ui-ux-design</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://belovesoft.com/services/website-design</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://belovesoft.com/services/landing-page-design</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://belovesoft.com/services/brand-identity</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+      <!-- Development-->
 <url>
   <loc>https://belovesoft.com/services/front-end-development</loc>
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 
+<url>
+  <loc>https://belovesoft.com/services/custom-web-development</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://belovesoft.com/services/e-commerce-development</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://belovesoft.com/services/webflow-development</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+      <!-- Marketing-->
 
 
+
+      <!-- Support-->
+ 
 
 </urlset>
 
