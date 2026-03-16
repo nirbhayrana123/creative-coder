@@ -4055,9 +4055,9 @@ section.portfoliodesignin {
     object-fit: contain;
 }
 
+/*******************portfolio********************/
 
-
-
+/************project2*************/
 
 
 
@@ -4076,13 +4076,92 @@ section.portfoliodesignin {
 section.projectlistitems {
     padding: 50px 0px;
 }
+/*************project2******************/
 
 
 
 
 
+section.baneer.shapety::before 
+ {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: rgb(155 155 155 / 15%);
+    top: -300px;
+    right: -200px;
+    pointer-events: none;
+}
 
-/*******************portfolio********************/
+
+.ai-section{
+  background:#f2f4f6;
+  padding:80px 20px; 
+}
+
+.ai-container{
+  max-width:900px;
+  margin:auto;
+}
+
+.ai-text{
+  font-size:22px;
+  line-height:1.6;
+  color:#1d2a35;
+  margin-bottom:40px;
+  text-align: center;
+}
+
+.ai-points{
+  display:flex;
+  justify-content:center;
+  gap:80px;
+  margin-bottom:40px;
+}
+
+.ai-points ul{
+  list-style:none;
+  padding:0;
+}
+
+.ai-points li{
+  font-size:18px;
+  margin-bottom:20px;
+  position:relative;
+  padding-left:20px;
+}
+
+.ai-points li::before{
+  content:"•";
+  color:#00a8b5;
+  font-size:22px;
+  position:absolute;
+  left:0;
+  top:-2px;
+}
+
+.ai-buttons{
+  display:flex;
+  justify-content:center;
+  gap:50px;
+}
+
+.ai-buttons a{
+  font-size:18px;
+  color:#007c91;
+  text-decoration:none;
+  border-bottom:2px solid #007c91;
+  padding-bottom:5px;
+}
+
+.ai-buttons a:hover{
+  opacity:0.8;
+}
+
+
+
 /**************mobile media******************/
 @media (max-width: 1200px) {
 
