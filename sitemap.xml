@@ -36,11 +36,11 @@
   <priority>0.80</priority>
 </url>
 
-<url>
+<!-- <url>
   <loc>https://belovesoft.com/web-development-case-studies</loc>
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
   <priority>0.80</priority>
-</url>
+</url> -->
 
 <url>
   <loc>https://belovesoft.com/contact</loc>
@@ -75,60 +75,98 @@
 </url>
 
 <!-- services Detail Pages -->
-
-      <!-- Design Services -->
-<url>
-  <loc>https://belovesoft.com/services/ui-ux-design</loc>
-  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-
-<url>
-  <loc>https://belovesoft.com/services/website-design</loc>
-  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-
-<url>
-  <loc>https://belovesoft.com/services/landing-page-design</loc>
-  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-
+ 
 <url>
   <loc>https://belovesoft.com/services/brand-identity</loc>
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
   <priority>0.70</priority>
 </url>
-      <!-- Development-->
-<url>
-  <loc>https://belovesoft.com/services/front-end-development</loc>
-  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-
+ 
 <url>
   <loc>https://belovesoft.com/services/custom-web-development</loc>
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
   <priority>0.70</priority>
 </url>
-
+ 
 <url>
   <loc>https://belovesoft.com/services/e-commerce-development</loc>
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
   <priority>0.70</priority>
 </url>
-
+ 
+<url>
+  <loc>https://belovesoft.com/services/front-end-development</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/hire-angular-developer</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/hire-react-js-developer</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/hire-web-design</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/hire-web-developer</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/hire-webflow-developer</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/hire-wordpress-developer</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/landing-page-design</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/social-media-branding</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
+<url>
+  <loc>https://belovesoft.com/services/ui-ux-design</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+ 
 <url>
   <loc>https://belovesoft.com/services/webflow-development</loc>
   <lastmod>2026-01-20T12:11:50+00:00</lastmod>
   <priority>0.70</priority>
 </url>
-      <!-- Marketing-->
+ 
+<url>
+  <loc>https://belovesoft.com/serviceswebsite-design</loc>
+  <lastmod>2026-01-20T12:11:50+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
 
-
-
-      <!-- Support-->
+ 
  
 
 </urlset>
