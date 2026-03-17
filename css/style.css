@@ -4056,32 +4056,7 @@ section.portfoliodesignin {
 }
 
 /*******************portfolio********************/
-
-/************project2*************/
-
-
-
-
-.projectlistflex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    padding: 20px 0px;
-}
-.rightprojectlisting .skills-row {
-    margin-top: 30px;
-}
-section.projectlistitems {
-    padding: 50px 0px;
-}
-/*************project2******************/
-
-
-
-
-
+ 
 section.baneer.shapety::before 
  {
     content: '';
@@ -4160,9 +4135,6 @@ section.baneer.shapety::before
   opacity:0.8;
 }
 
-
-
-
 .core-services{ 
     padding:80px 0;
 }
@@ -4207,7 +4179,6 @@ section.baneer.shapety {
     font-weight:600;
     color:#333;
 }
-
 .service-content p{
     color:#666;
     line-height:1.7;
@@ -4227,11 +4198,6 @@ section.baneer.shapety {
 .imagesfreidift {
     text-align: center;
 }
-
-
-
-
-
 
 
 
