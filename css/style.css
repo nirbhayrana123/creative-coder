@@ -3185,6 +3185,7 @@ section.delivering-right-solution {
   width: 300px;
   height: 400px;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .play-btn {
