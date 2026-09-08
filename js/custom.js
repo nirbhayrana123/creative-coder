@@ -441,6 +441,32 @@ $('.collaboration-slider-tems').owlCarousel({
       items: 3
     }
   }
+});
+$('.portfoliosweblist').owlCarousel({
+ stagePadding: 250,
+    loop:true, 
+     items: 1, 
+        autoplay: true,
+        smartSpeed: 2000,
+        margin: 20,
+        dots: true,
+        nav: true,
+        autoplayTimeout: 8000,
+       autoplayHoverPause: false,
+          responsive:{
+              0:{
+                  items:1,
+                  stagePadding: 30
+              },
+              600:{
+                  items:1,
+                  stagePadding: 100
+              },
+              1000:{
+                  items:1 
+              }
+          }
+      
 })
 AOS.init(
   {
