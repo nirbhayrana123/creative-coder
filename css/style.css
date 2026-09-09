@@ -4200,8 +4200,36 @@ section.baneer.shapety {
 .imagesfreidift {
     text-align: center;
 }
-
-
+.containershort {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+.clienttestimonial {
+    padding: 0 0 80px 0;
+    text-align: center;
+}
+.portfollios .heading-hire {
+    text-align: center;
+}
+.owl-dots button.owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #8b8b8b;
+    border-radius: 10px;
+    margin: 0 2px;
+}
+.owl-dots button.owl-dot.active {
+    background: #a0c402;
+}
+.owl-dots {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.owl-nav {
+    display: none;
+}
 
 /**************mobile media******************/
 @media (max-width: 1200px) {
